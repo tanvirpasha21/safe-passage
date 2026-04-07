@@ -1,0 +1,420 @@
+/* ═══════════════════════════════════════════
+   STUDENT VISA — INTERACTIVE COUNTRY TOOL
+═══════════════════════════════════════════ */
+
+.countryTool {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.countryToolHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.toolIcon {
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.toolTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.2rem;
+}
+
+.toolSub {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* ── Search input ── */
+.searchRow {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  background: var(--night);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--white);
+  font-size: 0.88rem;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.searchInput::placeholder {
+  color: var(--muted);
+}
+
+.searchInput:focus {
+  border-color: var(--safe);
+}
+
+.clearBtn {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.25rem;
+  line-height: 1;
+}
+
+.clearBtn:hover {
+  color: var(--white);
+}
+
+/* ── Country grid ── */
+.countryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.6rem;
+}
+
+.countryChip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  padding: 0.75rem;
+  background: var(--night);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.countryChip:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.chipFlag {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.chipName {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.chipRefusal {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.noResult {
+  grid-column: 1 / -1;
+  padding: 1rem;
+  color: var(--muted);
+  font-size: 0.84rem;
+  text-align: center;
+}
+
+/* ── Country detail panel ── */
+.countryPanel {
+  background: var(--night);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.panelFlag {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.panelName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.35rem;
+}
+
+.statusBadge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.refusalBlock {
+  margin-left: auto;
+  text-align: right;
+}
+
+.refusalRate {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.refusalLabel {
+  font-size: 0.68rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.backBtn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.78rem;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.backBtn:hover {
+  color: var(--white);
+  border-color: var(--safe);
+}
+
+/* ── Suspended alert ── */
+.suspendedAlert {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(230,57,70,0.08);
+  border: 1px solid rgba(230,57,70,0.35);
+  padding: 1rem 1.25rem;
+  font-size: 0.83rem;
+}
+
+.suspendedAlert span {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.suspendedAlert strong {
+  display: block;
+  color: #e63946;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.suspendedAlert p {
+  color: var(--light);
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* ── Tabs ── */
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+}
+
+.tab {
+  padding: 0.75rem 1.25rem;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab:hover {
+  color: var(--light);
+}
+
+.tabActive {
+  color: var(--safe);
+  border-bottom-color: var(--safe);
+}
+
+.tabContent {
+  padding: 1.25rem 1.5rem;
+}
+
+/* ── Tab: overview ── */
+.positiveNote {
+  background: rgba(42,157,143,0.08);
+  border: 1px solid rgba(42,157,143,0.2);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  font-size: 0.83rem;
+  color: var(--light);
+  line-height: 1.65;
+  margin-bottom: 1.1rem;
+}
+
+.issueTitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.issueList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.issueItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.84rem;
+  color: var(--light);
+  line-height: 1.55;
+}
+
+.issueIcon {
+  color: #e9c46a;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+/* ── Tab: tips ── */
+.tipList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.tipItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.84rem;
+  color: var(--light);
+  line-height: 1.6;
+}
+
+.tipCheck {
+  color: var(--safe);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+/* ── Tab: scholarships ── */
+.schList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.schItem {
+  font-size: 0.84rem;
+  color: var(--light);
+  padding: 0.55rem 0.75rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.schNote {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--safe);
+  font-style: italic;
+  padding: 0.65rem 0.75rem;
+  background: rgba(42,157,143,0.06);
+  border: 1px solid rgba(42,157,143,0.15);
+  border-radius: 6px;
+  list-style: none;
+}
+
+/* ── Tab: facts ── */
+.factGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.factItem {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+}
+
+.factItemLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+.factItemValue {
+  font-size: 0.85rem;
+  color: var(--white);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .countryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .panelHeader {
+    gap: 0.75rem;
+  }
+
+  .refusalBlock {
+    margin-left: 0;
+  }
+
+  .factGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

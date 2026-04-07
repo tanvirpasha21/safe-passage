@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "title": "SafePassage — পার হওয়ার আগে জানুন",
+    "description": "অবৈধ পারাপারে মৃত্যুর বাস্তব তথ্য এবং আসলে যেসব আইনি পথ রয়েছে।"
+  },
+  "nav": {
+    "dangers": "বিপদসমূহ",
+    "routes": "রুটসমূহ",
+    "legal": "আইনি পথ",
+    "compare": "তুলনা",
+    "stories": "গল্প",
+    "findHelp": "এখনই সাহায্য খুঁজুন"
+  },
+  "langBar": "আপনার ভাষায় পড়ুন:",
+  "hero": {
+    "tag": "গুরুত্বপূর্ণ তথ্য — অনুগ্রহ করে পড়ুন",
+    "headline1": "সমুদ্র আপনার",
+    "headline2": "স্বপ্নের",
+    "headline3": "কোনো পরোয়া করে না।",
+    "sub": "প্রতিবছর হাজার হাজার মানুষ অবৈধভাবে ইউরোপে পার হতে গিয়ে মারা যায়। আপনাকে যা জানতে হবে তা পড়ুন — এবং ইতোমধ্যে বিদ্যমান নিরাপদ পথগুলোও।",
+    "cta1": "প্রকৃত সংখ্যা দেখুন",
+    "cta2": "আইনি পথ খুঁজুন →"
+  },
+  "strip": {
+    "text": "২০১৪ সাল থেকে, IOM রেকর্ড করেছে",
+    "number": "৩০,০০০-এরও বেশি মৃত্যু",
+    "text2": "ইউরোপের অভিবাসন রুটে — ১২ বছর ধরে প্রতি ৫ ঘণ্টায় একটি মৃত্যু।"
+  },
+  "dangers": {
+    "label": "বাস্তবতা",
+    "title1": "অবৈধ পারাপারে",
+    "title2": "আসলে কী হয়",
+    "lead": "এই সংখ্যাগুলো আন্তর্জাতিক অভিবাসন সংস্থা (IOM), UNHCR এবং ইউরোপীয় সীমান্ত সংস্থাগুলো থেকে নেওয়া। এগুলো অতিরঞ্জিত নয় — বরং প্রকৃত সংখ্যার চেয়ে কম।",
+    "stats": [
+      { "number": "৩০,০০০+", "label": "২০১৪ সাল থেকে ইউরোপের অভিবাসন রুটে নথিভুক্ত মৃত্যু", "source": "IOM মিসিং মাইগ্র্যান্টস প্রজেক্ট, ২০২৫" },
+      { "number": "২,৪০০+", "label": "শুধুমাত্র ২০২৫ সালে ভূমধ্যসাগরে মৃত্যু", "source": "IOM, ২০২৫" },
+      { "number": "৪৫ জনে ১ জন", "label": "কেন্দ্রীয় ভূমধ্যসাগর রুটের পারাপার মৃত্যু বা নিখোঁজে শেষ হয়", "source": "IOM, ২০২৫" },
+      { "number": "€৩,০০০–১৫,০০০", "label": "দালালদের দেওয়া অর্থ — নিরাপত্তা বা পৌঁছানোর কোনো গ্যারান্টি নেই", "source": "Europol, ২০২৪" }
+    ]
+  },
+  "routes": {
+    "label": "নথিভুক্ত রুট",
+    "title1": "প্রতিটি রুটের একটি",
+    "title2": "মৃত্যুর হিসাব আছে",
+    "lead": "দালালরা বলে এটা সহজ। তথ্য ভিন্ন গল্প বলে।",
+    "items": [
+      { "icon": "🌊", "name": "কেন্দ্রীয় ভূমধ্যসাগর", "badge": "বিশ্বের সবচেয়ে মারাত্মক সমুদ্রপথ", "desc": "লিবিয়া/তিউনিসিয়া → ইতালি/মাল্টা। নদীর জন্য তৈরি ফোলানো নৌকা, খোলা সমুদ্রের জন্য নয়। অতিরিক্ত ভিড়। উল্টে যাওয়া সাধারণ ঘটনা।" },
+      { "icon": "⛵", "name": "আটলান্টিক — ক্যানারি দ্বীপপুঞ্জ", "badge": "২,৩০০+ কিমি খোলা মহাসাগর", "desc": "পশ্চিম আফ্রিকা → স্পেন। সবচেয়ে দ্রুত বাড়তে থাকা এবং প্রতি যাত্রায় সবচেয়ে মারাত্মক রুট। অনেক নৌকা কখনো খুঁজে পাওয়া যায় না।" },
+      { "icon": "🏔️", "name": "বলকান স্থলপথ", "badge": "চরম ঠান্ডা, সহিংস ফিরিয়ে দেওয়া", "desc": "তুরস্ক → গ্রিস → সার্বিয়া → হাঙ্গেরি। মানুষ হিমাঙ্কের নিচে তাপমাত্রায় পাহাড়ের মধ্য দিয়ে শত শত কিমি হাঁটে।" },
+      { "icon": "🏜️", "name": "সাহারা মরুভূমি", "badge": "ভূমধ্যসাগরের চেয়ে বেশি মৃত্যু", "desc": "সাব-সাহারান আফ্রিকা → উত্তর আফ্রিকা। সাহারা সমুদ্রের চেয়ে বেশি অভিবাসীকে মেরে ফেলে — কিন্তু লাশ খুব কমই পাওয়া যায়।" },
+      { "icon": "🌊", "name": "ইংলিশ চ্যানেল", "badge": "বিশ্বের সবচেয়ে ব্যস্ত নৌপথগুলোর একটি", "desc": "ফ্রান্স → যুক্তরাজ্য। ছোট নৌকা জাহাজের ঢেউয়েই উল্টে যায়। ২০১৮ সাল থেকে এই ছোট কিন্তু মারাত্মক পারাপারে ৫০-এরও বেশি মানুষ মারা গেছে।" },
+      { "icon": "🚛", "name": "যানবাহনে লুকিয়ে", "badge": "শ্বাসরোধের ঝুঁকি", "desc": "লরি কন্টেইনার, রেফ্রিজারেটেড ট্রাক, যানবাহনের নিচে। মানুষ তাপ, ঠান্ডা বা কার্বন মনোক্সাইডে মারা যায়। ২০১৯ সালে যুক্তরাজ্যের এসেক্সে একটি ট্রাকে ৩৯ জন ভিয়েতনামি মানুষ মৃত পাওয়া যায়।" }
+    ]
+  },
+  "legal": {
+    "label": "নিরাপদ পথ আছে",
+    "title1": "আপনার আইনি পথ",
+    "title2": "খুঁজে নিন",
+    "lead": "দুটি প্রশ্নের উত্তর দিন এবং আমরা আপনার পরিস্থিতিতে প্রযোজ্য আইনি পথগুলো দেখাব।",
+    "q1": "আপনার দেশ ছাড়ার প্রধান কারণ কী?",
+    "q1opts": ["যুদ্ধ বা নিপীড়ন থেকে পালানো", "ভালো কাজ/অর্থনৈতিক সুযোগের সন্ধান", "পরিবার ইতোমধ্যে ইউরোপে আছে", "বিদেশে পড়াশোনা", "নিশ্চিত নই / অন্যান্য"],
+    "q2": "আপনি বর্তমানে কোথায় আছেন?",
+    "q2opts": ["আফ্রিকা", "মধ্যপ্রাচ্য", "এশিয়া", "অন্যান্য / বলতে চাই না"],
+    "showBtn": "আমার আইনি বিকল্পগুলো দেখান →",
+    "allTitle": "সমস্ত আইনি পথ",
+    "paths": [
+      {
+        "id": "asylum",
+        "icon": "🏛️",
+        "tag": "নিপীড়ন / যুদ্ধ",
+        "name": "আশ্রয়ের আবেদন",
+        "desc": "আপনি যদি নিপীড়ন, যুদ্ধ বা সহিংসতা থেকে পালিয়ে আসছেন, তাহলে ১৯৫১ সালের শরণার্থী কনভেনশনের আওতায় আপনি শরণার্থী মর্যাদার জন্য যোগ্য হতে পারেন।",
+        "how": "নিকটতম UNHCR অফিস বা জাতীয় আশ্রয় কর্তৃপক্ষে যান। যেকোনো কাগজপত্র নিয়ে যান — কাগজপত্র না থাকলেও অযোগ্য হবেন না।",
+        "link": "https://www.unhcr.org/get-help",
+        "linkLabel": "UNHCR অফিস খুঁজুন →",
+        "cost": "বিনামূল্যে",
+        "time": "মাস থেকে বছর",
+        "risk": "কম"
+      },
+      {
+        "id": "resettlement",
+        "icon": "✈️",
+        "tag": "নিপীড়ন / ঝুঁকিপূর্ণ",
+        "name": "UNHCR পুনর্বাসন",
+        "desc": "UNHCR সবচেয়ে ঝুঁকিপূর্ণ নিবন্ধিত শরণার্থীদের তৃতীয় একটি নিরাপদ দেশে পুনর্বাসনের জন্য বাছাই করে। আপনাকে প্রথমে আপনার বর্তমান অবস্থানে UNHCR-এ নিবন্ধন করতে হবে।",
+        "how": "নিকটতম অফিসে UNHCR-এ নিবন্ধন করুন। পুনর্বাসন 'দ্রুত করতে' কাউকে অর্থ দেবেন না — এটি সবসময় বিনামূল্যে এবং ঘুষ প্রদান প্রতারণা।",
+        "link": "https://www.unhcr.org/resettlement",
+        "linkLabel": "পুনর্বাসন সম্পর্কে জানুন →",
+        "cost": "বিনামূল্যে",
+        "time": "১–৩ বছর",
+        "risk": "অত্যন্ত কম"
+      },
+      {
+        "id": "work",
+        "icon": "💼",
+        "tag": "অর্থনৈতিক / দক্ষ",
+        "name": "দক্ষ কর্মী ভিসা",
+        "desc": "যুক্তরাজ্য, জার্মানি, কানাডা এবং অন্যান্য অনেক দেশ স্বাস্থ্যসেবা, প্রযুক্তি, নির্মাণ এবং ব্যবসায় দক্ষ কর্মী নিয়োগ দেয়। সাধারণত চাকরির অফার প্রয়োজন।",
+        "how": "যুক্তরাজ্যের শর্টেজ অকুপেশন লিস্ট বা জার্মানির 'Make it in Germany' পোর্টাল দেখুন। আপনার দেশের দূতাবাস বা কনস্যুলেটে আবেদন করুন।",
+        "link": "https://www.gov.uk/skilled-worker-visa",
+        "linkLabel": "যুক্তরাজ্য দক্ষ কর্মী ভিসা →",
+        "link2": "https://www.make-it-in-germany.com",
+        "linkLabel2": "জার্মানি ওয়ার্ক ভিসা →",
+        "cost": "£৭১৯–£১,৫০০ (যুক্তরাজ্য)",
+        "time": "৩–৮ সপ্তাহ",
+        "risk": "অত্যন্ত কম"
+      },
+      {
+        "id": "study",
+        "icon": "🎓",
+        "tag": "শিক্ষা / তরুণ",
+        "name": "স্টুডেন্ট ভিসা",
+        "desc": "কোনো বিশ্ববিদ্যালয় বা কলেজে ভর্তি হলে আপনি স্টুডেন্ট ভিসায় বৈধভাবে প্রবেশ করতে পারবেন। অনেক দেশ পড়াশোনার সময় খণ্ডকালীন কাজ এবং পড়াশোনার পরে কাজের সুবিধা দেয়।",
+        "how": "প্রথমে বৃত্তির জন্য আবেদন করুন (চেভেনিং, DAAD, ইরাসমাস)। একটি প্রতিষ্ঠান থেকে অফার লেটার পাওয়াই মূল শর্ত।",
+        "link": "https://www.gov.uk/student-visa",
+        "linkLabel": "যুক্তরাজ্য স্টুডেন্ট ভিসা →",
+        "cost": "£৩৬৩–£৪৯০ (যুক্তরাজ্য)",
+        "time": "৩–৬ সপ্তাহ",
+        "risk": "অত্যন্ত কম"
+      },
+      {
+        "id": "family",
+        "icon": "👨‍👩‍👧",
+        "tag": "পারিবারিক সংযোগ",
+        "name": "পারিবারিক পুনর্মিলন",
+        "desc": "যদি কোনো ঘনিষ্ঠ পরিবারের সদস্য (স্বামী/স্ত্রী, অভিভাবক, সন্তান) ইউরোপীয় কোনো দেশে বা যুক্তরাজ্যে বৈধ মর্যাদা রাখেন, তাহলে আপনি পারিবারিক পুনর্মিলন আবেদনের মাধ্যমে আইনিভাবে তাদের সাথে যোগ দিতে পারবেন।",
+        "how": "ইউরোপে আপনার পরিবারের সদস্য আপনার পক্ষ থেকে আবেদন করবেন। প্রক্রিয়াটি দেশ অনুযায়ী ভিন্ন — তাদের স্থানীয় অভিবাসন কর্তৃপক্ষের সাথে যোগাযোগ করুন।",
+        "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en",
+        "linkLabel": "EU পারিবারিক পুনর্মিলন →",
+        "cost": "দেশ অনুযায়ী ভিন্ন",
+        "time": "৩–১২ মাস",
+        "risk": "কম"
+      },
+      {
+        "id": "humanitarian",
+        "icon": "🤝",
+        "tag": "তাৎক্ষণিক বিপদ",
+        "name": "মানবিক ভিসা",
+        "desc": "কিছু দেশ দূতাবাসে মানবিক ভিসা প্রদান করে, যা আইনিভাবে প্রবেশের সুযোগ দেয় এবং পৌঁছানোর পরে আশ্রয়ের জন্য আবেদন করতে দেয়।",
+        "how": "আপনার বর্তমান দেশে ইউরোপীয় দূতাবাস বা কনস্যুলেটে যোগাযোগ করুন। আপনার পরিস্থিতি স্পষ্টভাবে ব্যাখ্যা করুন। পর্তুগাল, স্পেন এবং ইতালি এই পথ ব্যবহার করেছে।",
+        "link": "https://www.unhcr.org/asylum-in-the-eu",
+        "linkLabel": "EU আশ্রয়ের পথ →",
+        "cost": "বিনামূল্যে বা কম খরচে",
+        "time": "সপ্তাহ থেকে মাস",
+        "risk": "কম"
+      }
+    ]
+  },
+  "compare": {
+    "label": "পাশাপাশি তুলনা",
+    "title1": "অবৈধ",
+    "title2": "বনাম আইনি",
+    "subtitle": "— প্রকৃত তুলনা",
+    "colIllegal": "⚠ অবৈধ পথ",
+    "colLegal": "✓ আইনি পথ",
+    "rows": [
+      { "factor": "জীবনের ঝুঁকি", "illegal": "অত্যন্ত বেশি — কিছু রুটে ৪৫ জনে ১ জন মারা যায়", "legal": "সামান্য — আপনি বিমান, বাস, ট্রেনে ভ্রমণ করবেন" },
+      { "factor": "খরচ", "illegal": "দালালদের €৩,০০০–১৫,০০০ (মারা গেলে ফেরত নেই)", "legal": "UNHCR বিনামূল্যে। ভিসা ফি দালালের চেয়ে অনেক কম।" },
+      { "factor": "পৌঁছানোর পর আইনি মর্যাদা", "illegal": "কাগজবিহীন — তাৎক্ষণিক আটক ও বহিষ্কারের ঝুঁকি", "legal": "সম্পূর্ণ আইনি অধিকার, সেবা প্রাপ্তি, কাজের অনুমতি" },
+      { "factor": "অপরাধের রেকর্ড", "illegal": "অবৈধ প্রবেশ ভবিষ্যতের ভিসা ও আশ্রয়ের আবেদন বন্ধ করে দেয়", "legal": "কোনো অপরাধের রেকর্ড নেই — ভবিষ্যতের সুযোগ খোলা থাকে" },
+      { "factor": "আপনার পরিবার", "illegal": "আপনার পরিবার হয়তো জানবেই না আপনার কী হয়েছে", "legal": "পরবর্তীতে পারিবারিক পুনর্মিলনের মাধ্যমে পরিবার আনতে পারবেন" },
+      { "factor": "বাসস্থান ও স্বাস্থ্যসেবা", "illegal": "কিছুই নেই — আপনি সমস্ত সেবা থেকে লুকানো থাকবেন", "legal": "আইনি আশ্রয়প্রার্থীরা আশ্রয় ও চিকিৎসা সেবা পায়" }
+    ]
+  },
+  "stories": {
+    "label": "মানুষের কণ্ঠস্বর",
+    "title1": "মানুষ যা জানতে",
+    "title2": "চাইত",
+    "items": [
+      { "flag": "🇸🇴", "type": "danger", "quote": "দালাল বলেছিল নৌকা নিরাপদ। আমরা ছিলাম ২০ জনের নৌকায় ৮০ জন। আমার ভাই বাঁচেনি। ফিরে গিয়ে ভিন্ন পছন্দ করতে সব দিয়ে দিতাম।", "name": "বেঁচে যাওয়া — কেন্দ্রীয় ভূমধ্যসাগর, ২০২২" },
+      { "flag": "🇸🇾", "type": "danger", "quote": "আমরা €৮,০০০ দিয়েছিলাম এবং জানুয়ারিতে সার্বিয়ার পাহাড়ে পরিত্যক্ত হয়েছিলাম। আমাদের দলের তিনজন হাইপোথার্মিয়ায় মারা যায়। আমরা ১১ দিন হেঁটেছিলাম।", "name": "বেঁচে যাওয়া — বলকান রুট, ২০২১" },
+      { "flag": "🇦🇫", "type": "safe", "quote": "আমি পাকিস্তানে UNHCR-এ নিবন্ধন করেছিলাম। ১৪ মাস লেগেছিল কিন্তু আমি আইনিভাবে জার্মানিতে পুনর্বাসিত হয়েছি। এখন আমার চাকরি আছে। আমার সন্তানরা স্কুলে যাচ্ছে। দয়া করে — দালালদের বিশ্বাস করবেন না।", "name": "পুনর্বাসিত শরণার্থী — জার্মানি, ২০২৩" }
+    ]
+  },
+  "cta": {
+    "label": "নিরাপদ পথ নিন",
+    "title": "সিদ্ধান্ত নেওয়ার আগে আপনার আইনি পথ খুঁজুন",
+    "sub": "কোনো দালালকে কিছু দেওয়ার আগে UNHCR বা কোনো আইনি সহায়তা সংস্থার সাথে যোগাযোগ করুন। এই তথ্য বিনামূল্যে।",
+    "btn1": "UNHCR — আপনার কাছে সাহায্য খুঁজুন",
+    "btn2": "EU ইমিগ্রেশন পোর্টাল",
+    "btn3": "যুক্তরাজ্য ভিসার বিকল্প"
+  },
+  "counter": {
+    "label": "এই বছরের মৃত্যু",
+    "sub": "এই বছর রেকর্ড করা হয়েছে",
+    "source": "সূত্র: IOM"
+  },
+  "footer": {
+    "disclaimer": "এই প্ল্যাটফর্ম আন্তর্জাতিক অভিবাসন সংস্থা (IOM), UNHCR, Frontex এবং Europol-এর সর্বজনীনভাবে উপলব্ধ তথ্য ব্যবহার করে। এটি একটি তথ্যমূলক উৎস এবং আইনি পরামর্শ নয়। আপনি বা আপনার পরিচিত কেউ তাৎক্ষণিক বিপদে থাকলে নিকটতম UNHCR অফিসে যোগাযোগ করুন বা স্থানীয় জরুরি সেবায় ফোন করুন।",
+    "sources": "তথ্য: IOM মিসিং মাইগ্র্যান্টস প্রজেক্ট · UNHCR গ্লোবাল ট্রেন্ডস · Frontex রিস্ক অ্যানালাইসিস ২০২৫ · Europol হিউম্যান ট্র্যাফিকিং রিপোর্ট ২০২৪"
+  }
+,
+  "thinkCarefully": {
+    "label": "Before You Decide",
+    "title1": "Is leaving really",
+    "title2": "the answer?",
+    "lead": "Migration can save lives — but it can also destroy them. If you have safety, family, and basic stability at home, the reality of irregular migration is rarely worth it. Read this honestly before you decide.",
+    "cards": [
+      {
+        "icon": "🏠",
+        "title": "Do you have housing and food security?",
+        "body": "If you have a home, food, and your family is with you — you already have more than millions of people in the world. Migration to the UK or EU does not guarantee any of these things. Many arrivals spend years in asylum hostels, shared housing, or temporary accommodation."
+      },
+      {
+        "icon": "💼",
+        "title": "Are you leaving economic frustration — not danger?",
+        "body": "If you are not facing persecution or direct physical danger, the legal economic migration routes require qualifications, job offers, and language skills. Irregular migration for economic reasons almost always leads to exploitation, not prosperity. The UK minimum wage sounds good — but rent in London starts at £1,400/month for a shared room."
+      },
+      {
+        "icon": "👨‍👩‍👧",
+        "title": "What will this cost your family?",
+        "body": "The smugglers take your family's savings — sometimes everything they own. If you die or disappear at sea, they lose both the money and you. Families have sold land, borrowed from moneylenders at crushing rates, and been left in debt for years by a loved one who didn't survive the crossing."
+      },
+      {
+        "icon": "🌍",
+        "title": "Could you build something at home?",
+        "body": "Many countries that send migrants to Europe are growing fast — Nigeria, Bangladesh, Kenya, Ghana, Egypt, Ethiopia. Professionals with international education or skills are in high demand. The person who builds a business at home may end up wealthier — and happier — than the one who cleans offices in a foreign city they don't belong to."
+      }
+    ],
+    "warning": "If you are not in danger — think very carefully. The Europe many people imagine does not exist. The Europe that does exist is cold, expensive, and often lonely for those who arrive without legal status, language skills, or qualifications."
+  },
+  "crudeReality": {
+    "label": "The Reality Nobody Tells You",
+    "title1": "What actually",
+    "title2": "happens after you arrive",
+    "lead": "Smugglers and social media show you the dream. Nobody shows you what comes after — even for those who arrive legally.",
+    "items": [
+      {
+        "icon": "🏚️",
+        "title": "The housing crisis is real",
+        "body": "UK and EU cities are facing severe housing shortages. A single room in a shared house in London costs £900–£1,400/month. Many newly arrived migrants — including those with work visas — sleep in garden sheds, overcrowded HMOs, or on friends' floors for the first years. Homelessness among migrants is rising, not falling."
+      },
+      {
+        "icon": "📄",
+        "title": "Your qualifications may not be recognised",
+        "body": "A doctor, engineer, or teacher from Nigeria, Bangladesh, or Pakistan often cannot practise in the UK without re-qualifying. This can take 3–7 years and cost tens of thousands of pounds. Many highly educated migrants end up working in warehouses, delivery, or care homes while paying off debts from their journey."
+      },
+      {
+        "icon": "🧠",
+        "title": "The mental health toll is severe",
+        "body": "Isolation, language barriers, discrimination, and the gap between expectation and reality cause serious mental health crises among migrants. NHS mental health services have years-long waiting lists. Suicide rates among asylum seekers and undocumented migrants are significantly higher than the general population."
+      },
+      {
+        "icon": "💶",
+        "title": "The cost of living is brutal",
+        "body": "A grocery shop for one week in the UK costs £50–£80. Electricity, water, council tax, transport, and phone add another £400–£600/month. A minimum wage job (£11.44/hour) earns roughly £1,800/month after tax. After rent, there is almost nothing left — and nothing to send home."
+      },
+      {
+        "icon": "⚖️",
+        "title": "Undocumented life is not 'freedom'",
+        "body": "Without documentation you cannot open a bank account, rent legally, access healthcare fully, or leave and re-enter the country. You live in permanent fear of immigration enforcement. Many people live this way for 10–20 years, unable to visit family when parents die, unable to move forward, unable to go back."
+      },
+      {
+        "icon": "🚨",
+        "title": "Exploitation does not end at the border",
+        "body": "Labour trafficking, sexual exploitation, and debt bondage continue inside Europe. Undocumented migrants are targeted because they cannot report abuse to police without risking deportation. The people who exploit migrants at sea often have networks that exploit them on land too."
+      }
+    ]
+  },
+  "afterArrival": {
+    "label": "After Arrival — The Untold Stories",
+    "title1": "The struggle doesn't",
+    "title2": "end at the border",
+    "lead": "Even people who arrive legally — with visas, qualifications, and ambition — face a reality that is far harder than the dream. These are documented experiences, not exceptions.",
+    "items": [
+      {
+        "flag": "🇳🇬",
+        "title": "Graduated. Unemployed. Invisible.",
+        "body": "Nigerian international students graduate from UK universities with first-class degrees — and send hundreds of CVs without a callback. Studies show that CVs with African names receive 60% fewer interview callbacks than identical CVs with English names. Discrimination in hiring is well-documented and ongoing.",
+        "source": "Oxford Migration Observatory, 2024"
+      },
+      {
+        "flag": "🇧🇩",
+        "title": "Arrived legally. Living in a garage.",
+        "body": "Hundreds of Bangladeshi workers on UK care visas have been stranded after employers collapsed, leaving them without work, housing, or income. Some lived in employer-provided accommodation that was a converted garage. The 60-day job-switch window was not enough to find new sponsors.",
+        "source": "Guardian reporting, 2023–2024"
+      },
+      {
+        "flag": "🇸🇴",
+        "title": "10 years. Still waiting.",
+        "body": "Many Somali refugees who arrived legally in the early 2010s are still in temporary housing, still waiting for PTSD treatment, still navigating a benefits system that treats them as burdens. Children born in the UK speak fluent English but their parents remain isolated, unable to integrate.",
+        "source": "UNHCR UK, 2024"
+      },
+      {
+        "flag": "🇵🇰",
+        "title": "Skilled Worker. Refused at the airport.",
+        "body": "Pakistani workers with valid UK Skilled Worker visas have been turned away at the border after being unable to answer detailed questions about their employer or role. Visa documents were genuine — but insufficient preparation for the border interview led to refusal of leave to enter.",
+        "source": "ILPA case reports, 2025"
+      }
+    ]
+  },
+  "comeHome": {
+    "label": "A Message for Students",
+    "title": "Your country needs you back",
+    "sub": "If you came to study — go home. Not because Europe is not worth experiencing, but because you are worth more to your country than to a delivery company in Manchester.",
+    "points": [
+      {
+        "icon": "🏗️",
+        "text": "Nigeria, Bangladesh, Kenya, Ghana, and Ethiopia are building fast. Engineers, doctors, teachers, and entrepreneurs who return with international experience are transforming these countries from the inside."
+      },
+      {
+        "icon": "💰",
+        "text": "Your purchasing power at home is dramatically higher. A salary that feels small in the UK can fund a house, a business, and a family's security in many home countries."
+      },
+      {
+        "icon": "❤️",
+        "text": "Your parents are ageing. Your language, your food, your community — these things matter more than a passport stamp. Many people who stay in Europe for decades describe a deep and lasting loneliness that money never resolves."
+      },
+      {
+        "icon": "🌱",
+        "text": "The most powerful thing you can do for your country is return with skills and build something. You cannot change your home country from a shared house in Birmingham."
+      }
+    ],
+    "cta": "Use the legal routes to study, gain experience, then return. That is the migration story that actually changes lives — yours and your country's."
+  }
+}

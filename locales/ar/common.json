@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "العبور الآمن — اعرف قبل أن تعبر",
+    "description": "بيانات حقيقية عن وفيات العبور غير الشرعي والمسارات القانونية الموجودة فعلاً."
+  },
+  "nav": {
+    "dangers": "المخاطر",
+    "routes": "الطرق",
+    "legal": "المسارات القانونية",
+    "compare": "مقارنة",
+    "stories": "قصص حقيقية",
+    "findHelp": "ابحث عن مساعدة الآن"
+  },
+  "langBar": "اقرأ بلغتك:",
+  "hero": {
+    "tag": "معلومات مهمة جداً — يرجى القراءة",
+    "headline1": "البحر لا يهتم",
+    "headline2": "بحلمك.",
+    "headline3": "",
+    "sub": "يموت آلاف الأشخاص كل عام وهم يحاولون العبور بشكل غير قانوني إلى أوروبا. اقرأ ما يجب أن تعرفه — والطرق الأكثر أماناً الموجودة بالفعل.",
+    "cta1": "انظر الأرقام الحقيقية",
+    "cta2": "ابحث عن مسار قانوني ←"
+  },
+  "strip": {
+    "text": "منذ عام 2014، سجّلت المنظمة الدولية للهجرة أكثر من",
+    "number": "30,000 وفاة",
+    "text2": "على طرق الهجرة إلى أوروبا — وفاة واحدة كل 5 ساعات، لمدة 12 سنة."
+  },
+  "dangers": {
+    "label": "الواقع",
+    "title1": "ما يحدث فعلاً في",
+    "title2": "العبور غير الشرعي",
+    "lead": "هذه الأرقام مصدرها المنظمة الدولية للهجرة، والمفوضية السامية للأمم المتحدة لشؤون اللاجئين، ووكالات حدود أوروبا. إنها ليست مبالغاً فيها — بل هي أقل من الواقع.",
+    "stats": [
+      { "number": "+30,000", "label": "وفاة موثقة على طرق الهجرة إلى أوروبا منذ 2014", "source": "مشروع المهاجرين المفقودين، IOM، 2025" },
+      { "number": "+2,400", "label": "حالة وفاة في البحر الأبيض المتوسط عام 2025 وحده", "source": "IOM، 2025" },
+      { "number": "1 من 45", "label": "من العبور عبر وسط المتوسط ينتهي بالوفاة أو الاختفاء", "source": "IOM، 2025" },
+      { "number": "3,000–15,000 €", "label": "يُدفع للمهربين — دون أي ضمان للسلامة أو الوصول", "source": "يوروبول، 2024" }
+    ]
+  },
+  "routes": {
+    "label": "الطرق الموثقة",
+    "title1": "كل طريق له",
+    "title2": "حصيلة من الوفيات",
+    "lead": "يقول المهربون إنه أمر سهل. لكن البيانات تحكي قصة مختلفة.",
+    "items": [
+      { "icon": "🌊", "name": "وسط البحر الأبيض المتوسط", "badge": "أكثر طرق البحر فتكاً في العالم", "desc": "ليبيا/تونس ← إيطاليا/مالطا. قوارب مطاطية مصممة للأنهار، لا للبحار المفتوحة. مكتظة. الانقلاب شائع. والناجون يواجهون الاحتجاز في ليبيا التي لا تُعد بلداً آمناً." },
+      { "icon": "⛵", "name": "المحيط الأطلسي — جزر الكناري", "badge": "أكثر من 2300 كم في المحيط المفتوح", "desc": "غرب أفريقيا ← إسبانيا. أسرع الطرق نمواً والأكثر فتكاً بالنسبة لعدد الرحلات. كثير من القوارب لا يُعثر عليها أبداً." },
+      { "icon": "🏔️", "name": "طريق البلقان البري", "badge": "برد قارص، ردود فعل عنيفة", "desc": "تركيا ← اليونان ← صربيا ← هنغاريا. يمشي الناس مئات الكيلومترات عبر الجبال في درجات حرارة متجمدة. عمليات الدفع بالقوة موثقة جيداً." },
+      { "icon": "🏜️", "name": "الصحراء الكبرى", "badge": "وفيات أكثر من البحر الأبيض المتوسط", "desc": "أفريقيا جنوب الصحراء ← شمال أفريقيا. الصحراء تقتل مهاجرين أكثر من البحر — لكن الجثث نادراً ما توجد. الجفاف والتخلي من قِبَل المهربين." },
+      { "icon": "🌊", "name": "القناة الإنجليزية", "badge": "من أكثر الممرات الملاحية ازدحاماً في العالم", "desc": "فرنسا ← المملكة المتحدة. القوارب الصغيرة تنقلب بسبب أمواج ناقلات الشحن. لقي أكثر من 50 شخصاً حتفهم منذ 2018." },
+      { "icon": "🚛", "name": "الاختباء في المركبات", "badge": "خطر الاختناق", "desc": "حاويات الشاحنات، الشاحنات المبردة. يموت الناس من الحرارة أو البرد أو أول أكسيد الكربون. في 2019، عُثر على 39 فيتنامياً لقوا حتفهم في شاحنة في مقاطعة إيسكس بالمملكة المتحدة." }
+    ]
+  },
+  "legal": {
+    "label": "هناك طرق أكثر أماناً",
+    "title1": "أداة البحث عن",
+    "title2": "مسارك القانوني",
+    "lead": "أجب على سؤالين وسنوضح لك المسارات القانونية التي تنطبق على وضعك.",
+    "q1": "ما السبب الرئيسي لمغادرتك؟",
+    "q1opts": ["الفرار من الحرب أو الاضطهاد", "البحث عن فرصة عمل اقتصادية", "عائلة موجودة في أوروبا", "الدراسة في الخارج", "غير متأكد / أخرى"],
+    "q2": "أين أنت الآن؟",
+    "q2opts": ["أفريقيا", "الشرق الأوسط", "آسيا", "أخرى / لا أفضل الإجابة"],
+    "showBtn": "أرني خياراتي القانونية ←",
+    "allTitle": "جميع المسارات القانونية",
+    "paths": [
+      { "id": "asylum", "icon": "🏛️", "tag": "الاضطهاد / الحرب", "name": "طلب اللجوء", "desc": "إذا كنت تفر من الاضطهاد أو الحرب أو العنف، فقد تكون مؤهلاً للحصول على وضع اللاجئ بموجب اتفاقية اللاجئين لعام 1951.", "how": "زر أقرب مكتب للمفوضية السامية للأمم المتحدة أو السلطة الوطنية للجوء. أحضر أي وثائق — لكن غياب الوثائق لا يُلغي أهليتك.", "link": "https://www.unhcr.org/get-help", "linkLabel": "ابحث عن مكتب المفوضية السامية ←", "cost": "مجاني", "time": "أشهر إلى سنوات", "risk": "منخفض" },
+      { "id": "resettlement", "icon": "✈️", "tag": "الاضطهاد / الضعفاء", "name": "إعادة التوطين عبر المفوضية السامية", "desc": "تختار المفوضية السامية اللاجئين المسجلين الأكثر ضعفاً لإعادة توطينهم في بلد ثالث آمن. يجب أن تسجل أولاً.", "how": "سجّل في أقرب مكتب للمفوضية السامية. لا تدفع لأي شخص لـ'تسريع' عملية إعادة التوطين — إنها مجانية دائماً.", "link": "https://www.unhcr.org/resettlement", "linkLabel": "تعرف على إعادة التوطين ←", "cost": "مجاني", "time": "1–3 سنوات", "risk": "منخفض جداً" },
+      { "id": "work", "icon": "💼", "tag": "اقتصادي / مهاري", "name": "تأشيرة العمل للمهرة", "desc": "تستقطب المملكة المتحدة وألمانيا وكندا والعديد من الدول العمال المهرة في الرعاية الصحية والتكنولوجيا والبناء.", "how": "تحقق من قائمة المهن النادرة في المملكة المتحدة أو بوابة 'اصنع مستقبلك في ألمانيا'. تقدم بطلبك في السفارة أو القنصلية.", "link": "https://www.gov.uk/skilled-worker-visa", "linkLabel": "تأشيرة العمل البريطانية ←", "link2": "https://www.make-it-in-germany.com", "linkLabel2": "تأشيرة العمل الألمانية ←", "cost": "719–1,500 جنيه (المملكة المتحدة)", "time": "3–8 أسابيع", "risk": "منخفض جداً" },
+      { "id": "study", "icon": "🎓", "tag": "التعليم / الشباب", "name": "تأشيرة الطالب", "desc": "إذا قُبلت في جامعة أو كلية، يمكنك الدخول بشكل قانوني بتأشيرة طالب. كثير من الدول تتيح العمل بدوام جزئي.", "how": "تقدم أولاً للمنح الدراسية (تشيفنينغ، DAAD، إيراسموس). رسالة القبول من المؤسسة هي المتطلب الأساسي.", "link": "https://www.gov.uk/student-visa", "linkLabel": "تأشيرة الطالب البريطانية ←", "cost": "363–490 جنيه (المملكة المتحدة)", "time": "3–6 أسابيع", "risk": "منخفض جداً" },
+      { "id": "family", "icon": "👨‍👩‍👧", "tag": "روابط عائلية", "name": "لمّ شمل العائلة", "desc": "إذا كان قريب مقرّب (زوج/زوجة، أحد الوالدين، طفل) يتمتع بوضع قانوني في دولة أوروبية أو المملكة المتحدة، فقد تنضم إليه قانونياً.", "how": "يتقدم فرد عائلتك في أوروبا بالطلب نيابةً عنك. تتفاوت العملية حسب الدولة.", "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en", "linkLabel": "لمّ شمل العائلة في الاتحاد الأوروبي ←", "cost": "يتفاوت حسب الدولة", "time": "3–12 شهراً", "risk": "منخفض" },
+      { "id": "humanitarian", "icon": "🤝", "tag": "خطر فوري", "name": "التأشيرة الإنسانية", "desc": "تصدر بعض الدول تأشيرات إنسانية في السفارات، مما يتيح دخولاً قانونياً لتقديم طلب اللجوء عند الوصول — دون الحاجة لأي عبور خطير.", "how": "اتصل بالسفارة أو القنصلية الأوروبية في بلدك الحالي. اشرح وضعك بوضوح. البرتغال وإسبانيا وإيطاليا استخدمت هذا المسار.", "link": "https://www.unhcr.org/asylum-in-the-eu", "linkLabel": "مسارات اللجوء في الاتحاد الأوروبي ←", "cost": "مجاني أو منخفض التكلفة", "time": "أسابيع إلى أشهر", "risk": "منخفض" }
+    ]
+  },
+  "compare": {
+    "label": "مقارنة جنباً إلى جنب",
+    "title1": "غير قانوني",
+    "title2": "مقابل قانوني",
+    "subtitle": "— المقارنة الحقيقية",
+    "colIllegal": "⚠ الطريق غير القانوني",
+    "colLegal": "✓ الطريق القانوني",
+    "rows": [
+      { "factor": "الخطر على الحياة", "illegal": "مرتفع جداً — 1 من كل 45 يموت في بعض الطرق", "legal": "ضئيل — تسافر بالطائرة أو الحافلة أو القطار" },
+      { "factor": "التكلفة", "illegal": "3,000–15,000 يورو للمهربين (لا استرداد إذا مُتَّ)", "legal": "المفوضية السامية مجانية. رسوم التأشيرة أقل بكثير" },
+      { "factor": "الوضع القانوني عند الوصول", "illegal": "غير موثق — خطر الاحتجاز الفوري والترحيل", "legal": "حقوق قانونية كاملة، وصول للخدمات، تصاريح عمل" },
+      { "factor": "السجل الجنائي", "illegal": "الدخول غير القانوني يُغلق أمامك طلبات التأشيرة واللجوء مستقبلاً", "legal": "لا سجل جنائي — خياراتك المستقبلية تبقى مفتوحة" },
+      { "factor": "عائلتك", "illegal": "قد لا تعرف عائلتك ماذا حدث لك أبداً", "legal": "يمكنك إحضار عائلتك لاحقاً عبر لمّ الشمل" },
+      { "factor": "السكن والرعاية الصحية", "illegal": "لا شيء — أنت مخفي عن كل الخدمات", "legal": "طالبو اللجوء القانونيون يحصلون على مأوى ورعاية طبية" }
+    ]
+  },
+  "stories": {
+    "label": "أصوات بشرية",
+    "title1": "ما يتمنى الناس",
+    "title2": "أنهم كانوا يعرفونه",
+    "items": [
+      { "flag": "🇸🇴", "type": "danger", "quote": "قال المهرب إن القارب آمن. كنا 80 شخصاً على قارب مطاطي لـ20 شخصاً. أخي لم ينجو. أتمنى لو أستطيع العودة واختيار طريق مختلف.", "name": "ناجٍ — وسط البحر المتوسط، 2022" },
+      { "flag": "🇸🇾", "type": "danger", "quote": "دفعنا 8,000 يورو وتُرِكنا في جبال صربيا في يناير. لقي ثلاثة أشخاص من مجموعتنا حتفهم بسبب انخفاض الحرارة. مشينا لمدة 11 يوماً.", "name": "ناجٍ — طريق البلقان، 2021" },
+      { "flag": "🇦🇫", "type": "safe", "quote": "سجّلت مع المفوضية السامية للأمم المتحدة في باكستان. استغرق الأمر 14 شهراً لكنني أُعيد توطيني في ألمانيا بشكل قانوني. لديّ وظيفة الآن. أطفالي في المدرسة. أرجوكم — لا تثقوا بالمهربين.", "name": "لاجئ أُعيد توطينه — ألمانيا، 2023" }
+    ]
+  },
+  "cta": {
+    "label": "اسلك الطريق الأكثر أماناً",
+    "title": "ابحث عن مسارك القانوني قبل أن تتخذ قرارك",
+    "sub": "تواصل مع المفوضية السامية للأمم المتحدة أو منظمة المساعدة القانونية قبل أن تدفع أي شيء للمهرب. هذه المعلومات مجانية.",
+    "btn1": "المفوضية السامية — ابحث عن مساعدة قريبة منك",
+    "btn2": "بوابة الهجرة الأوروبية",
+    "btn3": "خيارات التأشيرة البريطانية"
+  },
+  "counter": {
+    "label": "وفيات هذا العام",
+    "sub": "مسجّلة هذا العام",
+    "source": "المصدر: IOM"
+  },
+  "footer": {
+    "disclaimer": "تستخدم هذه المنصة بيانات متاحة للعموم من المنظمة الدولية للهجرة، والمفوضية السامية للأمم المتحدة، وفرونتكس، ويوروبول. هي مصدر معلوماتي فقط ولا تشكّل استشارة قانونية. إذا كنت أنت أو أحد معارفك في خطر فوري، اتصل بأقرب مكتب للمفوضية السامية أو اتصل بخدمات الطوارئ المحلية.",
+    "sources": "البيانات: مشروع المهاجرين المفقودين IOM · اتجاهات UNHCR العالمية · تحليل مخاطر فرونتكس 2025 · تقرير يوروبول حول الاتجار بالبشر 2024"
+  }
+,
+  "thinkCarefully": {
+    "label": "Before You Decide",
+    "title1": "Is leaving really",
+    "title2": "the answer?",
+    "lead": "Migration can save lives — but it can also destroy them. If you have safety, family, and basic stability at home, the reality of irregular migration is rarely worth it. Read this honestly before you decide.",
+    "cards": [
+      {
+        "icon": "🏠",
+        "title": "Do you have housing and food security?",
+        "body": "If you have a home, food, and your family is with you — you already have more than millions of people in the world. Migration to the UK or EU does not guarantee any of these things. Many arrivals spend years in asylum hostels, shared housing, or temporary accommodation."
+      },
+      {
+        "icon": "💼",
+        "title": "Are you leaving economic frustration — not danger?",
+        "body": "If you are not facing persecution or direct physical danger, the legal economic migration routes require qualifications, job offers, and language skills. Irregular migration for economic reasons almost always leads to exploitation, not prosperity. The UK minimum wage sounds good — but rent in London starts at £1,400/month for a shared room."
+      },
+      {
+        "icon": "👨‍👩‍👧",
+        "title": "What will this cost your family?",
+        "body": "The smugglers take your family's savings — sometimes everything they own. If you die or disappear at sea, they lose both the money and you. Families have sold land, borrowed from moneylenders at crushing rates, and been left in debt for years by a loved one who didn't survive the crossing."
+      },
+      {
+        "icon": "🌍",
+        "title": "Could you build something at home?",
+        "body": "Many countries that send migrants to Europe are growing fast — Nigeria, Bangladesh, Kenya, Ghana, Egypt, Ethiopia. Professionals with international education or skills are in high demand. The person who builds a business at home may end up wealthier — and happier — than the one who cleans offices in a foreign city they don't belong to."
+      }
+    ],
+    "warning": "If you are not in danger — think very carefully. The Europe many people imagine does not exist. The Europe that does exist is cold, expensive, and often lonely for those who arrive without legal status, language skills, or qualifications."
+  },
+  "crudeReality": {
+    "label": "The Reality Nobody Tells You",
+    "title1": "What actually",
+    "title2": "happens after you arrive",
+    "lead": "Smugglers and social media show you the dream. Nobody shows you what comes after — even for those who arrive legally.",
+    "items": [
+      {
+        "icon": "🏚️",
+        "title": "The housing crisis is real",
+        "body": "UK and EU cities are facing severe housing shortages. A single room in a shared house in London costs £900–£1,400/month. Many newly arrived migrants — including those with work visas — sleep in garden sheds, overcrowded HMOs, or on friends' floors for the first years. Homelessness among migrants is rising, not falling."
+      },
+      {
+        "icon": "📄",
+        "title": "Your qualifications may not be recognised",
+        "body": "A doctor, engineer, or teacher from Nigeria, Bangladesh, or Pakistan often cannot practise in the UK without re-qualifying. This can take 3–7 years and cost tens of thousands of pounds. Many highly educated migrants end up working in warehouses, delivery, or care homes while paying off debts from their journey."
+      },
+      {
+        "icon": "🧠",
+        "title": "The mental health toll is severe",
+        "body": "Isolation, language barriers, discrimination, and the gap between expectation and reality cause serious mental health crises among migrants. NHS mental health services have years-long waiting lists. Suicide rates among asylum seekers and undocumented migrants are significantly higher than the general population."
+      },
+      {
+        "icon": "💶",
+        "title": "The cost of living is brutal",
+        "body": "A grocery shop for one week in the UK costs £50–£80. Electricity, water, council tax, transport, and phone add another £400–£600/month. A minimum wage job (£11.44/hour) earns roughly £1,800/month after tax. After rent, there is almost nothing left — and nothing to send home."
+      },
+      {
+        "icon": "⚖️",
+        "title": "Undocumented life is not 'freedom'",
+        "body": "Without documentation you cannot open a bank account, rent legally, access healthcare fully, or leave and re-enter the country. You live in permanent fear of immigration enforcement. Many people live this way for 10–20 years, unable to visit family when parents die, unable to move forward, unable to go back."
+      },
+      {
+        "icon": "🚨",
+        "title": "Exploitation does not end at the border",
+        "body": "Labour trafficking, sexual exploitation, and debt bondage continue inside Europe. Undocumented migrants are targeted because they cannot report abuse to police without risking deportation. The people who exploit migrants at sea often have networks that exploit them on land too."
+      }
+    ]
+  },
+  "afterArrival": {
+    "label": "After Arrival — The Untold Stories",
+    "title1": "The struggle doesn't",
+    "title2": "end at the border",
+    "lead": "Even people who arrive legally — with visas, qualifications, and ambition — face a reality that is far harder than the dream. These are documented experiences, not exceptions.",
+    "items": [
+      {
+        "flag": "🇳🇬",
+        "title": "Graduated. Unemployed. Invisible.",
+        "body": "Nigerian international students graduate from UK universities with first-class degrees — and send hundreds of CVs without a callback. Studies show that CVs with African names receive 60% fewer interview callbacks than identical CVs with English names. Discrimination in hiring is well-documented and ongoing.",
+        "source": "Oxford Migration Observatory, 2024"
+      },
+      {
+        "flag": "🇧🇩",
+        "title": "Arrived legally. Living in a garage.",
+        "body": "Hundreds of Bangladeshi workers on UK care visas have been stranded after employers collapsed, leaving them without work, housing, or income. Some lived in employer-provided accommodation that was a converted garage. The 60-day job-switch window was not enough to find new sponsors.",
+        "source": "Guardian reporting, 2023–2024"
+      },
+      {
+        "flag": "🇸🇴",
+        "title": "10 years. Still waiting.",
+        "body": "Many Somali refugees who arrived legally in the early 2010s are still in temporary housing, still waiting for PTSD treatment, still navigating a benefits system that treats them as burdens. Children born in the UK speak fluent English but their parents remain isolated, unable to integrate.",
+        "source": "UNHCR UK, 2024"
+      },
+      {
+        "flag": "🇵🇰",
+        "title": "Skilled Worker. Refused at the airport.",
+        "body": "Pakistani workers with valid UK Skilled Worker visas have been turned away at the border after being unable to answer detailed questions about their employer or role. Visa documents were genuine — but insufficient preparation for the border interview led to refusal of leave to enter.",
+        "source": "ILPA case reports, 2025"
+      }
+    ]
+  },
+  "comeHome": {
+    "label": "A Message for Students",
+    "title": "Your country needs you back",
+    "sub": "If you came to study — go home. Not because Europe is not worth experiencing, but because you are worth more to your country than to a delivery company in Manchester.",
+    "points": [
+      {
+        "icon": "🏗️",
+        "text": "Nigeria, Bangladesh, Kenya, Ghana, and Ethiopia are building fast. Engineers, doctors, teachers, and entrepreneurs who return with international experience are transforming these countries from the inside."
+      },
+      {
+        "icon": "💰",
+        "text": "Your purchasing power at home is dramatically higher. A salary that feels small in the UK can fund a house, a business, and a family's security in many home countries."
+      },
+      {
+        "icon": "❤️",
+        "text": "Your parents are ageing. Your language, your food, your community — these things matter more than a passport stamp. Many people who stay in Europe for decades describe a deep and lasting loneliness that money never resolves."
+      },
+      {
+        "icon": "🌱",
+        "text": "The most powerful thing you can do for your country is return with skills and build something. You cannot change your home country from a shared house in Birmingham."
+      }
+    ],
+    "cta": "Use the legal routes to study, gain experience, then return. That is the migration story that actually changes lives — yours and your country's."
+  }
+}
