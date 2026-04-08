@@ -313,6 +313,61 @@ function LegalPaths({ t }) {
   );
 }
 
+// ── COMPONENT: Enterprise & Talent Routes ────────────────────────────────────
+function EnterpriseRoutes() {
+  const cards = [
+    {
+      href: '/pathways/uk/innovator-founder',
+      icon: '🚀',
+      tag: 'UK Entrepreneur',
+      name: 'Innovator Founder Visa',
+      desc: 'Start or run a business in the UK with an innovative, viable and scalable idea. Leads to settlement after 3 years.',
+      cost: '£1,357 visa + £1,000 endorsement',
+      time: '~8 weeks',
+      risk: 'Very low',
+      cta: '🇬🇧 Full Guide →',
+    },
+    {
+      href: '/pathways/uk/global-talent',
+      icon: '🌟',
+      tag: 'UK Talent',
+      name: 'Global Talent Visa',
+      desc: 'For exceptional leaders in digital technology, research & academia, and arts & culture. No job offer required.',
+      cost: '£561 endorsement + £205 visa',
+      time: '~8 weeks',
+      risk: 'Very low',
+      cta: '🇬🇧 Full Guide →',
+    },
+  ];
+  return (
+    <section className={styles.section}>
+      <div className="container">
+        <span className="section-label">UK ENTERPRISE &amp; TALENT</span>
+        <h2 className="display">Built a business? <em>Expert in your field?</em></h2>
+        <p className="lead-text">The UK offers dedicated visa routes for entrepreneurs and globally recognised talent — no employer sponsorship required.</p>
+        <div className={styles.pathsGrid} style={{ marginTop: '1.5rem' }}>
+          {cards.map(c => (
+            <div key={c.href} className={styles.pathCard}>
+              <div className={styles.pathIcon}>{c.icon}</div>
+              <div className={styles.pathTag}>{c.tag}</div>
+              <h3 className={styles.pathName}>{c.name}</h3>
+              <p className={styles.pathDesc}>{c.desc}</p>
+              <div className={styles.pathMeta}>
+                <span className={styles.pathMetaItem}><em>Cost:</em> {c.cost}</span>
+                <span className={styles.pathMetaItem}><em>Time:</em> {c.time}</span>
+                <span className={`${styles.pathMetaItem} ${styles.riskLow}`}><em>Risk:</em> {c.risk}</span>
+              </div>
+              <div className={styles.pathLinks} style={{ marginTop: '0.6rem' }}>
+                <Link href={c.href} className={styles.pathLink} style={{ background: 'rgba(42,157,143,0.08)', borderColor: 'rgba(42,157,143,0.2)', padding: '0.3rem 0.7rem', borderRadius: '3px', border: '1px solid', fontSize: '0.74rem' }}>{c.cta}</Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ── COMPONENT: Compare ───────────────────────────────────────────────────────
 function Compare({ t }) {
   const ref = useRef(null);
@@ -618,6 +673,8 @@ export default function Home({ t, locale }) {
         <Routes t={t}/>
         <div className="divider"/>
         <LegalPaths t={t}/>
+        <div className="divider"/>
+        <EnterpriseRoutes/>
         <div className="divider"/>
         <Compare t={t}/>
         <div className="divider"/>
