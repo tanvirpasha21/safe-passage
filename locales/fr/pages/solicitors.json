@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Trouver une aide juridique en immigration — SafePassage",
+    "description": "Trouvez des solicitors agréés et des organisations d'aide juridique gratuite."
+  },
+  "pageTitle": "Trouver une aide juridique autorisée",
+  "pageSubtitle": "Tous les conseillers présentés ici sont régulés par le SRA ou l'OISC, ou sont des associations caritatives enregistrées. N'utilisez jamais un conseiller en immigration non réglementé.",
+  "filterTitle": "Filtrer par type de dossier",
+  "filterRegion": "Région",
+  "filterCost": "Coût",
+  "allTypes": "Tous les types",
+  "allRegions": "Toutes les régions",
+  "allCosts": "Tous les coûts",
+  "resultsFree": "Aide gratuite et caritative",
+  "resultsSearch": "Outil de recherche de solicitor",
+  "noResults": "Aucun conseiller ne correspond à vos filtres. Essayez d'ajuster votre recherche.",
+  "badgeLegendTitle": "Ce que signifient les badges",
+  "badges": [
+    {
+      "label": "Régulé SRA",
+      "desc": "Autorisé et régulé par le Solicitors Regulation Authority"
+    },
+    {
+      "label": "Enregistré OISC",
+      "desc": "Enregistré auprès du commissaire aux services d'immigration"
+    },
+    {
+      "label": "Association caritative",
+      "desc": "Association caritative britannique offrant des services gratuits ou à faible coût"
+    },
+    {
+      "label": "Financé par le gouvernement",
+      "desc": "Organisation financée par le gouvernement ou les fonds publics"
+    },
+    {
+      "label": "UNHCR",
+      "desc": "Organisation approuvée ou affiliée au HCR de l'ONU"
+    }
+  ],
+  "guideCtaTitle": "Besoin du guide complet en premier ?",
+  "guideCtaText": "Lisez notre guide étape par étape avant de consulter un solicitor.",
+  "guideCta": "Voir les guides de parcours →",
+  "warningTitle": "Avertissement — Conseillers non réglementés",
+  "warningText": "Utiliser un conseiller en immigration non réglementé est illégal et dangereux. Vérifiez que tout conseiller est inscrit au registre SRA ou OISC avant de payer."
+}

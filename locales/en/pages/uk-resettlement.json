@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "UK Resettlement Schemes 2026 — UKRS, ACRS, ARAP",
+    "description": "Official UK government resettlement schemes for refugees — UKRS, ACRS, ARAP, Community Sponsorship, and Homes for Ukraine."
+  },
+  "hero": {
+    "tag": "Resettlement · Updated April 2026",
+    "title": "UK <em>Resettlement</em> Schemes",
+    "sub": "The UK operates multiple official resettlement programmes that bring the most vulnerable refugees directly to the UK — safely, legally, on a plane. You do not need to pay a smuggler. You do not need to cross the Mediterranean."
+  },
+  "facts": [
+    {
+      "label": "Cost",
+      "value": "Completely free"
+    },
+    {
+      "label": "Referral by",
+      "value": "UNHCR or UK govt"
+    },
+    {
+      "label": "Selection",
+      "value": "Most vulnerable first"
+    },
+    {
+      "label": "On arrival",
+      "value": "Full support provided"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "Resettlement is always 100% free. There are no fees, no agents, no payments. If anyone asks you to pay money to be considered for a resettlement programme — they are scamming you. Report them to UNHCR."
+  },
+  "schemesTitle": "UK Resettlement Schemes",
+  "schemes": [
+    {
+      "name": "UK Resettlement Scheme (UKRS)",
+      "tag": "Main UNHCR Pathway",
+      "desc": "The primary UK resettlement route for refugees referred by UNHCR worldwide. UNHCR identifies the most vulnerable — those facing protection threats, serious medical needs, or who cannot integrate locally. The UK government allocates places annually.",
+      "who": "UNHCR-referred refugees worldwide",
+      "howApply": "Register with UNHCR in your country of refuge. UNHCR selects and refers — you cannot self-refer."
+    },
+    {
+      "name": "Afghan Citizens Resettlement Scheme (ACRS)",
+      "tag": "Afghanistan-Specific",
+      "desc": "For Afghans at risk following the Taliban takeover. Priority is given to those who supported UK and NATO efforts, human rights defenders, women leaders, journalists, and their family members.",
+      "who": "Afghans at risk — priority to those who assisted UK forces",
+      "howApply": "Referral through UNHCR, FCDO, or UK government — cannot self-refer. Check gov.uk for latest intake information."
+    },
+    {
+      "name": "Afghan Relocations and Assistance Policy (ARAP)",
+      "tag": "Former UK Employees",
+      "desc": "Specifically for Afghans who worked for or with the UK government, military, or UK organisations in Afghanistan. Includes interpreters, contractors, and their close family members.",
+      "who": "Afghans with employment links to UK government or armed forces",
+      "howApply": "Apply directly via gov.uk. You can self-refer if you have relevant employment history."
+    },
+    {
+      "name": "Homes for Ukraine",
+      "tag": "Ukraine-Specific",
+      "desc": "Allows Ukrainian nationals and their immediate family members to come to the UK with a sponsor (an individual or organisation offering accommodation). Sponsors are matched with Ukrainians through official channels.",
+      "who": "Ukrainian nationals and immediate family",
+      "howApply": "Apply on gov.uk with your sponsor's details. Your sponsor must be approved by a UK local authority."
+    },
+    {
+      "name": "Community Sponsorship",
+      "tag": "Community-Led",
+      "desc": "UK community groups (charities, faith groups, local organisations) can sponsor and support a refugee family's resettlement. Sponsoring groups provide housing, integration support, and community welcome.",
+      "who": "UNHCR-referred refugees matched with a UK community sponsor",
+      "howApply": "Cannot self-refer. UK community groups apply to become sponsors. UNHCR refers families to approved sponsors."
+    }
+  ],
+  "stepsTitle": "What to do",
+  "steps": [
+    {
+      "title": "Register with UNHCR",
+      "desc": "If you are outside your home country, register with UNHCR at the nearest office. This is the essential first step for most resettlement routes. Registration is free."
+    },
+    {
+      "title": "Wait for resettlement referral",
+      "desc": "UNHCR assesses all registered refugees and identifies the most vulnerable for resettlement referral. This can take 1–5 years. Do not pay anyone to speed up the process — it cannot be done."
+    },
+    {
+      "title": "For ARAP: apply directly",
+      "desc": "If you worked for the UK government or armed forces in Afghanistan, you can self-refer on gov.uk. Gather all evidence of your employment including contracts, letters, ID cards."
+    },
+    {
+      "title": "Complete refugee processing",
+      "desc": "After referral, you will be interviewed by UK immigration officials. Security and medical checks are conducted. This process typically takes 12–24 months after referral."
+    },
+    {
+      "title": "Travel to the UK",
+      "desc": "Once approved, the UK government arranges and pays for your travel. You will arrive with full leave to remain, housing arranged, and an integration package."
+    }
+  ],
+  "warning": "Do not pay smugglers. Every year thousands spend £3,000–£15,000 to attempt dangerous crossings to reach the UK — only to find they could have been resettled for free. Resettlement takes time but it is safe, legal, and costs nothing.",
+  "solicitorTitle": "Find Authorised Resettlement Help"
+}

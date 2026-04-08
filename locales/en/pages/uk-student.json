@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "UK Student Visa 2026 — Country-by-Country Guide",
+    "description": "Interactive guide to the UK Student Visa with country-specific refusal rates, April 2026 UKVI updates, and scholarships for Nigeria, Bangladesh, Pakistan, India and more."
+  },
+  "hero": {
+    "tag": "Education-Based · Updated April 2026",
+    "title": "UK <em>Student Visa</em>",
+    "sub": "A UK Student Visa is one of the most accessible and rewarding legal routes to the United Kingdom. Search your country below to see your specific situation, refusal rates, and the best strategy for a successful application."
+  },
+  "facts": [
+    {
+      "label": "Application fee",
+      "value": "£490–£1,535"
+    },
+    {
+      "label": "Processing time",
+      "value": "3–12 weeks"
+    },
+    {
+      "label": "Part-time work",
+      "value": "20 hrs/week term time"
+    },
+    {
+      "label": "Post-study work",
+      "value": "2–3 yrs (Graduate Route)"
+    }
+  ],
+  "searchPlaceholder": "Search your country...",
+  "solicitorTitle": "Find Authorised Student Visa Help"
+}

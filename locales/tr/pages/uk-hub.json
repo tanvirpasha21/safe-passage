@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Birleşik Krallık Yasal Yolları — SafePassage",
+    "description": "Birleşik Krallık'a yasal yollar — iltica, vasıflı iş, eğitim, aile ve yeniden yerleşim."
+  },
+  "hero": {
+    "tag": "Birleşik Krallık · Nisan 2026 Güncellemesi",
+    "title": "<em>Birleşik Krallık'a</em> Yasal Yollar",
+    "sub": "Birleşik Krallık yaşamak, çalışmak, okumak ve koruma aramak için birden fazla yasal yol sunmaktadır. Bu sayfadaki her yol onaylı, güvenli ve tehlikeli geçişler gerektirmez."
+  },
+  "cards": [
+    {
+      "icon": "🏛️",
+      "tag": "KORUMA",
+      "name": "İltica",
+      "desc": "Zulüm veya savaştan kaçıyorsanız, Birleşik Krallık'ta iltica talebinde bulunma yasal hakkınız var. Süreç ücretsiz ve uluslararası hukuk tarafından korunmaktadır.",
+      "href": "/pathways/uk/asylum",
+      "cta": "Tam İltica Rehberi →"
+    },
+    {
+      "icon": "💼",
+      "tag": "ÇALIŞMA",
+      "name": "Vasıflı İşçi Vizesi",
+      "desc": "Birleşik Krallık sağlık, teknoloji ve mühendislikte aktif olarak vasıflı profesyoneller arıyor. Lisanslı bir Birleşik Krallık işvereninden iş teklifi temel gerekliliktir.",
+      "href": "/pathways/uk/skilled-worker",
+      "cta": "Tam Vasıflı İşçi Rehberi →"
+    },
+    {
+      "icon": "🎓",
+      "tag": "EĞİTİM",
+      "name": "Öğrenci Vizesi",
+      "desc": "Birleşik Krallık üniversitesi veya kolejine kabul edildiyseniz? Öğrenci vizesiyle yasal olarak girebilir, yarı zamanlı çalışabilir ve mezun olduktan sonra 2–3 yıl kalabilirsiniz.",
+      "href": "/pathways/uk/student",
+      "cta": "Tam Öğrenci Vizesi Rehberi →"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "tag": "AİLE",
+      "name": "Aile Vizesi",
+      "desc": "Yakın bir aile üyeniz İngiliz vatandaşıysa veya Birleşik Krallık'ta oturma iznine sahipse, aile yeniden birleşimi yoluyla yasal olarak onlara katılabilirsiniz.",
+      "href": "/pathways/uk/family",
+      "cta": "Tam Aile Vizesi Rehberi →"
+    },
+    {
+      "icon": "✈️",
+      "tag": "YENİDEN YERLEŞİM",
+      "name": "Yeniden Yerleşim Programları",
+      "desc": "Birleşik Krallık en savunmasız mülteciler için resmi yeniden yerleşim programları yürütmektedir — UKRS, ACRS, ARAP. Bunlar insanları uçakla, güvenli bir şekilde, ücretsiz olarak getirir.",
+      "href": "/pathways/uk/resettlement",
+      "cta": "Tam Yeniden Yerleşim Rehberi →"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "İngiltere Öğrenci Vizesi 2026 — Ülke Bazında Rehber",
+    "description": "İngiltere öğrenci vizesi için ülkeye özel ret oranları, Nisan 2026 UKVI güncellemeleri ve burs bilgileri içeren etkileşimli rehber."
+  },
+  "hero": {
+    "tag": "Eğitim Bazlı · Nisan 2026 Güncellemesi",
+    "title": "İngiltere <em>Öğrenci</em> Vizesi",
+    "sub": "İngiltere öğrenci vizesi, Birleşik Krallığa en erişilebilir yasal yollardan biridir. Ülkenizi aşağıda aratın ve başarılı başvuru için özel durumunuzu öğrenin."
+  },
+  "facts": [
+    {
+      "label": "Başvuru ücreti",
+      "value": "£490–£1,535"
+    },
+    {
+      "label": "İşlem süresi",
+      "value": "3–12 hafta"
+    },
+    {
+      "label": "Yarı zamanlı çalışma",
+      "value": "Haftada 20 saat (dönem içi)"
+    },
+    {
+      "label": "Mezuniyet sonrası çalışma",
+      "value": "2–3 yıl (Mezun Rotası)"
+    }
+  ],
+  "searchPlaceholder": "Ülkenizi arayın...",
+  "solicitorTitle": "Öğrenci Vizesi için Yetkili Hukuki Yardım Bulun"
+}

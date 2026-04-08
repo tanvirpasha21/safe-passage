@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/ComeHome.module.css';
+import { getPageTranslations } from '../lib/i18n';
 
 const COUNTRY_OPPORTUNITIES = [
   {
@@ -143,12 +144,12 @@ const REALITY_CHECKS = [
   },
 ];
 
-export default function ComeHome() {
+export default function ComeHome({ pt }) {
   return (
     <>
       <Head>
-        <title>Come Home — What Your Money Actually Buys | SafePassage</title>
-        <meta name="description" content="Before spending £10,000–£30,000 on an irregular migration attempt, see what that money actually builds at home — and the reality of life in the UK that nobody shows you." />
+        <title>{pt.meta.title} | SafePassage</title>
+        <meta name="description" content={pt.meta.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -168,15 +169,9 @@ export default function ComeHome() {
         <section className={styles.hero}>
           <div className={styles.heroBg} />
           <div className={styles.heroInner}>
-            <div className={styles.heroTag}>A Message Worth Reading Before You Decide</div>
-            <h1 className={styles.heroTitle}>
-              What your money actually<br /><em>builds at home</em>
-            </h1>
-            <p className={styles.heroSub}>
-              The money families spend on smugglers — £5,000 to £30,000 — could buy a house,
-              start a business, or fund a family for years in the countries people are leaving.
-              This page shows you the numbers honestly.
-            </p>
+            <div className={styles.heroTag}>{pt.heroTag}</div>
+            <h1 className={styles.heroTitle} dangerouslySetInnerHTML={{ __html: pt.heroTitle }} />
+            <p className={styles.heroSub}>{pt.heroSub}</p>
             <div className={styles.heroCtas}>
               <a href="#money" className={styles.ctaBtn}>See the comparison →</a>
               <a href="#reality" className={styles.ctaBtnOutline}>The UK reality</a>
@@ -188,11 +183,8 @@ export default function ComeHome() {
         <section id="money" className={styles.section}>
           <div className={styles.container}>
             <span className={styles.sectionLabel}>The Real Numbers</span>
-            <h2 className={styles.sectionTitle}>What smuggler money <em>actually buys</em></h2>
-            <p className={styles.sectionLead}>
-              These are not hypothetical figures. These are real property prices,
-              real business startup costs, and real rental costs — as of 2025/2026.
-            </p>
+            <h2 className={styles.sectionTitle} dangerouslySetInnerHTML={{ __html: pt.moneyTitle }} />
+            <p className={styles.sectionLead}>{pt.moneyLead}</p>
             <div className={styles.comparisonGrid}>
               {MONEY_COMPARISON.map((item, i) => (
                 <div key={i} className={styles.compCard}>
@@ -219,10 +211,8 @@ export default function ComeHome() {
         <section id="reality" className={styles.section + ' ' + styles.sectionDark}>
           <div className={styles.container}>
             <span className={styles.sectionLabel}>Before You Go</span>
-            <h2 className={styles.sectionTitle}>The UK myths <em>vs the reality</em></h2>
-            <p className={styles.sectionLead}>
-              These are things that people only find out after arriving — when it is too late and the money is gone.
-            </p>
+            <h2 className={styles.sectionTitle} dangerouslySetInnerHTML={{ __html: pt.mythsTitle }} />
+            <p className={styles.sectionLead}>{pt.mythsLead}</p>
             <div className={styles.mythGrid}>
               {REALITY_CHECKS.map((item, i) => (
                 <div key={i} className={styles.mythCard}>
@@ -239,11 +229,8 @@ export default function ComeHome() {
         <section id="opportunities" className={styles.section}>
           <div className={styles.container}>
             <span className={styles.sectionLabel}>Your Country Is Growing</span>
-            <h2 className={styles.sectionTitle}>What you can build <em>at home</em></h2>
-            <p className={styles.sectionLead}>
-              These countries are not the places people left 20 years ago.
-              They are growing economies with real opportunities — especially for people who return with international education or experience.
-            </p>
+            <h2 className={styles.sectionTitle} dangerouslySetInnerHTML={{ __html: pt.opportunitiesTitle }} />
+            <p className={styles.sectionLead}>{pt.opportunitiesLead}</p>
             <div className={styles.countryGrid}>
               {COUNTRY_OPPORTUNITIES.map((c, i) => (
                 <div key={i} className={styles.countryCard}>
@@ -293,12 +280,8 @@ export default function ComeHome() {
             <div className={styles.ctaBox}>
               <div className={styles.ctaBoxInner}>
                 <span className={styles.ctaIcon}>🎓</span>
-                <h2 className={styles.ctaTitle}>If you are determined to come to the UK or EU</h2>
-                <p className={styles.ctaSub}>
-                  Use the legal routes. A UK degree with the Graduate Route gives you 2–3 years of real work experience,
-                  a clean record, and the skills to return and build something that matters.
-                  A Chevening or Commonwealth scholarship costs you nothing and opens every door.
-                </p>
+                <h2 className={styles.ctaTitle}>{pt.ctaTitle}</h2>
+                <p className={styles.ctaSub}>{pt.ctaSub}</p>
                 <div className={styles.ctaBtns}>
                   <Link href="/pathways/uk/student" className={styles.ctaBtn}>UK Student Visa Guide →</Link>
                   <Link href="/pathways/uk" className={styles.ctaBtnOutline}>All UK Pathways</Link>
@@ -337,4 +320,9 @@ export default function ComeHome() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps({ locale }) {
+  const pt = getPageTranslations(locale, 'come-home');
+  return { props: { pt } };
 }

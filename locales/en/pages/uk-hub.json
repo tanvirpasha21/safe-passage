@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "UK Legal Pathways — SafePassage",
+    "description": "All legal routes to the United Kingdom — asylum, skilled work, study, family, and resettlement."
+  },
+  "hero": {
+    "tag": "United Kingdom · Updated April 2026",
+    "title": "Legal Pathways to the <em>United Kingdom</em>",
+    "sub": "The UK offers multiple legal routes to live, work, study and seek protection. Every pathway on this page is authorised, safe, and free of dangerous crossings. Choose the route that matches your situation."
+  },
+  "cards": [
+    {
+      "icon": "🏛️",
+      "tag": "PROTECTION",
+      "name": "Asylum",
+      "desc": "If you are fleeing persecution or war, you have a legal right to claim asylum in the UK. The process is free and protected by international law.",
+      "href": "/pathways/uk/asylum",
+      "cta": "Full Asylum Guide →"
+    },
+    {
+      "icon": "💼",
+      "tag": "WORK",
+      "name": "Skilled Worker Visa",
+      "desc": "The UK actively recruits skilled professionals in healthcare, tech, engineering, and more. A job offer from a licensed UK employer is the key requirement.",
+      "href": "/pathways/uk/skilled-worker",
+      "cta": "Full Skilled Worker Guide →"
+    },
+    {
+      "icon": "🎓",
+      "tag": "EDUCATION",
+      "name": "Student Visa",
+      "desc": "Accepted to a UK university or college? You can enter legally on a student visa with the right to work part-time and stay 2–3 years after graduation.",
+      "href": "/pathways/uk/student",
+      "cta": "Full Student Visa Guide →"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "tag": "FAMILY",
+      "name": "Family Visa",
+      "desc": "If a close family member is a British citizen or has leave to remain in the UK, you may be able to join them legally through family reunification.",
+      "href": "/pathways/uk/family",
+      "cta": "Full Family Visa Guide →"
+    },
+    {
+      "icon": "✈️",
+      "tag": "RESETTLEMENT",
+      "name": "Resettlement Schemes",
+      "desc": "The UK runs official resettlement programmes for the most vulnerable refugees — UKRS, ACRS, ARAP, and Homes for Ukraine. These bring people to the UK safely, on a plane, for free.",
+      "href": "/pathways/uk/resettlement",
+      "cta": "Full Resettlement Guide →"
+    }
+  ]
+}

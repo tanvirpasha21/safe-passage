@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Voies légales au Royaume-Uni — SafePassage",
+    "description": "Toutes les voies légales vers le Royaume-Uni."
+  },
+  "hero": {
+    "tag": "Royaume-Uni · Mis à jour avril 2026",
+    "title": "Voies légales vers le <em>Royaume-Uni</em>",
+    "sub": "Le Royaume-Uni offre plusieurs voies légales pour vivre, travailler, étudier et demander protection. Chaque voie sur cette page est autorisée, sûre et sans traversées dangereuses."
+  },
+  "cards": [
+    {
+      "icon": "🏛️",
+      "tag": "PROTECTION",
+      "name": "Asile",
+      "desc": "Si vous fuyez la persécution ou la guerre, vous avez le droit légal de demander l'asile au Royaume-Uni. La procédure est gratuite et protégée par le droit international.",
+      "href": "/pathways/uk/asylum",
+      "cta": "Guide complet de l'asile →"
+    },
+    {
+      "icon": "💼",
+      "tag": "TRAVAIL",
+      "name": "Visa Travailleur Qualifié",
+      "desc": "Le Royaume-Uni recrute activement des professionnels qualifiés dans la santé, la tech, l'ingénierie. Une offre d'emploi d'un employeur britannique agréé est la condition principale.",
+      "href": "/pathways/uk/skilled-worker",
+      "cta": "Guide complet travailleur qualifié →"
+    },
+    {
+      "icon": "🎓",
+      "tag": "ÉDUCATION",
+      "name": "Visa Étudiant",
+      "desc": "Admis dans une université ou un collège britannique ? Vous pouvez entrer légalement avec un visa étudiant, travailler à temps partiel et rester 2–3 ans après l'obtention de votre diplôme.",
+      "href": "/pathways/uk/student",
+      "cta": "Guide complet visa étudiant →"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "tag": "FAMILLE",
+      "name": "Visa Famille",
+      "desc": "Si un proche est citoyen britannique ou a un titre de séjour au Royaume-Uni, vous pourriez le rejoindre légalement par le regroupement familial.",
+      "href": "/pathways/uk/family",
+      "cta": "Guide complet visa famille →"
+    },
+    {
+      "icon": "✈️",
+      "tag": "RÉINSTALLATION",
+      "name": "Programmes de réinstallation",
+      "desc": "Le Royaume-Uni gère des programmes officiels de réinstallation pour les réfugiés les plus vulnérables — UKRS, ACRS, ARAP. Ces programmes amènent des personnes au Royaume-Uni en toute sécurité, en avion, gratuitement.",
+      "href": "/pathways/uk/resettlement",
+      "cta": "Guide complet réinstallation →"
+    }
+  ]
+}

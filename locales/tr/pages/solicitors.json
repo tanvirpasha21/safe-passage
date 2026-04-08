@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Yetkili Göçmenlik Hukuki Yardımı Bulun — SafePassage",
+    "description": "İltica, iş, öğrenci, aile ve insani yardım vizeleri için düzenlenmiş avukatlar ve ücretsiz hukuki yardım kuruluşları bulun."
+  },
+  "pageTitle": "Yetkili Hukuki Yardım Bulun",
+  "pageSubtitle": "Burada gösterilen tüm danışmanlar SRA veya OISC tarafından düzenlenmektedir ya da kayıtlı vakıftır. Hiçbir zaman düzensiz göçmenlik danışmanı kullanmayın.",
+  "filterTitle": "Dava türüne göre filtrele",
+  "filterRegion": "Bölge",
+  "filterCost": "Maliyet",
+  "allTypes": "Tüm türler",
+  "allRegions": "Tüm bölgeler",
+  "allCosts": "Tüm maliyetler",
+  "resultsFree": "Ücretsiz ve Hayır Amaçlı Yardım",
+  "resultsSearch": "Avukat Arama Aracı",
+  "noResults": "Filtrelerinizle eşleşen danışman yok. Aramanızı ayarlamayı deneyin.",
+  "badgeLegendTitle": "Rozetlerin anlamı",
+  "badges": [
+    {
+      "label": "SRA Düzenlemeli",
+      "desc": "Avukatlar Düzenleme Kurumu tarafından yetkilendirilmiş ve düzenlenmiş"
+    },
+    {
+      "label": "OISC Kayıtlı",
+      "desc": "Göçmenlik Hizmetleri Komiseri Ofisi'ne kayıtlı"
+    },
+    {
+      "label": "Kayıtlı Vakıf",
+      "desc": "Ücretsiz veya düşük maliyetli hizmetler sunan Birleşik Krallık kayıtlı vakfı"
+    },
+    {
+      "label": "Devlet destekli",
+      "desc": "Hükümet veya kamu tarafından finanse edilen kuruluş"
+    },
+    {
+      "label": "UNHCR",
+      "desc": "UNHCR onaylı veya bağlı kuruluş"
+    }
+  ],
+  "guideCtaTitle": "Önce tam rehbere ihtiyacınız var mı?",
+  "guideCtaText": "Bir avukana danışmadan önce adım adım rehberimizi okuyun.",
+  "guideCta": "Yol Rehberlerini Görüntüle →",
+  "warningTitle": "Uyarı — Düzensiz danışmanlar",
+  "warningText": "Düzensiz göçmenlik danışmanı kullanmak yasadışı ve tehlikelidir. Herhangi bir para ödemeden önce danışmanın SRA veya OISC kaydında olduğunu kontrol edin."
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "UK Family Visa — Reunification Guide",
+    "description": "How to join family in the UK legally — spouse visa, parent visa, child visa, and refugee family reunion."
+  },
+  "hero": {
+    "tag": "Family-Based · Updated April 2026",
+    "title": "UK <em>Family Visa</em>",
+    "sub": "If you have a close family member who is a British citizen, has settled status, or has leave to remain in the UK — you may be able to join them legally. Family visas keep families together safely, without dangerous crossings."
+  },
+  "facts": [
+    {
+      "label": "Visa fee",
+      "value": "£1,846–£3,250"
+    },
+    {
+      "label": "Processing time",
+      "value": "12–24 weeks"
+    },
+    {
+      "label": "Refugee reunion",
+      "value": "Free"
+    },
+    {
+      "label": "Path to settlement",
+      "value": "5 years"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "Refugee family reunion is completely free. If you are a recognised refugee in the UK, you can bring your spouse and children under 18 to the UK at no cost. This is a legal right."
+  },
+  "typesTitle": "Types of Family Visa",
+  "types": [
+    {
+      "icon": "💍",
+      "name": "Spouse / Partner Visa",
+      "desc": "For the husband, wife, or unmarried partner of a British citizen or settled person. Requires a minimum income of £29,000/year (rising to £38,700 by late 2025)."
+    },
+    {
+      "icon": "👧",
+      "name": "Child Visa",
+      "desc": "For children under 18 whose parent is a British citizen or has leave to remain. The child must not be leading an independent life."
+    },
+    {
+      "icon": "👴",
+      "name": "Parent / Adult Dependant",
+      "desc": "For elderly parents who are dependent on a child in the UK. Requires the UK sponsor to be British or have settled status."
+    },
+    {
+      "icon": "🤝",
+      "name": "Refugee Family Reunion (Free)",
+      "desc": "For the spouse and children of a person granted refugee status or humanitarian protection in the UK. This route is completely free of visa fees."
+    }
+  ],
+  "reqTitle": "General requirements",
+  "requirements": [
+    "Your UK family member (sponsor) is a British citizen, has settled status, or has valid leave to remain.",
+    "You are in a genuine and subsisting relationship (for spouse/partner visas).",
+    "The sponsor earns at least £29,000/year gross (income threshold — rising to £38,700 by late 2025).",
+    "You meet the English language requirement (B1 level — exemptions apply for over-65s).",
+    "Adequate accommodation available in the UK that is not overcrowded.",
+    "For refugee reunion: your sponsor has refugee status or humanitarian protection granted in the UK."
+  ],
+  "stepsTitle": "How to apply",
+  "steps": [
+    {
+      "title": "Check which visa category applies",
+      "desc": "Spouse, child, parent, or refugee reunion. The requirements differ significantly. Get free advice from a charity such as JCWI or Reunite if you are unsure."
+    },
+    {
+      "title": "Gather financial evidence",
+      "desc": "For spouse/partner visas, the UK sponsor must show earnings of £29,000+/year. Bank statements, payslips, and employment contracts are required. Savings can also contribute."
+    },
+    {
+      "title": "Apply online",
+      "desc": "Apply on gov.uk. Pay the visa fee (unless applying for refugee reunion, which is free). Complete the online form carefully — errors can cause delays."
+    },
+    {
+      "title": "Attend biometric appointment",
+      "desc": "Book at a UK Visa Application Centre in your country. Bring your passport and all supporting documents."
+    },
+    {
+      "title": "Await decision",
+      "desc": "Processing typically takes 12–24 weeks, but can be longer for complex cases. Do not book non-refundable travel until you have a visa decision."
+    },
+    {
+      "title": "Enter the UK and build your life",
+      "desc": "Your initial visa is valid for 2.5 years. After 5 years total, you can apply for Indefinite Leave to Remain (permanent residence)."
+    }
+  ],
+  "changesTitle": "Key changes 2024–2026",
+  "changes": [
+    {
+      "date": "April 2024",
+      "title": "Income threshold raised to £29,000",
+      "desc": "The minimum income requirement for spouse visas was raised from £18,600 to £29,000. It will rise to £38,700 by late 2025. This has prevented many families from reuniting."
+    },
+    {
+      "date": "2024 onwards",
+      "title": "Refugee reunion — unchanged and free",
+      "desc": "The refugee family reunion route remains free and accessible for recognised refugees. Legal aid is available for this route through organisations like Refugee Action."
+    }
+  ],
+  "warning": "Income thresholds are strictly enforced. If the UK sponsor does not earn enough, the visa will be refused even if the relationship is genuine. Get legal advice before applying if you are close to the threshold.",
+  "solicitorTitle": "Find Authorised Family Visa Help"
+}

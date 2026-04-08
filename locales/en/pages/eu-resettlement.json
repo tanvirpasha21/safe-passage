@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "EU Resettlement Programmes 2026",
+    "description": "Official EU and member state resettlement programmes that bring vulnerable refugees safely to Europe — through UNHCR referral."
+  },
+  "hero": {
+    "tag": "Humanitarian · EU · Updated April 2026",
+    "title": "EU <em>Resettlement</em> Programmes",
+    "sub": "The European Union and its member states run official resettlement programmes that bring the world's most vulnerable refugees directly to Europe — safely, legally, on a plane. You do not need to pay a smuggler. You do not need to cross the Mediterranean. Register with UNHCR where you are."
+  },
+  "facts": [
+    {
+      "label": "Cost",
+      "value": "Completely free"
+    },
+    {
+      "label": "Referred by",
+      "value": "UNHCR only"
+    },
+    {
+      "label": "Eligibility",
+      "value": "Most vulnerable first"
+    },
+    {
+      "label": "Arrival support",
+      "value": "Full integration package"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "EU resettlement is always completely free. If anyone asks you to pay to be considered for a resettlement programme — they are scamming you. Report them to UNHCR immediately."
+  },
+  "howTitle": "How EU resettlement works",
+  "steps": [
+    {
+      "title": "Register with UNHCR",
+      "desc": "Register with UNHCR at the nearest office in your country of refuge. This is free and essential. Bring any documents you have — but lack of documents does not disqualify you."
+    },
+    {
+      "title": "UNHCR assessment",
+      "desc": "UNHCR assesses your situation and identifies whether you have protection needs, vulnerabilities, and resettlement prospects. This process can take 1–3 years."
+    },
+    {
+      "title": "UNHCR referral to EU country",
+      "desc": "UNHCR refers your case to an EU member state that has pledged resettlement places. You cannot choose which country — UNHCR and the member state decide based on fit and available places."
+    },
+    {
+      "title": "EU country processing",
+      "desc": "The EU country conducts its own security and health checks, interviews, and approvals. This takes several months to over a year after referral."
+    },
+    {
+      "title": "Travel to Europe",
+      "desc": "Once approved, travel is arranged and paid for by IOM or the receiving country. You arrive with refugee status, housing provided, and an integration support package."
+    }
+  ],
+  "note": "UNHCR refers only the most vulnerable. Resettlement is not available to everyone — it is a lifeline for those facing the most serious protection threats. If you are in a safe country with basic stability, focus on legal economic migration or education routes instead.",
+  "solicitorTitle": "Find Help for EU Resettlement"
+}

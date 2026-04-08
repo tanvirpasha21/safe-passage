@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "EU Legal Pathways — SafePassage",
+    "description": "All legal routes into the European Union — asylum, blue card, study, family, humanitarian visa, and resettlement."
+  },
+  "hero": {
+    "tag": "European Union · Updated April 2026",
+    "title": "Legal Pathways to <em>Europe</em>",
+    "sub": "The European Union and its member states offer multiple legal routes to live, work, study and seek protection — without risking your life at sea. Choose the route that matches your situation."
+  },
+  "cards": [
+    {
+      "icon": "🏛️",
+      "tag": "PROTECTION",
+      "name": "EU Asylum",
+      "desc": "Every EU member state is bound by the 1951 Refugee Convention. You can claim asylum in any EU country where you are present. The process is free.",
+      "href": "/pathways/eu/asylum",
+      "cta": "Full EU Asylum Guide →"
+    },
+    {
+      "icon": "💙",
+      "tag": "WORK",
+      "name": "EU Blue Card",
+      "desc": "The EU Blue Card is the main work visa for skilled professionals. It offers high salary rights, family reunification, and a path to permanent residence.",
+      "href": "/pathways/eu/blue-card",
+      "cta": "Full Blue Card Guide →"
+    },
+    {
+      "icon": "🎓",
+      "tag": "EDUCATION",
+      "name": "Study in Europe",
+      "desc": "Many EU universities charge little or no tuition — including in Germany, Norway, and Finland. Scholarships from DAAD and Erasmus+ are available.",
+      "href": "/pathways/eu/student",
+      "cta": "Full EU Study Guide →"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "tag": "FAMILY",
+      "name": "Family Reunification",
+      "desc": "If a close family member has legal status in an EU country, you can apply to join them through EU Family Reunification Directive rights.",
+      "href": "/pathways/eu/family",
+      "cta": "Full Family Guide →"
+    },
+    {
+      "icon": "✈️",
+      "tag": "RESETTLEMENT",
+      "name": "EU Resettlement",
+      "desc": "The EU and member states run resettlement programmes working with UNHCR to bring vulnerable refugees to Europe safely and legally.",
+      "href": "/pathways/eu/resettlement",
+      "cta": "Full Resettlement Guide →"
+    },
+    {
+      "icon": "🤝",
+      "tag": "HUMANITARIAN",
+      "name": "Humanitarian Visa",
+      "desc": "Some EU countries issue humanitarian visas at embassies, allowing legal entry and an asylum application on arrival — without dangerous crossings.",
+      "href": "/pathways/eu/humanitarian",
+      "cta": "Full Humanitarian Visa Guide →"
+    }
+  ]
+}

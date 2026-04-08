@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "EU Family Reunification Guide",
+    "description": "How to join family legally in an EU country — EU Family Reunification Directive rights, requirements, and process."
+  },
+  "hero": {
+    "tag": "Family-Based · EU · Updated April 2026",
+    "title": "EU <em>Family Reunification</em>",
+    "sub": "If you have a close family member who is an EU citizen or has legal residence in an EU country, you may be able to join them through the EU Family Reunification Directive. This keeps families together legally, safely, without dangerous crossings."
+  },
+  "facts": [
+    {
+      "label": "Legal basis",
+      "value": "EU Directive 2003/86/EC"
+    },
+    {
+      "label": "Who applies",
+      "value": "Spouse, children, dependants"
+    },
+    {
+      "label": "Processing time",
+      "value": "6–9 months"
+    },
+    {
+      "label": "Refugee reunion",
+      "value": "Free & faster"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "Family reunification is a legal right under EU law. Even if you entered the EU irregularly, if your close family member has legal status, you can regularise your situation through this route. Always get legal advice first."
+  },
+  "typesTitle": "Who can apply",
+  "types": [
+    {
+      "icon": "💍",
+      "name": "Spouse / Registered Partner",
+      "desc": "The husband, wife, or registered partner of an EU resident. Most EU countries require at least 2 years of legal residency by the sponsor before applying."
+    },
+    {
+      "icon": "👧",
+      "name": "Dependent Children",
+      "desc": "Unmarried children under 18 of the sponsor or their spouse. Children over 12 may face additional integration requirements in some countries."
+    },
+    {
+      "icon": "👴",
+      "name": "Dependent Parents",
+      "desc": "Parents who are dependent on the sponsor. Requirements vary significantly by country — typically requires proof of dependency and that the parent cannot be supported in their home country."
+    },
+    {
+      "icon": "🤝",
+      "name": "Refugee Family Reunion (Faster)",
+      "desc": "If the sponsor is a recognised refugee, the process is faster and requirements are reduced. Some EU countries waive income requirements for refugee family reunion."
+    }
+  ],
+  "reqTitle": "General requirements",
+  "requirements": [
+    "The EU sponsor has legal and stable residence (usually a permit of at least 1 year and reasonable prospect of permanent residence).",
+    "The sponsor has adequate housing — not overcrowded.",
+    "The sponsor has sufficient income to support the family (varies by country — typically above social assistance level).",
+    "Health insurance covering the family member applying.",
+    "No threat to public policy or public security."
+  ],
+  "stepsTitle": "How to apply",
+  "steps": [
+    {
+      "title": "Check the rules in the specific EU country",
+      "desc": "Rules vary significantly by country. Germany, France, Netherlands, and Sweden all have different income thresholds, waiting periods, and language requirements."
+    },
+    {
+      "title": "The EU sponsor applies in their country of residence",
+      "desc": "The family member already in the EU applies to the local immigration authority on behalf of the family member abroad."
+    },
+    {
+      "title": "The applicant applies at the embassy",
+      "desc": "Once approved in principle, the family member abroad applies for a family reunion visa at the relevant EU embassy in their home country."
+    },
+    {
+      "title": "Integration requirements",
+      "desc": "Many EU countries require a basic language test before entry (Germany, Netherlands, France). Some offer waivers for refugees, elderly, or those with severe disability."
+    },
+    {
+      "title": "Arrive and settle",
+      "desc": "After approval, you enter with a temporary residence permit. After several years, you can apply for a permanent residence permit and eventually citizenship."
+    }
+  ],
+  "solicitorTitle": "Find EU Family Visa Legal Help"
+}

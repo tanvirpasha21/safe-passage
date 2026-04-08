@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Wadooyinka Sharciga ah ee UK — SafePassage",
+    "description": "Dhammaan wadooyinka sharciga ah ee Boqortooyada Ingiriiska."
+  },
+  "hero": {
+    "tag": "Boqortooyada Ingiriiska · La cusboonaysiiyay Abriil 2026",
+    "title": "Wadooyinka Sharciga ah ee <em>Boqortooyada Ingiriiska</em>",
+    "sub": "UK waxay bixisaa wadooyin sharci ah oo badan oo loogu talagalay nolol, shaqo, waxbarasho iyo raadinta ximaayadda. Wadooyin kasta oo ku jira boggan waa la ansixiyay, ammaan, hana ku jirin gudbintii khatar lahayd."
+  },
+  "cards": [
+    {
+      "icon": "🏛️",
+      "tag": "XIMAAYADDA",
+      "name": "Magan Gelinta",
+      "desc": "Haddaad ka carareyso cadaadiska ama dagaalka, waxaad leedahay xaq sharci ah oo magan gelin UK ah. Habka waa bilaash oo waxaa ilaaliya sharciga caalamiga ah.",
+      "href": "/pathways/uk/asylum",
+      "cta": "Hagaha Dhamaystiran ee Magan Gelinta →"
+    },
+    {
+      "icon": "💼",
+      "tag": "SHAQO",
+      "name": "Viisada Shaqaale Xirfadlaha",
+      "desc": "UK si firfircoon ayey u raadisaa xirfadlayaasha dheeriga ah ee xirfadda caafimaadka, teknoolojiyada, injineernimada. Dalabka shaqada ee shirkad UK oo rukhsada leh ayaa ah shuruudda ugu muhiimsan.",
+      "href": "/pathways/uk/skilled-worker",
+      "cta": "Hagaha Dhamaystiran ee Shaqaale Xirfadlaha →"
+    },
+    {
+      "icon": "🎓",
+      "tag": "WAXBARASHO",
+      "name": "Viisada Ardayga",
+      "desc": "Ma jaamacad UK ah lagu qabtay? Waxaad si sharci ah ugu soo galeen viisad ardayga, ka shaqeyso waqti gaaban, oo 2–3 sano ka dib graduation ku sii joogto.",
+      "href": "/pathways/uk/student",
+      "cta": "Hagaha Dhamaystiran ee Viisada Ardayga →"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "tag": "QOYSKA",
+      "name": "Viisada Qoyska",
+      "desc": "Haddii xubin qoyska ah oo dhow yahay muwaadin Ingiriis ah ama haysto rukhsad joogto ah UK, waad u qalmi kartaa inaad si sharci ah ugu biirto.",
+      "href": "/pathways/uk/family",
+      "cta": "Hagaha Dhamaystiran ee Viisada Qoyska →"
+    },
+    {
+      "icon": "✈️",
+      "tag": "DIIWAANGELINTA DUSHOOW",
+      "name": "Barnaamijyada Dib-u-dejinta",
+      "desc": "UK waxay maamusho barnaamijyo rasmiyeed oo dib-u-dejin ee qaxootiga ugu nugul — UKRS, ACRS, ARAP. Kuwani waxay dadka u keenaan UK si ammaan ah, duullimaad, bilaash.",
+      "href": "/pathways/uk/resettlement",
+      "cta": "Hagaha Dhamaystiran ee Dib-u-dejinta →"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import PathwayPage, { SolicitorSection } from '../../../components/PathwayPage';
 import styles from '../../../styles/Pathway.module.css';
 import sStyles from '../../../styles/StudentVisa.module.css';
+import { getPageTranslations } from '../../../lib/i18n';
 
 const COUNTRY_DATA = {
   afghanistan: {
@@ -319,7 +320,7 @@ const STATUS_COLORS = {
   'suspended': '#e63946',
 };
 
-export default function UKStudent() {
+export default function UKStudent({ pt }) {
   const [search, setSearch] = useState('');
   const [selected, setSelected] = useState(null);
   const [activeTab, setActiveTab] = useState('overview');
@@ -334,25 +335,22 @@ export default function UKStudent() {
 
   return (
     <PathwayPage
-      meta={{
-        title: 'UK Student Visa 2026 — Country-by-Country Guide',
-        description: 'Interactive guide to the UK Student Visa with country-specific refusal rates, April 2026 UKVI updates, and scholarship information for Nigeria, Bangladesh, Pakistan, India, Ghana, Nepal and more.',
-      }}
+      meta={{ title: pt.meta.title, description: pt.meta.description }}
       breadcrumbs={[
         { href: '/pathways/uk', label: 'UK Pathways' },
         { href: '/pathways/uk/student', label: 'Student Visa' },
       ]}
       hero={{
         icon: '🎓',
-        tag: 'Education-Based · Updated April 2026',
-        title: 'UK <em>Student Visa</em>',
-        sub: 'A UK Student Visa is one of the most accessible and rewarding legal routes to the United Kingdom. Search your country below to see your specific situation, refusal rates, and the best strategy for a successful application.',
+        tag: pt.hero.tag,
+        title: pt.hero.title,
+        sub: pt.hero.sub,
       }}
       facts={[
-        { label: 'Application fee', value: '£490–£1,535', color: 'Warning' },
-        { label: 'Processing time', value: '3–12 weeks', color: 'Green' },
-        { label: 'Part-time work', value: '20 hrs/week term time', color: 'Green' },
-        { label: 'Post-study work', value: '2–3 yrs (Graduate Route)', color: 'Green' },
+        { label: pt.facts[0].label, value: pt.facts[0].value, color: 'Warning' },
+        { label: pt.facts[1].label, value: pt.facts[1].value, color: 'Green' },
+        { label: pt.facts[2].label, value: pt.facts[2].value, color: 'Green' },
+        { label: pt.facts[3].label, value: pt.facts[3].value, color: 'Green' },
       ]}
       sidebar={
         <>
@@ -697,8 +695,13 @@ export default function UKStudent() {
       <SolicitorSection
         caseTypeSlug="student"
         region="uk"
-        title="Get Legal Help with Your Application"
+        title={pt.solicitorTitle}
       />
     </PathwayPage>
   );
+}
+
+export async function getServerSideProps({ locale }) {
+  const pt = getPageTranslations(locale, 'uk-student');
+  return { props: { pt } };
 }

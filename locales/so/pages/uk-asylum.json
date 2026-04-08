@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Magan Gelinta UK — Sida loo Codsado",
+    "description": "Hagaha dhamaystiran ee codsashada magan gelinta UK 2025–2026."
+  },
+  "hero": {
+    "tag": "Ximaayadda · La cusboonaysiiyay Abriil 2026",
+    "title": "Codsashada <em>Magan Gelinta</em> UK",
+    "sub": "Haddaad ka carareyso cadaadiska, dagaalka, dhibaatada ama waxyeelada halis ah sababo la xiriira jinsiyadda, diinta, qaran, aragtida siyaasadda ama kooxda bulshada — waxaad leedahay xaq sharci ah oo magan gelin UK ah."
+  },
+  "facts": [
+    {
+      "label": "Kharashka",
+      "value": "Bilaash"
+    },
+    {
+      "label": "Waqtiga go'aanka",
+      "value": "6–18 bilood"
+    },
+    {
+      "label": "Heerka khatarada",
+      "value": "Hooseysa"
+    },
+    {
+      "label": "Aasaaska sharciga",
+      "value": "Heshiiska Qaxootiga 1951"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "Codsashada magan gelinta waa xaq sharci ah — ma aha dembi. UK sharciga ayaa u waajibsan inay aragto codsigaaga. Dukumentiyo kuma baahna inaad codsato magan gelinta. Cidna lacag uguma baahna. Haddii qof kuu baasho lacag \"gudbinta\" codsigaaga — waa khiyaanad."
+  },
+  "eligibilityTitle": "Cidda magan gelinta codsanaysa?",
+  "eligibility": [
+    "Waxaad ku jirtaa dibadda wadankaaga hooyo.",
+    "Kuma laabatid maxaa yeelay cadaadis aad ka baqeyso ayaad haysataa.",
+    "Cadaadiska wuxuu ku saleysan yahay jinsiga, diinta, qaran, aragtida siyaasadda ama xubnimada kooxda bulshada gaar ah.",
+    "Waxaad ku jirtaa UK ama waxaad u talagaashay inaad timaado.",
+    "Xaalad qaxooti kugu simani ma ahayn dal kale oo ammaan ah."
+  ],
+  "stepsTitle": "Sida loo codsado magan gelinta",
+  "steps": [
+    {
+      "title": "U sheeg maamulka inaad rabto magan gelinta",
+      "desc": "U sheeg sarkaal UK xadka ah markay xilligaad gaarsiisan tahay dekedda ama garoonka diyaaradaha, ama wac Wasaaradda Gudaha 0300 123 7010 haddaad horey u joogto UK. Waxaad tidhaahdaa \"Waxaan rabaa inaan codsado magan gelinta.\" Laguma qabanayaa tan awgeed."
+    },
+    {
+      "title": "Wareysiga baaris (Diwaangelinta)",
+      "desc": "Wareys gaaban oo loogu talagalay diwaangelinta macluumaadkaaga aasaasiga ah, sawirkaaga, iyo faraha cagaha. Waxaa lagaaga weyddiin doonaa sida aad UK u gasay iyo sababta aad wadankaaga ka cararay."
+    },
+    {
+      "title": "Taageerada magan gelinta & hoyga",
+      "desc": "Intay go'aanku sugeyso, Wasaaradda Gudaha waxay bixisaa hoy bilaash ah iyo £49.18/todobaad kaadhka lacag-bixinta haddaadan ku awoodi karin inaad nafta gacanta ku hayso."
+    },
+    {
+      "title": "Wareysiga magan gelinta (Wareysiga faahfaahsan)",
+      "desc": "Wareys faahfaahsan oo ka ah sababta aad ka cararay wadankaaga iyo sababta aadan u laaban karin. Wakiil sharci ayaad keeni kartaa. Turjubaan ayaad codsan kartaa."
+    },
+    {
+      "title": "Go'aanka",
+      "desc": "Go'aan qoraal ah ayaad heli doontaa — caadi ahaan 6 bilood ka dib wareysigaaga. Haddii xaalad qaxooti la siiyay, 5 sano oo rukhsad joogto ah, xaq shaqo, iyo maal-galista dawlada ayaad heli doontaa."
+    },
+    {
+      "title": "Haddii la diiday — xog",
+      "desc": "Waxaad haysataa xaq u xogista Maxkamadda Heerka Kowaad. Caawimaad sharci ka hel kahor mudada xoga (caadi ahaan 14 maalmood)."
+    }
+  ],
+  "afterTitle": "Xaaladda qaxootiga maxay kuu siinaysaa",
+  "after": [
+    "5 sano oo rukhsad joogto ah UK (la cusboonaysiyo karo).",
+    "Xaq shaqo buuxa oo ku jira qaybta kasta, shirkad kasta.",
+    "Helitaanka NHS, dugsiyada, faa'iidooyinka, iyo guri bulshada.",
+    "Xaq u safar dukumenti safar qaxooti UK.",
+    "Xaq u midowga qoyska — keenista xaaskaaga iyo caruurta.",
+    "Jid u ah rukhsad joogto ah (ILR) ka dib 5 sano, ka dib muwaanimo Ingiriis."
+  ],
+  "changesTitle": "Isbeddellada dhowaan ee magan gelinta UK (2024–2026)",
+  "changes": [
+    {
+      "date": "2025 — Qodobka Amniga Xadka, Magan Gelinta iyo Socdaalka",
+      "title": "Hababka cusub ee dib u habeynta",
+      "desc": "Qodobka 2025 wuxuu soo bandhigay tallaabooyinka loogu talagalay xasilinta xaaladaha. Dowladdu waxay ballantay inay go'aan ka gaaraan kiisaska cad ee 6 bilood."
+    },
+    {
+      "date": "2023 — Sharciga Socdaalka Sharci-Darro",
+      "title": "Qaar ahkaamta ayaa la joojiyay — dacwadaha sharciga way socdaan",
+      "desc": "Qaybaha sharciga 2023 ee joojin lahaa codsiyada magan gelinta ayaa maxkamaddu joojisay. 2026 ilaa hadda, habka caadiga ah ee magan gelinta wuu heli karaa."
+    },
+    {
+      "date": "2024 — Heer taageerada magan gelinta ayaa kordhay",
+      "title": "Bixinta taageerada todobaadlaha ayaa kordhay £49.18",
+      "desc": "Lacagta taageerada magan gelinta todobaadlaha ah waxaa laga kordhinay £47.39 ilaa £49.18 qof kasta todobaadkiiba."
+    },
+    {
+      "date": "2024 — Xaqa shaqada ma isbeddelin",
+      "title": "Waad codsanaysaa shaqo ka dib 12 bilood sugitaan",
+      "desc": "Haddii go'aankaaga magan gelinta hore uusan ku soo beerin 12 bilood aanad mas'uul ka ahayn, waad codsanaysaa rukhsadda shaqada shaqooyinka liiska ka mid ah."
+    }
+  ],
+  "warning": "Ha u bixin milicsade magan gelinta sharciga ah markay jirto. Wac Migrant Help bilaash ahaan 0808 801 0503.",
+  "solicitorTitle": "Hel Caawimaad Sharci oo Ansaxsan ee Magan Gelinta"
+}

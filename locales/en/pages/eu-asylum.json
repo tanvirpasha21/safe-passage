@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "title": "Claiming Asylum in Europe — EU Asylum Guide",
+    "description": "How to claim asylum in an EU country — CEAS, Dublin Regulation, your rights, and latest 2024 EU Pact on Migration."
+  },
+  "hero": {
+    "tag": "Protection-Based · EU · Updated April 2026",
+    "title": "Claiming <em>Asylum</em> in Europe",
+    "sub": "Every EU member state is bound by the 1951 Refugee Convention and must consider your asylum claim. The process is free. You have the right to an interpreter, legal representation, and basic support while your case is decided."
+  },
+  "facts": [
+    {
+      "label": "Cost",
+      "value": "Free"
+    },
+    {
+      "label": "Covered by",
+      "value": "All 27 EU member states"
+    },
+    {
+      "label": "EU law",
+      "value": "Common European Asylum System"
+    },
+    {
+      "label": "Processing target",
+      "value": "6 months"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "Asylum is a legal right in every EU country. You cannot be sent back to a country where you face persecution. You have the right to an interpreter throughout the process. You have the right to appeal a refusal. All of these rights are free to use."
+  },
+  "howTitle": "How EU asylum works",
+  "steps": [
+    {
+      "title": "Present yourself to authorities",
+      "desc": "Go to a police station, border post, or EUAA (EU Asylum Agency) office and say you want to claim asylum. You will not be arrested for doing this. You can also turn yourself in at a reception centre."
+    },
+    {
+      "title": "Registration and fingerprinting (Eurodac)",
+      "desc": "Your fingerprints are taken and registered in the Eurodac database. This is used to determine which EU country is responsible for your claim under the Dublin Regulation."
+    },
+    {
+      "title": "Dublin Regulation — which country processes you?",
+      "desc": "The Dublin Regulation determines which EU country is responsible for your claim — usually the first EU country you entered. If you have family legally in another EU country, you may be able to transfer there."
+    },
+    {
+      "title": "Asylum interview",
+      "desc": "A detailed interview about why you left your country and why you cannot return. You have the right to an interpreter. You have the right to a lawyer. Be honest and detailed."
+    },
+    {
+      "title": "Decision",
+      "desc": "Most EU countries aim to decide within 6 months. If granted, you typically receive 3–5 years of refugee status or subsidiary protection, with the right to work and access services."
+    },
+    {
+      "title": "Appeal if refused",
+      "desc": "All EU countries must provide an appeals process. You typically have 15–30 days to appeal. Get legal help immediately — free legal aid is available in most EU countries for asylum appeals."
+    }
+  ],
+  "rightsTitle": "Your rights as an asylum seeker in the EU",
+  "rights": [
+    "Free accommodation and food while your claim is processed.",
+    "Free interpreter for all interviews and legal proceedings.",
+    "Access to emergency healthcare.",
+    "Right to legal advice and representation (free legal aid available).",
+    "Right to receive a decision in writing with reasons.",
+    "Right to appeal a negative decision.",
+    "Children have the right to attend school."
+  ],
+  "changesTitle": "2024 EU Pact on Migration — What changed",
+  "changes": [
+    {
+      "date": "June 2024 — EU Pact on Migration and Asylum",
+      "title": "New rules agreed by all EU member states",
+      "desc": "The EU Pact on Migration introduces faster border procedures (12 weeks for nationals from countries with <20% recognition rate), mandatory solidarity between member states, and a new crisis mechanism. Rights to appeal are maintained."
+    },
+    {
+      "date": "2024",
+      "title": "Mandatory border screening (new)",
+      "title2": "7-day screening at external borders",
+      "desc": "New mandatory 7-day screening process at EU external borders for all irregular arrivals before formal asylum registration. Health checks, identity checks, security screening."
+    }
+  ],
+  "warning": "Do not pay smugglers. EU asylum is free. Every year thousands die crossing the Mediterranean when they had the right to walk into a police station and claim asylum legally.",
+  "solicitorTitle": "Find Legal Help for EU Asylum"
+}

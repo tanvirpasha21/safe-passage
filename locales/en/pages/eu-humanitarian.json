@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Humanitarian Visa to Europe — Legal Entry for Protection",
+    "description": "How to apply for a humanitarian visa at a European embassy to enter legally and claim asylum on arrival — without crossing the Mediterranean."
+  },
+  "hero": {
+    "tag": "Humanitarian · EU · Updated April 2026",
+    "title": "EU <em>Humanitarian Visa</em>",
+    "sub": "Some EU countries issue humanitarian visas at their embassies, allowing you to travel legally to Europe and claim asylum on arrival — completely avoiding dangerous sea or land crossings. This route is underused and potentially life-saving."
+  },
+  "facts": [
+    {
+      "label": "Cost",
+      "value": "Free or low cost"
+    },
+    {
+      "label": "Risk level",
+      "value": "Very Low — fly safely"
+    },
+    {
+      "label": "Countries",
+      "value": "Portugal, Spain, others"
+    },
+    {
+      "label": "Apply at",
+      "value": "EU embassy in your country"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "A humanitarian visa lets you arrive by plane instead of on a boat. You apply at the embassy in your home country or a third country, and if successful, you fly to Europe legally. This is not widely known — but it is a real option that has saved lives."
+  },
+  "whatTitle": "What is a humanitarian visa?",
+  "what": "Under Article 25 of the EU Visa Code, EU member states can issue a \"Limited Territorial Validity\" (LTV) visa on humanitarian grounds — even when the normal Schengen visa requirements are not met. This allows people facing persecution to travel legally to the issuing country and apply for asylum on arrival.",
+  "stepsTitle": "How to apply",
+  "steps": [
+    {
+      "title": "Contact the EU embassy in your current country",
+      "desc": "Go to or contact the embassy of Portugal, Spain, France, or another EU country where you wish to seek protection. Explain your situation and ask about humanitarian visa possibilities."
+    },
+    {
+      "title": "Prepare your evidence",
+      "desc": "Document your protection needs clearly: evidence of persecution, threats, medical needs, or extreme vulnerability. Police reports, medical records, witness statements, news coverage of your situation."
+    },
+    {
+      "title": "Submit your application",
+      "desc": "The embassy will assess your application under Article 25 of the EU Visa Code or national humanitarian provisions. There is no fixed timeline — some decisions come in weeks, others months."
+    },
+    {
+      "title": "Travel to Europe legally",
+      "desc": "If granted a humanitarian visa, you travel by plane to the issuing EU country. On arrival, you claim asylum in person. Your legal entry significantly strengthens your asylum case."
+    },
+    {
+      "title": "Claim asylum on arrival",
+      "desc": "At the airport or at a registration office, present yourself and claim asylum. Your humanitarian visa entry is documented — this helps your case. You will be registered and provided with support."
+    }
+  ],
+  "countriesTitle": "Which EU countries use this route?",
+  "countries": [
+    {
+      "name": "Portugal 🇵🇹",
+      "detail": "Has used Article 25 LTV visas and national humanitarian visa provisions. Portugal's constitution explicitly protects the right to asylum. Known for a relatively accessible humanitarian visa process."
+    },
+    {
+      "name": "Spain 🇪🇸",
+      "detail": "Offers humanitarian visa provisions under Spanish immigration law. Spanish embassies in conflict-affected countries have issued humanitarian visas. CEAR (Spanish Refugee Council) can advise."
+    },
+    {
+      "name": "France 🇫🇷",
+      "detail": "Has issued humanitarian visas under Article 25 in specific cases, particularly for persecuted minorities and those with documented threats. OFPRA and La Cimade can advise."
+    }
+  ],
+  "warning": "Embassies are not obligated to grant humanitarian visas — they are discretionary. This route requires compelling, documented evidence of protection need. Get legal advice before applying. ECRE and national refugee councils can help.",
+  "solicitorTitle": "Find EU Humanitarian Visa Help"
+}

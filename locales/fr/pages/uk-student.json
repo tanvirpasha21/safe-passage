@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Visa Étudiant au Royaume-Uni 2026 — Guide par Pays",
+    "description": "Guide interactif du visa étudiant britannique avec les taux de refus par pays, les mises à jour UKVI d'avril 2026 et les bourses disponibles."
+  },
+  "hero": {
+    "tag": "Basé sur l'éducation · Mis à jour avril 2026",
+    "title": "Visa <em>Étudiant</em> au Royaume-Uni",
+    "sub": "Le visa étudiant britannique est l'une des voies légales les plus accessibles vers le Royaume-Uni. Recherchez votre pays ci-dessous pour voir votre situation spécifique, les taux de refus et la meilleure stratégie."
+  },
+  "facts": [
+    {
+      "label": "Frais de dossier",
+      "value": "£490–£1,535"
+    },
+    {
+      "label": "Délai de traitement",
+      "value": "3–12 semaines"
+    },
+    {
+      "label": "Travail à temps partiel",
+      "value": "20h/semaine (pendant les cours)"
+    },
+    {
+      "label": "Travail post-études",
+      "value": "2–3 ans (Graduate Route)"
+    }
+  ],
+  "searchPlaceholder": "Rechercher votre pays...",
+  "solicitorTitle": "Trouver une aide juridique autorisée pour votre visa étudiant"
+}

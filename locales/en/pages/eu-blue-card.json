@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "EU Blue Card 2025–2026 — Skilled Worker Visa for Europe",
+    "description": "Full guide to the EU Blue Card — the main skilled worker visa for the European Union. Salary requirements, how to apply, and which countries offer it."
+  },
+  "hero": {
+    "tag": "Work-Based · EU · Updated April 2026",
+    "title": "EU <em>Blue Card</em>",
+    "sub": "The EU Blue Card is the main skilled worker visa for the European Union. It allows highly qualified professionals to live and work in EU member states with strong rights, family reunification, and a fast path to permanent residence."
+  },
+  "facts": [
+    {
+      "label": "Salary threshold",
+      "value": "1.5x avg. salary"
+    },
+    {
+      "label": "Duration",
+      "value": "1–4 years (renewable)"
+    },
+    {
+      "label": "Processing time",
+      "value": "30–90 days"
+    },
+    {
+      "label": "Family rights",
+      "value": "Included"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "The EU Blue Card gives you real rights from day one. You can bring your family, access healthcare and education, and after 18 months in one EU country, you can move to another EU member state. It is a genuine path to building a life in Europe legally."
+  },
+  "reqTitle": "Requirements",
+  "requirements": [
+    "A higher education degree (Bachelor's or higher) or — in some countries — 5 years of recognised professional experience.",
+    "A valid job offer or employment contract in an EU member state.",
+    "Salary at or above the Blue Card threshold (typically 1.5x the average national salary — varies by country).",
+    "The job must be in a regulated or high-skilled occupation."
+  ],
+  "salaryTitle": "Country salary thresholds (approximate 2025)",
+  "salaries": [
+    {
+      "country": "Germany",
+      "threshold": "€43,992/year",
+      "note": "Lower for shortage occupations: €39,682"
+    },
+    {
+      "country": "France",
+      "threshold": "€43,368/year",
+      "note": ""
+    },
+    {
+      "country": "Netherlands",
+      "threshold": "€46,107/year",
+      "note": ""
+    },
+    {
+      "country": "Belgium",
+      "threshold": "€37,240/year",
+      "note": ""
+    },
+    {
+      "country": "Sweden",
+      "threshold": "No fixed threshold",
+      "note": "Must be higher than Swedish average wage"
+    },
+    {
+      "country": "Poland",
+      "threshold": "€18,000/year",
+      "note": "Lower cost-of-living country"
+    }
+  ],
+  "stepsTitle": "How to apply",
+  "steps": [
+    {
+      "title": "Find an EU employer willing to sponsor you",
+      "desc": "Use LinkedIn, EURES (EU job portal), and country-specific job boards. Germany's Make it in Germany portal is excellent for international applicants."
+    },
+    {
+      "title": "Verify your qualifications are recognised",
+      "desc": "Your degree must be recognised in the EU country where you will work. anabin (Germany), ENIC-NARIC (all EU) can verify your credentials."
+    },
+    {
+      "title": "Apply at the embassy or consulate",
+      "desc": "Apply for the Blue Card at the EU country's embassy or consulate in your home country, or at an immigration office if already in the EU. Processing takes 30–90 days."
+    },
+    {
+      "title": "Arrive and register",
+      "desc": "Register at the local municipality (Einwohnermeldeamt in Germany, etc.) within the first week. This is required and unlocks access to services."
+    },
+    {
+      "title": "Move to another EU country after 18 months",
+      "desc": "After 18 months of holding a Blue Card in one EU state, you can apply to work in another EU member state — a unique and powerful advantage."
+    }
+  ],
+  "changesTitle": "Key updates 2024–2025",
+  "changes": [
+    {
+      "date": "2023–2024",
+      "title": "Revised EU Blue Card Directive in force",
+      "desc": "The updated Blue Card Directive (2021/1883) increased mobility rights, expanded eligibility to include recognised professional experience (not just degrees), and made family reunification faster (6 months instead of 18)."
+    },
+    {
+      "date": "2024",
+      "title": "Germany expanded Blue Card sectors",
+      "desc": "Germany — the biggest Blue Card issuer — expanded eligible sectors and reduced salary thresholds for shortage occupations in IT, engineering, nursing, and construction."
+    }
+  ],
+  "solicitorTitle": "Find Help with Your EU Blue Card"
+}

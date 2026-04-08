@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Asile au Royaume-Uni — Comment faire une demande",
+    "description": "Guide complet pour demander l'asile au Royaume-Uni en 2025–2026."
+  },
+  "hero": {
+    "tag": "Protection · Mis à jour avril 2026",
+    "title": "Demander l'<em>Asile</em> au Royaume-Uni",
+    "sub": "Si vous fuyez la persécution, la guerre, la torture ou de graves préjudices en raison de votre race, religion, nationalité, opinion politique ou appartenance à un groupe social — vous avez le droit légal de demander l'asile au Royaume-Uni. Cette voie est gratuite et protégée par le droit international."
+  },
+  "facts": [
+    {
+      "label": "Coût",
+      "value": "Gratuit"
+    },
+    {
+      "label": "Délai de décision",
+      "value": "6–18 mois"
+    },
+    {
+      "label": "Niveau de risque",
+      "value": "Faible"
+    },
+    {
+      "label": "Base légale",
+      "value": "Convention de 1951"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "Demander l'asile est un droit légal — pas un crime. Le Royaume-Uni est légalement obligé d'examiner votre demande. Vous n'avez pas besoin de documents. Vous n'avez pas besoin de payer quiconque. Si quelqu'un vous demande de l'argent pour \"déposer\" votre demande — c'est une arnaque."
+  },
+  "eligibilityTitle": "Qui peut demander l'asile ?",
+  "eligibility": [
+    "Vous êtes hors de votre pays d'origine.",
+    "Vous ne pouvez pas y retourner car vous craignez avec raison d'être persécuté.",
+    "La persécution est fondée sur la race, la religion, la nationalité, l'opinion politique ou l'appartenance à un groupe social particulier.",
+    "Vous êtes au Royaume-Uni ou vous avez l'intention d'y arriver.",
+    "Vous n'avez pas déjà obtenu le statut de réfugié dans un autre pays sûr."
+  ],
+  "stepsTitle": "Comment demander l'asile",
+  "steps": [
+    {
+      "title": "Informez les autorités de votre souhait de demander l'asile",
+      "desc": "Informez un agent des forces frontalières dès votre arrivée ou appelez le Home Office au 0300 123 7010. Dites \"Je veux demander l'asile.\" Vous ne serez pas arrêté pour cela."
+    },
+    {
+      "title": "Entretien de filtrage (enregistrement)",
+      "desc": "Un court entretien pour enregistrer vos informations de base, votre photo et vos empreintes digitales. Ce n'est pas votre entretien complet — juste l'enregistrement."
+    },
+    {
+      "title": "Hébergement et soutien",
+      "desc": "Pendant l'attente d'une décision, le Home Office fournit un hébergement gratuit et £49,18/semaine si vous ne pouvez pas subvenir à vos besoins."
+    },
+    {
+      "title": "Entretien d'asile (entretien de fond)",
+      "desc": "Un entretien détaillé sur les raisons pour lesquelles vous avez quitté votre pays et ne pouvez pas y retourner. Vous pouvez amener un représentant légal et demander un interprète."
+    },
+    {
+      "title": "Décision",
+      "desc": "Vous recevrez une décision écrite — généralement dans les 6 mois suivant votre entretien. En cas de statut de réfugié accordé, vous bénéficiez de 5 ans de droit de séjour."
+    },
+    {
+      "title": "En cas de refus — appel",
+      "desc": "Vous avez le droit de faire appel. Obtenez une représentation juridique avant le délai d'appel (généralement 14 jours)."
+    }
+  ],
+  "afterTitle": "Ce que le statut de réfugié vous donne",
+  "after": [
+    "5 ans de droit de séjour au Royaume-Uni (renouvelable).",
+    "Plein droit de travailler dans tout secteur.",
+    "Accès au NHS, aux écoles, aux aides sociales et au logement social.",
+    "Droit de voyager avec un titre de voyage pour réfugiés.",
+    "Droit au regroupement familial.",
+    "Voie vers la résidence permanente (ILR) après 5 ans, puis la nationalité britannique."
+  ],
+  "changesTitle": "Changements récents dans l'asile britannique (2024–2026)",
+  "changes": [
+    {
+      "date": "2025 — Projet de loi sur la sécurité des frontières",
+      "title": "Nouvelles réformes de traitement",
+      "desc": "Le projet de loi de 2025 a introduit des mesures pour accélérer le traitement des dossiers. Le gouvernement s'est engagé à statuer sur les cas simples dans les 6 mois."
+    },
+    {
+      "date": "2023 — Loi sur la migration illégale",
+      "title": "Certaines dispositions suspendues",
+      "desc": "Des parties de la loi de 2023 ont été suspendues par les tribunaux. En 2026, la procédure d'asile standard reste disponible."
+    },
+    {
+      "date": "2024 — Hausse de l'aide à l'asile",
+      "title": "Allocation hebdomadaire portée à £49,18",
+      "desc": "L'allocation hebdomadaire d'aide à l'asile a été augmentée de £47,39 à £49,18 par personne et par semaine."
+    },
+    {
+      "date": "2024 — Droit au travail inchangé",
+      "title": "Vous pouvez demander à travailler après 12 mois",
+      "desc": "Si votre décision initiale n'a pas été rendue dans les 12 mois, vous pouvez demander à travailler sur la liste des métiers en pénurie."
+    }
+  ],
+  "warning": "Ne payez pas un passeur quand vous pouvez demander l'asile légalement. Chaque année, des milliers paient €3 000–€15 000 pour traverser la Manche — pour ensuite demander l'asile à l'arrivée. Contactez Migrant Help gratuitement au 0808 801 0503.",
+  "solicitorTitle": "Trouver une aide juridique autorisée pour l'asile"
+}

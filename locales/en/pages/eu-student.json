@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Studying in Europe — EU Student Visa Guide",
+    "description": "How to study in Europe legally — EU student visa, free universities in Germany, scholarships, and Erasmus+."
+  },
+  "hero": {
+    "tag": "Education-Based · EU · Updated April 2026",
+    "title": "Studying in <em>Europe</em>",
+    "sub": "Europe is home to some of the world's best universities — and many charge little or no tuition. Germany, Norway, and Finland have no tuition fees for international students. With an EU Student Visa, you can study, work part-time, and build a future legally."
+  },
+  "facts": [
+    {
+      "label": "Tuition in Germany",
+      "value": "Free or ~€150/semester"
+    },
+    {
+      "label": "Erasmus+ scholarships",
+      "value": "Available"
+    },
+    {
+      "label": "Part-time work",
+      "value": "20 hrs/week"
+    },
+    {
+      "label": "Post-study stay",
+      "value": "18 months (Germany)"
+    }
+  ],
+  "alert": {
+    "icon": "🎓",
+    "text": "You can study at a top European university for free. German public universities charge only a €150–300/semester administration fee — not tuition. DAAD scholarships cover living costs. This is a real, accessible route that costs a fraction of irregular migration."
+  },
+  "optionsTitle": "Where to study in Europe",
+  "options": [
+    {
+      "country": "Germany 🇩🇪",
+      "highlight": "Free public universities",
+      "desc": "Public universities in Germany charge no tuition fees for international students — only a semester fee (~€150–300). With 300+ English-taught programmes and strong job prospects, Germany is the top choice for international students in Europe."
+    },
+    {
+      "country": "France 🇫🇷",
+      "highlight": "€2,770–3,770/year tuition",
+      "desc": "French public universities charge very low tuition fees. Paris, Lyon, and Toulouse are world-class university cities. Many programmes taught in English. French-speaking applicants have additional options."
+    },
+    {
+      "country": "Norway 🇳🇴",
+      "highlight": "No tuition fees",
+      "desc": "Norwegian public universities charge no tuition fees for any nationality. The cost of living is high, but scholarships and part-time work can cover it."
+    },
+    {
+      "country": "Finland 🇫🇮",
+      "highlight": "Scholarship to cover fees",
+      "desc": "Tuition fees exist but Finland offers extensive scholarships for international students. Strong engineering and technology programmes."
+    },
+    {
+      "country": "Netherlands 🇳🇱",
+      "highlight": "€8,000–20,000/year",
+      "desc": "Higher tuition but excellent English-taught programmes. Strong scholarship programmes from universities and the Dutch government (Holland Scholarship)."
+    }
+  ],
+  "stepsTitle": "How to apply for an EU Student Visa",
+  "steps": [
+    {
+      "title": "Apply to a university and get accepted",
+      "desc": "Research universities using the DAAD database (Germany), Campus France (France), or the Nuffic guide for Netherlands. Apply through the university directly. Scholarships are competitive — apply early."
+    },
+    {
+      "title": "Secure funding",
+      "desc": "Apply for DAAD scholarships (Germany), Erasmus+ Mundus, Eiffel Scholarships (France), or university-specific grants. A scholarship removes almost all visa obstacles."
+    },
+    {
+      "title": "Apply for a student visa at the embassy",
+      "desc": "Apply at the relevant EU country's embassy or consulate. Requirements include acceptance letter, proof of funds (€700–900/month), health insurance, and accommodation proof."
+    },
+    {
+      "title": "Arrive and register",
+      "desc": "Register at the local municipality within the first week. Enrol at your university. Open a local bank account. Register with the health insurance provider."
+    },
+    {
+      "title": "Work part-time and gain experience",
+      "desc": "EU student visas allow up to 20 hours/week part-time work during studies. Use this to build European work experience."
+    },
+    {
+      "title": "Stay after graduation",
+      "desc": "Germany allows 18 months after graduation to find a job. After finding a job, switch to a Blue Card or other work permit. Many graduates stay and build careers in Europe legally."
+    }
+  ],
+  "scholarships": [
+    {
+      "name": "DAAD Scholarships",
+      "desc": "German Academic Exchange Service — extensive scholarship programmes for international students in Germany",
+      "href": "https://www.daad.de/en/"
+    },
+    {
+      "name": "Erasmus+ Mundus",
+      "desc": "EU-funded scholarships for international students to study at European university consortia",
+      "href": "https://erasmus-plus.ec.europa.eu/"
+    },
+    {
+      "name": "Eiffel Excellence Scholarship (France)",
+      "desc": "French government scholarship for Master's and PhD students",
+      "href": "https://www.campusfrance.org/en"
+    },
+    {
+      "name": "Holland Scholarship",
+      "desc": "Dutch government scholarship for students from outside the EU",
+      "href": "https://www.studyinholland.nl/"
+    }
+  ],
+  "solicitorTitle": "Find Legal Help for Your EU Study Visa"
+}

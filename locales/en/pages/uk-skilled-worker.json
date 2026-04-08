@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "UK Skilled Worker Visa 2025–2026",
+    "description": "Full guide to the UK Skilled Worker Visa — requirements, salary thresholds, shortage occupations and how to apply."
+  },
+  "hero": {
+    "tag": "Work-Based · Updated April 2026",
+    "title": "UK <em>Skilled Worker</em> Visa",
+    "sub": "The UK Skilled Worker Visa is the main route for qualified professionals to live and work in the UK legally. If you have a job offer from a UK employer with a sponsor licence, you can apply — and bring your family with you."
+  },
+  "facts": [
+    {
+      "label": "Visa fee",
+      "value": "£719–£1,769"
+    },
+    {
+      "label": "Processing time",
+      "value": "3–8 weeks"
+    },
+    {
+      "label": "Min. salary (2025)",
+      "value": "£38,700"
+    },
+    {
+      "label": "Path to settlement",
+      "value": "5 years"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "The UK is actively recruiting. There are over 200,000 open vacancies in healthcare, engineering, construction, IT, and care work. Employers are licensed to sponsor skilled workers from anywhere in the world — legally, safely, with full employment rights from day one."
+  },
+  "reqTitle": "What you need to qualify",
+  "requirements": [
+    "A confirmed job offer from a UK employer with a valid UKVI Sponsor Licence.",
+    "The job must be at RQF Level 3 or above (A-level equivalent or higher).",
+    "Salary of at least £38,700/year (general threshold from April 2024).",
+    "Lower salary thresholds apply for shortage occupations, new entrants, and PhD-level roles.",
+    "You will receive a Certificate of Sponsorship (CoS) from your employer.",
+    "English language ability at CEFR B1 level or above.",
+    "Enough savings: £1,270 in your bank account for at least 28 days."
+  ],
+  "shortageTitle": "High-demand roles (2025–2026)",
+  "shortageRoles": [
+    "Nurses and midwives (NHS and private)",
+    "Senior care workers",
+    "Civil engineers and structural engineers",
+    "Software developers and IT architects",
+    "Veterinarians",
+    "Secondary school teachers (STEM subjects)",
+    "Welders and pipe fitters",
+    "HGV drivers",
+    "Radiographers and radiologists",
+    "Paramedics"
+  ],
+  "stepsTitle": "How to apply",
+  "steps": [
+    {
+      "title": "Find a job with a licensed sponsor",
+      "desc": "Search on UK job boards (NHS Jobs, LinkedIn, Indeed UK). Confirm the employer has a UKVI Sponsor Licence on the official government register."
+    },
+    {
+      "title": "Receive your Certificate of Sponsorship (CoS)",
+      "desc": "Your employer assigns you a CoS — a unique reference number. You'll need this number to apply for your visa."
+    },
+    {
+      "title": "Apply online",
+      "desc": "Apply on gov.uk within 3 months of receiving your CoS. Pay the visa fee plus the Immigration Health Surcharge (£1,035/year)."
+    },
+    {
+      "title": "Biometrics and documents",
+      "desc": "Book a biometric appointment at a Visa Application Centre. Submit your passport, job offer letter, salary evidence, and English language proof."
+    },
+    {
+      "title": "Decision and travel",
+      "desc": "Most applications are decided in 3–8 weeks. When you arrive in the UK, collect your BRP (Biometric Residence Permit) from a Post Office."
+    },
+    {
+      "title": "Settle permanently after 5 years",
+      "desc": "After 5 continuous years, apply for Indefinite Leave to Remain (ILR). After 1 year of ILR, apply for British citizenship."
+    }
+  ],
+  "changesTitle": "Key changes 2024–2026",
+  "changes": [
+    {
+      "date": "April 2024",
+      "title": "Salary threshold raised to £38,700",
+      "desc": "The minimum salary was increased from £26,200 to £38,700 for most roles. Shortage occupations, new entrants, and NHS roles have lower thresholds."
+    },
+    {
+      "date": "2024",
+      "title": "Shortage Occupation List reformed to Immigration Salary List",
+      "desc": "The ISL replaced the old Shortage Occupation List. Jobs on the ISL still benefit from reduced salary thresholds."
+    },
+    {
+      "date": "2025",
+      "title": "NHS recruitment pathways expanding",
+      "desc": "NHS England continues to actively recruit internationally in nursing, midwifery, and allied health professions."
+    }
+  ],
+  "warning": "Never pay a \"job agent\" to find you a UK sponsorship. Legitimate UK employers do not charge workers for sponsorship. If someone is selling you a Certificate of Sponsorship — this is a scam.",
+  "solicitorTitle": "Find a Regulated Solicitor"
+}

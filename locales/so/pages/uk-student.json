@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Fiisaha Ardayda UK 2026 — Hagida Dalka",
+    "description": "Hagida wax-ku-oolka ah ee fiisaha ardayda UK oo leh xogta diiwaangelinta dalka iyo aqoonsiga April 2026."
+  },
+  "hero": {
+    "tag": "Waxbarasho · La cusbooneysiiyay Abriil 2026",
+    "title": "Fiisaha <em>Ardayda</em> UK",
+    "sub": "Fiisaha ardayda UK waa mid ka mid ah jidadka sharciga ah ee ugu sahlan Boqortooyada Midowday. Raadi dalkaaga hoose si aad u hesho xaaladda gaar ee ku saabsan adiga."
+  },
+  "facts": [
+    {
+      "label": "Farta codsiga",
+      "value": "£490–£1,535"
+    },
+    {
+      "label": "Waqtiga diiwaangelinta",
+      "value": "3–12 toddobaad"
+    },
+    {
+      "label": "Shaqada saacadda",
+      "value": "20 saac/toddobaad (xilliga barashada)"
+    },
+    {
+      "label": "Shaqada ka dib waxbarasho",
+      "value": "2–3 sano (Graduate Route)"
+    }
+  ],
+  "searchPlaceholder": "Raadi dalkaaga...",
+  "solicitorTitle": "Raadi Gargaarka Sharciga ee Fiisaha Ardayda"
+}

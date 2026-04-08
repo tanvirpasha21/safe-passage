@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Find Authorised Immigration Legal Help — SafePassage",
+    "description": "Find regulated solicitors, OISC advisers, and free legal aid organisations for asylum, work, student, family, and humanitarian visas."
+  },
+  "pageTitle": "Find Authorised Legal Help",
+  "pageSubtitle": "All advisers shown here are regulated by the SRA, OISC, or are registered charities. Never use an unregulated immigration adviser.",
+  "filterTitle": "Filter by case type",
+  "filterRegion": "Region",
+  "filterCost": "Cost",
+  "allTypes": "All types",
+  "allRegions": "All regions",
+  "allCosts": "All costs",
+  "resultsFree": "Free & Charity Help",
+  "resultsSearch": "Find a Solicitor Tool",
+  "noResults": "No advisers match your filters. Try adjusting your search.",
+  "badgeLegendTitle": "What the badges mean",
+  "badges": [
+    {
+      "label": "SRA Regulated",
+      "desc": "Authorised and regulated by the Solicitors Regulation Authority"
+    },
+    {
+      "label": "OISC Registered",
+      "desc": "Registered with the Office of the Immigration Services Commissioner"
+    },
+    {
+      "label": "Registered Charity",
+      "desc": "UK-registered charity providing free or low-cost services"
+    },
+    {
+      "label": "Government-funded",
+      "desc": "Government or publicly funded organisation"
+    },
+    {
+      "label": "UNHCR",
+      "desc": "UNHCR-endorsed or affiliated organisation"
+    }
+  ],
+  "guideCtaTitle": "Need the full pathway guide first?",
+  "guideCtaText": "Read our detailed step-by-step guide before consulting a solicitor.",
+  "guideCta": "View Pathway Guides →",
+  "warningTitle": "Warning — Unregulated advisers",
+  "warningText": "Using an unregulated immigration adviser is illegal and dangerous. Check that any adviser you use is listed on the SRA register or OISC register before paying any money."
+}

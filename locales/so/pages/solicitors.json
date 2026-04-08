@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Hel Caawimaad Sharci Socdaal — SafePassage",
+    "description": "Hel wakiillo iyo hay'addo caawimaad sharci bilaash ah."
+  },
+  "pageTitle": "Hel Caawimaad Sharci oo Ansaxsan",
+  "pageSubtitle": "Dhammaan la-taliyeyaasha halkan lagu muujiyay waxaa maamula SRA, OISC, ama waa sanadlayaasha diiwaan-gashan. Marnaba ha u adeegsanin la-taliye socdaal aan la maamulin.",
+  "filterTitle": "Shaandhayn nooca kiiska",
+  "filterRegion": "Gobolka",
+  "filterCost": "Kharashka",
+  "allTypes": "Dhammaan noocyada",
+  "allRegions": "Dhammaan gobolyada",
+  "allCosts": "Dhammaan kharashyada",
+  "resultsFree": "Caawimaad Bilaash ah oo Kheyraad ah",
+  "resultsSearch": "Qalab Raadin Wakiil",
+  "noResults": "Ma jiraan la-taliyayaal ku wajahan shaandhaynahaaga. Isku day inaad beddesho raadintaada.",
+  "badgeLegendTitle": "Macnaha astaamaha",
+  "badges": [
+    {
+      "label": "SRA Maamusan",
+      "desc": "Wakiillo Xukuumadda Hay'adda Sharci waxay ogol tahay oo maamusho"
+    },
+    {
+      "label": "OISC Diiwaan-gashan",
+      "desc": "Xafiiska Komishinarka Adeegyada Socdaalka ayaa diiwaan-gashan"
+    },
+    {
+      "label": "Sanadlaha Diiwaan-gashan",
+      "desc": "Sanadlaha UK-ga diiwaan-gashan ee bixiya adeegyada bilaashka ah ama kharashka hooseeya"
+    },
+    {
+      "label": "Dowladda waxay maalgelisaa",
+      "desc": "Hay'ad dowladda ama dadweynaha maalgelisa"
+    },
+    {
+      "label": "UNHCR",
+      "desc": "Hay'ad UNHCR ansixisay ama la xiriirta"
+    }
+  ],
+  "guideCtaTitle": "Hagaha buuxa marka hore miyaad u baahan tahay?",
+  "guideCtaText": "Akhriso hagaheena faahfaahsan ka hor intaadan la-taliye la tashanin.",
+  "guideCta": "Eeg Hagayaasha Wadooyinka →",
+  "warningTitle": "Digniin — La-taliyayaasha aan la maamulin",
+  "warningText": "Isticmaalka la-taliye socdaal aan la maamulin waa sharci-darro oo khatar ah. Hubso in la-taliyaha aad isticmaalsho uu ku jiro diiwaanka SRA ama OISC kahor inta aadan bixin lacag."
+}

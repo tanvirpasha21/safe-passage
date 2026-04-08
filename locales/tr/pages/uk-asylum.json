@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Birleşik Krallık'ta İltica — Nasıl Başvurulur",
+    "description": "2025–2026'da Birleşik Krallık'ta iltica talebinde bulunmak için tam rehber."
+  },
+  "hero": {
+    "tag": "Koruma Temelli · Nisan 2026 Güncellemesi",
+    "title": "Birleşik Krallık'ta <em>İltica</em> Talebi",
+    "sub": "Irk, din, milliyet, siyasi görüş veya sosyal grubunuz nedeniyle zulüm, savaş, işkence veya ciddi zarar görmekten kaçıyorsanız — Birleşik Krallık'ta iltica talebinde bulunma yasal hakkınız var."
+  },
+  "facts": [
+    {
+      "label": "Maliyet",
+      "value": "Ücretsiz"
+    },
+    {
+      "label": "Karar süresi",
+      "value": "6–18 ay"
+    },
+    {
+      "label": "Risk seviyesi",
+      "value": "Düşük"
+    },
+    {
+      "label": "Yasal dayanak",
+      "value": "1951 Mülteci Sözleşmesi"
+    }
+  ],
+  "alert": {
+    "icon": "✅",
+    "text": "İltica talebinde bulunmak yasal bir haktır — suç değildir. Birleşik Krallık, 1951 Mülteci Sözleşmesi kapsamında talebinizi değerlendirmekle yasal olarak yükümlüdür. Belgesiz iltica talebinde bulunabilirsiniz. Kimseye para ödemeniz gerekmez."
+  },
+  "eligibilityTitle": "Kim iltica talebinde bulunabilir?",
+  "eligibility": [
+    "Ana vatanınızın dışındasınız.",
+    "Zulüm korkusundan dolayı geri dönemiyorsunuz.",
+    "Zulüm ırk, din, milliyet, siyasi görüş veya belirli bir sosyal gruba üyeliğe dayanıyor.",
+    "Birleşik Krallık'tasınız veya buraya gelmeyi planlıyorsunuz.",
+    "Başka güvenli bir ülkede mülteci statüsü verilmemiş."
+  ],
+  "stepsTitle": "İltica nasıl talep edilir",
+  "steps": [
+    {
+      "title": "Yetkililere iltica talebinde bulunmak istediğinizi söyleyin",
+      "desc": "Bir limana veya havalimanına geldiğinizde bir UK Sınır Kuvvetleri görevlisine söyleyin veya zaten Birleşik Krallık'taysanız İçişleri Bakanlığını 0300 123 7010'dan arayın. \"İltica talebinde bulunmak istiyorum\" deyin."
+    },
+    {
+      "title": "Tarama görüşmesi (Kayıt)",
+      "desc": "Temel bilgilerinizi, fotoğrafınızı ve parmak izlerinizi kaydetmek için kısa bir görüşme. Bu tam iltica görüşmeniz değil — sadece kayıt."
+    },
+    {
+      "title": "İltica desteği ve barınma",
+      "desc": "Karar beklerken, kendinizi geçindiremiyorsanız İçişleri Bakanlığı ücretsiz barınma ve haftada £49,18 ödeme kartı sağlar."
+    },
+    {
+      "title": "İltica görüşmesi (Esas görüşme)",
+      "desc": "Ülkenizi neden terk ettiğiniz ve neden dönemediğiniz hakkında bir İçişleri Bakanlığı vaka görevlisiyle ayrıntılı görüşme. Hukuki temsilci getirebilir ve tercüman isteyebilirsiniz."
+    },
+    {
+      "title": "Karar",
+      "desc": "Genellikle görüşmenizden sonraki 6 ay içinde yazılı bir karar alacaksınız. Mülteci statüsü verilirse, 5 yıllık oturma izni, çalışma hakkı ve kamu fonlarına erişim elde edersiniz."
+    },
+    {
+      "title": "Reddedilirse — itiraz",
+      "desc": "İlk Kademe Mahkemesine itiraz hakkınız var. İtiraz süresinden (genellikle 14 gün) önce hukuki temsil alın."
+    }
+  ],
+  "afterTitle": "Mülteci statüsü size ne verir",
+  "after": [
+    "Birleşik Krallık'ta 5 yıllık oturma izni (yenilenebilir).",
+    "Her sektörde, her işveren için tam çalışma hakkı.",
+    "NHS, okular, sosyal yardımlar ve sosyal konuta erişim.",
+    "Birleşik Krallık Mülteci Seyahat Belgesi ile seyahat hakkı.",
+    "Aile yeniden birleşimi hakkı — eş ve çocuklarınızı getirme hakkı.",
+    "5 yıl sonra Süresiz Oturma İznine (ILR) ve ardından İngiliz vatandaşlığına giden yol."
+  ],
+  "changesTitle": "Birleşik Krallık ilticasındaki son değişiklikler (2024–2026)",
+  "changes": [
+    {
+      "date": "2025 — Sınır Güvenliği, İltica ve Göç Yasa Tasarısı",
+      "title": "Yeni işleme reformları",
+      "desc": "2025 Yasa Tasarısı, dava işlemesini hızlandıracak önlemler getirdi. Hükümet basit vakaları 6 ay içinde karara bağlamayı taahhüt etti."
+    },
+    {
+      "date": "2023 — Yasadışı Göç Yasası",
+      "title": "Bazı hükümler durduruldu",
+      "desc": "Yasanın iltica taleplerini engelleyecek bölümleri mahkemelerce durduruldu. 2026 itibarıyla standart iltica süreci hâlâ geçerlidir."
+    },
+    {
+      "date": "2024 — İltica destek oranları artırıldı",
+      "title": "Haftalık destek ödemesi £49,18'e yükseltildi",
+      "desc": "Haftalık iltica destek ödeneği £47,39'dan £49,18'e kişi başı haftalık yükseltildi."
+    },
+    {
+      "date": "2024 — Çalışma hakkı değişmedi",
+      "title": "12 ay bekledikten sonra çalışma başvurusu yapabilirsiniz",
+      "desc": "Kendi kusurunuz olmaksızın 12 ay içinde ilk karar verilmemişse, Yetersiz Meslekler Listesindeki herhangi bir rol için çalışma izni başvurusunda bulunabilirsiniz."
+    }
+  ],
+  "warning": "Yasal olarak iltica başvurusu yapabilecekken kaçakçıya para ödemeyin. Migrant Help'i ücretsiz arayın: 0808 801 0503.",
+  "solicitorTitle": "Yetkili İltica Hukuki Yardımı Bulun"
+}

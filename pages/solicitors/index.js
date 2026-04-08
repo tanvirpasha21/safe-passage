@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { SOLICITORS, CASE_TYPES, REGIONS, COST_FILTERS, filterSolicitors } from '../../lib/solicitors';
 import styles from '../../styles/Solicitors.module.css';
+import { getPageTranslations } from '../../lib/i18n';
 
 /* ── Context descriptions shown when arriving from a pathway page ── */
 const CONTEXT_INFO = {
@@ -122,7 +123,7 @@ function SolicitorCard({ s }) {
   );
 }
 
-export default function SolicitorSearch() {
+export default function SolicitorSearch({ pt }) {
   const router = useRouter();
 
   const [caseType, setCaseType] = useState('all');
@@ -168,8 +169,8 @@ export default function SolicitorSearch() {
   return (
     <>
       <Head>
-        <title>Find Authorised Legal Help | SafePassage</title>
-        <meta name="description" content="Search for authorised, regulated immigration solicitors and free legal advice organisations for your specific immigration case." />
+        <title>{pt.meta.title} | SafePassage</title>
+        <meta name="description" content={pt.meta.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -189,14 +190,8 @@ export default function SolicitorSearch() {
         <div className={styles.hero}>
           <div className={styles.heroInner}>
             <span className={styles.heroTag}>🛡️ Regulated & Authorised Only</span>
-            <h1 className={styles.heroTitle}>
-              Find <em>Authorised</em> Legal Help
-            </h1>
-            <p className={styles.heroSub}>
-              Every organisation listed here is either SRA-regulated, OISC-registered,
-              government-funded, or a registered charity. Using unregulated "immigration
-              consultants" is illegal in the UK — and can destroy your case.
-            </p>
+            <h1 className={styles.heroTitle} dangerouslySetInnerHTML={{ __html: pt.pageTitle }} />
+            <p className={styles.heroSub}>{pt.pageSubtitle}</p>
             <div className={styles.warnBanner}>
               <span style={{ fontSize: '1.1rem', flexShrink: 0 }}>⚠️</span>
               <div>
@@ -434,4 +429,9 @@ export default function SolicitorSearch() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps({ locale }) {
+  const pt = getPageTranslations(locale, 'solicitors');
+  return { props: { pt } };
 }
