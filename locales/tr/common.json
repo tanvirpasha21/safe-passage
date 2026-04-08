@@ -32,10 +32,26 @@
     "title2": "gerçekte ne oluyor",
     "lead": "Bu rakamlar IOM, BMMYK ve Avrupa sınır ajanslarından alınmaktadır. Abartılmış değil — eksik bile sayılıyor.",
     "stats": [
-      { "number": "30.000+", "label": "2014'ten bu yana Avrupa göç yollarında kayıt altına alınan ölüm", "source": "IOM Kayıp Göçmenler Projesi, 2025" },
-      { "number": "2.400+", "label": "Yalnızca 2025 yılında Akdeniz'deki ölümler", "source": "IOM, 2025" },
-      { "number": "1'de 45", "label": "Orta Akdeniz güzergahındaki geçişler ölüm veya kayıpla sonuçlanıyor", "source": "IOM, 2025" },
-      { "number": "3.000–15.000 €", "label": "Kaçakçılara ödenen para — güvenlik veya varış garantisi yok", "source": "Europol, 2024" }
+      {
+        "number": "30.000+",
+        "label": "2014'ten bu yana Avrupa göç yollarında kayıt altına alınan ölüm",
+        "source": "IOM Kayıp Göçmenler Projesi, 2025"
+      },
+      {
+        "number": "2.400+",
+        "label": "Yalnızca 2025 yılında Akdeniz'deki ölümler",
+        "source": "IOM, 2025"
+      },
+      {
+        "number": "1'de 45",
+        "label": "Orta Akdeniz güzergahındaki geçişler ölüm veya kayıpla sonuçlanıyor",
+        "source": "IOM, 2025"
+      },
+      {
+        "number": "3.000–15.000 €",
+        "label": "Kaçakçılara ödenen para — güvenlik veya varış garantisi yok",
+        "source": "Europol, 2024"
+      }
     ]
   },
   "routes": {
@@ -44,12 +60,42 @@
     "title2": "bir ölüm bilançosu var",
     "lead": "Kaçakçılar size kolay olduğunu söylüyor. Veriler başka bir hikaye anlatıyor.",
     "items": [
-      { "icon": "🌊", "name": "Orta Akdeniz", "badge": "Dünyanın en ölümcül deniz güzergahı", "desc": "Libya/Tunus → İtalya/Malta. Nehirler için tasarlanmış şişme botlar, açık denizler için değil. Aşırı kalabalık. Alabora yaygın." },
-      { "icon": "⛵", "name": "Atlantik — Kanarya Adaları", "badge": "2.300+ km açık okyanus", "desc": "Batı Afrika → İspanya. En hızlı büyüyen ve başlangıç başına en ölümcül güzergah. Pek çok tekne hiç bulunamıyor." },
-      { "icon": "🏔️", "name": "Balkan Kara Yolu", "badge": "Aşırı soğuk, şiddetli geri itmeler", "desc": "Türkiye → Yunanistan → Sırbistan → Macaristan. İnsanlar dondurucu soğukta dağlarda yüzlerce km yürüyor." },
-      { "icon": "🏜️", "name": "Sahra Çölü", "badge": "Akdeniz'den daha fazla ölüm", "desc": "Sahra altı Afrika → Kuzey Afrika. Sahra, denizden daha fazla göçmeni öldürüyor — ama cesetler nadiren bulunuyor." },
-      { "icon": "🌊", "name": "Manş Tüneli", "badge": "Dünyanın en yoğun deniz yollarından biri", "desc": "Fransa → İngiltere. Küçük tekneler gemi dalgalarından alabora olabiliyor. 2018'den bu yana 50'den fazla kişi hayatını kaybetti." },
-      { "icon": "🚛", "name": "Araçlarda Saklanma", "badge": "Boğulma riski", "desc": "Kamyon kasaları, soğutmalı araçlar. İnsanlar sıcak, soğuk veya karbonmonoksitten ölüyor. 2019'da İngiltere'de bir kamyonda 39 Vietnamlı ölü bulundu." }
+      {
+        "icon": "🌊",
+        "name": "Orta Akdeniz",
+        "badge": "Dünyanın en ölümcül deniz güzergahı",
+        "desc": "Libya/Tunus → İtalya/Malta. Nehirler için tasarlanmış şişme botlar, açık denizler için değil. Aşırı kalabalık. Alabora yaygın."
+      },
+      {
+        "icon": "⛵",
+        "name": "Atlantik — Kanarya Adaları",
+        "badge": "2.300+ km açık okyanus",
+        "desc": "Batı Afrika → İspanya. En hızlı büyüyen ve başlangıç başına en ölümcül güzergah. Pek çok tekne hiç bulunamıyor."
+      },
+      {
+        "icon": "🏔️",
+        "name": "Balkan Kara Yolu",
+        "badge": "Aşırı soğuk, şiddetli geri itmeler",
+        "desc": "Türkiye → Yunanistan → Sırbistan → Macaristan. İnsanlar dondurucu soğukta dağlarda yüzlerce km yürüyor."
+      },
+      {
+        "icon": "🏜️",
+        "name": "Sahra Çölü",
+        "badge": "Akdeniz'den daha fazla ölüm",
+        "desc": "Sahra altı Afrika → Kuzey Afrika. Sahra, denizden daha fazla göçmeni öldürüyor — ama cesetler nadiren bulunuyor."
+      },
+      {
+        "icon": "🌊",
+        "name": "Manş Tüneli",
+        "badge": "Dünyanın en yoğun deniz yollarından biri",
+        "desc": "Fransa → İngiltere. Küçük tekneler gemi dalgalarından alabora olabiliyor. 2018'den bu yana 50'den fazla kişi hayatını kaybetti."
+      },
+      {
+        "icon": "🚛",
+        "name": "Araçlarda Saklanma",
+        "badge": "Boğulma riski",
+        "desc": "Kamyon kasaları, soğutmalı araçlar. İnsanlar sıcak, soğuk veya karbonmonoksitten ölüyor. 2019'da İngiltere'de bir kamyonda 39 Vietnamlı ölü bulundu."
+      }
     ]
   },
   "legal": {
@@ -58,18 +104,103 @@
     "title2": "bulucunuz",
     "lead": "İki soruyu yanıtlayın, size durumunuza uyan yasal yolları gösterelim.",
     "q1": "Ayrılmanızın temel nedeni nedir?",
-    "q1opts": ["Savaş veya zulümden kaçış", "Daha iyi iş/ekonomik fırsat arayışı", "Avrupa'da zaten aile var", "Yurt dışında eğitim", "Emin değilim / Diğer"],
+    "q1opts": [
+      "Savaş veya zulümden kaçış",
+      "Daha iyi iş/ekonomik fırsat arayışı",
+      "Avrupa'da zaten aile var",
+      "Yurt dışında eğitim",
+      "Emin değilim / Diğer"
+    ],
     "q2": "Şu an neredesiniz?",
-    "q2opts": ["Afrika", "Orta Doğu", "Asya", "Diğer / Belirtmek istemiyorum"],
+    "q2opts": [
+      "Afrika",
+      "Orta Doğu",
+      "Asya",
+      "Diğer / Belirtmek istemiyorum"
+    ],
     "showBtn": "Yasal seçeneklerimi göster →",
     "allTitle": "Tüm yasal yollar",
     "paths": [
-      { "id": "asylum", "icon": "🏛️", "tag": "ZULüM / SAVAŞ", "name": "İltica Başvurusu", "desc": "Zulüm, savaş veya şiddetten kaçıyorsanız, 1951 Mülteci Sözleşmesi kapsamında mülteci statüsüne hak kazanabilirsiniz.", "how": "En yakın BMMYK ofisini veya ulusal sığınma makamını ziyaret edin. Belgeniz olmasa bile başvurabilirsiniz.", "link": "https://www.unhcr.org/get-help", "linkLabel": "BMMYK ofisi bul →", "cost": "Ücretsiz", "time": "Aylar ila yıllar", "risk": "Düşük" },
-      { "id": "resettlement", "icon": "✈️", "tag": "ZULüM / KIRILGANLIK", "name": "BMMYK Yeniden Yerleştirme", "desc": "BMMYK, en savunmasız kayıtlı mültecileri güvenli üçüncü bir ülkeye yeniden yerleştirmek için seçiyor. Önce BMMYK'ya kayıt olmanız gerekiyor.", "how": "En yakın BMMYK ofisine kayıt olun. Yeniden yerleştirmeyi 'hızlandırmak' için kimseye para ödemeyin — her zaman ücretsizdir.", "link": "https://www.unhcr.org/resettlement", "linkLabel": "Yeniden yerleştirme hakkında →", "cost": "Ücretsiz", "time": "1–3 yıl", "risk": "Çok düşük" },
-      { "id": "work", "icon": "💼", "tag": "EKONOMİK / NİTELİKLİ", "name": "Nitelikli Çalışan Vizesi", "desc": "İngiltere, Almanya, Kanada ve diğer ülkeler sağlık, teknoloji, inşaat ve zanaatta aktif olarak nitelikli işçi arıyor.", "how": "İngiltere Kıtlık Meslekler Listesi'ni veya Almanya 'Make it in Germany' portalını kontrol edin. Büyükelçiliğe başvurun.", "link": "https://www.gov.uk/skilled-worker-visa", "linkLabel": "İngiltere Nitelikli Çalışan Vizesi →", "link2": "https://www.make-it-in-germany.com", "linkLabel2": "Almanya Çalışma Vizesi →", "cost": "719–1.500 £ (İngiltere)", "time": "3–8 hafta", "risk": "Çok düşük" },
-      { "id": "study", "icon": "🎓", "tag": "EĞİTİM / GENÇLİK", "name": "Öğrenci Vizesi", "desc": "Bir üniversite veya koleje kabul edilirseniz öğrenci vizesiyle yasal olarak giriş yapabilirsiniz. Birçok ülke yarı zamanlı çalışmaya izin veriyor.", "how": "Önce burs başvurusu yapın (Chevening, DAAD, Erasmus). Kurumdan kabul mektubu temel gerekliliktir.", "link": "https://www.gov.uk/student-visa", "linkLabel": "İngiltere Öğrenci Vizesi →", "cost": "363–490 £ (İngiltere)", "time": "3–6 hafta", "risk": "Çok düşük" },
-      { "id": "family", "icon": "👨‍👩‍👧", "tag": "AİLE BAĞLARI", "name": "Aile Birleşimi", "desc": "Yakın bir aile üyeniz (eş, ebeveyn, çocuk) bir AB ülkesinde veya İngiltere'de yasal statüye sahipse, aile birleşimi yoluyla yasal olarak yanına gidebilirsiniz.", "how": "Avrupa'daki aile üyeniz sizin adınıza başvuru yapıyor. Süreç ülkeye göre farklılık gösteriyor.", "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en", "linkLabel": "AB Aile Birleşimi →", "cost": "Ülkeye göre değişir", "time": "3–12 ay", "risk": "Düşük" },
-      { "id": "humanitarian", "icon": "🤝", "tag": "ACİL TEHLİKE", "name": "İnsani Vize", "desc": "Bazı ülkeler büyükelçiliklerde insani vize veriyor, varışta sığınma başvurusu yapmak için yasal giriş imkanı tanıyor — tehlikeli geçişler olmadan.", "how": "Bulunduğunuz ülkedeki Avrupa büyükelçiliği veya konsolosluğuyla iletişime geçin. Durumunuzu net anlatın.", "link": "https://www.unhcr.org/asylum-in-the-eu", "linkLabel": "AB Sığınma Yolları →", "cost": "Ücretsiz veya düşük maliyetli", "time": "Haftalar ila aylar", "risk": "Düşük" }
+      {
+        "id": "asylum",
+        "icon": "🏛️",
+        "tag": "ZULüM / SAVAŞ",
+        "name": "İltica Başvurusu",
+        "desc": "Zulüm, savaş veya şiddetten kaçıyorsanız, 1951 Mülteci Sözleşmesi kapsamında mülteci statüsüne hak kazanabilirsiniz.",
+        "how": "En yakın BMMYK ofisini veya ulusal sığınma makamını ziyaret edin. Belgeniz olmasa bile başvurabilirsiniz.",
+        "link": "https://www.unhcr.org/get-help",
+        "linkLabel": "BMMYK ofisi bul →",
+        "cost": "Ücretsiz",
+        "time": "Aylar ila yıllar",
+        "risk": "Düşük"
+      },
+      {
+        "id": "resettlement",
+        "icon": "✈️",
+        "tag": "ZULüM / KIRILGANLIK",
+        "name": "BMMYK Yeniden Yerleştirme",
+        "desc": "BMMYK, en savunmasız kayıtlı mültecileri güvenli üçüncü bir ülkeye yeniden yerleştirmek için seçiyor. Önce BMMYK'ya kayıt olmanız gerekiyor.",
+        "how": "En yakın BMMYK ofisine kayıt olun. Yeniden yerleştirmeyi 'hızlandırmak' için kimseye para ödemeyin — her zaman ücretsizdir.",
+        "link": "https://www.unhcr.org/resettlement",
+        "linkLabel": "Yeniden yerleştirme hakkında →",
+        "cost": "Ücretsiz",
+        "time": "1–3 yıl",
+        "risk": "Çok düşük"
+      },
+      {
+        "id": "work",
+        "icon": "💼",
+        "tag": "EKONOMİK / NİTELİKLİ",
+        "name": "Nitelikli Çalışan Vizesi",
+        "desc": "İngiltere, Almanya, Kanada ve diğer ülkeler sağlık, teknoloji, inşaat ve zanaatta aktif olarak nitelikli işçi arıyor.",
+        "how": "İngiltere Kıtlık Meslekler Listesi'ni veya Almanya 'Make it in Germany' portalını kontrol edin. Büyükelçiliğe başvurun.",
+        "link": "https://www.gov.uk/skilled-worker-visa",
+        "linkLabel": "İngiltere Nitelikli Çalışan Vizesi →",
+        "link2": "https://www.make-it-in-germany.com",
+        "linkLabel2": "Almanya Çalışma Vizesi →",
+        "cost": "719–1.500 £ (İngiltere)",
+        "time": "3–8 hafta",
+        "risk": "Çok düşük"
+      },
+      {
+        "id": "study",
+        "icon": "🎓",
+        "tag": "EĞİTİM / GENÇLİK",
+        "name": "Öğrenci Vizesi",
+        "desc": "Bir üniversite veya koleje kabul edilirseniz öğrenci vizesiyle yasal olarak giriş yapabilirsiniz. Birçok ülke yarı zamanlı çalışmaya izin veriyor.",
+        "how": "Önce burs başvurusu yapın (Chevening, DAAD, Erasmus). Kurumdan kabul mektubu temel gerekliliktir.",
+        "link": "https://www.gov.uk/student-visa",
+        "linkLabel": "İngiltere Öğrenci Vizesi →",
+        "cost": "363–490 £ (İngiltere)",
+        "time": "3–6 hafta",
+        "risk": "Çok düşük"
+      },
+      {
+        "id": "family",
+        "icon": "👨‍👩‍👧",
+        "tag": "AİLE BAĞLARI",
+        "name": "Aile Birleşimi",
+        "desc": "Yakın bir aile üyeniz (eş, ebeveyn, çocuk) bir AB ülkesinde veya İngiltere'de yasal statüye sahipse, aile birleşimi yoluyla yasal olarak yanına gidebilirsiniz.",
+        "how": "Avrupa'daki aile üyeniz sizin adınıza başvuru yapıyor. Süreç ülkeye göre farklılık gösteriyor.",
+        "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en",
+        "linkLabel": "AB Aile Birleşimi →",
+        "cost": "Ülkeye göre değişir",
+        "time": "3–12 ay",
+        "risk": "Düşük"
+      },
+      {
+        "id": "humanitarian",
+        "icon": "🤝",
+        "tag": "ACİL TEHLİKE",
+        "name": "İnsani Vize",
+        "desc": "Bazı ülkeler büyükelçiliklerde insani vize veriyor, varışta sığınma başvurusu yapmak için yasal giriş imkanı tanıyor — tehlikeli geçişler olmadan.",
+        "how": "Bulunduğunuz ülkedeki Avrupa büyükelçiliği veya konsolosluğuyla iletişime geçin. Durumunuzu net anlatın.",
+        "link": "https://www.unhcr.org/asylum-in-the-eu",
+        "linkLabel": "AB Sığınma Yolları →",
+        "cost": "Ücretsiz veya düşük maliyetli",
+        "time": "Haftalar ila aylar",
+        "risk": "Düşük"
+      }
     ]
   },
   "compare": {
@@ -80,12 +211,36 @@
     "colIllegal": "⚠ Yasadışı Yol",
     "colLegal": "✓ Yasal Yol",
     "rows": [
-      { "factor": "Hayata verilen risk", "illegal": "Çok yüksek — bazı güzergahlarda 45'te 1 ölüyor", "legal": "Minimal — uçak, otobüs veya trenle seyahat ediyorsunuz" },
-      { "factor": "Maliyet", "illegal": "Kaçakçılara 3.000–15.000 € (ölürseniz iade yok)", "legal": "BMMYK ücretsiz. Vize ücretleri kaçakçı ücretlerinden çok daha az." },
-      { "factor": "Varışta yasal statü", "illegal": "Kayıtsız — anında gözaltı ve sınır dışı edilme riski", "legal": "Tam yasal haklar, hizmetlere erişim, çalışma izinleri" },
-      { "factor": "Sabıka kaydı", "illegal": "Yasadışı giriş gelecekteki vize ve iltica başvurularını engelliyor", "legal": "Sabıka kaydı yok — gelecek seçenekleriniz açık kalıyor" },
-      { "factor": "Aileniz", "illegal": "Aileniz size ne olduğunu asla bilemeyebilir", "legal": "Daha sonra aile birleşimiyle ailenizi yasal olarak getirebilirsiniz" },
-      { "factor": "Barınma ve sağlık", "illegal": "Hiçbiri — tüm hizmetlerden gizlisiniz", "legal": "Yasal sığınma başvuru sahipleri barınak ve tıbbi bakım alıyor" }
+      {
+        "factor": "Hayata verilen risk",
+        "illegal": "Çok yüksek — bazı güzergahlarda 45'te 1 ölüyor",
+        "legal": "Minimal — uçak, otobüs veya trenle seyahat ediyorsunuz"
+      },
+      {
+        "factor": "Maliyet",
+        "illegal": "Kaçakçılara 3.000–15.000 € (ölürseniz iade yok)",
+        "legal": "BMMYK ücretsiz. Vize ücretleri kaçakçı ücretlerinden çok daha az."
+      },
+      {
+        "factor": "Varışta yasal statü",
+        "illegal": "Kayıtsız — anında gözaltı ve sınır dışı edilme riski",
+        "legal": "Tam yasal haklar, hizmetlere erişim, çalışma izinleri"
+      },
+      {
+        "factor": "Sabıka kaydı",
+        "illegal": "Yasadışı giriş gelecekteki vize ve iltica başvurularını engelliyor",
+        "legal": "Sabıka kaydı yok — gelecek seçenekleriniz açık kalıyor"
+      },
+      {
+        "factor": "Aileniz",
+        "illegal": "Aileniz size ne olduğunu asla bilemeyebilir",
+        "legal": "Daha sonra aile birleşimiyle ailenizi yasal olarak getirebilirsiniz"
+      },
+      {
+        "factor": "Barınma ve sağlık",
+        "illegal": "Hiçbiri — tüm hizmetlerden gizlisiniz",
+        "legal": "Yasal sığınma başvuru sahipleri barınak ve tıbbi bakım alıyor"
+      }
     ]
   },
   "stories": {
@@ -93,9 +248,24 @@
     "title1": "İnsanların keşke",
     "title2": "bilseydim dedikleri",
     "items": [
-      { "flag": "🇸🇴", "type": "danger", "quote": "Kaçakçı teknenin güvenli olduğunu söyledi. 20 kişilik botta 80 kişiydik. Kardeşim hayatta kalamadı. Her şeyimi verirdim geri dönüp farklı bir seçim yapmak için.", "name": "HAYATTA KALAN — ORTA AKDENİZ, 2022" },
-      { "flag": "🇸🇾", "type": "danger", "quote": "8.000 € ödedik ve Ocak ayında Sırp dağlarında terk edildik. Grubumuzdaki üç kişi hipotermi nedeniyle hayatını kaybetti. 11 gün yürüdük.", "name": "HAYATTA KALAN — BALKAN GÜZERGAHI, 2021" },
-      { "flag": "🇦🇫", "type": "safe", "quote": "Pakistan'da BMMYK'ya kayıt oldum. 14 ay sürdü ama yasal olarak Almanya'ya yerleştirildim. Şimdi bir işim var. Çocuklarım okula gidiyor. Lütfen — kaçakçılara güvenmeyin.", "name": "YENİDEN YERLEŞTİRİLEN MÜLTECİ — ALMANYA, 2023" }
+      {
+        "flag": "🇸🇴",
+        "type": "danger",
+        "quote": "Kaçakçı teknenin güvenli olduğunu söyledi. 20 kişilik botta 80 kişiydik. Kardeşim hayatta kalamadı. Her şeyimi verirdim geri dönüp farklı bir seçim yapmak için.",
+        "name": "HAYATTA KALAN — ORTA AKDENİZ, 2022"
+      },
+      {
+        "flag": "🇸🇾",
+        "type": "danger",
+        "quote": "8.000 € ödedik ve Ocak ayında Sırp dağlarında terk edildik. Grubumuzdaki üç kişi hipotermi nedeniyle hayatını kaybetti. 11 gün yürüdük.",
+        "name": "HAYATTA KALAN — BALKAN GÜZERGAHI, 2021"
+      },
+      {
+        "flag": "🇦🇫",
+        "type": "safe",
+        "quote": "Pakistan'da BMMYK'ya kayıt oldum. 14 ay sürdü ama yasal olarak Almanya'ya yerleştirildim. Şimdi bir işim var. Çocuklarım okula gidiyor. Lütfen — kaçakçılara güvenmeyin.",
+        "name": "YENİDEN YERLEŞTİRİLEN MÜLTECİ — ALMANYA, 2023"
+      }
     ]
   },
   "cta": {
@@ -106,133 +276,136 @@
     "btn2": "AB Göç Portalı",
     "btn3": "İngiltere Vize Seçenekleri"
   },
-  "counter": { "label": "Bu Yılki Ölümler", "sub": "bu yıl kaydedildi", "source": "Kaynak: IOM" },
+  "counter": {
+    "label": "Bu Yılki Ölümler",
+    "sub": "bu yıl kaydedildi",
+    "source": "Kaynak: IOM"
+  },
   "footer": {
     "disclaimer": "Bu platform IOM, BMMYK, Frontex ve Europol'den kamuya açık verileri kullanmaktadır. Yalnızca bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımamaktadır.",
     "sources": "Veriler: IOM Kayıp Göçmenler Projesi · BMMYK Küresel Eğilimler · Frontex Risk Analizi 2025 · Europol İnsan Ticareti Raporu 2024"
-  }
-,
+  },
   "thinkCarefully": {
-    "label": "Before You Decide",
-    "title1": "Is leaving really",
-    "title2": "the answer?",
-    "lead": "Migration can save lives — but it can also destroy them. If you have safety, family, and basic stability at home, the reality of irregular migration is rarely worth it. Read this honestly before you decide.",
+    "label": "Karar Vermeden Önce",
+    "title1": "Gitmek gerçekten",
+    "title2": "cevap mı?",
+    "lead": "Göç hayat kurtarabilir — ama hayatları da mahvedebilir. Evde güvenlik, aile ve temel istikrarınız varsa, düzensiz göçün gerçekliği nadiren buna değer. Karar vermeden önce bunu dürüstçe okuyun.",
     "cards": [
       {
         "icon": "🏠",
-        "title": "Do you have housing and food security?",
-        "body": "If you have a home, food, and your family is with you — you already have more than millions of people in the world. Migration to the UK or EU does not guarantee any of these things. Many arrivals spend years in asylum hostels, shared housing, or temporary accommodation."
+        "title": "Konut ve gıda güvenceniz var mı?",
+        "body": "Bir eviniz, yiyeceğiniz ve aileniz yanınızdaysa — dünyada milyonlarca insandan daha fazlasına sahipsiniz. Birleşik Krallık veya AB'ye göç bunların hiçbirini garanti etmez. Pek çok yeni gelen, yıllarca sığınma yurtlarında, paylaşımlı evlerde veya geçici konutlarda yaşar."
       },
       {
         "icon": "💼",
-        "title": "Are you leaving economic frustration — not danger?",
-        "body": "If you are not facing persecution or direct physical danger, the legal economic migration routes require qualifications, job offers, and language skills. Irregular migration for economic reasons almost always leads to exploitation, not prosperity. The UK minimum wage sounds good — but rent in London starts at £1,400/month for a shared room."
+        "title": "Ekonomik hayal kırıklığı mı, yoksa tehlike mi?",
+        "body": "Zulüm veya doğrudan fiziksel tehlikeyle karşı karşıya değilseniz, yasal ekonomik göç yolları nitelik, iş teklifi ve dil becerisi gerektirir. Ekonomik nedenlerle düzensiz göç neredeyse her zaman refaha değil, sömürüye yol açar. Birleşik Krallık asgari ücreti cazip görünüyor — ama Londra'da paylaşımlı oda kirası aylık 1.400 £'dan başlıyor."
       },
       {
         "icon": "👨‍👩‍👧",
-        "title": "What will this cost your family?",
-        "body": "The smugglers take your family's savings — sometimes everything they own. If you die or disappear at sea, they lose both the money and you. Families have sold land, borrowed from moneylenders at crushing rates, and been left in debt for years by a loved one who didn't survive the crossing."
+        "title": "Bu ailenize ne kadara mal olacak?",
+        "body": "Kaçakçılar ailenizin birikimlerini alır — bazen sahip olduklarının tamamını. Denizde ölür veya kaybolursanız, hem parayı hem de sizi kaybederler. Aileler arazi sattı, yüksek faizli tefecilerden borç aldı ve hayatta kalamayan sevdikleri yüzünden yıllarca borç içinde kaldı."
       },
       {
         "icon": "🌍",
-        "title": "Could you build something at home?",
-        "body": "Many countries that send migrants to Europe are growing fast — Nigeria, Bangladesh, Kenya, Ghana, Egypt, Ethiopia. Professionals with international education or skills are in high demand. The person who builds a business at home may end up wealthier — and happier — than the one who cleans offices in a foreign city they don't belong to."
+        "title": "Memlekette bir şeyler inşa edebilir misiniz?",
+        "body": "Avrupa'ya göçmen gönderen ülkelerin çoğu hızla büyüyor — Nijerya, Bangladeş, Kenya, Gana, Mısır, Etiyopya. Uluslararası eğitim veya becerilere sahip profesyoneller büyük talep görüyor. Memleketinde iş kuran kişi, yabancı bir şehirde ofis temizleyen kişiden daha zengin — ve daha mutlu — olabilir."
       }
     ],
-    "warning": "If you are not in danger — think very carefully. The Europe many people imagine does not exist. The Europe that does exist is cold, expensive, and often lonely for those who arrive without legal status, language skills, or qualifications."
+    "warning": "Tehlikede değilseniz — çok iyi düşünün. Pek çok insanın hayal ettiği Avrupa mevcut değil. Gerçek Avrupa; yasal statüsü, dil becerisi veya niteliği olmadan gelenler için soğuk, pahalı ve çoğunlukla yalnız bir yerdir."
   },
   "crudeReality": {
-    "label": "The Reality Nobody Tells You",
-    "title1": "What actually",
-    "title2": "happens after you arrive",
-    "lead": "Smugglers and social media show you the dream. Nobody shows you what comes after — even for those who arrive legally.",
+    "label": "Kimsenin Size Söylemediği Gerçek",
+    "title1": "Vardıktan sonra",
+    "title2": "gerçekte ne oluyor",
+    "lead": "Kaçakçılar ve sosyal medya size rüyayı gösteriyor. Sonrasında ne olduğunu kimse göstermiyor — yasal yollarla gelenler için bile.",
     "items": [
       {
         "icon": "🏚️",
-        "title": "The housing crisis is real",
-        "body": "UK and EU cities are facing severe housing shortages. A single room in a shared house in London costs £900–£1,400/month. Many newly arrived migrants — including those with work visas — sleep in garden sheds, overcrowded HMOs, or on friends' floors for the first years. Homelessness among migrants is rising, not falling."
+        "title": "Konut krizi gerçek",
+        "body": "Birleşik Krallık ve AB şehirleri ciddi konut sıkıntısıyla karşı karşıya. Londra'da paylaşımlı evde tek oda aylık 900–1.400 £. Çalışma vizesiyle gelenler dahil pek çok yeni göçmen, ilk yıllarda bahçe kulübelerinde, kalabalık evlerde ya da arkadaşlarının evlerinde kalıyor."
       },
       {
         "icon": "📄",
-        "title": "Your qualifications may not be recognised",
-        "body": "A doctor, engineer, or teacher from Nigeria, Bangladesh, or Pakistan often cannot practise in the UK without re-qualifying. This can take 3–7 years and cost tens of thousands of pounds. Many highly educated migrants end up working in warehouses, delivery, or care homes while paying off debts from their journey."
+        "title": "Nitelikleriniz tanınmayabilir",
+        "body": "Nijerya, Bangladeş veya Pakistan'dan bir doktor, mühendis veya öğretmen genellikle yeniden nitelik kazanmadan Birleşik Krallık'ta mesleğini icra edemez. Bu 3–7 yıl sürebilir ve on binlerce sterline mal olabilir."
       },
       {
         "icon": "🧠",
-        "title": "The mental health toll is severe",
-        "body": "Isolation, language barriers, discrimination, and the gap between expectation and reality cause serious mental health crises among migrants. NHS mental health services have years-long waiting lists. Suicide rates among asylum seekers and undocumented migrants are significantly higher than the general population."
+        "title": "Ruh sağlığı bedeli ağır",
+        "body": "Yalnızlık, dil engelleri, ayrımcılık ve beklenti-gerçeklik uçurumu ciddi ruh sağlığı krizlerine yol açıyor. NHS ruh sağlığı hizmetlerinde yıllarca süren bekleme listeleri var. Sığınma arayanlar arasında intihar oranları genel nüfusa göre önemli ölçüde yüksek."
       },
       {
         "icon": "💶",
-        "title": "The cost of living is brutal",
-        "body": "A grocery shop for one week in the UK costs £50–£80. Electricity, water, council tax, transport, and phone add another £400–£600/month. A minimum wage job (£11.44/hour) earns roughly £1,800/month after tax. After rent, there is almost nothing left — and nothing to send home."
+        "title": "Geçim masrafları acımasız",
+        "body": "Birleşik Krallık'ta bir haftalık market alışverişi 50–80 £. Elektrik, su, belediye vergisi, ulaşım ve telefon aylık 400–600 £ daha ekliyor. Asgari ücretli bir işten vergiden sonra yaklaşık 1.800 £/ay kazanılıyor. Kiradan sonra neredeyse hiçbir şey kalmıyor."
       },
       {
         "icon": "⚖️",
-        "title": "Undocumented life is not 'freedom'",
-        "body": "Without documentation you cannot open a bank account, rent legally, access healthcare fully, or leave and re-enter the country. You live in permanent fear of immigration enforcement. Many people live this way for 10–20 years, unable to visit family when parents die, unable to move forward, unable to go back."
+        "title": "Belgesiz hayat 'özgürlük' değil",
+        "body": "Belge olmadan banka hesabı açamazsınız, yasal olarak kiralayamazsınız, tam sağlık hizmetine erişemezsiniz ya da ülkeden çıkıp giremezsiniz. Sürekli sınır dışı edilme korkusuyla yaşıyorsunuz. Pek çok kişi bu şekilde 10–20 yıl geçiriyor."
       },
       {
         "icon": "🚨",
-        "title": "Exploitation does not end at the border",
-        "body": "Labour trafficking, sexual exploitation, and debt bondage continue inside Europe. Undocumented migrants are targeted because they cannot report abuse to police without risking deportation. The people who exploit migrants at sea often have networks that exploit them on land too."
+        "title": "Sömürü sınırda bitmiyor",
+        "body": "Avrupa'nın içinde insan ticareti, cinsel sömürü ve borç köleliği devam ediyor. Belgesiz göçmenler hedef alınıyor çünkü sınır dışı edilme riski olmadan polise istismarı bildiremiyorlar."
       }
     ]
   },
   "afterArrival": {
-    "label": "After Arrival — The Untold Stories",
-    "title1": "The struggle doesn't",
-    "title2": "end at the border",
-    "lead": "Even people who arrive legally — with visas, qualifications, and ambition — face a reality that is far harder than the dream. These are documented experiences, not exceptions.",
+    "label": "Varıştan Sonra — Anlatılmayan Hikayeler",
+    "title1": "Mücadele sınırda",
+    "title2": "bitmiyor",
+    "lead": "Yasal yollarla — vize, nitelik ve hırsla — gelenler bile rüyadan çok daha zor bir gerçekle yüzleşiyor. Bunlar belgelenmiş deneyimler, istisnalar değil.",
     "items": [
       {
         "flag": "🇳🇬",
-        "title": "Graduated. Unemployed. Invisible.",
-        "body": "Nigerian international students graduate from UK universities with first-class degrees — and send hundreds of CVs without a callback. Studies show that CVs with African names receive 60% fewer interview callbacks than identical CVs with English names. Discrimination in hiring is well-documented and ongoing.",
-        "source": "Oxford Migration Observatory, 2024"
+        "title": "Mezun oldu. İşsiz. Görünmez.",
+        "body": "Nijeryalı uluslararası öğrenciler Birleşik Krallık üniversitelerinden birincilikle mezun oluyor — ve yüzlerce CV göndererek geri arama alamıyor. Araştırmalar, Afrika isimli CV'lerin İngiliz isimli özdeş CV'lere kıyasla %60 daha az mülakat geri dönüşü aldığını gösteriyor.",
+        "source": "Oxford Göç Gözlemevi, 2024"
       },
       {
         "flag": "🇧🇩",
-        "title": "Arrived legally. Living in a garage.",
-        "body": "Hundreds of Bangladeshi workers on UK care visas have been stranded after employers collapsed, leaving them without work, housing, or income. Some lived in employer-provided accommodation that was a converted garage. The 60-day job-switch window was not enough to find new sponsors.",
-        "source": "Guardian reporting, 2023–2024"
+        "title": "Yasal geldi. Garajda yaşıyor.",
+        "body": "Birleşik Krallık bakım vizesiyle yüzlerce Bangladeşli işçi, işverenlerinin iflas etmesiyle iş, konut ve gelir olmadan mahsur kaldı. Bazıları garajdan dönüştürülmüş konutlarda yaşadı.",
+        "source": "The Guardian, 2023–2024"
       },
       {
         "flag": "🇸🇴",
-        "title": "10 years. Still waiting.",
-        "body": "Many Somali refugees who arrived legally in the early 2010s are still in temporary housing, still waiting for PTSD treatment, still navigating a benefits system that treats them as burdens. Children born in the UK speak fluent English but their parents remain isolated, unable to integrate.",
+        "title": "10 yıl. Hâlâ bekliyor.",
+        "body": "2010'ların başında yasal yollarla gelen pek çok Somalili mülteci hâlâ geçici konutlarda, TSSB tedavisi bekliyor, onları yük olarak gören bir sosyal yardım sistemiyle başa çıkmaya çalışıyor.",
         "source": "UNHCR UK, 2024"
       },
       {
         "flag": "🇵🇰",
-        "title": "Skilled Worker. Refused at the airport.",
-        "body": "Pakistani workers with valid UK Skilled Worker visas have been turned away at the border after being unable to answer detailed questions about their employer or role. Visa documents were genuine — but insufficient preparation for the border interview led to refusal of leave to enter.",
-        "source": "ILPA case reports, 2025"
+        "title": "Nitelikli İşçi. Havalimanında reddedildi.",
+        "body": "Geçerli Birleşik Krallık Nitelikli İşçi vizesiyle Pakistanlı işçiler, işverenleri veya rolleri hakkında ayrıntılı sorulara yanıt veremedikten sonra sınırda geri çevrildi.",
+        "source": "ILPA, 2025"
       }
     ]
   },
   "comeHome": {
-    "label": "A Message for Students",
-    "title": "Your country needs you back",
-    "sub": "If you came to study — go home. Not because Europe is not worth experiencing, but because you are worth more to your country than to a delivery company in Manchester.",
+    "label": "Öğrencilere Bir Mesaj",
+    "title": "Ülkeniz sizi geri istiyor",
+    "sub": "Okumaya geldiyseniz — eve dönün. Avrupa'nın deneyime değmediği için değil, siz Manchester'daki bir kurye şirketinden çok daha fazlasına değiyorsunuz.",
     "points": [
       {
         "icon": "🏗️",
-        "text": "Nigeria, Bangladesh, Kenya, Ghana, and Ethiopia are building fast. Engineers, doctors, teachers, and entrepreneurs who return with international experience are transforming these countries from the inside."
+        "text": "Nijerya, Bangladeş, Kenya, Gana ve Etiyopya hızla büyüyor. Uluslararası deneyimle dönen mühendisler, doktorlar, öğretmenler ve girişimciler bu ülkeleri içten dönüştürüyor."
       },
       {
         "icon": "💰",
-        "text": "Your purchasing power at home is dramatically higher. A salary that feels small in the UK can fund a house, a business, and a family's security in many home countries."
+        "text": "Evdeki satın alma gücünüz çok daha yüksek. Birleşik Krallık'ta küçük görünen bir maaş, pek çok ülkede bir ev, bir iş ve bütün bir ailenin güvencesini karşılayabilir."
       },
       {
         "icon": "❤️",
-        "text": "Your parents are ageing. Your language, your food, your community — these things matter more than a passport stamp. Many people who stay in Europe for decades describe a deep and lasting loneliness that money never resolves."
+        "text": "Ebeveynleriniz yaşlanıyor. Diliniz, yemeğiniz, topluluğunuz — bunlar pasaport damgasından daha önemli. On yıllar boyunca Avrupa'da kalanların pek çoğu, paranın asla çözemediği derin ve kalıcı bir yalnızlık tarif ediyor."
       },
       {
         "icon": "🌱",
-        "text": "The most powerful thing you can do for your country is return with skills and build something. You cannot change your home country from a shared house in Birmingham."
+        "text": "Ülkeniz için yapabileceğiniz en güçlü şey, becerilerinizle geri dönmek ve bir şeyler inşa etmektir. Birmingham'daki paylaşımlı bir evden ülkenizi değiştiremezsiniz."
       }
     ],
-    "cta": "Use the legal routes to study, gain experience, then return. That is the migration story that actually changes lives — yours and your country's."
+    "cta": "Okumak ve deneyim kazanmak için yasal yolları kullanın, sonra dönün. Gerçekten hayatları değiştiren göç hikayesi budur — sizin ve ülkenizin hayatları."
   }
 }

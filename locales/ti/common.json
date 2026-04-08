@@ -32,10 +32,26 @@
     "title2": "ብሓቂ ዝፍጠር",
     "lead": "ዝርዝር ቁጽርታት ካብ IOM፡ UNHCR፡ን ናይ ኤውሮጳ ዶብ ትካላት ዝተወሰዱ እዮም። ትርጉም ዝሰዓሩ ኣይኮኑን — ካብ ሓቂ ዝሓነፁ እዮም።",
     "stats": [
-      { "number": "+30,000", "label": "ካብ 2014 ጀሚሩ ኣብ ናይ ኤውሮጳ ናይ ስደት መንገድታት ዝተመዝገቡ ሞት", "source": "ናይ IOM ጠፊኦም ዘለዉ ስደተኛታት ፕሮጀክት, 2025" },
-      { "number": "+2,400", "label": "ኣብ 2025 ጥራይ ኣብ ሜዲተረኒያን ዝሞቱ", "source": "IOM, 2025" },
-      { "number": "ካብ 45 1", "label": "ናይ ማእከላዊ ሜዲተረኒያን ምስጋር ብሞት ወይ ምስኣን ይዛዘም", "source": "IOM, 2025" },
-      { "number": "€3,000–15,000", "label": "ንሽርሕቲ ዝኽፈል — ናይ ድሕነት ወይ ምብጻሕ ዋስትና የለን", "source": "Europol, 2024" }
+      {
+        "number": "+30,000",
+        "label": "ካብ 2014 ጀሚሩ ኣብ ናይ ኤውሮጳ ናይ ስደት መንገድታት ዝተመዝገቡ ሞት",
+        "source": "ናይ IOM ጠፊኦም ዘለዉ ስደተኛታት ፕሮጀክት, 2025"
+      },
+      {
+        "number": "+2,400",
+        "label": "ኣብ 2025 ጥራይ ኣብ ሜዲተረኒያን ዝሞቱ",
+        "source": "IOM, 2025"
+      },
+      {
+        "number": "ካብ 45 1",
+        "label": "ናይ ማእከላዊ ሜዲተረኒያን ምስጋር ብሞት ወይ ምስኣን ይዛዘም",
+        "source": "IOM, 2025"
+      },
+      {
+        "number": "€3,000–15,000",
+        "label": "ንሽርሕቲ ዝኽፈል — ናይ ድሕነት ወይ ምብጻሕ ዋስትና የለን",
+        "source": "Europol, 2024"
+      }
     ]
   },
   "routes": {
@@ -44,12 +60,42 @@
     "title2": "ናይ ሞት ዕዳጋ ኣለዎ",
     "lead": "ሽርሕቲ ቀሊል ምዃኑ ይነግሩኻ/ኺ። ዳታ ግን ካልእ ዕላል ይነግር።",
     "items": [
-      { "icon": "🌊", "name": "ማእከላዊ ሜዲተረኒያን", "badge": "ኣብ ዓለም ዝዛረ ናይ ባሕሪ መንገዲ", "desc": "ሊቢያ/ቱኒዝያ → ጣልያን/ማልጣ። ን ባሕሪ ዘይኮናስ ንወሓዚ ዝተሰርሑ ናይ ጎማ ጃልባታት። ምሉኣት ሰባት። ምቁራዕ ልሙድ እዩ።" },
-      { "icon": "⛵", "name": "ኣትላንቲክ — ካናሪ ደሴታት", "badge": "+2,300 ኪሜ ናይ ክፉት ውቅያኖስ", "desc": "ምዕራብ ኣፍሪቃ → እስፓኛ። ዝቐልጠፈ ዕቤትን ኣብ ነፍሲ ወከፍ ምብጋስ ዝዛረ መንገዲ። ብዙሕ ጃልባታት ፈጺሙ ኣይረኽባን።" },
-      { "icon": "🏔️", "name": "ናይ ባልካን ብምድሪ መንገዲ", "badge": "ኣዝዩ ቁሩር፡ ዓመጸኛ ምሕዳር", "desc": "ቱርኪ → ግሪኽ → ሰርብያ → ሃንጋሪ። ሰባት ኣብ ዘዝቀዘቀ ሙቐት ብኣኽራን ምሊኦም ሚእቲ ኪሎሜተራት ይኸዱ።" },
-      { "icon": "🏜️", "name": "ሳሃራ በረኻ", "badge": "ካብ ሜዲተረኒያን ዝበዝሕ ሞት", "desc": "ደቡብ ሳሃራ ኣፍሪቃ → ሰሜን ኣፍሪቃ። ሳሃራ ካብ ባሕሪ ዝዛረ ስደተኛታት ይቐትሎም — ግን ሬሳታት ብዘይሕብሩ ኣይርከቡን።" },
-      { "icon": "🌊", "name": "ናይ እንግሊዝ ቻናል", "badge": "ካብ ዝተሓታቱ ናይ ዓለም ናይ ምልላፍ ሽፋናት", "desc": "ፈረንሳ → ዩናይትድ ኪንግደም። ንኣሽቱ ጃልባታት ካብ ናይ መርከብ ማዕበል ክቕለቡ ይኽእላ። ካብ 2018 ዝበዝሑ 50 ሰባት ሞይቶም።" },
-      { "icon": "🚛", "name": "ኣብ ማካይን ምኽዋር", "badge": "ሓደጋ ምድሃን", "desc": "ናይ ናይ ጽዕነት ዕቃቦ፡ ናይ ምዝሃር ማካይን። ሰባት ብሙቐት፡ ቁሩር፡ ወይ ካርቦን ሞኖክሳይድ ይሞቱ። ኣብ 2019፡ 39 ቬትናማውያን ኣብ ኤሴክስ ዩኬ ኣብ ጽዕነት ማኪና ሞይቶም ተረኽቡ።" }
+      {
+        "icon": "🌊",
+        "name": "ማእከላዊ ሜዲተረኒያን",
+        "badge": "ኣብ ዓለም ዝዛረ ናይ ባሕሪ መንገዲ",
+        "desc": "ሊቢያ/ቱኒዝያ → ጣልያን/ማልጣ። ን ባሕሪ ዘይኮናስ ንወሓዚ ዝተሰርሑ ናይ ጎማ ጃልባታት። ምሉኣት ሰባት። ምቁራዕ ልሙድ እዩ።"
+      },
+      {
+        "icon": "⛵",
+        "name": "ኣትላንቲክ — ካናሪ ደሴታት",
+        "badge": "+2,300 ኪሜ ናይ ክፉት ውቅያኖስ",
+        "desc": "ምዕራብ ኣፍሪቃ → እስፓኛ። ዝቐልጠፈ ዕቤትን ኣብ ነፍሲ ወከፍ ምብጋስ ዝዛረ መንገዲ። ብዙሕ ጃልባታት ፈጺሙ ኣይረኽባን።"
+      },
+      {
+        "icon": "🏔️",
+        "name": "ናይ ባልካን ብምድሪ መንገዲ",
+        "badge": "ኣዝዩ ቁሩር፡ ዓመጸኛ ምሕዳር",
+        "desc": "ቱርኪ → ግሪኽ → ሰርብያ → ሃንጋሪ። ሰባት ኣብ ዘዝቀዘቀ ሙቐት ብኣኽራን ምሊኦም ሚእቲ ኪሎሜተራት ይኸዱ።"
+      },
+      {
+        "icon": "🏜️",
+        "name": "ሳሃራ በረኻ",
+        "badge": "ካብ ሜዲተረኒያን ዝበዝሕ ሞት",
+        "desc": "ደቡብ ሳሃራ ኣፍሪቃ → ሰሜን ኣፍሪቃ። ሳሃራ ካብ ባሕሪ ዝዛረ ስደተኛታት ይቐትሎም — ግን ሬሳታት ብዘይሕብሩ ኣይርከቡን።"
+      },
+      {
+        "icon": "🌊",
+        "name": "ናይ እንግሊዝ ቻናል",
+        "badge": "ካብ ዝተሓታቱ ናይ ዓለም ናይ ምልላፍ ሽፋናት",
+        "desc": "ፈረንሳ → ዩናይትድ ኪንግደም። ንኣሽቱ ጃልባታት ካብ ናይ መርከብ ማዕበል ክቕለቡ ይኽእላ። ካብ 2018 ዝበዝሑ 50 ሰባት ሞይቶም።"
+      },
+      {
+        "icon": "🚛",
+        "name": "ኣብ ማካይን ምኽዋር",
+        "badge": "ሓደጋ ምድሃን",
+        "desc": "ናይ ናይ ጽዕነት ዕቃቦ፡ ናይ ምዝሃር ማካይን። ሰባት ብሙቐት፡ ቁሩር፡ ወይ ካርቦን ሞኖክሳይድ ይሞቱ። ኣብ 2019፡ 39 ቬትናማውያን ኣብ ኤሴክስ ዩኬ ኣብ ጽዕነት ማኪና ሞይቶም ተረኽቡ።"
+      }
     ]
   },
   "legal": {
@@ -58,18 +104,103 @@
     "title2": "መንገድኻ/ኺ ፍለጥ",
     "lead": "ክልተ ሕቶታት መልስ ሃብ ንሕና ድማ ንኩነታትካ/ኺ ዝምጥን ሕጋዊ መንገድ ንሕብረካ/ኺ።",
     "q1": "ቀንዲ ምኽንያት ምሕዳርካ/ኺ እንታይ እዩ?",
-    "q1opts": ["ካብ ኲናት ወይ ምስጓም ምህዳም", "ዝሓሸ ስራሕ/ቁጠባዊ ኣጋጣሚ ምድላይ", "ስድራቤት ኣብ ኤውሮጳ ዳርጋ ኣሎ", "ኣብ ወጻኢ ምምሃር", "ርጉጽ ኣይኮነን / ካልእ"],
+    "q1opts": [
+      "ካብ ኲናት ወይ ምስጓም ምህዳም",
+      "ዝሓሸ ስራሕ/ቁጠባዊ ኣጋጣሚ ምድላይ",
+      "ስድራቤት ኣብ ኤውሮጳ ዳርጋ ኣሎ",
+      "ኣብ ወጻኢ ምምሃር",
+      "ርጉጽ ኣይኮነን / ካልእ"
+    ],
     "q2": "ሕጂ ኣበይ ኣለኻ/ኺ?",
-    "q2opts": ["ኣፍሪቃ", "ማእከላይ ምብራቕ", "ኣስያ", "ካልእ / ክነግር ኣይደልን"],
+    "q2opts": [
+      "ኣፍሪቃ",
+      "ማእከላይ ምብራቕ",
+      "ኣስያ",
+      "ካልእ / ክነግር ኣይደልን"
+    ],
     "showBtn": "ሕጋዊ ኣማራጺታተይ ሕሰብ →",
     "allTitle": "ኩሎም ሕጋዊ መንገድታት",
     "paths": [
-      { "id": "asylum", "icon": "🏛️", "tag": "ምስጓም / ኲናት", "name": "ናይ ዑቕባ ሕቶ", "desc": "ካብ ምስጓም፡ ኲናት፡ ወይ ዓመጽ እናሃደምካ/ኺ እንተኾይንካ/ኺ፡ ኣብ ትሕቲ ናይ 1951 ዕቑባ ስምምዕ ናይ ስደተኛ ደረጃ ኣሎካ/ኪ ክኸውን ይኽእል።", "how": "ናብ ቀረባ ቤት ጽሕፈት UNHCR ወይ ሃገራዊ ናይ ዑቕባ ስልጣን ኪድ። ዝኾነ ሰነዳት ኣምጽእ — ሰነዳት ምስኣን ኣዩካ/ኪ ኣይቅጽዕን።", "link": "https://www.unhcr.org/get-help", "linkLabel": "ቤት ጽሕፈት UNHCR ፍለጥ →", "cost": "ብናጻ", "time": "ወርሒ ክሳዕ ዓመታት", "risk": "ትሑት" },
-      { "id": "resettlement", "icon": "✈️", "tag": "ምስጓም / ምስቅቃል", "name": "ናይ UNHCR ዳግም ምቕማጥ", "desc": "UNHCR ዝበዝሕ ምስቅቃል ዘለዎም ዝተዘርጉ ስደተኛታት ናብ ሳልሳይ ውሑስ ሃገር ንምቕማጥ ትመርጽ።", "how": "ኣብ ቀረባ ቤት ጽሕፈት UNHCR ምዝገብ። ዳግም ምቕማጥ ን'ምቕሓፍ' ንዝኾነ ሰብ ኣይኸፍልን — ኩሉ ሳዕ ብናጻ እዩ።", "link": "https://www.unhcr.org/resettlement", "linkLabel": "ብዛዕባ ዳግም ምቕማጥ ፍለጥ →", "cost": "ብናጻ", "time": "1–3 ዓመት", "risk": "ኣዝዩ ትሑት" },
-      { "id": "work", "icon": "💼", "tag": "ቁጠባዊ / ሞያ", "name": "ናይ ክኢላ ሰራሕተኛ ቪዛ", "desc": "ዩኬ፡ ጀርመን፡ ካናዳ፡ን ካልኦት ሃገራት ኣብ ጥዕና፡ ቴክኖሎጂ፡ ህንጻ፡ን ሞያ ዘሎ ክኢላ ሰራሕተኛ ይደልያ።", "how": "ናይ ዩኬ ናይ ኣጻፋፍ ሞያ ዝርዝር ወይ 'Make it in Germany' ፖርታል ርአ። ኣብ ቤት ኤምባሲ ወይ ቆንሱሊ ሕቶ ቅረብ።", "link": "https://www.gov.uk/skilled-worker-visa", "linkLabel": "ናይ ዩኬ ክኢላ ሰራሕተኛ ቪዛ →", "link2": "https://www.make-it-in-germany.com", "linkLabel2": "ናይ ጀርመን ስራሕ ቪዛ →", "cost": "£719–£1,500 (ዩኬ)", "time": "3–8 ሰሙናት", "risk": "ኣዝዩ ትሑት" },
-      { "id": "study", "icon": "🎓", "tag": "ትምህርቲ / ወጣት", "name": "ናይ ተምሃሮ ቪዛ", "desc": "ናብ ዩኒቨርሲቲ ወይ ኮሌጅ ተቐቢልካ/ኺ እንተኾይንካ/ኺ፡ ብናይ ተምሃሮ ቪዛ ብሕጋዊ ክትኣቱ ትኽእል/ኢ። ብዙሕ ሃገራት ናይ ርብዒ ፍርቂ ሰዓት ስራሕ ይፈቅዳ።", "how": "ቅድሚ ኹሉ ናይ ቡርሳ ሕቶ ቅረብ (Chevening, DAAD, Erasmus). ናይ ቅቡልነት ደብዳቤ ካብ ትካል ቀንዲ ረቂቕ እዩ።", "link": "https://www.gov.uk/student-visa", "linkLabel": "ናይ ዩኬ ናይ ተምሃሮ ቪዛ →", "cost": "£363–£490 (ዩኬ)", "time": "3–6 ሰሙናት", "risk": "ኣዝዩ ትሑት" },
-      { "id": "family", "icon": "👨‍👩‍👧", "tag": "ናይ ስድራቤት ዝምድና", "name": "ናይ ስድራቤት ምትእኽኻብ", "desc": "ቀረባ ኣባል ስድራቤት (ሰብ ሓዳር፡ ወላዲ፡ ቈልዓ) ኣብ ናይ ኤውሮጳ ሃገር ወይ ዩኬ ሕጋዊ ደረጃ ዘለዎ/ዎ እንተኾይኑ/ና፡ ብሕጋዊ ናብኡ/ናቦ ክትኸይድ ትኽእል/ኢ።", "how": "ኣብ ኤውሮጳ ዘሎ ስድራቤትካ/ኺ ኣብ ስምካ/ኪ ሕቶ ይቕርብ። ኩነታት ብሃገር ይፈላለ።", "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en", "linkLabel": "ናይ ኤውሮጳ ናይ ስድራቤት ምትእኽኻብ →", "cost": "ብሃገር ይፈላለ", "time": "3–12 ወርሒ", "risk": "ትሑት" },
-      { "id": "humanitarian", "icon": "🤝", "tag": "ቅጽበታዊ ሓደጋ", "name": "ሰብኣዊ ቪዛ", "desc": "ዝተወሰና ሃገራት ኣብ ቤት ኤምባሲ ሰብኣዊ ቪዛ ይህባ፡ ምብጻሕ ከም ዋሕስ ዑቕባ ዝሕቶ ሕጋዊ ምእታው ፈቒዱ — ዝኾነ ሓደጋ ዝመልኦ ምስጋር ብዘይምፍጻም።", "how": "ናብ ናይ ኤውሮጳ ቤት ኤምባሲ ወይ ቆንሱሊ ኣብ ሃገርካ/ኺ ተወከስ። ኩነታትካ/ኺ ብሩህ ኩን/ኢ። ፖርቱጋል፡ እስፓኛ፡ ን ጣልያን ነዚ ኣካይዳ ተጠቒሞም ኣለዉ።", "link": "https://www.unhcr.org/asylum-in-the-eu", "linkLabel": "ናይ ኤውሮጳ ዑቕባ ኣካይዳታት →", "cost": "ብናጻ ወይ ዋጋ ትሑት", "time": "ሰሙናት ናብ ወርሒ", "risk": "ትሑት" }
+      {
+        "id": "asylum",
+        "icon": "🏛️",
+        "tag": "ምስጓም / ኲናት",
+        "name": "ናይ ዑቕባ ሕቶ",
+        "desc": "ካብ ምስጓም፡ ኲናት፡ ወይ ዓመጽ እናሃደምካ/ኺ እንተኾይንካ/ኺ፡ ኣብ ትሕቲ ናይ 1951 ዕቑባ ስምምዕ ናይ ስደተኛ ደረጃ ኣሎካ/ኪ ክኸውን ይኽእል።",
+        "how": "ናብ ቀረባ ቤት ጽሕፈት UNHCR ወይ ሃገራዊ ናይ ዑቕባ ስልጣን ኪድ። ዝኾነ ሰነዳት ኣምጽእ — ሰነዳት ምስኣን ኣዩካ/ኪ ኣይቅጽዕን።",
+        "link": "https://www.unhcr.org/get-help",
+        "linkLabel": "ቤት ጽሕፈት UNHCR ፍለጥ →",
+        "cost": "ብናጻ",
+        "time": "ወርሒ ክሳዕ ዓመታት",
+        "risk": "ትሑት"
+      },
+      {
+        "id": "resettlement",
+        "icon": "✈️",
+        "tag": "ምስጓም / ምስቅቃል",
+        "name": "ናይ UNHCR ዳግም ምቕማጥ",
+        "desc": "UNHCR ዝበዝሕ ምስቅቃል ዘለዎም ዝተዘርጉ ስደተኛታት ናብ ሳልሳይ ውሑስ ሃገር ንምቕማጥ ትመርጽ።",
+        "how": "ኣብ ቀረባ ቤት ጽሕፈት UNHCR ምዝገብ። ዳግም ምቕማጥ ን'ምቕሓፍ' ንዝኾነ ሰብ ኣይኸፍልን — ኩሉ ሳዕ ብናጻ እዩ።",
+        "link": "https://www.unhcr.org/resettlement",
+        "linkLabel": "ብዛዕባ ዳግም ምቕማጥ ፍለጥ →",
+        "cost": "ብናጻ",
+        "time": "1–3 ዓመት",
+        "risk": "ኣዝዩ ትሑት"
+      },
+      {
+        "id": "work",
+        "icon": "💼",
+        "tag": "ቁጠባዊ / ሞያ",
+        "name": "ናይ ክኢላ ሰራሕተኛ ቪዛ",
+        "desc": "ዩኬ፡ ጀርመን፡ ካናዳ፡ን ካልኦት ሃገራት ኣብ ጥዕና፡ ቴክኖሎጂ፡ ህንጻ፡ን ሞያ ዘሎ ክኢላ ሰራሕተኛ ይደልያ።",
+        "how": "ናይ ዩኬ ናይ ኣጻፋፍ ሞያ ዝርዝር ወይ 'Make it in Germany' ፖርታል ርአ። ኣብ ቤት ኤምባሲ ወይ ቆንሱሊ ሕቶ ቅረብ።",
+        "link": "https://www.gov.uk/skilled-worker-visa",
+        "linkLabel": "ናይ ዩኬ ክኢላ ሰራሕተኛ ቪዛ →",
+        "link2": "https://www.make-it-in-germany.com",
+        "linkLabel2": "ናይ ጀርመን ስራሕ ቪዛ →",
+        "cost": "£719–£1,500 (ዩኬ)",
+        "time": "3–8 ሰሙናት",
+        "risk": "ኣዝዩ ትሑት"
+      },
+      {
+        "id": "study",
+        "icon": "🎓",
+        "tag": "ትምህርቲ / ወጣት",
+        "name": "ናይ ተምሃሮ ቪዛ",
+        "desc": "ናብ ዩኒቨርሲቲ ወይ ኮሌጅ ተቐቢልካ/ኺ እንተኾይንካ/ኺ፡ ብናይ ተምሃሮ ቪዛ ብሕጋዊ ክትኣቱ ትኽእል/ኢ። ብዙሕ ሃገራት ናይ ርብዒ ፍርቂ ሰዓት ስራሕ ይፈቅዳ።",
+        "how": "ቅድሚ ኹሉ ናይ ቡርሳ ሕቶ ቅረብ (Chevening, DAAD, Erasmus). ናይ ቅቡልነት ደብዳቤ ካብ ትካል ቀንዲ ረቂቕ እዩ።",
+        "link": "https://www.gov.uk/student-visa",
+        "linkLabel": "ናይ ዩኬ ናይ ተምሃሮ ቪዛ →",
+        "cost": "£363–£490 (ዩኬ)",
+        "time": "3–6 ሰሙናት",
+        "risk": "ኣዝዩ ትሑት"
+      },
+      {
+        "id": "family",
+        "icon": "👨‍👩‍👧",
+        "tag": "ናይ ስድራቤት ዝምድና",
+        "name": "ናይ ስድራቤት ምትእኽኻብ",
+        "desc": "ቀረባ ኣባል ስድራቤት (ሰብ ሓዳር፡ ወላዲ፡ ቈልዓ) ኣብ ናይ ኤውሮጳ ሃገር ወይ ዩኬ ሕጋዊ ደረጃ ዘለዎ/ዎ እንተኾይኑ/ና፡ ብሕጋዊ ናብኡ/ናቦ ክትኸይድ ትኽእል/ኢ።",
+        "how": "ኣብ ኤውሮጳ ዘሎ ስድራቤትካ/ኺ ኣብ ስምካ/ኪ ሕቶ ይቕርብ። ኩነታት ብሃገር ይፈላለ።",
+        "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en",
+        "linkLabel": "ናይ ኤውሮጳ ናይ ስድራቤት ምትእኽኻብ →",
+        "cost": "ብሃገር ይፈላለ",
+        "time": "3–12 ወርሒ",
+        "risk": "ትሑት"
+      },
+      {
+        "id": "humanitarian",
+        "icon": "🤝",
+        "tag": "ቅጽበታዊ ሓደጋ",
+        "name": "ሰብኣዊ ቪዛ",
+        "desc": "ዝተወሰና ሃገራት ኣብ ቤት ኤምባሲ ሰብኣዊ ቪዛ ይህባ፡ ምብጻሕ ከም ዋሕስ ዑቕባ ዝሕቶ ሕጋዊ ምእታው ፈቒዱ — ዝኾነ ሓደጋ ዝመልኦ ምስጋር ብዘይምፍጻም።",
+        "how": "ናብ ናይ ኤውሮጳ ቤት ኤምባሲ ወይ ቆንሱሊ ኣብ ሃገርካ/ኺ ተወከስ። ኩነታትካ/ኺ ብሩህ ኩን/ኢ። ፖርቱጋል፡ እስፓኛ፡ ን ጣልያን ነዚ ኣካይዳ ተጠቒሞም ኣለዉ።",
+        "link": "https://www.unhcr.org/asylum-in-the-eu",
+        "linkLabel": "ናይ ኤውሮጳ ዑቕባ ኣካይዳታት →",
+        "cost": "ብናጻ ወይ ዋጋ ትሑት",
+        "time": "ሰሙናት ናብ ወርሒ",
+        "risk": "ትሑት"
+      }
     ]
   },
   "compare": {
@@ -80,12 +211,36 @@
     "colIllegal": "⚠ ዘይሕጋዊ መንገዲ",
     "colLegal": "✓ ሕጋዊ መንገዲ",
     "rows": [
-      { "factor": "ሓደጋ ንህይወት", "illegal": "ኣዝዩ ልዑል — ኣብ ዝተወሰና መንገድታት ካብ 45 1 ይሞቱ", "legal": "ትሑት — ብነፋሪት፡ ኣውቶቡስ፡ ወይ ባቡር ትጓዓዝ" },
-      { "factor": "ዋጋ", "illegal": "ንሽርሕቲ €3,000–15,000 (ሞትካ/ኺ ኣይምለስን)", "legal": "UNHCR ብናጻ ዩ። ናይ ቪዛ ክፍሊት ካብ ዋጋ ሽርሕቲ ኣዝዩ ውሑድ ዩ።" },
-      { "factor": "ሕጋዊ ደረጃ ምብጻሕ", "illegal": "ዘይተዘርጉ — ናይ ቅጽበታዊ ማእሰርቲ ን ምስጓምን ሓደጋ", "legal": "ምሉእ ሕጋዊ መሰላት፡ ናብ ኣገልጎሎት ምርካብ፡ ናይ ስራሕ ፍቓዳት" },
-      { "factor": "ናይ ገበን ሰነድ", "illegal": "ዘይሕጋዊ ምእታው ናይ መጻኢ ናይ ቪዛ ን ዑቕባ ሕቶታት ይዓፍኖ", "legal": "ናይ ገበን ሰነድ የለን — ናይ መጻኢ ኣማራጺታትካ/ኺ ክፉት ይተርፍ" },
-      { "factor": "ስድራቤትካ/ኺ", "illegal": "ስድራቤትካ/ኺ እንታይ ከም ዝፈጸሞ ፈጺሞም ክፈልጡ ይኽእሉ ኣይኮኑን", "legal": "ብድሓር ናይ ስድራቤት ምትእኽኻብ ብሕጋዊ ስድራቤትካ/ኺ ምጻእ ትኽእል/ኢ" },
-      { "factor": "መንበሪ ን ጥዕና", "illegal": "ዋላ ሓደ — ካብ ኩሎም ኣገልጎሎት ተሓቢእካ/ኺ ኣለኻ/ኺ", "legal": "ሕጋዊ ናይ ዑቕባ ሕቶ ቅናሕ ኣቕሊ ን ሕክምናዊ ክንክን ይረክቡ" }
+      {
+        "factor": "ሓደጋ ንህይወት",
+        "illegal": "ኣዝዩ ልዑል — ኣብ ዝተወሰና መንገድታት ካብ 45 1 ይሞቱ",
+        "legal": "ትሑት — ብነፋሪት፡ ኣውቶቡስ፡ ወይ ባቡር ትጓዓዝ"
+      },
+      {
+        "factor": "ዋጋ",
+        "illegal": "ንሽርሕቲ €3,000–15,000 (ሞትካ/ኺ ኣይምለስን)",
+        "legal": "UNHCR ብናጻ ዩ። ናይ ቪዛ ክፍሊት ካብ ዋጋ ሽርሕቲ ኣዝዩ ውሑድ ዩ።"
+      },
+      {
+        "factor": "ሕጋዊ ደረጃ ምብጻሕ",
+        "illegal": "ዘይተዘርጉ — ናይ ቅጽበታዊ ማእሰርቲ ን ምስጓምን ሓደጋ",
+        "legal": "ምሉእ ሕጋዊ መሰላት፡ ናብ ኣገልጎሎት ምርካብ፡ ናይ ስራሕ ፍቓዳት"
+      },
+      {
+        "factor": "ናይ ገበን ሰነድ",
+        "illegal": "ዘይሕጋዊ ምእታው ናይ መጻኢ ናይ ቪዛ ን ዑቕባ ሕቶታት ይዓፍኖ",
+        "legal": "ናይ ገበን ሰነድ የለን — ናይ መጻኢ ኣማራጺታትካ/ኺ ክፉት ይተርፍ"
+      },
+      {
+        "factor": "ስድራቤትካ/ኺ",
+        "illegal": "ስድራቤትካ/ኺ እንታይ ከም ዝፈጸሞ ፈጺሞም ክፈልጡ ይኽእሉ ኣይኮኑን",
+        "legal": "ብድሓር ናይ ስድራቤት ምትእኽኻብ ብሕጋዊ ስድራቤትካ/ኺ ምጻእ ትኽእል/ኢ"
+      },
+      {
+        "factor": "መንበሪ ን ጥዕና",
+        "illegal": "ዋላ ሓደ — ካብ ኩሎም ኣገልጎሎት ተሓቢእካ/ኺ ኣለኻ/ኺ",
+        "legal": "ሕጋዊ ናይ ዑቕባ ሕቶ ቅናሕ ኣቕሊ ን ሕክምናዊ ክንክን ይረክቡ"
+      }
     ]
   },
   "stories": {
@@ -93,9 +248,24 @@
     "title1": "ሰባት ዝምነዩ",
     "title2": "ኔሮም ዝፈለጡ",
     "items": [
-      { "flag": "🇸🇴", "type": "danger", "quote": "ሽርሕቲ ጃልባ ውሑስ ምዃኑ ኣፈለጠ። 80 ሰብ ኣብ ን20 ሰብ ዝተሰርሐ ጎማ ጃልባ ነይርና። ሓወይ ድሒኑ ኣይኮነን። ምለስ ክብል ዝዓዲ ዘሎ ኩሉ ኔሩ ካሊእ ምርጫ ምገበርኩ ኔሩ።", "name": "ዝደሓነ — ማእከላዊ ሜዲተረኒያን፡ 2022" },
-      { "flag": "🇸🇾", "type": "danger", "quote": "€8,000 ከፊልና ኣብ ጥሪ ኣብ ናይ ሰርብያ ኣኽራን ጠፊዕና። ሰለስተ ሰባት ካብ ጓናይ ብቁሩር ሞይቶም። 11 መዓልቲ ተጓዒዝና።", "name": "ዝደሓነ — ናይ ባልካን መንገዲ፡ 2021" },
-      { "flag": "🇦🇫", "type": "safe", "quote": "ኣብ ፓኪስታን ኣብ UNHCR ምዝጊቤ። 14 ወርሒ ወሲዱ ግን ብሕጋዊ ናብ ጀርመን ዳግም ምቕማጥ ተጠቒሚ። ሕጂ ስራሕ ኣሎኒ። ደቀይ ናብ ቤት ትምህርቲ ይኸዱ። በጃኻ/ኺ — ንሽርሕቲ ኣይትእመኑ።", "name": "ዳግም ዝቐመጠ ስደተኛ — ጀርመን፡ 2023" }
+      {
+        "flag": "🇸🇴",
+        "type": "danger",
+        "quote": "ሽርሕቲ ጃልባ ውሑስ ምዃኑ ኣፈለጠ። 80 ሰብ ኣብ ን20 ሰብ ዝተሰርሐ ጎማ ጃልባ ነይርና። ሓወይ ድሒኑ ኣይኮነን። ምለስ ክብል ዝዓዲ ዘሎ ኩሉ ኔሩ ካሊእ ምርጫ ምገበርኩ ኔሩ።",
+        "name": "ዝደሓነ — ማእከላዊ ሜዲተረኒያን፡ 2022"
+      },
+      {
+        "flag": "🇸🇾",
+        "type": "danger",
+        "quote": "€8,000 ከፊልና ኣብ ጥሪ ኣብ ናይ ሰርብያ ኣኽራን ጠፊዕና። ሰለስተ ሰባት ካብ ጓናይ ብቁሩር ሞይቶም። 11 መዓልቲ ተጓዒዝና።",
+        "name": "ዝደሓነ — ናይ ባልካን መንገዲ፡ 2021"
+      },
+      {
+        "flag": "🇦🇫",
+        "type": "safe",
+        "quote": "ኣብ ፓኪስታን ኣብ UNHCR ምዝጊቤ። 14 ወርሒ ወሲዱ ግን ብሕጋዊ ናብ ጀርመን ዳግም ምቕማጥ ተጠቒሚ። ሕጂ ስራሕ ኣሎኒ። ደቀይ ናብ ቤት ትምህርቲ ይኸዱ። በጃኻ/ኺ — ንሽርሕቲ ኣይትእመኑ።",
+        "name": "ዳግም ዝቐመጠ ስደተኛ — ጀርመን፡ 2023"
+      }
     ]
   },
   "cta": {
@@ -106,133 +276,136 @@
     "btn2": "ናይ ኤውሮጳ ስደት ፖርታል",
     "btn3": "ናይ ዩኬ ቪዛ ኣማራጺታት"
   },
-  "counter": { "label": "ናይ ዓመት ሞት", "sub": "ሎዓንቲ ዓመት ዝተዘርጉ", "source": "ምንጪ፡ IOM" },
+  "counter": {
+    "label": "ናይ ዓመት ሞት",
+    "sub": "ሎዓንቲ ዓመት ዝተዘርጉ",
+    "source": "ምንጪ፡ IOM"
+  },
   "footer": {
     "disclaimer": "እዚ ፕላትፎርም ካብ IOM፡ UNHCR፡ Frontex፡ ን Europol ናይ ህዝቢ ዳታ ይጥቀም። ናይ ሓበሬታ ምንጪ ጥራይ ዩ ናይ ሕጋዊ ምኽሪ ኣይኮነን።",
     "sources": "ዳታ፡ IOM ጠፊኦም ዘለዉ ስደተኛታት ፕሮጀክት · ናይ UNHCR ዓለምለኻዊ ኩነታት · ናይ Frontex ናይ ሓደጋ ዳዕምዳዕ 2025 · ናይ Europol ጸብጻብ 2024"
-  }
-,
+  },
   "thinkCarefully": {
-    "label": "Before You Decide",
-    "title1": "Is leaving really",
-    "title2": "the answer?",
-    "lead": "Migration can save lives — but it can also destroy them. If you have safety, family, and basic stability at home, the reality of irregular migration is rarely worth it. Read this honestly before you decide.",
+    "label": "ቅድሚ ምውሳን",
+    "title1": "ምኻድ'ዶ ብሓቂ",
+    "title2": "መልሲ እዩ?",
+    "lead": "ስደት ህይወት ከድሕን ይኽእል — ግን ከፍርሳ ምኽእሉ ድማ ኣይርሳዕ። ኣብ ገዛኻ ድሕንነት፣ ስድራቤት፣ ካብ መሰረታዊ ምርግጋእ እንተሃልዩካ፣ ናይ ዘይሕጋዊ ስደት ሓቂ ብዙሕ ከም ዘይጠቕም ኣስተብህሎ። ቅድሚ ምውሳን ነዚ ብቕንዕና ኣንብቦ።",
     "cards": [
       {
         "icon": "🏠",
-        "title": "Do you have housing and food security?",
-        "body": "If you have a home, food, and your family is with you — you already have more than millions of people in the world. Migration to the UK or EU does not guarantee any of these things. Many arrivals spend years in asylum hostels, shared housing, or temporary accommodation."
+        "title": "ቤት ኣለካ'ዶ፣ ምግቢ'ኸ ኣቕሪብካ'ዶ?",
+        "body": "ቤት ምስ ሃሉ፣ ምግቢ ምስ ሃሉ፣ ስድራቤትካ ምስካ ምስ ሃሉ — ካብ ዓለም ሚልዮናት ሰባት ዝበለጸ ኣለካ። ናብ UK ወይ EU ምስዳዱ ካብዚ ሓደ እኳ ኣይረጋግጸካን። ብዙሓት ሓደሽቲ መጻእቲ ዓመታት ኣብ ዑቕባ ሆስቴላት፣ ዝካፈሉ ቤታት ወይ ግዚያዊ ቦታታት ይሓልፉ።"
       },
       {
         "icon": "💼",
-        "title": "Are you leaving economic frustration — not danger?",
-        "body": "If you are not facing persecution or direct physical danger, the legal economic migration routes require qualifications, job offers, and language skills. Irregular migration for economic reasons almost always leads to exploitation, not prosperity. The UK minimum wage sounds good — but rent in London starts at £1,400/month for a shared room."
+        "title": "ካብ ቁጠባዊ ሕርቃን ዲኻ ትሃድም — ካብ ሓደጋ ዘይኮነ?",
+        "body": "ምስዳዱ ወይ ቀጥታዊ ናይ ኣካል ሓደጋ ምስ ዘይህሉ፣ ሕጋዊ ናይ ቁጠባ ስደት ፍቓዳት ብቕዓት፣ ሰራሕ ናይ ምርካብ ኣቕርቦት፣ ናይ ቋንቋ ክእለት ዘድልዮም እዮም። ዘይሕጋዊ ስደት ብቁጠባዊ ምኽንያት ብዙሕ ዘሕዝን ናብ ምዝምዛ ዘምርሕ እምበር ናብ ዕቤት ዘይኮነ።"
       },
       {
         "icon": "👨‍👩‍👧",
-        "title": "What will this cost your family?",
-        "body": "The smugglers take your family's savings — sometimes everything they own. If you die or disappear at sea, they lose both the money and you. Families have sold land, borrowed from moneylenders at crushing rates, and been left in debt for years by a loved one who didn't survive the crossing."
+        "title": "ስድራቤትካ ኣየናይ ዋጋ ክኸፍሉ?",
+        "body": "ሰብ-ሸቃጦ ናይ ስድራቤትካ ቁጠባ ይወስዱ — ሓንሳብ ሓንሳብ ዘለዎም ኩሉ። ኣብ ባሕሪ እንተሞይትካ ወይ ኣጥፊእካ፣ ካልሲ ዶ ንኡ ዶ ይጥፍኡ። ስድራቤት መሬት ሸይጦም፣ ካብ ቤልጩ ዘይሓዊ ብዓብዪ ወሊዳ ወሲዶም፣ ዓሰርተ ዓሰርተ ዓመታት ዕዳ ተሰኪሞም ቀርዮም።"
       },
       {
         "icon": "🌍",
-        "title": "Could you build something at home?",
-        "body": "Many countries that send migrants to Europe are growing fast — Nigeria, Bangladesh, Kenya, Ghana, Egypt, Ethiopia. Professionals with international education or skills are in high demand. The person who builds a business at home may end up wealthier — and happier — than the one who cleans offices in a foreign city they don't belong to."
+        "title": "ኣብ ዓድኻ ክትህነጽ ኣይትኽእልን'ዶ?",
+        "body": "ናብ ኤውሮጳ ስደተኛ ዝሰዱ ብዙሓት ሃገራት ብቕልጡፍ ይዕቡ — ናይጀርያ፣ ባንግላዴሽ፣ ኬንያ፣ ጋና፣ ኤጅፕት፣ ኢትዮጵያ። ምስ ኣህጉራዊ ምሁርነት ወይ ክእለት ዘለዎም ሙያውያን ብዙሕ ዕዳጋ ኣለዎም። ኣብ ዓዱ ንግዲ ዝሃንጽ ሰብ፣ ኣብ ባዕዳዊ ኸተማ ቤት ዝጸሪ ሰብ ካብ ዝሀብተም — ዝሐሸ ደስታ ክህልዎ ይኽእል።"
       }
     ],
-    "warning": "If you are not in danger — think very carefully. The Europe many people imagine does not exist. The Europe that does exist is cold, expensive, and often lonely for those who arrive without legal status, language skills, or qualifications."
+    "warning": "ኣብ ሓደጋ እንተዘይሃልኻ — ብጥንቃቐ ሕሰብ። ብዙሓት ዝሓስብዎ ዘለዉ ኤውሮጳ የሎን። ዘሎ ኤውሮጳ ቑሩር፣ ክቡር፣ ፍቕርና ዝጐደሎ ኮይኑ ንዝመጹ ዘይሕጋዊ ደረጃ፣ ናይ ቋንቋ ክእለት ወይ ብቕዓት ዘይብሎም።"
   },
   "crudeReality": {
-    "label": "The Reality Nobody Tells You",
-    "title1": "What actually",
-    "title2": "happens after you arrive",
-    "lead": "Smugglers and social media show you the dream. Nobody shows you what comes after — even for those who arrive legally.",
+    "label": "ሓቂ ዝኾን ዘይሕበር",
+    "title1": "ምስ መጻእካ",
+    "title2": "ብሓቂ ዝኽወን",
+    "lead": "ሸቃጦን ማሕበራዊ ሚዲያን ሕልምኻ ይሕብሩ። ቀጺሉ ዝኽወን ዝኾን ሓደ እኳ ኣይሕብርካን — ሕጋዊ ኣቐዲሞም ዝመጹ እኳ ንዕኦም።",
     "items": [
       {
         "icon": "🏚️",
-        "title": "The housing crisis is real",
-        "body": "UK and EU cities are facing severe housing shortages. A single room in a shared house in London costs £900–£1,400/month. Many newly arrived migrants — including those with work visas — sleep in garden sheds, overcrowded HMOs, or on friends' floors for the first years. Homelessness among migrants is rising, not falling."
+        "title": "ናይ ቤት ቅልውላው ሓቀኛ እዩ",
+        "body": "ከተማታት UK ን EU ከቢድ ናይ ቤት ዕዳጋ ወሳዲ ኢዮም። ሓባራዊ ቤት ኣብ ለንደን ሓደ ክፍሊ ወርሒ ወርሒ £900–£1,400 ይኽፍሉ። ብዙሓት ሓደሽቲ ስደተኛታት — ናይ ስራሕ ቪዛ ዘለዎም ይኹኑ — ኣብ ጋረጅ፣ ዝጸዐቑ ቤታት ወይ ኣብ ዓርኪ ቤት ይድቅሱ።"
       },
       {
         "icon": "📄",
-        "title": "Your qualifications may not be recognised",
-        "body": "A doctor, engineer, or teacher from Nigeria, Bangladesh, or Pakistan often cannot practise in the UK without re-qualifying. This can take 3–7 years and cost tens of thousands of pounds. Many highly educated migrants end up working in warehouses, delivery, or care homes while paying off debts from their journey."
+        "title": "ብቕዓትካ ኣይፍለጥ ይኸውን",
+        "body": "ናይጀርያ፣ ባንግላዴሽ ወይ ፓኪስታን ዶክቶር፣ ኢንጅነር ወይ መምህር፣ ናብ UK ኣብ ዘይብቕዓቶ እናተሃለ ዳግማይ ምብቃዕ ኣድሊዮ ሙያ ሰራሕ ኣይክእልን። እዚ 3–7 ዓመት ወሲዱ ኣሽሓት ኣቕምታ ዝወጽኣ ክኸውን ይኽእል።"
       },
       {
         "icon": "🧠",
-        "title": "The mental health toll is severe",
-        "body": "Isolation, language barriers, discrimination, and the gap between expectation and reality cause serious mental health crises among migrants. NHS mental health services have years-long waiting lists. Suicide rates among asylum seekers and undocumented migrants are significantly higher than the general population."
+        "title": "ናይ ኣእምሮ ጥዕና ዋጋ ዓቢዩ እዩ",
+        "body": "ብቻ ምንባር፣ ናይ ቋንቋ ዕንቅፋት፣ ፈለለይ ምባል፣ ትጽቢትን ሓቅን ናይ ዘዛምዱ ፍልልይ ከቢድ ናይ ኣእምሮ ቅልውላዋት ይፈጥሩ። ናይ NHS ናይ ኣእምሮ ጥዕና ኣገልግሎት ካብ ዓሰርቲ ዓመታት ዝሓዝ ዝጸበ ዝርዝር ኣለዎ።"
       },
       {
         "icon": "💶",
-        "title": "The cost of living is brutal",
-        "body": "A grocery shop for one week in the UK costs £50–£80. Electricity, water, council tax, transport, and phone add another £400–£600/month. A minimum wage job (£11.44/hour) earns roughly £1,800/month after tax. After rent, there is almost nothing left — and nothing to send home."
+        "title": "ናይ ናብራ ወጻኢ ኣዝዩ ክቡር እዩ",
+        "body": "ኣብ UK ናይ ሓደ ሰሙን ናይ ዕዳጋ ወጻኢ £50–80 እዩ። ኤሌክትሪ፣ ማይ፣ ናይ ምምሕዳር ግብሪ፣ መጓዓዝያ፣ ስልኪ ወርሒ ወርሒ £400–600 ይወስኸሉ። ናይ ዝዛይደ ሸርፊ ስራሕ ድሕሪ ቀረጽ ናብ £1,800/ወርሒ ይኸውን። ድሕሪ ካርቲ ዋጋ ሓደ ነቕ ኣይበሉን።"
       },
       {
         "icon": "⚖️",
-        "title": "Undocumented life is not 'freedom'",
-        "body": "Without documentation you cannot open a bank account, rent legally, access healthcare fully, or leave and re-enter the country. You live in permanent fear of immigration enforcement. Many people live this way for 10–20 years, unable to visit family when parents die, unable to move forward, unable to go back."
+        "title": "ናይ ሰነድ ዘይብሉ ህይወት 'ናጽነት' ኣይኮነን",
+        "body": "ሰነድ ዘይብልካ ናብ ባንክ ኣካውንት ኣይኸፈትካ፣ ሕጋዊ ናይ ምክራይ ኣይካኣልካ፣ ናብ ሕክምና ሙሉእ ዘርጋሕ ዘይክህሉ ይኽእል። ኩሉ ጊዜ ካብ ናይ ስደት ዓቐብቲ ፍርሂ ትነብር።"
       },
       {
         "icon": "🚨",
-        "title": "Exploitation does not end at the border",
-        "body": "Labour trafficking, sexual exploitation, and debt bondage continue inside Europe. Undocumented migrants are targeted because they cannot report abuse to police without risking deportation. The people who exploit migrants at sea often have networks that exploit them on land too."
+        "title": "ምዝምዛ ኣብ ዶብ ኣይውዳእን",
+        "body": "ናይ ስራሕ ምምቅቃል፣ ጾታዊ ምዝምዛ፣ ናይ ዕዳ ባርነት ኣብ ኤውሮጳ ውሽጢ ይቕጽሉ። ሰነድ ዘይብሎም ስደተኛታት ክብቡሉ ይሕቀቑ ምኽንያቱ ብዘይ ናይ ምስጓጕ ሓደጋ ናብ ፖሊስ ምሕባር ኣይካኣሉን።"
       }
     ]
   },
   "afterArrival": {
-    "label": "After Arrival — The Untold Stories",
-    "title1": "The struggle doesn't",
-    "title2": "end at the border",
-    "lead": "Even people who arrive legally — with visas, qualifications, and ambition — face a reality that is far harder than the dream. These are documented experiences, not exceptions.",
+    "label": "ምስ መጻእካ — ዘይተነገሩ ዛንታታት",
+    "title1": "ቃልሲ ኣብ ዶብ",
+    "title2": "ኣይውዳእን",
+    "lead": "ሕጋዊ ዝመጹ — ቪዛ፣ ብቕዓት፣ ምርጫ ዘለዎም — እውን ካብ ሕልሚ ዝኸቦ ሓቂ ይጋጠሞም። ዝተምዘኑ ተሞኩሮታት እዮም እዚ፣ ፍሉያት ኣይኮኑን።",
     "items": [
       {
         "flag": "🇳🇬",
-        "title": "Graduated. Unemployed. Invisible.",
-        "body": "Nigerian international students graduate from UK universities with first-class degrees — and send hundreds of CVs without a callback. Studies show that CVs with African names receive 60% fewer interview callbacks than identical CVs with English names. Discrimination in hiring is well-documented and ongoing.",
+        "title": "ተመሪቑ። ስርሒ ዘይብሉ። ዘይርአ።",
+        "body": "ናይጀርያዊ ሓለፍቲ ተምሃሮ ካብ UK ዩኒቨርሲቲ ብናይ ፈለማ ደርጃ ዝምረቑ — ብዙሓት CV ሰዲዶም ምልሽ ዘይሰምዑ። ናይ ኣፍሪካ ስም ዘለዎ CV ካብ ናይ ቋንቋ እንግሊዝ ስም ዘለዎ ዝተዓጻጸፈ ሲቪ 60% ውሑድ ናይ ቃለ-ምልልስ ጻውዒት ይቕበሉ ምዃኑ ትምህርቲ ሕሂ ኣርኢዩ።",
         "source": "Oxford Migration Observatory, 2024"
       },
       {
         "flag": "🇧🇩",
-        "title": "Arrived legally. Living in a garage.",
-        "body": "Hundreds of Bangladeshi workers on UK care visas have been stranded after employers collapsed, leaving them without work, housing, or income. Some lived in employer-provided accommodation that was a converted garage. The 60-day job-switch window was not enough to find new sponsors.",
-        "source": "Guardian reporting, 2023–2024"
+        "title": "ሕጋዊ መጺኡ። ጋረጅ ይነብር።",
+        "body": "ናይ UK ናይ ክንክን ቪዛ ዘለዎም ብዙሓት ባንግላዴሽ ሰራሕተኛታት ወሃብቲ ስራሕ ምስ ፈሸሉ ናይ ስራሕ፣ ቤት ወይ ኣታዊ ዘይብሎም ተዓጽዮም ተጸቅጥዮም። ሓደ ሓደ ካብ ጋረጅ ናብ ኣባይቲ ዝተቐየሩ ቦታታት ይነብሩ ነበሩ።",
+        "source": "The Guardian, 2023–2024"
       },
       {
         "flag": "🇸🇴",
-        "title": "10 years. Still waiting.",
-        "body": "Many Somali refugees who arrived legally in the early 2010s are still in temporary housing, still waiting for PTSD treatment, still navigating a benefits system that treats them as burdens. Children born in the UK speak fluent English but their parents remain isolated, unable to integrate.",
+        "title": "10 ዓመት። ገና ይጽበ።",
+        "body": "ብዙሓት ሶማላዊ ስደተኛታት ኣብ ጀምሩ 2010ታት ሕጋዊ ዝመጹ ገና ኣብ ግዚያዊ ቤታት፣ ናይ PTSD ሕክምና ይጽበዩ፣ ከም ሰቅሊ ዝርእዮም ናይ ሓገዝ ስርዓት ይሰዱ።",
         "source": "UNHCR UK, 2024"
       },
       {
         "flag": "🇵🇰",
-        "title": "Skilled Worker. Refused at the airport.",
-        "body": "Pakistani workers with valid UK Skilled Worker visas have been turned away at the border after being unable to answer detailed questions about their employer or role. Visa documents were genuine — but insufficient preparation for the border interview led to refusal of leave to enter.",
-        "source": "ILPA case reports, 2025"
+        "title": "ሙሉእ ስራሕ ሰራሒ። ኣብ መዓርፎ ነፈርቲ ተነጺሉ።",
+        "body": "ሕጋዊ UK Skilled Worker ቪዛ ዘለዎም ፓኪስታናዊ ሰራሕተኛታት ብዛዕባ ወሃቢ ስርሖም ወይ ሙያ ዝምልከቱ ዝርዝር ሕቶታት ክምልሱ ኣብ ዘይካኣሉ ጊዜ ኣብ ዶብ ተመሊሶም።",
+        "source": "ILPA, 2025"
       }
     ]
   },
   "comeHome": {
-    "label": "A Message for Students",
-    "title": "Your country needs you back",
-    "sub": "If you came to study — go home. Not because Europe is not worth experiencing, but because you are worth more to your country than to a delivery company in Manchester.",
+    "label": "ናብ ተምሃሮ መልእኽቲ",
+    "title": "ሃገርካ ናብ ምምላስካ ኣድልያ",
+    "sub": "ናይ ምምሃር ዝመጻእካ እንተኾንካ — ናብ ዓዱ ተመለስ። ኤውሮጳ ናብ ዓቕሚ ዘይጸዕን ስለ ዘይኮነ፣ ኣንቲ ናይ ማንቸስተር ናይ ምብጻሕ ትካል ካብ ሃገርካ ዝሕሸካ ዘለካ ዝበልጽ ዋጋ ኣለካ።",
     "points": [
       {
         "icon": "🏗️",
-        "text": "Nigeria, Bangladesh, Kenya, Ghana, and Ethiopia are building fast. Engineers, doctors, teachers, and entrepreneurs who return with international experience are transforming these countries from the inside."
+        "text": "ናይጀርያ፣ ባንግላዴሽ፣ ኬንያ፣ ጋና፣ ኢትዮጵያ ብቕልጡፍ ዕቤት ኣለወን። ኣህጉራዊ ተሞኩሮ ሒዞም ዝምለሱ ኢንጂነራት፣ ዶክቶራት፣ መምሃራን፣ ነጋዶ ካብ ውሽጢ ሃገሮም ዝቕይሩ ኣለዉ።"
       },
       {
         "icon": "💰",
-        "text": "Your purchasing power at home is dramatically higher. A salary that feels small in the UK can fund a house, a business, and a family's security in many home countries."
+        "text": "ኣብ ዓዱ ናትካ ናይ ምዕዳጥ ዓቕሚ ኣዝዩ ይዛይድ። ኣብ UK ንኡስ ኮይኑ ዝርአ ደሞዝ ኣብ ብዙሓት ሃገራት ቤት፣ ንግዲ፣ ናይ ስድራቤት ምርግጋእ ክህብ ይኽእል።"
       },
       {
         "icon": "❤️",
-        "text": "Your parents are ageing. Your language, your food, your community — these things matter more than a passport stamp. Many people who stay in Europe for decades describe a deep and lasting loneliness that money never resolves."
+        "text": "ወለድኻ ይኣርጉ ኣለዉ። ቋንቋኻ፣ መግቢኻ፣ ማሕበርካ — ካብ ናይ ፓስፖርት ማሕተም ዝዓቢ ኣርኣዩ። ኣብ ኤውሮጳ ብዙሕ ዓሰርቲ ዓመታት ዝጸንሑ ሰባት ናይ ቓቐብ ዝሓዘ ቀጻሊ ብቻ-ህይወት ዝርሕቕ ዓቕሊ ዝቕጽሉ ሰባት ይዛረቡ።"
       },
       {
         "icon": "🌱",
-        "text": "The most powerful thing you can do for your country is return with skills and build something. You cannot change your home country from a shared house in Birmingham."
+        "text": "ሃገርካ ዝበልጽ ጽቡቕ ዝሰርሕ ነገር ምሳካ ሒዝካ ምምላስ ካብ ጽቡቕ ጥዕናን ምሕናጽ ካልእ ነገር እዩ። ካብ ቤርሚንጋም ሓባራዊ ቤት ሃገርካ ክትቅይር ኣይካኣልካን።"
       }
     ],
-    "cta": "Use the legal routes to study, gain experience, then return. That is the migration story that actually changes lives — yours and your country's."
+    "cta": "ናይ ምምሃርን ናይ ምምሃርን ሕጋዊ መንገዲ ተጠቐም፣ ከምኡ ዓዲ ምለስ። እዛ ናይ ስደት ዛንታ ሓቀኛ ህይወት ዝቕይር — ናትካን ናይ ሃገርካን።"
   }
 }

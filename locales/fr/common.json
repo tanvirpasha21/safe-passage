@@ -32,10 +32,26 @@
     "title2": "traversées illégales",
     "lead": "Ces chiffres proviennent de l'Organisation internationale pour les migrations (OIM), du HCR et des agences frontalières européennes. Ils ne sont pas exagérés — ils sont sous-estimés.",
     "stats": [
-      { "number": "30 000+", "label": "Décès enregistrés sur les routes migratoires vers l'Europe depuis 2014", "source": "Projet migrants disparus de l'OIM, 2025" },
-      { "number": "2 400+", "label": "Décès en Méditerranée en 2025 seulement", "source": "OIM, 2025" },
-      { "number": "1 sur 45", "label": "Des traversées en Méditerranée centrale se terminent par la mort ou la disparition", "source": "OIM, 2025" },
-      { "number": "3 000–15 000 €", "label": "Payés aux passeurs — sans garantie de sécurité ni d'arrivée", "source": "Europol, 2024" }
+      {
+        "number": "30 000+",
+        "label": "Décès enregistrés sur les routes migratoires vers l'Europe depuis 2014",
+        "source": "Projet migrants disparus de l'OIM, 2025"
+      },
+      {
+        "number": "2 400+",
+        "label": "Décès en Méditerranée en 2025 seulement",
+        "source": "OIM, 2025"
+      },
+      {
+        "number": "1 sur 45",
+        "label": "Des traversées en Méditerranée centrale se terminent par la mort ou la disparition",
+        "source": "OIM, 2025"
+      },
+      {
+        "number": "3 000–15 000 €",
+        "label": "Payés aux passeurs — sans garantie de sécurité ni d'arrivée",
+        "source": "Europol, 2024"
+      }
     ]
   },
   "routes": {
@@ -44,12 +60,42 @@
     "title2": "bilan de morts",
     "lead": "Les passeurs vous disent que c'est facile. Les données racontent une autre histoire.",
     "items": [
-      { "icon": "🌊", "name": "Méditerranée centrale", "badge": "Route maritime la plus meurtrière au monde", "desc": "Libye/Tunisie → Italie/Malte. Des canots pneumatiques conçus pour les rivières, pas pour la haute mer. Surpeuplés. Les naufrages sont fréquents." },
-      { "icon": "⛵", "name": "Atlantique — Îles Canaries", "badge": "Plus de 2 300 km en plein océan", "desc": "Afrique de l'Ouest → Espagne. La route qui connaît la croissance la plus rapide et la plus meurtrière par départ. Beaucoup de bateaux ne sont jamais retrouvés." },
-      { "icon": "🏔️", "name": "Route des Balkans", "badge": "Froid extrême, refoulements violents", "desc": "Turquie → Grèce → Serbie → Hongrie. Les personnes marchent des centaines de km à travers les montagnes par des températures glaciales." },
-      { "icon": "🏜️", "name": "Désert du Sahara", "badge": "Plus de morts que la Méditerranée", "desc": "Afrique subsaharienne → Afrique du Nord. Le Sahara tue plus de migrants que la mer — mais les corps sont rarement retrouvés." },
-      { "icon": "🌊", "name": "Manche", "badge": "L'une des voies maritimes les plus fréquentées", "desc": "France → Royaume-Uni. Les petits bateaux peuvent chavirer à cause du sillage des navires. Plus de 50 personnes sont mortes depuis 2018." },
-      { "icon": "🚛", "name": "Caché dans des véhicules", "badge": "Risque d'asphyxie", "desc": "Camions frigorifiques, conteneurs. Les gens meurent de chaleur, de froid ou d'intoxication au monoxyde de carbone. En 2019, 39 Vietnamiens ont été retrouvés morts dans un camion en Essex." }
+      {
+        "icon": "🌊",
+        "name": "Méditerranée centrale",
+        "badge": "Route maritime la plus meurtrière au monde",
+        "desc": "Libye/Tunisie → Italie/Malte. Des canots pneumatiques conçus pour les rivières, pas pour la haute mer. Surpeuplés. Les naufrages sont fréquents."
+      },
+      {
+        "icon": "⛵",
+        "name": "Atlantique — Îles Canaries",
+        "badge": "Plus de 2 300 km en plein océan",
+        "desc": "Afrique de l'Ouest → Espagne. La route qui connaît la croissance la plus rapide et la plus meurtrière par départ. Beaucoup de bateaux ne sont jamais retrouvés."
+      },
+      {
+        "icon": "🏔️",
+        "name": "Route des Balkans",
+        "badge": "Froid extrême, refoulements violents",
+        "desc": "Turquie → Grèce → Serbie → Hongrie. Les personnes marchent des centaines de km à travers les montagnes par des températures glaciales."
+      },
+      {
+        "icon": "🏜️",
+        "name": "Désert du Sahara",
+        "badge": "Plus de morts que la Méditerranée",
+        "desc": "Afrique subsaharienne → Afrique du Nord. Le Sahara tue plus de migrants que la mer — mais les corps sont rarement retrouvés."
+      },
+      {
+        "icon": "🌊",
+        "name": "Manche",
+        "badge": "L'une des voies maritimes les plus fréquentées",
+        "desc": "France → Royaume-Uni. Les petits bateaux peuvent chavirer à cause du sillage des navires. Plus de 50 personnes sont mortes depuis 2018."
+      },
+      {
+        "icon": "🚛",
+        "name": "Caché dans des véhicules",
+        "badge": "Risque d'asphyxie",
+        "desc": "Camions frigorifiques, conteneurs. Les gens meurent de chaleur, de froid ou d'intoxication au monoxyde de carbone. En 2019, 39 Vietnamiens ont été retrouvés morts dans un camion en Essex."
+      }
     ]
   },
   "legal": {
@@ -58,18 +104,103 @@
     "title2": "voie légale",
     "lead": "Répondez à deux questions et nous vous montrons les voies légales qui s'appliquent à votre situation.",
     "q1": "Quelle est votre principale raison de partir ?",
-    "q1opts": ["Fuir la guerre ou la persécution", "Chercher une opportunité économique", "Famille déjà en Europe", "Étudier à l'étranger", "Incertain / Autre"],
+    "q1opts": [
+      "Fuir la guerre ou la persécution",
+      "Chercher une opportunité économique",
+      "Famille déjà en Europe",
+      "Étudier à l'étranger",
+      "Incertain / Autre"
+    ],
     "q2": "Où vous trouvez-vous actuellement ?",
-    "q2opts": ["Afrique", "Moyen-Orient", "Asie", "Autre / Préfère ne pas dire"],
+    "q2opts": [
+      "Afrique",
+      "Moyen-Orient",
+      "Asie",
+      "Autre / Préfère ne pas dire"
+    ],
     "showBtn": "Voir mes options légales →",
     "allTitle": "Toutes les voies légales",
     "paths": [
-      { "id": "asylum", "icon": "🏛️", "tag": "PERSÉCUTION / GUERRE", "name": "Demande d'asile", "desc": "Si vous fuyez la persécution, la guerre ou la violence, vous pouvez être éligible au statut de réfugié en vertu de la Convention de 1951 sur les réfugiés.", "how": "Rendez-vous au bureau du HCR le plus proche ou à l'autorité nationale d'asile. Apportez tout document disponible.", "link": "https://www.unhcr.org/get-help", "linkLabel": "Trouver un bureau HCR →", "cost": "Gratuit", "time": "Mois à années", "risk": "Faible" },
-      { "id": "resettlement", "icon": "✈️", "tag": "PERSÉCUTION / VULNÉRABILITÉ", "name": "Réinstallation HCR", "desc": "Le HCR sélectionne les réfugiés enregistrés les plus vulnérables pour une réinstallation dans un pays tiers sûr. Vous devez d'abord vous inscrire auprès du HCR.", "how": "Inscrivez-vous au bureau HCR le plus proche. Ne payez jamais quelqu'un pour 'accélérer' la réinstallation — c'est toujours gratuit.", "link": "https://www.unhcr.org/resettlement", "linkLabel": "En savoir sur la réinstallation →", "cost": "Gratuit", "time": "1 à 3 ans", "risk": "Très faible" },
-      { "id": "work", "icon": "💼", "tag": "ÉCONOMIQUE / QUALIFIÉ", "name": "Visa travailleur qualifié", "desc": "Le Royaume-Uni, l'Allemagne, le Canada et d'autres pays recrutent activement dans les secteurs de la santé, la technologie, la construction et les métiers.", "how": "Consultez la liste des professions en tension au Royaume-Uni ou le portail 'Make it in Germany'. Faites votre demande à l'ambassade.", "link": "https://www.gov.uk/skilled-worker-visa", "linkLabel": "Visa travailleur qualifié UK →", "link2": "https://www.make-it-in-germany.com", "linkLabel2": "Visa travail Allemagne →", "cost": "719 à 1 500 £ (UK)", "time": "3 à 8 semaines", "risk": "Très faible" },
-      { "id": "study", "icon": "🎓", "tag": "ÉDUCATION / JEUNES", "name": "Visa étudiant", "desc": "Si vous êtes admis dans une université ou un collège, vous pouvez entrer légalement avec un visa étudiant. Beaucoup de pays permettent de travailler à temps partiel.", "how": "Demandez d'abord des bourses (Chevening, DAAD, Erasmus). Une lettre d'acceptation d'un établissement est le document clé.", "link": "https://www.gov.uk/student-visa", "linkLabel": "Visa étudiant UK →", "cost": "363 à 490 £ (UK)", "time": "3 à 6 semaines", "risk": "Très faible" },
-      { "id": "family", "icon": "👨‍👩‍👧", "tag": "LIENS FAMILIAUX", "name": "Regroupement familial", "desc": "Si un proche (conjoint, parent, enfant) a un statut légal dans un pays européen ou au Royaume-Uni, vous pouvez le rejoindre légalement par le regroupement familial.", "how": "Votre famille en Europe fait la demande en votre nom. Le processus varie selon le pays.", "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en", "linkLabel": "Regroupement familial UE →", "cost": "Variable selon le pays", "time": "3 à 12 mois", "risk": "Faible" },
-      { "id": "humanitarian", "icon": "🤝", "tag": "DANGER IMMÉDIAT", "name": "Visa humanitaire", "desc": "Certains pays délivrent des visas humanitaires aux ambassades, permettant une entrée légale pour demander l'asile à l'arrivée — sans aucune traversée dangereuse.", "how": "Contactez l'ambassade ou le consulat européen dans votre pays. Expliquez clairement votre situation. Le Portugal, l'Espagne et l'Italie ont utilisé cette voie.", "link": "https://www.unhcr.org/asylum-in-the-eu", "linkLabel": "Voies d'asile UE →", "cost": "Gratuit ou faible coût", "time": "Semaines à mois", "risk": "Faible" }
+      {
+        "id": "asylum",
+        "icon": "🏛️",
+        "tag": "PERSÉCUTION / GUERRE",
+        "name": "Demande d'asile",
+        "desc": "Si vous fuyez la persécution, la guerre ou la violence, vous pouvez être éligible au statut de réfugié en vertu de la Convention de 1951 sur les réfugiés.",
+        "how": "Rendez-vous au bureau du HCR le plus proche ou à l'autorité nationale d'asile. Apportez tout document disponible.",
+        "link": "https://www.unhcr.org/get-help",
+        "linkLabel": "Trouver un bureau HCR →",
+        "cost": "Gratuit",
+        "time": "Mois à années",
+        "risk": "Faible"
+      },
+      {
+        "id": "resettlement",
+        "icon": "✈️",
+        "tag": "PERSÉCUTION / VULNÉRABILITÉ",
+        "name": "Réinstallation HCR",
+        "desc": "Le HCR sélectionne les réfugiés enregistrés les plus vulnérables pour une réinstallation dans un pays tiers sûr. Vous devez d'abord vous inscrire auprès du HCR.",
+        "how": "Inscrivez-vous au bureau HCR le plus proche. Ne payez jamais quelqu'un pour 'accélérer' la réinstallation — c'est toujours gratuit.",
+        "link": "https://www.unhcr.org/resettlement",
+        "linkLabel": "En savoir sur la réinstallation →",
+        "cost": "Gratuit",
+        "time": "1 à 3 ans",
+        "risk": "Très faible"
+      },
+      {
+        "id": "work",
+        "icon": "💼",
+        "tag": "ÉCONOMIQUE / QUALIFIÉ",
+        "name": "Visa travailleur qualifié",
+        "desc": "Le Royaume-Uni, l'Allemagne, le Canada et d'autres pays recrutent activement dans les secteurs de la santé, la technologie, la construction et les métiers.",
+        "how": "Consultez la liste des professions en tension au Royaume-Uni ou le portail 'Make it in Germany'. Faites votre demande à l'ambassade.",
+        "link": "https://www.gov.uk/skilled-worker-visa",
+        "linkLabel": "Visa travailleur qualifié UK →",
+        "link2": "https://www.make-it-in-germany.com",
+        "linkLabel2": "Visa travail Allemagne →",
+        "cost": "719 à 1 500 £ (UK)",
+        "time": "3 à 8 semaines",
+        "risk": "Très faible"
+      },
+      {
+        "id": "study",
+        "icon": "🎓",
+        "tag": "ÉDUCATION / JEUNES",
+        "name": "Visa étudiant",
+        "desc": "Si vous êtes admis dans une université ou un collège, vous pouvez entrer légalement avec un visa étudiant. Beaucoup de pays permettent de travailler à temps partiel.",
+        "how": "Demandez d'abord des bourses (Chevening, DAAD, Erasmus). Une lettre d'acceptation d'un établissement est le document clé.",
+        "link": "https://www.gov.uk/student-visa",
+        "linkLabel": "Visa étudiant UK →",
+        "cost": "363 à 490 £ (UK)",
+        "time": "3 à 6 semaines",
+        "risk": "Très faible"
+      },
+      {
+        "id": "family",
+        "icon": "👨‍👩‍👧",
+        "tag": "LIENS FAMILIAUX",
+        "name": "Regroupement familial",
+        "desc": "Si un proche (conjoint, parent, enfant) a un statut légal dans un pays européen ou au Royaume-Uni, vous pouvez le rejoindre légalement par le regroupement familial.",
+        "how": "Votre famille en Europe fait la demande en votre nom. Le processus varie selon le pays.",
+        "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en",
+        "linkLabel": "Regroupement familial UE →",
+        "cost": "Variable selon le pays",
+        "time": "3 à 12 mois",
+        "risk": "Faible"
+      },
+      {
+        "id": "humanitarian",
+        "icon": "🤝",
+        "tag": "DANGER IMMÉDIAT",
+        "name": "Visa humanitaire",
+        "desc": "Certains pays délivrent des visas humanitaires aux ambassades, permettant une entrée légale pour demander l'asile à l'arrivée — sans aucune traversée dangereuse.",
+        "how": "Contactez l'ambassade ou le consulat européen dans votre pays. Expliquez clairement votre situation. Le Portugal, l'Espagne et l'Italie ont utilisé cette voie.",
+        "link": "https://www.unhcr.org/asylum-in-the-eu",
+        "linkLabel": "Voies d'asile UE →",
+        "cost": "Gratuit ou faible coût",
+        "time": "Semaines à mois",
+        "risk": "Faible"
+      }
     ]
   },
   "compare": {
@@ -80,12 +211,36 @@
     "colIllegal": "⚠ Route illégale",
     "colLegal": "✓ Route légale",
     "rows": [
-      { "factor": "Risque pour la vie", "illegal": "Très élevé — 1 sur 45 meurent sur certaines routes", "legal": "Minimal — vous voyagez en avion, bus ou train" },
-      { "factor": "Coût", "illegal": "3 000–15 000 € aux passeurs (pas de remboursement si vous mourez)", "legal": "Le HCR est gratuit. Les frais de visa sont bien inférieurs." },
-      { "factor": "Statut légal à l'arrivée", "illegal": "Sans papiers — risque de détention immédiate et d'expulsion", "legal": "Droits légaux complets, accès aux services, permis de travail" },
-      { "factor": "Casier judiciaire", "illegal": "L'entrée illégale bloque les futures demandes de visa et d'asile", "legal": "Pas de casier — vos options futures restent ouvertes" },
-      { "factor": "Votre famille", "illegal": "Votre famille pourrait ne jamais savoir ce qui vous est arrivé", "legal": "Vous pouvez légalement faire venir votre famille plus tard" },
-      { "factor": "Logement et santé", "illegal": "Aucun — vous êtes caché de tous les services", "legal": "Les demandeurs d'asile légaux reçoivent abri et soins médicaux" }
+      {
+        "factor": "Risque pour la vie",
+        "illegal": "Très élevé — 1 sur 45 meurent sur certaines routes",
+        "legal": "Minimal — vous voyagez en avion, bus ou train"
+      },
+      {
+        "factor": "Coût",
+        "illegal": "3 000–15 000 € aux passeurs (pas de remboursement si vous mourez)",
+        "legal": "Le HCR est gratuit. Les frais de visa sont bien inférieurs."
+      },
+      {
+        "factor": "Statut légal à l'arrivée",
+        "illegal": "Sans papiers — risque de détention immédiate et d'expulsion",
+        "legal": "Droits légaux complets, accès aux services, permis de travail"
+      },
+      {
+        "factor": "Casier judiciaire",
+        "illegal": "L'entrée illégale bloque les futures demandes de visa et d'asile",
+        "legal": "Pas de casier — vos options futures restent ouvertes"
+      },
+      {
+        "factor": "Votre famille",
+        "illegal": "Votre famille pourrait ne jamais savoir ce qui vous est arrivé",
+        "legal": "Vous pouvez légalement faire venir votre famille plus tard"
+      },
+      {
+        "factor": "Logement et santé",
+        "illegal": "Aucun — vous êtes caché de tous les services",
+        "legal": "Les demandeurs d'asile légaux reçoivent abri et soins médicaux"
+      }
     ]
   },
   "stories": {
@@ -93,9 +248,24 @@
     "title1": "Ce que les gens auraient",
     "title2": "voulu savoir",
     "items": [
-      { "flag": "🇸🇴", "type": "danger", "quote": "Le passeur a dit que le bateau était sûr. Nous étions 80 sur un canot pour 20 personnes. Mon frère n'a pas survécu. Je donnerais tout pour revenir en arrière et choisir autrement.", "name": "SURVIVANT — MÉDITERRANÉE CENTRALE, 2022" },
-      { "flag": "🇸🇾", "type": "danger", "quote": "Nous avons payé 8 000 € et avons été abandonnés dans les montagnes serbes en janvier. Trois personnes de notre groupe sont mortes d'hypothermie. Nous avons marché pendant 11 jours.", "name": "SURVIVANT — ROUTE DES BALKANS, 2021" },
-      { "flag": "🇦🇫", "type": "safe", "quote": "Je me suis inscrit auprès du HCR au Pakistan. Ça a pris 14 mois mais j'ai été réinstallé en Allemagne légalement. J'ai un emploi maintenant. Mes enfants sont à l'école. S'il vous plaît — ne faites pas confiance aux passeurs.", "name": "RÉFUGIÉ RÉINSTALLÉ — ALLEMAGNE, 2023" }
+      {
+        "flag": "🇸🇴",
+        "type": "danger",
+        "quote": "Le passeur a dit que le bateau était sûr. Nous étions 80 sur un canot pour 20 personnes. Mon frère n'a pas survécu. Je donnerais tout pour revenir en arrière et choisir autrement.",
+        "name": "SURVIVANT — MÉDITERRANÉE CENTRALE, 2022"
+      },
+      {
+        "flag": "🇸🇾",
+        "type": "danger",
+        "quote": "Nous avons payé 8 000 € et avons été abandonnés dans les montagnes serbes en janvier. Trois personnes de notre groupe sont mortes d'hypothermie. Nous avons marché pendant 11 jours.",
+        "name": "SURVIVANT — ROUTE DES BALKANS, 2021"
+      },
+      {
+        "flag": "🇦🇫",
+        "type": "safe",
+        "quote": "Je me suis inscrit auprès du HCR au Pakistan. Ça a pris 14 mois mais j'ai été réinstallé en Allemagne légalement. J'ai un emploi maintenant. Mes enfants sont à l'école. S'il vous plaît — ne faites pas confiance aux passeurs.",
+        "name": "RÉFUGIÉ RÉINSTALLÉ — ALLEMAGNE, 2023"
+      }
     ]
   },
   "cta": {
@@ -106,133 +276,136 @@
     "btn2": "Portail d'immigration UE",
     "btn3": "Options de visa UK"
   },
-  "counter": { "label": "Décès Cette Année", "sub": "enregistrés cette année", "source": "Source : OIM" },
+  "counter": {
+    "label": "Décès Cette Année",
+    "sub": "enregistrés cette année",
+    "source": "Source : OIM"
+  },
   "footer": {
     "disclaimer": "Cette plateforme utilise des données publiques de l'OIM, du HCR, de Frontex et d'Europol. C'est une ressource d'information et ne constitue pas un conseil juridique.",
     "sources": "Données : Projet Migrants Disparus OIM · Tendances mondiales HCR · Analyse des risques Frontex 2025 · Rapport Europol sur la traite des êtres humains 2024"
-  }
-,
+  },
   "thinkCarefully": {
-    "label": "Before You Decide",
-    "title1": "Is leaving really",
-    "title2": "the answer?",
-    "lead": "Migration can save lives — but it can also destroy them. If you have safety, family, and basic stability at home, the reality of irregular migration is rarely worth it. Read this honestly before you decide.",
+    "label": "Avant de décider",
+    "title1": "Partir est-il vraiment",
+    "title2": "la réponse ?",
+    "lead": "La migration peut sauver des vies — mais elle peut aussi les détruire. Si vous avez la sécurité, la famille et une stabilité de base chez vous, la réalité de la migration irrégulière en vaut rarement le risque. Lisez ceci honnêtement avant de décider.",
     "cards": [
       {
         "icon": "🏠",
-        "title": "Do you have housing and food security?",
-        "body": "If you have a home, food, and your family is with you — you already have more than millions of people in the world. Migration to the UK or EU does not guarantee any of these things. Many arrivals spend years in asylum hostels, shared housing, or temporary accommodation."
+        "title": "Avez-vous un logement et une sécurité alimentaire ?",
+        "body": "Si vous avez un foyer, de la nourriture et que votre famille est avec vous — vous avez déjà plus que des millions de personnes dans le monde. La migration vers le Royaume-Uni ou l'UE ne garantit rien de tout cela. Beaucoup de nouveaux arrivants passent des années dans des foyers d'asile, des logements partagés ou des hébergements temporaires."
       },
       {
         "icon": "💼",
-        "title": "Are you leaving economic frustration — not danger?",
-        "body": "If you are not facing persecution or direct physical danger, the legal economic migration routes require qualifications, job offers, and language skills. Irregular migration for economic reasons almost always leads to exploitation, not prosperity. The UK minimum wage sounds good — but rent in London starts at £1,400/month for a shared room."
+        "title": "Partez-vous par frustration économique — pas par danger ?",
+        "body": "Si vous ne faites pas face à des persécutions ou à un danger physique direct, les voies de migration économique légale exigent des qualifications, des offres d'emploi et des compétences linguistiques. La migration irrégulière pour des raisons économiques mène presque toujours à l'exploitation, pas à la prospérité. Le salaire minimum au Royaume-Uni semble attrayant — mais un loyer à Londres commence à 1 400 £/mois pour une chambre partagée."
       },
       {
         "icon": "👨‍👩‍👧",
-        "title": "What will this cost your family?",
-        "body": "The smugglers take your family's savings — sometimes everything they own. If you die or disappear at sea, they lose both the money and you. Families have sold land, borrowed from moneylenders at crushing rates, and been left in debt for years by a loved one who didn't survive the crossing."
+        "title": "Quel sera le coût pour votre famille ?",
+        "body": "Les passeurs prennent les économies de votre famille — parfois tout ce qu'ils possèdent. Si vous mourez ou disparaissez en mer, ils perdent à la fois l'argent et vous. Des familles ont vendu leurs terres, emprunté à des usuriers à des taux écrasants, et se sont retrouvées endettées pendant des années."
       },
       {
         "icon": "🌍",
-        "title": "Could you build something at home?",
-        "body": "Many countries that send migrants to Europe are growing fast — Nigeria, Bangladesh, Kenya, Ghana, Egypt, Ethiopia. Professionals with international education or skills are in high demand. The person who builds a business at home may end up wealthier — and happier — than the one who cleans offices in a foreign city they don't belong to."
+        "title": "Pourriez-vous construire quelque chose chez vous ?",
+        "body": "De nombreux pays qui envoient des migrants en Europe se développent rapidement — Nigéria, Bangladesh, Kenya, Ghana, Égypte, Éthiopie. Les professionnels ayant une éducation ou des compétences internationales sont très demandés. Celui qui construit une entreprise chez lui peut finir plus riche — et plus heureux — que celui qui nettoie des bureaux dans une ville étrangère."
       }
     ],
-    "warning": "If you are not in danger — think very carefully. The Europe many people imagine does not exist. The Europe that does exist is cold, expensive, and often lonely for those who arrive without legal status, language skills, or qualifications."
+    "warning": "Si vous n'êtes pas en danger — réfléchissez bien. L'Europe imaginée par beaucoup n'existe pas. L'Europe qui existe est froide, chère et souvent solitaire pour ceux qui arrivent sans statut légal, compétences linguistiques ou qualifications."
   },
   "crudeReality": {
-    "label": "The Reality Nobody Tells You",
-    "title1": "What actually",
-    "title2": "happens after you arrive",
-    "lead": "Smugglers and social media show you the dream. Nobody shows you what comes after — even for those who arrive legally.",
+    "label": "La réalité que personne ne vous dit",
+    "title1": "Ce qui se passe vraiment",
+    "title2": "après votre arrivée",
+    "lead": "Les passeurs et les réseaux sociaux vous montrent le rêve. Personne ne vous montre ce qui vient après — même pour ceux qui arrivent légalement.",
     "items": [
       {
         "icon": "🏚️",
-        "title": "The housing crisis is real",
-        "body": "UK and EU cities are facing severe housing shortages. A single room in a shared house in London costs £900–£1,400/month. Many newly arrived migrants — including those with work visas — sleep in garden sheds, overcrowded HMOs, or on friends' floors for the first years. Homelessness among migrants is rising, not falling."
+        "title": "La crise du logement est réelle",
+        "body": "Les villes du Royaume-Uni et de l'UE font face à de graves pénuries de logements. Une chambre dans une maison partagée à Londres coûte 900–1 400 £/mois. Beaucoup de migrants nouvellement arrivés — y compris ceux avec des visas de travail — dorment dans des abris de jardin, des logements surpeuplés ou chez des amis."
       },
       {
         "icon": "📄",
-        "title": "Your qualifications may not be recognised",
-        "body": "A doctor, engineer, or teacher from Nigeria, Bangladesh, or Pakistan often cannot practise in the UK without re-qualifying. This can take 3–7 years and cost tens of thousands of pounds. Many highly educated migrants end up working in warehouses, delivery, or care homes while paying off debts from their journey."
+        "title": "Vos qualifications peuvent ne pas être reconnues",
+        "body": "Un médecin, ingénieur ou enseignant du Nigéria, Bangladesh ou Pakistan ne peut souvent pas pratiquer au Royaume-Uni sans se requalifier. Cela peut prendre 3 à 7 ans et coûter des dizaines de milliers de livres sterling."
       },
       {
         "icon": "🧠",
-        "title": "The mental health toll is severe",
-        "body": "Isolation, language barriers, discrimination, and the gap between expectation and reality cause serious mental health crises among migrants. NHS mental health services have years-long waiting lists. Suicide rates among asylum seekers and undocumented migrants are significantly higher than the general population."
+        "title": "Le coût sur la santé mentale est grave",
+        "body": "L'isolement, les barrières linguistiques, la discrimination et l'écart entre les attentes et la réalité provoquent de graves crises de santé mentale. Les services de santé mentale du NHS ont des listes d'attente de plusieurs années. Les taux de suicide parmi les demandeurs d'asile sont significativement plus élevés."
       },
       {
         "icon": "💶",
-        "title": "The cost of living is brutal",
-        "body": "A grocery shop for one week in the UK costs £50–£80. Electricity, water, council tax, transport, and phone add another £400–£600/month. A minimum wage job (£11.44/hour) earns roughly £1,800/month after tax. After rent, there is almost nothing left — and nothing to send home."
+        "title": "Le coût de la vie est brutal",
+        "body": "Les courses d'une semaine au Royaume-Uni coûtent 50–80 £. L'électricité, l'eau, la taxe municipale, les transports et le téléphone ajoutent 400–600 £/mois. Un emploi au salaire minimum rapporte environ 1 800 £/mois net. Après le loyer, il ne reste presque rien."
       },
       {
         "icon": "⚖️",
-        "title": "Undocumented life is not 'freedom'",
-        "body": "Without documentation you cannot open a bank account, rent legally, access healthcare fully, or leave and re-enter the country. You live in permanent fear of immigration enforcement. Many people live this way for 10–20 years, unable to visit family when parents die, unable to move forward, unable to go back."
+        "title": "La vie sans papiers n'est pas la liberté",
+        "body": "Sans documentation, vous ne pouvez pas ouvrir un compte bancaire, louer légalement, accéder pleinement aux soins de santé ou quitter et rentrer dans le pays. Vous vivez dans la peur permanente des contrôles d'immigration."
       },
       {
         "icon": "🚨",
-        "title": "Exploitation does not end at the border",
-        "body": "Labour trafficking, sexual exploitation, and debt bondage continue inside Europe. Undocumented migrants are targeted because they cannot report abuse to police without risking deportation. The people who exploit migrants at sea often have networks that exploit them on land too."
+        "title": "L'exploitation ne s'arrête pas à la frontière",
+        "body": "La traite des êtres humains, l'exploitation sexuelle et l'esclavage par la dette continuent en Europe. Les migrants sans papiers sont ciblés car ils ne peuvent pas signaler les abus à la police sans risquer l'expulsion."
       }
     ]
   },
   "afterArrival": {
-    "label": "After Arrival — The Untold Stories",
-    "title1": "The struggle doesn't",
-    "title2": "end at the border",
-    "lead": "Even people who arrive legally — with visas, qualifications, and ambition — face a reality that is far harder than the dream. These are documented experiences, not exceptions.",
+    "label": "Après l'arrivée — Les histoires non racontées",
+    "title1": "La lutte ne s'arrête pas",
+    "title2": "à la frontière",
+    "lead": "Même les personnes qui arrivent légalement — avec des visas, des qualifications et de l'ambition — font face à une réalité bien plus difficile que le rêve. Ce sont des expériences documentées, pas des exceptions.",
     "items": [
       {
         "flag": "🇳🇬",
-        "title": "Graduated. Unemployed. Invisible.",
-        "body": "Nigerian international students graduate from UK universities with first-class degrees — and send hundreds of CVs without a callback. Studies show that CVs with African names receive 60% fewer interview callbacks than identical CVs with English names. Discrimination in hiring is well-documented and ongoing.",
+        "title": "Diplômé. Sans emploi. Invisible.",
+        "body": "Des étudiants nigérians obtiennent leurs diplômes dans des universités britanniques avec mention très bien — et envoient des centaines de CV sans rappel. Des études montrent que les CV avec des noms africains reçoivent 60 % moins de rappels d'entretiens.",
         "source": "Oxford Migration Observatory, 2024"
       },
       {
         "flag": "🇧🇩",
-        "title": "Arrived legally. Living in a garage.",
-        "body": "Hundreds of Bangladeshi workers on UK care visas have been stranded after employers collapsed, leaving them without work, housing, or income. Some lived in employer-provided accommodation that was a converted garage. The 60-day job-switch window was not enough to find new sponsors.",
-        "source": "Guardian reporting, 2023–2024"
+        "title": "Arrivé légalement. Vivant dans un garage.",
+        "body": "Des centaines de travailleurs bangladais avec des visas de soins britanniques se sont retrouvés bloqués après l'effondrement de leurs employeurs, sans travail, logement ni revenus.",
+        "source": "The Guardian, 2023–2024"
       },
       {
         "flag": "🇸🇴",
-        "title": "10 years. Still waiting.",
-        "body": "Many Somali refugees who arrived legally in the early 2010s are still in temporary housing, still waiting for PTSD treatment, still navigating a benefits system that treats them as burdens. Children born in the UK speak fluent English but their parents remain isolated, unable to integrate.",
+        "title": "10 ans. Toujours en attente.",
+        "body": "De nombreux réfugiés somaliens arrivés légalement au début des années 2010 sont toujours dans des logements temporaires, toujours en attente d'un traitement pour le SSPT.",
         "source": "UNHCR UK, 2024"
       },
       {
         "flag": "🇵🇰",
-        "title": "Skilled Worker. Refused at the airport.",
-        "body": "Pakistani workers with valid UK Skilled Worker visas have been turned away at the border after being unable to answer detailed questions about their employer or role. Visa documents were genuine — but insufficient preparation for the border interview led to refusal of leave to enter.",
-        "source": "ILPA case reports, 2025"
+        "title": "Travailleur qualifié. Refusé à l'aéroport.",
+        "body": "Des travailleurs pakistanais avec des visas britanniques valides ont été refoulés à la frontière après avoir été incapables de répondre à des questions détaillées sur leur employeur.",
+        "source": "ILPA, 2025"
       }
     ]
   },
   "comeHome": {
-    "label": "A Message for Students",
-    "title": "Your country needs you back",
-    "sub": "If you came to study — go home. Not because Europe is not worth experiencing, but because you are worth more to your country than to a delivery company in Manchester.",
+    "label": "Un message pour les étudiants",
+    "title": "Votre pays a besoin de vous",
+    "sub": "Si vous êtes venu étudier — rentrez chez vous. Non parce que l'Europe ne vaut pas l'expérience, mais parce que vous valez plus pour votre pays qu'une société de livraison à Manchester.",
     "points": [
       {
         "icon": "🏗️",
-        "text": "Nigeria, Bangladesh, Kenya, Ghana, and Ethiopia are building fast. Engineers, doctors, teachers, and entrepreneurs who return with international experience are transforming these countries from the inside."
+        "text": "Le Nigéria, le Bangladesh, le Kenya, le Ghana et l'Éthiopie se construisent rapidement. Les ingénieurs, médecins, enseignants et entrepreneurs qui rentrent avec une expérience internationale transforment ces pays de l'intérieur."
       },
       {
         "icon": "💰",
-        "text": "Your purchasing power at home is dramatically higher. A salary that feels small in the UK can fund a house, a business, and a family's security in many home countries."
+        "text": "Votre pouvoir d'achat à la maison est dramatiquement plus élevé. Un salaire qui semble modeste au Royaume-Uni peut financer une maison, une entreprise et la sécurité d'une famille entière dans de nombreux pays d'origine."
       },
       {
         "icon": "❤️",
-        "text": "Your parents are ageing. Your language, your food, your community — these things matter more than a passport stamp. Many people who stay in Europe for decades describe a deep and lasting loneliness that money never resolves."
+        "text": "Vos parents vieillissent. Votre langue, votre nourriture, votre communauté — ces choses comptent plus qu'un tampon dans un passeport. Beaucoup de gens qui restent en Europe pendant des décennies décrivent une solitude profonde et durable."
       },
       {
         "icon": "🌱",
-        "text": "The most powerful thing you can do for your country is return with skills and build something. You cannot change your home country from a shared house in Birmingham."
+        "text": "La chose la plus puissante que vous puissiez faire pour votre pays est de revenir avec des compétences et de construire quelque chose. Vous ne pouvez pas changer votre pays depuis une maison partagée à Birmingham."
       }
     ],
-    "cta": "Use the legal routes to study, gain experience, then return. That is the migration story that actually changes lives — yours and your country's."
+    "cta": "Utilisez les voies légales pour étudier, acquérir de l'expérience, puis rentrez. C'est l'histoire migratoire qui change vraiment des vies — la vôtre et celle de votre pays."
   }
 }

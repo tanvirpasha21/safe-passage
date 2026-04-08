@@ -570,6 +570,14 @@ function ComeHome({ t }) {
           ))}
         </div>
         <div className={styles.comeHomeCta}>{t.comeHome.cta}</div>
+        <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+          <Link href="/come-home" className="btn btn-safe" style={{ fontSize: '0.88rem' }}>
+            See what your money builds at home →
+          </Link>
+          <Link href="/pathways/uk/student" className="btn btn-outline" style={{ fontSize: '0.88rem' }}>
+            Legal routes to study abroad
+          </Link>
+        </div>
       </div>
     </section>
   );

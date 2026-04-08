@@ -32,10 +32,26 @@
     "title2": "gudbinta sharci-darrada ah",
     "lead": "Tirooyinkan waxay ka yimaadaan IOM, UNHCR, iyo hay'adaha xadka Yurub. Lama xaddidin — waa ka yar yihiin xaqiiqda.",
     "stats": [
-      { "number": "+30,000", "label": "Dhimasho diiwaan gashan oo ku saabsan jidadka socdaalka ee Yurub tan iyo 2014", "source": "Mashruuca Socdaalayaasha La Waayay ee IOM, 2025" },
-      { "number": "+2,400", "label": "Dhimasho oo ku dhacday Badda Dhexe ee Mediteranean 2025 kaliya", "source": "IOM, 2025" },
-      { "number": "1 ka 45", "label": "Gudbinta jidka Mediteranean dhexe waxay ku dhammaataa dhimasho ama baabi'id", "source": "IOM, 2025" },
-      { "number": "€3,000–15,000", "label": "Loo bixiyaa dab-qaadayaasha — adoo aan helin wax damaanad ah oo nabadgalyo ama gaaritaan", "source": "Europol, 2024" }
+      {
+        "number": "+30,000",
+        "label": "Dhimasho diiwaan gashan oo ku saabsan jidadka socdaalka ee Yurub tan iyo 2014",
+        "source": "Mashruuca Socdaalayaasha La Waayay ee IOM, 2025"
+      },
+      {
+        "number": "+2,400",
+        "label": "Dhimasho oo ku dhacday Badda Dhexe ee Mediteranean 2025 kaliya",
+        "source": "IOM, 2025"
+      },
+      {
+        "number": "1 ka 45",
+        "label": "Gudbinta jidka Mediteranean dhexe waxay ku dhammaataa dhimasho ama baabi'id",
+        "source": "IOM, 2025"
+      },
+      {
+        "number": "€3,000–15,000",
+        "label": "Loo bixiyaa dab-qaadayaasha — adoo aan helin wax damaanad ah oo nabadgalyo ama gaaritaan",
+        "source": "Europol, 2024"
+      }
     ]
   },
   "routes": {
@@ -44,12 +60,42 @@
     "title2": "tiro dhimasho",
     "lead": "Dab-qaadayaashu waxay kuu sheegaan inay fudud tahay. Xogtu sheekada kale waxay sheegaysaa.",
     "items": [
-      { "icon": "🌊", "name": "Mediteranean Dhexdeeda", "badge": "Jidka badda ee ugu dilaya adduunka", "desc": "Libya/Tunisia → Talyaaniga/Malta. Doonyaha caag ee loogu talagalay webiyada, ma aha badaha furan. Aad u buuxaan. Markab-rogmashadu waa caadi." },
-      { "icon": "⛵", "name": "Atlaantic — Jasiiradaha Canary", "badge": "2,300+ km oo badweyn furan", "desc": "Galbeedka Afrika → Isbaaniya. Jidka ugu dhaqsaha badan ee kobcaya oo ugu dilaya heerka kala baxitaanka. Doonyaha badan lama helin." },
-      { "icon": "🏔️", "name": "Jidka Bari Balkan", "badge": "Qabow aad u daran, dib-u-noqoshada xoog leh", "desc": "Turkiga → Giriiga → Serbia → Hangeri. Dadku waxay lugaynayaan boqolaal km oo buuraha ah oo heerkulkoodu hoos u dhacay." },
-      { "icon": "🏜️", "name": "Saxarada Sahara", "badge": "Dhimasho ka badan Mediteranean", "desc": "Afrika Koonfureed ee Sahara → Afrika Waqooyi. Sahara waxay dishaa socdaalayaasha ka badan bad-gaabka — laakiin meydadku si fudud looma helo." },
-      { "icon": "🌊", "name": "Badweynta Ingiriiska", "badge": "Jidadka maraakiibta ee ugu shaqeebka badan", "desc": "Faransiiska → Boqortooyada Midowday. Doonyaha yaryar waxay ka rogmi karaan mawjadaha maraakiibta. In ka badan 50 qof ayaa dhintay tan iyo 2018." },
-      { "icon": "🚛", "name": "Ku dhex qarinta Gaadiidka", "badge": "Khatarta joogsiga neefsiga", "desc": "Sanduuqyada loriyada, gaadiidka qaboojinta. Dadku waxay ku dhintaan kulaylka, qaboobaha, ama monoxide kaarbon. 2019-kii, 39 Fiitnaamiyan ayaa la helay kuwo dhintay loriyad ku taal Essex, UK." }
+      {
+        "icon": "🌊",
+        "name": "Mediteranean Dhexdeeda",
+        "badge": "Jidka badda ee ugu dilaya adduunka",
+        "desc": "Libya/Tunisia → Talyaaniga/Malta. Doonyaha caag ee loogu talagalay webiyada, ma aha badaha furan. Aad u buuxaan. Markab-rogmashadu waa caadi."
+      },
+      {
+        "icon": "⛵",
+        "name": "Atlaantic — Jasiiradaha Canary",
+        "badge": "2,300+ km oo badweyn furan",
+        "desc": "Galbeedka Afrika → Isbaaniya. Jidka ugu dhaqsaha badan ee kobcaya oo ugu dilaya heerka kala baxitaanka. Doonyaha badan lama helin."
+      },
+      {
+        "icon": "🏔️",
+        "name": "Jidka Bari Balkan",
+        "badge": "Qabow aad u daran, dib-u-noqoshada xoog leh",
+        "desc": "Turkiga → Giriiga → Serbia → Hangeri. Dadku waxay lugaynayaan boqolaal km oo buuraha ah oo heerkulkoodu hoos u dhacay."
+      },
+      {
+        "icon": "🏜️",
+        "name": "Saxarada Sahara",
+        "badge": "Dhimasho ka badan Mediteranean",
+        "desc": "Afrika Koonfureed ee Sahara → Afrika Waqooyi. Sahara waxay dishaa socdaalayaasha ka badan bad-gaabka — laakiin meydadku si fudud looma helo."
+      },
+      {
+        "icon": "🌊",
+        "name": "Badweynta Ingiriiska",
+        "badge": "Jidadka maraakiibta ee ugu shaqeebka badan",
+        "desc": "Faransiiska → Boqortooyada Midowday. Doonyaha yaryar waxay ka rogmi karaan mawjadaha maraakiibta. In ka badan 50 qof ayaa dhintay tan iyo 2018."
+      },
+      {
+        "icon": "🚛",
+        "name": "Ku dhex qarinta Gaadiidka",
+        "badge": "Khatarta joogsiga neefsiga",
+        "desc": "Sanduuqyada loriyada, gaadiidka qaboojinta. Dadku waxay ku dhintaan kulaylka, qaboobaha, ama monoxide kaarbon. 2019-kii, 39 Fiitnaamiyan ayaa la helay kuwo dhintay loriyad ku taal Essex, UK."
+      }
     ]
   },
   "legal": {
@@ -58,18 +104,103 @@
     "title2": "jidkaaga sharciga ah",
     "lead": "Ka jawaab laba su'aalood oo aan kuu tusno jidadka sharciga ah ee xaaladdaada ku habboon.",
     "q1": "Waxa ugu weyn ee sababaya tanaadiga?",
-    "q1opts": ["Ka cararaya dagaal ama cadaadis", "Raadinaya fursad shaqo/dhaqaale", "Qoys horey Yurub ugu jira", "Waxbarasho dibadda", "Ma hubo / Kale"],
+    "q1opts": [
+      "Ka cararaya dagaal ama cadaadis",
+      "Raadinaya fursad shaqo/dhaqaale",
+      "Qoys horey Yurub ugu jira",
+      "Waxbarasho dibadda",
+      "Ma hubo / Kale"
+    ],
     "q2": "Hadda xagee baad joogta?",
-    "q2opts": ["Afrika", "Bariga Dhexe", "Aasiya", "Kale / Dooran maayo"],
+    "q2opts": [
+      "Afrika",
+      "Bariga Dhexe",
+      "Aasiya",
+      "Kale / Dooran maayo"
+    ],
     "showBtn": "I tus xulashooyinkayga sharciga ah →",
     "allTitle": "Dhammaan jidadka sharciga ah",
     "paths": [
-      { "id": "asylum", "icon": "🏛️", "tag": "CADAADIS / DAGAAL", "name": "Codsiga Madaxbannaanida", "desc": "Haddaad ka carareyso cadaadis, dagaal, ama rabshad, waxaad u xaq yeelan kartaa xaaladda qaxootiga ee heshiiska 1951.", "how": "Tag xafiiska UNHCR ee ugu dhow ama hay'adda madaxbannaanida qaran. Keen dukumiintiyada heli karto — laakiin la'aanta dukumiintiga kama joojinayso codsiga.", "link": "https://www.unhcr.org/get-help", "linkLabel": "Hel xafiis UNHCR →", "cost": "Bilaash", "time": "Bilood ilaa sanado", "risk": "Hoose" },
-      { "id": "resettlement", "icon": "✈️", "tag": "CADAADIS / NUGLAANTA", "name": "Dib-u-dejinta UNHCR", "desc": "UNHCR waxay doorataa qaxootiga ugu nugul ee diiwaan gashan si ay dib ugu dejiyan dal seddexaad oo nabadgalyo leh. Marka hore waa inaad UNHCR diiwaan galisaa.", "how": "Ka diiwaan gali xafiiska UNHCR ee ugu dhow. Ha bixin wax qof ah si ay 'u dardargeliyaan' dib-u-dejinta — had iyo jeer waa bilaash.", "link": "https://www.unhcr.org/resettlement", "linkLabel": "Wax ka baro dib-u-dejinta →", "cost": "Bilaash", "time": "1–3 sano", "risk": "Aad u hoose" },
-      { "id": "work", "icon": "💼", "tag": "DHAQAALE / XIRFAD", "name": "Fiisaha Shaqaalaha Xirfadlayaasha", "desc": "UK, Jarmalka, Kanada, iyo kuwa kale si firfircoon ayey u raadiyaan shaqaalaha xirfadlayaasha caafimaadka, teknoolajiyada, dhismaha, iyo xirfadaha.", "how": "Hubi liiska xirfadaha UK ama bogga 'Make it in Germany'. Ka codsoo safaaradda ama qunsuliyada.", "link": "https://www.gov.uk/skilled-worker-visa", "linkLabel": "Fiisal UK ee Shaqaale Xirfadle →", "link2": "https://www.make-it-in-germany.com", "linkLabel2": "Fiisal Jarmal →", "cost": "£719–£1,500 (UK)", "time": "3–8 toddobaad", "risk": "Aad u hoose" },
-      { "id": "study", "icon": "🎓", "tag": "WAXBARASHO / DHALINYARADA", "name": "Fiisal Arday", "desc": "Haddaad lagu qaadato jaamacad ama kuleej, si sharci ah ayaad ugu geli kartaa oo leh fiisal arday. Waddammo badan ayaa u oggolaanaya shaqo xoogaa ah.", "how": "Ka codsoo deeqaha waxbaraashada marka hore (Chevening, DAAD, Erasmus). Xarafka aqbalidda hay'adda waa shuruudda ugu muhiimsan.", "link": "https://www.gov.uk/student-visa", "linkLabel": "Fiisal Arday UK →", "cost": "£363–£490 (UK)", "time": "3–6 toddobaad", "risk": "Aad u hoose" },
-      { "id": "family", "icon": "👨‍👩‍👧", "tag": "XIRIIRKA QOYSKA", "name": "Wadajirka Qoyska", "desc": "Haddii ehelka dhow (xigil, waalid, ilmo) leeyahay xaalad sharci ah wadan EU ah ama UK, waxaad si sharci ah ugu biiri kartaa iyaga iyadoo la adeegsanayo wadajirka qoyska.", "how": "Qoyskaaga Yurub ayaa codsiga ku sameeyaa magacaaga. Hannaanka wuxuu ku xidid wadanka.", "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en", "linkLabel": "Wadajirka Qoyska EU →", "cost": "Waddanka ku xidid", "time": "3–12 bilood", "risk": "Hoose" },
-      { "id": "humanitarian", "icon": "🤝", "tag": "KHATAR DEGDEG AH", "name": "Fiisal Bini'aadantinimo", "desc": "Waddammo qaarkood waxay bixiyaan fiisasyo bini'aadantinimo oo safaaradaha, taas oo u ogolaanaysa gelitaanka sharciga ah si loo codsado madaxbannaanida markii la soo galo.", "how": "La xiriir safaaradda Yurub ama qunsuliyada wadankaaga. Si cad u sharax xaaladdaada. Boortugaal, Isbaaniya, iyo Talyaaniga waxay adeegsadeen jidkan.", "link": "https://www.unhcr.org/asylum-in-the-eu", "linkLabel": "Jidadka Madaxbannaanida EU →", "cost": "Bilaash ama qiimo yar", "time": "Toddobaadyo ilaa bilood", "risk": "Hoose" }
+      {
+        "id": "asylum",
+        "icon": "🏛️",
+        "tag": "CADAADIS / DAGAAL",
+        "name": "Codsiga Madaxbannaanida",
+        "desc": "Haddaad ka carareyso cadaadis, dagaal, ama rabshad, waxaad u xaq yeelan kartaa xaaladda qaxootiga ee heshiiska 1951.",
+        "how": "Tag xafiiska UNHCR ee ugu dhow ama hay'adda madaxbannaanida qaran. Keen dukumiintiyada heli karto — laakiin la'aanta dukumiintiga kama joojinayso codsiga.",
+        "link": "https://www.unhcr.org/get-help",
+        "linkLabel": "Hel xafiis UNHCR →",
+        "cost": "Bilaash",
+        "time": "Bilood ilaa sanado",
+        "risk": "Hoose"
+      },
+      {
+        "id": "resettlement",
+        "icon": "✈️",
+        "tag": "CADAADIS / NUGLAANTA",
+        "name": "Dib-u-dejinta UNHCR",
+        "desc": "UNHCR waxay doorataa qaxootiga ugu nugul ee diiwaan gashan si ay dib ugu dejiyan dal seddexaad oo nabadgalyo leh. Marka hore waa inaad UNHCR diiwaan galisaa.",
+        "how": "Ka diiwaan gali xafiiska UNHCR ee ugu dhow. Ha bixin wax qof ah si ay 'u dardargeliyaan' dib-u-dejinta — had iyo jeer waa bilaash.",
+        "link": "https://www.unhcr.org/resettlement",
+        "linkLabel": "Wax ka baro dib-u-dejinta →",
+        "cost": "Bilaash",
+        "time": "1–3 sano",
+        "risk": "Aad u hoose"
+      },
+      {
+        "id": "work",
+        "icon": "💼",
+        "tag": "DHAQAALE / XIRFAD",
+        "name": "Fiisaha Shaqaalaha Xirfadlayaasha",
+        "desc": "UK, Jarmalka, Kanada, iyo kuwa kale si firfircoon ayey u raadiyaan shaqaalaha xirfadlayaasha caafimaadka, teknoolajiyada, dhismaha, iyo xirfadaha.",
+        "how": "Hubi liiska xirfadaha UK ama bogga 'Make it in Germany'. Ka codsoo safaaradda ama qunsuliyada.",
+        "link": "https://www.gov.uk/skilled-worker-visa",
+        "linkLabel": "Fiisal UK ee Shaqaale Xirfadle →",
+        "link2": "https://www.make-it-in-germany.com",
+        "linkLabel2": "Fiisal Jarmal →",
+        "cost": "£719–£1,500 (UK)",
+        "time": "3–8 toddobaad",
+        "risk": "Aad u hoose"
+      },
+      {
+        "id": "study",
+        "icon": "🎓",
+        "tag": "WAXBARASHO / DHALINYARADA",
+        "name": "Fiisal Arday",
+        "desc": "Haddaad lagu qaadato jaamacad ama kuleej, si sharci ah ayaad ugu geli kartaa oo leh fiisal arday. Waddammo badan ayaa u oggolaanaya shaqo xoogaa ah.",
+        "how": "Ka codsoo deeqaha waxbaraashada marka hore (Chevening, DAAD, Erasmus). Xarafka aqbalidda hay'adda waa shuruudda ugu muhiimsan.",
+        "link": "https://www.gov.uk/student-visa",
+        "linkLabel": "Fiisal Arday UK →",
+        "cost": "£363–£490 (UK)",
+        "time": "3–6 toddobaad",
+        "risk": "Aad u hoose"
+      },
+      {
+        "id": "family",
+        "icon": "👨‍👩‍👧",
+        "tag": "XIRIIRKA QOYSKA",
+        "name": "Wadajirka Qoyska",
+        "desc": "Haddii ehelka dhow (xigil, waalid, ilmo) leeyahay xaalad sharci ah wadan EU ah ama UK, waxaad si sharci ah ugu biiri kartaa iyaga iyadoo la adeegsanayo wadajirka qoyska.",
+        "how": "Qoyskaaga Yurub ayaa codsiga ku sameeyaa magacaaga. Hannaanka wuxuu ku xidid wadanka.",
+        "link": "https://ec.europa.eu/home-affairs/policies/migration-and-asylum/legal-migration-and-integration/family-reunification_en",
+        "linkLabel": "Wadajirka Qoyska EU →",
+        "cost": "Waddanka ku xidid",
+        "time": "3–12 bilood",
+        "risk": "Hoose"
+      },
+      {
+        "id": "humanitarian",
+        "icon": "🤝",
+        "tag": "KHATAR DEGDEG AH",
+        "name": "Fiisal Bini'aadantinimo",
+        "desc": "Waddammo qaarkood waxay bixiyaan fiisasyo bini'aadantinimo oo safaaradaha, taas oo u ogolaanaysa gelitaanka sharciga ah si loo codsado madaxbannaanida markii la soo galo.",
+        "how": "La xiriir safaaradda Yurub ama qunsuliyada wadankaaga. Si cad u sharax xaaladdaada. Boortugaal, Isbaaniya, iyo Talyaaniga waxay adeegsadeen jidkan.",
+        "link": "https://www.unhcr.org/asylum-in-the-eu",
+        "linkLabel": "Jidadka Madaxbannaanida EU →",
+        "cost": "Bilaash ama qiimo yar",
+        "time": "Toddobaadyo ilaa bilood",
+        "risk": "Hoose"
+      }
     ]
   },
   "compare": {
@@ -80,12 +211,36 @@
     "colIllegal": "⚠ Jidka Sharci-darrada",
     "colLegal": "✓ Jidka Sharciga",
     "rows": [
-      { "factor": "Khatarta nolosha", "illegal": "Aad u sareysa — 1 ka 45 waxay ku dhintaan jidadka qaarkood", "legal": "Yar — duullimaad, bas, ama tareen" },
-      { "factor": "Lacagta", "illegal": "€3,000–15,000 dab-qaadayaasha (haddaad dhimatid lacagta lama soo celin)", "legal": "UNHCR waa bilaash. Khurjiga fiisalku aad buu uga yar yahay" },
-      { "factor": "Xaalada sharciga markii la gaaro", "illegal": "Aan la diiwaangelinin — khatarta xarigga isla markaaba iyo masaafurinta", "legal": "Xuquuq sharciyeed oo buuxa, helitaanka adeegyada, ruqsadaha shaqada" },
-      { "factor": "Diiwaanka dembiyada", "illegal": "Gelitaanka sharci-darrada wuxuu xidaa codsiyada mustaqbalka ee fiisalka iyo madaxbannaanida", "legal": "Diiwan dembiyeed ma jiro — doorashooyinkaada mustaqbalka waa furan yihiin" },
-      { "factor": "Qoyskaaga", "illegal": "Qoyskaagu waxaa laga yaabaa inayan weligood ogaan waxa kuu dhacay", "legal": "Qoyskaaga dambe si sharci ah ayaad u keeni kartaa wadajirka qoyska" },
-      { "factor": "Hoy iyo caafimaad", "illegal": "Waxba ma jiraan — adeegyo kasta waxaad ka qarsoon tahay", "legal": "Codsadayaasha madaxbannaanida ee sharciga ah waxay helaan hoy iyo daryeel caafimaad" }
+      {
+        "factor": "Khatarta nolosha",
+        "illegal": "Aad u sareysa — 1 ka 45 waxay ku dhintaan jidadka qaarkood",
+        "legal": "Yar — duullimaad, bas, ama tareen"
+      },
+      {
+        "factor": "Lacagta",
+        "illegal": "€3,000–15,000 dab-qaadayaasha (haddaad dhimatid lacagta lama soo celin)",
+        "legal": "UNHCR waa bilaash. Khurjiga fiisalku aad buu uga yar yahay"
+      },
+      {
+        "factor": "Xaalada sharciga markii la gaaro",
+        "illegal": "Aan la diiwaangelinin — khatarta xarigga isla markaaba iyo masaafurinta",
+        "legal": "Xuquuq sharciyeed oo buuxa, helitaanka adeegyada, ruqsadaha shaqada"
+      },
+      {
+        "factor": "Diiwaanka dembiyada",
+        "illegal": "Gelitaanka sharci-darrada wuxuu xidaa codsiyada mustaqbalka ee fiisalka iyo madaxbannaanida",
+        "legal": "Diiwan dembiyeed ma jiro — doorashooyinkaada mustaqbalka waa furan yihiin"
+      },
+      {
+        "factor": "Qoyskaaga",
+        "illegal": "Qoyskaagu waxaa laga yaabaa inayan weligood ogaan waxa kuu dhacay",
+        "legal": "Qoyskaaga dambe si sharci ah ayaad u keeni kartaa wadajirka qoyska"
+      },
+      {
+        "factor": "Hoy iyo caafimaad",
+        "illegal": "Waxba ma jiraan — adeegyo kasta waxaad ka qarsoon tahay",
+        "legal": "Codsadayaasha madaxbannaanida ee sharciga ah waxay helaan hoy iyo daryeel caafimaad"
+      }
     ]
   },
   "stories": {
@@ -93,9 +248,24 @@
     "title1": "Waxa dadku jeclaan lahaayeen",
     "title2": "inay ogaadeen",
     "items": [
-      { "flag": "🇸🇴", "type": "danger", "quote": "Dab-qaadaha wuxuu yiri doontii waxay ahayd mid amaan. Waxaynu ahayn 80 qof oo doon 20 qof ah. Walaalkey kuma noolaan. Wax walba ayaan siinayaa haddaan dib ugu soo laabo oo kale u doortaan.", "name": "KU BADBAADAYAY — MEDITERANEAN DHEXDEEDA, 2022" },
-      { "flag": "🇸🇾", "type": "danger", "quote": "Waxaanu bixinnay €8,000 waxaanana naga tageen buuraha Serbia bishii Janaayo. Saddex qof oo kooxdayada ka mid ah waxay ku dhintay qaboob. Waxaanu lugaynnay 11 maalmood.", "name": "KU BADBAADAYAY — JIDKA BALKAN, 2021" },
-      { "flag": "🇦🇫", "type": "safe", "quote": "UNHCR-ka Baakistaan ayaan ku diiwaan galay. 14 bilood ayaa qaadatay laakiin si sharci ah ayaan ugu dib-u-dejiyay Jarmalka. Shaqo ayaan hadda leeyahay. Caruurahaygu waxay ku jiraan dugsiga. Fadlan — ha aaminina dab-qaadayaasha.", "name": "QAXOOTI DIB-U-DEJIYAY — JARMALKA, 2023" }
+      {
+        "flag": "🇸🇴",
+        "type": "danger",
+        "quote": "Dab-qaadaha wuxuu yiri doontii waxay ahayd mid amaan. Waxaynu ahayn 80 qof oo doon 20 qof ah. Walaalkey kuma noolaan. Wax walba ayaan siinayaa haddaan dib ugu soo laabo oo kale u doortaan.",
+        "name": "KU BADBAADAYAY — MEDITERANEAN DHEXDEEDA, 2022"
+      },
+      {
+        "flag": "🇸🇾",
+        "type": "danger",
+        "quote": "Waxaanu bixinnay €8,000 waxaanana naga tageen buuraha Serbia bishii Janaayo. Saddex qof oo kooxdayada ka mid ah waxay ku dhintay qaboob. Waxaanu lugaynnay 11 maalmood.",
+        "name": "KU BADBAADAYAY — JIDKA BALKAN, 2021"
+      },
+      {
+        "flag": "🇦🇫",
+        "type": "safe",
+        "quote": "UNHCR-ka Baakistaan ayaan ku diiwaan galay. 14 bilood ayaa qaadatay laakiin si sharci ah ayaan ugu dib-u-dejiyay Jarmalka. Shaqo ayaan hadda leeyahay. Caruurahaygu waxay ku jiraan dugsiga. Fadlan — ha aaminina dab-qaadayaasha.",
+        "name": "QAXOOTI DIB-U-DEJIYAY — JARMALKA, 2023"
+      }
     ]
   },
   "cta": {
@@ -106,133 +276,136 @@
     "btn2": "Bogga Socdaalka EU",
     "btn3": "Xulashooyinka Fiisalka UK"
   },
-  "counter": { "label": "Dhimashada Sanadkan", "sub": "sanadkan la diiwaan geliyay", "source": "Isha: IOM" },
+  "counter": {
+    "label": "Dhimashada Sanadkan",
+    "sub": "sanadkan la diiwaan geliyay",
+    "source": "Isha: IOM"
+  },
   "footer": {
     "disclaimer": "Barnaamijkan wuxuu isticmaalaa xogta dadweynaha ee IOM, UNHCR, Frontex, iyo Europol. Waa ilaha macluumaadka oo keliya mana aha talada sharciga. Haddaad adiga ama qof aad garanayso uu khatar degdeg ah ku jiro, la xiriir xafiiska UNHCR ee ugu dhow ama xiriiri adeegyada xaaladaha degdega ee maxalliga.",
     "sources": "Xogta: IOM Socdaalayaasha La Waayay · Trends Caalamiga UNHCR · Falanqaynta Khatarta Frontex 2025 · Warbixinta Europol ee Ganacsiga Aadanaha 2024"
-  }
-,
+  },
   "thinkCarefully": {
-    "label": "Before You Decide",
-    "title1": "Is leaving really",
-    "title2": "the answer?",
-    "lead": "Migration can save lives — but it can also destroy them. If you have safety, family, and basic stability at home, the reality of irregular migration is rarely worth it. Read this honestly before you decide.",
+    "label": "Kahor Inta Aadan Go'aamin",
+    "title1": "Ma run ahaantii baxiddu",
+    "title2": "jawaabtu tahay?",
+    "lead": "Hijraddu waxay badbaadin kartaa nolol — laakiin waxay sidoo kale burburin kartaa. Haddaad ku nool tahay amaan, qoys, iyo xasilloonida aasaasiga ah ee gurigaaga, runta hijrada aan sharci ahayn aad ayey ugu yar tahay inay qiimaha leedahay. Tan akhri si daacad ah kahor inta aadan go'aamin.",
     "cards": [
       {
         "icon": "🏠",
-        "title": "Do you have housing and food security?",
-        "body": "If you have a home, food, and your family is with you — you already have more than millions of people in the world. Migration to the UK or EU does not guarantee any of these things. Many arrivals spend years in asylum hostels, shared housing, or temporary accommodation."
+        "title": "Ma leedahay guri iyo amniga cuntada?",
+        "body": "Haddaad leedahay guri, cunto, qoyskaagana kula jiro — waad ka badan tahay malaayiin qof adduunka. Hijrada UK ama EU ma dammaanad qaadayso waxwalba. Dadka badan ee ku yimaada ayaa waxyaabo badan ka jooga hostellada qaxootiga, guryaha wadaagga ah, ama meelaha ku meel gaarka ah."
       },
       {
         "icon": "💼",
-        "title": "Are you leaving economic frustration — not danger?",
-        "body": "If you are not facing persecution or direct physical danger, the legal economic migration routes require qualifications, job offers, and language skills. Irregular migration for economic reasons almost always leads to exploitation, not prosperity. The UK minimum wage sounds good — but rent in London starts at £1,400/month for a shared room."
+        "title": "Ma ka baxaysaa niyad jab dhaqaale — kuma bahdin?",
+        "body": "Haddaanad la kulmin cadaadis ama khatar jireed toos ah, jidadka hijrada dhaqaalaha sharci ah waxay u baahan yihiin xirfadaha, soo jeedinta shaqada, iyo xirfadaha luuqadda. Hijrada aan sharci ahayn sabab dhaqaale ah waxay ku dhamaanaysaa inta badan faa'iido xumi, ma aha horumar. Mushaarka ugu yar ee UK wuu si fiican u muuqdaa — laakiin kirada London waxay ka bilaabataa £1,400 bishiiba qol wadaag ah."
       },
       {
         "icon": "👨‍👩‍👧",
-        "title": "What will this cost your family?",
-        "body": "The smugglers take your family's savings — sometimes everything they own. If you die or disappear at sea, they lose both the money and you. Families have sold land, borrowed from moneylenders at crushing rates, and been left in debt for years by a loved one who didn't survive the crossing."
+        "title": "Maxay qoyskaagu u bixin doonaa?",
+        "body": "Milicsatada ayaa qaaday madaxbanaanida qoyskaaga — mararka qaarkood waxay qaadaan wax kasta oo ay leeyihiin. Haddaad ku dhimatid ama luuntid badda, labadaba lacagta iyo adiga ayey lumiyaan. Qoysas ayaa dhul iibiyay, lacag ka amaahday faydh-adeegyayaasho heerka la heli karo, oo sanado badan ahaayeen deynta."
       },
       {
         "icon": "🌍",
-        "title": "Could you build something at home?",
-        "body": "Many countries that send migrants to Europe are growing fast — Nigeria, Bangladesh, Kenya, Ghana, Egypt, Ethiopia. Professionals with international education or skills are in high demand. The person who builds a business at home may end up wealthier — and happier — than the one who cleans offices in a foreign city they don't belong to."
+        "title": "Ma awoodi kartaa inaad wax ku dhisto wadankaaga?",
+        "body": "Wadamada badan ee u dirtaa socdaalayaasha Yurub waxay si degdeg ah u koraan — Nigeria, Bangladesh, Kenya, Ghana, Masar, Ethiopia. Xirfadlayaasha leh waxbarashada caalamiga ah ama xirfadaha ayaa aad loogu baahan yahay. Qofka ku dhisa ganacsiga wadankiisa ayaa laga yaabaa inuu ka hodmo — oo ka faraxsanyahay — kii nadaafadaya xafiisyada magaalo ajnabi ah."
       }
     ],
-    "warning": "If you are not in danger — think very carefully. The Europe many people imagine does not exist. The Europe that does exist is cold, expensive, and often lonely for those who arrive without legal status, language skills, or qualifications."
+    "warning": "Haddaanad khatarsan — si taxadar badan u fikirso. Yurubta dadku u malaynayaan ma jirto. Yurubta jirta waa qabow, qaali, oo badanaa kaliya ee kuwa yimaada iyaga oo aan lahayn xaalad sharci ah, xirfadaha luuqadda, ama xirfadaha."
   },
   "crudeReality": {
-    "label": "The Reality Nobody Tells You",
-    "title1": "What actually",
-    "title2": "happens after you arrive",
-    "lead": "Smugglers and social media show you the dream. Nobody shows you what comes after — even for those who arrive legally.",
+    "label": "Xaqiiqda Aan Cidna Kuu Sheegin",
+    "title1": "Waxa dhab ahaantii",
+    "title2": "dhaca marka aad timaado",
+    "lead": "Milicsatada iyo baraha bulshada waxay ku tusinayaan riyada. Cidna kuma tusinayso waxa xiga — xitaa kuwa sharci ahaan u yimaada.",
     "items": [
       {
         "icon": "🏚️",
-        "title": "The housing crisis is real",
-        "body": "UK and EU cities are facing severe housing shortages. A single room in a shared house in London costs £900–£1,400/month. Many newly arrived migrants — including those with work visas — sleep in garden sheds, overcrowded HMOs, or on friends' floors for the first years. Homelessness among migrants is rising, not falling."
+        "title": "Xaaladda guryaha waa run",
+        "body": "Magaalooyinka UK iyo EU waxay la kulmaan yaraanta guryaha. Qol kali ah oo guri la wadaago London waxay kharash galeysaa £900–£1,400 bishiiba. Socdaalayaasha cusub ee badan — oo ay ku jiraan kuwa fiisaha shaqada — ayaa usbanayaa beerta, guryo buuxa, ama saaxiibada dhulalkooda sannadaanka hore."
       },
       {
         "icon": "📄",
-        "title": "Your qualifications may not be recognised",
-        "body": "A doctor, engineer, or teacher from Nigeria, Bangladesh, or Pakistan often cannot practise in the UK without re-qualifying. This can take 3–7 years and cost tens of thousands of pounds. Many highly educated migrants end up working in warehouses, delivery, or care homes while paying off debts from their journey."
+        "title": "Xirfadahaaga laga yaabaa inaan la aqoonsan",
+        "body": "Dhakhtar, injineer, ama macallin ka yimid Nigeria, Bangladesh, ama Pakistan inta badan uma awoodan inuu ku dhaqmo UK iyada oo aan dib loo xirfadeeynin. Tani waxay qaadan kartaa 3–7 sano oo kharashaad ah tobomada kunna shillin."
       },
       {
         "icon": "🧠",
-        "title": "The mental health toll is severe",
-        "body": "Isolation, language barriers, discrimination, and the gap between expectation and reality cause serious mental health crises among migrants. NHS mental health services have years-long waiting lists. Suicide rates among asylum seekers and undocumented migrants are significantly higher than the general population."
+        "title": "Kharashka caafimaadka maskaxda ayaa daran",
+        "body": "Kaliya-noolaanshaha, xaaladaha luuqadda, takoorista, iyo farqiga u dhexeeya rajaynta iyo xaqiiqda ayaa keena dhibaatooyin caafimaad oo maskaxeed oo daran. Adeegyada caafimaadka maskaxda NHS waxay leeyihiin liistaha sugitaanka sannadaha."
       },
       {
         "icon": "💶",
-        "title": "The cost of living is brutal",
-        "body": "A grocery shop for one week in the UK costs £50–£80. Electricity, water, council tax, transport, and phone add another £400–£600/month. A minimum wage job (£11.44/hour) earns roughly £1,800/month after tax. After rent, there is almost nothing left — and nothing to send home."
+        "title": "Kharashka noloshadu waa xoogan",
+        "body": "Iibsiga toddobaadkiiba UK wuxuu kharash galeeyaa £50–£80. Koronto, biyo, canshuurta degmada, gaadhi, iyo telefoon waxay ku dardaaran kharash £400–£600 bishiiba. Shaqada mushaarka ugu yar waxay fidisaa qiyaastii £1,800/bill ka dib canshuurta. Ka dib kirada, wax yar ayaa hadhaa."
       },
       {
         "icon": "⚖️",
-        "title": "Undocumented life is not 'freedom'",
-        "body": "Without documentation you cannot open a bank account, rent legally, access healthcare fully, or leave and re-enter the country. You live in permanent fear of immigration enforcement. Many people live this way for 10–20 years, unable to visit family when parents die, unable to move forward, unable to go back."
+        "title": "Noloshada aan diiwaangalinayni ma ahan 'xorriyad'",
+        "body": "Iyada oo aan diiwaangelinta lahayn ma kari karto inaad furto xisaab bangi, kiro si sharci ah, la gashato daryeelka caafimaadka oo buuxa, ama ka baxdo oo dib u gasho dalka. Waxaad ku noolaataa cabsi joogto ah oo fulinta qaanuunka socdaalka."
       },
       {
         "icon": "🚨",
-        "title": "Exploitation does not end at the border",
-        "body": "Labour trafficking, sexual exploitation, and debt bondage continue inside Europe. Undocumented migrants are targeted because they cannot report abuse to police without risking deportation. The people who exploit migrants at sea often have networks that exploit them on land too."
+        "title": "Dulmigu kuma dhamaado xadka",
+        "body": "Ganacsiga shaqada, xadgudubyada galmada, iyo addoonsiga deynta way sii socdaan Yurub gudaheeda. Socdaalayaasha aan diiwaangalin lahayn ayaa lagu beegsadaa maxaa yeelay ma awoodaan inay u wariyaan booliska xadgudubka iyaga oo halis ku jira ka saarka."
       }
     ]
   },
   "afterArrival": {
-    "label": "After Arrival — The Untold Stories",
-    "title1": "The struggle doesn't",
-    "title2": "end at the border",
-    "lead": "Even people who arrive legally — with visas, qualifications, and ambition — face a reality that is far harder than the dream. These are documented experiences, not exceptions.",
+    "label": "Ka Dib Timaaadka — Sheekooyin aan La Sheegeen",
+    "title1": "Halganka kuma dhamaado",
+    "title2": "xadka",
+    "lead": "Xitaa dadka si sharci ah u yimaada — fiisas, xirfadaha, iyo ximaasadda — ayaa la kulma xaqiiqo aad uga adag riyada. Kuwani waa khibrado la diiwaangeliyay, ma aha waxyaabaha ka duwan.",
     "items": [
       {
         "flag": "🇳🇬",
-        "title": "Graduated. Unemployed. Invisible.",
-        "body": "Nigerian international students graduate from UK universities with first-class degrees — and send hundreds of CVs without a callback. Studies show that CVs with African names receive 60% fewer interview callbacks than identical CVs with English names. Discrimination in hiring is well-documented and ongoing.",
+        "title": "Ka qalin jabiyay. Shaqo la'aan. Aan la arkayn.",
+        "body": "Ardayda caalamiga ah ee Nigerian waxay ka qalin jabiyaan jaamacadaha UK shahaadooyin heerka koowaad — oo diraan dhowr boqol oo CV ah iyagoo aan wax ka helin. Daraasadaha waxay muujinayaan in CV-yada magacyada Afrikaanka leh ay helaan %60 ka yar jawaabaha wareysiga marka la barbardhigo CV-yada isku mid ah ee magacyada Ingiriisiga leh.",
         "source": "Oxford Migration Observatory, 2024"
       },
       {
         "flag": "🇧🇩",
-        "title": "Arrived legally. Living in a garage.",
-        "body": "Hundreds of Bangladeshi workers on UK care visas have been stranded after employers collapsed, leaving them without work, housing, or income. Some lived in employer-provided accommodation that was a converted garage. The 60-day job-switch window was not enough to find new sponsors.",
-        "source": "Guardian reporting, 2023–2024"
+        "title": "Sharci ahaan yimid. Garaashka ku nool.",
+        "body": "Boqolaal shaqaale Bangladeeshi oo fiisaha daryeelka UK ah ayaa ku xidhnaaday marka shirkadaha shaqaalaha ay bankrupt noqdeen, iyagoo aan lahayn shaqo, guri, ama dakhli. Qaarkood waxay ku noolaayeen hoy garaash laga beddelay.",
+        "source": "The Guardian, 2023–2024"
       },
       {
         "flag": "🇸🇴",
-        "title": "10 years. Still waiting.",
-        "body": "Many Somali refugees who arrived legally in the early 2010s are still in temporary housing, still waiting for PTSD treatment, still navigating a benefits system that treats them as burdens. Children born in the UK speak fluent English but their parents remain isolated, unable to integrate.",
+        "title": "10 sano. Weli sugayaa.",
+        "body": "Qaxootiga Soomaaliyeed ee badan ee sharci ahaan yimid bilowga 2010-meeyadii weli waxay ku jiraan guryo ku meel gaara, weli sugaya daaweynta PTSD, weli u gudbin doona nidaam faa'iidooyinka ah oo u dhaqma iyaga sidii culeyska.",
         "source": "UNHCR UK, 2024"
       },
       {
         "flag": "🇵🇰",
-        "title": "Skilled Worker. Refused at the airport.",
-        "body": "Pakistani workers with valid UK Skilled Worker visas have been turned away at the border after being unable to answer detailed questions about their employer or role. Visa documents were genuine — but insufficient preparation for the border interview led to refusal of leave to enter.",
-        "source": "ILPA case reports, 2025"
+        "title": "Shaqaale Xirfadleh. Garoonka diyaaradaha laga diiday.",
+        "body": "Shaqaalaha Pakistani ee leh fiisaha Shaqaalaha Xirfadlaha ah ee UK ee ansaxsan ayaa laga celiyay xadka ka dib marka aysan awoodin inay u jawaabaan su'aalaha faahfaahsan ee ku saabsan shaqaalaha ama doorka.",
+        "source": "ILPA, 2025"
       }
     ]
   },
   "comeHome": {
-    "label": "A Message for Students",
-    "title": "Your country needs you back",
-    "sub": "If you came to study — go home. Not because Europe is not worth experiencing, but because you are worth more to your country than to a delivery company in Manchester.",
+    "label": "Fariin Ardayda",
+    "title": "Wadankaagu kuu baahan yahay inaad soo noqoto",
+    "sub": "Haddaad timid inaad wax barato — guriga ku noqo. Maahan maxaa yeelay Yurubtu khibrad u mudan tahay, laakiin adigu wadankaaga aad uga qiimeysan tahay shirkad gaadiid ah Manchester.",
     "points": [
       {
         "icon": "🏗️",
-        "text": "Nigeria, Bangladesh, Kenya, Ghana, and Ethiopia are building fast. Engineers, doctors, teachers, and entrepreneurs who return with international experience are transforming these countries from the inside."
+        "text": "Nigeria, Bangladesh, Kenya, Ghana, iyo Ethiopia waxay si degdeg ah u dhisayaan. Injineerada, dhakhaatiirta, macallimiinta, iyo ganacsatada ku soo laabanaya khibrad caalami ah ayaa wadamadaas ka beddelaya gudahood."
       },
       {
         "icon": "💰",
-        "text": "Your purchasing power at home is dramatically higher. A salary that feels small in the UK can fund a house, a business, and a family's security in many home countries."
+        "text": "Awoodaada iibsashada gurigaagu waa ka sarreysaa si aan caadi ahayn. Mushaarka yar u muuqda UK wuxuu ka qaadi karaa guri, ganacsad, iyo amniyadda qoyska oo dhan wadamada badan."
       },
       {
         "icon": "❤️",
-        "text": "Your parents are ageing. Your language, your food, your community — these things matter more than a passport stamp. Many people who stay in Europe for decades describe a deep and lasting loneliness that money never resolves."
+        "text": "Waalidiintaadu waxay waayeelayaan. Luuqaddaada, cuntadaada, bulshadaada — waxyaalahan waa ka muhiim in xakamaynta baasaboorka. Dadka badan ee soo joogtay Yurub tobannaan sano waxay ku tilmaamaan kaliya-noolaanshaha qoto dheer oo joogto ah oo lacagtu marnaba xallin weydey."
       },
       {
         "icon": "🌱",
-        "text": "The most powerful thing you can do for your country is return with skills and build something. You cannot change your home country from a shared house in Birmingham."
+        "text": "Waxa ugu xoogan ee aad u samayn karto wadankaaga waa inaad ku soo laabato xirfadaha oo wax dhisto. Guri wadaag Birmingham ka mid ah uma kari karto inaad ka beddesho wadankaaga."
       }
     ],
-    "cta": "Use the legal routes to study, gain experience, then return. That is the migration story that actually changes lives — yours and your country's."
+    "cta": "Jidadka sharci ah u isticmaal waxbarasho iyo khibrad, ka dib soo noqo. Taasi waa sheekada socdaalka ee run ahaantii nolol beddesha — taadiyo wadankaagaba."
   }
 }
