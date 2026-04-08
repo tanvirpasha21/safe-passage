@@ -48,6 +48,22 @@
       "desc": "Birleşik Krallık en savunmasız mülteciler için resmi yeniden yerleşim programları yürütmektedir — UKRS, ACRS, ARAP. Bunlar insanları uçakla, güvenli bir şekilde, ücretsiz olarak getirir.",
       "href": "/pathways/uk/resettlement",
       "cta": "Tam Yeniden Yerleşim Rehberi →"
+    },
+    {
+      "icon": "🚀",
+      "tag": "İŞ",
+      "name": "Yenilikçi Kurucu Vizesi",
+      "desc": "İngiltere'de kendi yenilikçi ve ölçeklenebilir işinizi kurun. İşverenine gerek yok — siz kurucusunuz. Onaylı bir kurum tarafından desteklenerek 3 yıl sonra kalıcı ikamet alın.",
+      "href": "/pathways/uk/innovator-founder",
+      "cta": "Tam Yenilikçi Kurucu Kılavuzu →"
+    },
+    {
+      "icon": "🌟",
+      "tag": "YETENEK",
+      "name": "Global Yetenek Vizesi",
+      "desc": "Dijital teknoloji, araştırma veya sanat alanlarında lider veya gelecek vaat eden yetenekler için. İş teklifi gerekmez. 3 veya 5 yıl sonra kalıcı ikamet.",
+      "href": "/pathways/uk/global-talent",
+      "cta": "Tam Global Yetenek Kılavuzu →"
     }
   ]
 }

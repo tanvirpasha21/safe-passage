@@ -1,0 +1,312 @@
+/* ═══════════════════════════════════════════
+   ENTERPRISE VISA PAGES — Innovator Founder
+   & Global Talent shared interactive styles
+═══════════════════════════════════════════ */
+
+/* ── Criteria cards (Innovator Founder 4 criteria) ── */
+.criteriaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.1rem;
+  margin-top: 1rem;
+}
+.criteriaCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.4rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.criteriaCard:hover {
+  border-color: rgba(42,157,143,0.35);
+  transform: translateY(-2px);
+}
+.criteriaIcon { font-size: 1.8rem; display: block; margin-bottom: 0.65rem; }
+.criteriaTitle {
+  font-size: 1rem; font-weight: 800; color: var(--white);
+  margin-bottom: 0.5rem;
+}
+.criteriaDesc {
+  font-size: 0.83rem; color: var(--muted); line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
+.criteriaReq {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: rgba(42,157,143,0.08);
+  border: 1px solid rgba(42,157,143,0.2);
+  border-radius: 3px;
+  padding: 0.25rem 0.55rem;
+  color: var(--safe);
+  display: inline-block;
+}
+
+/* ── Endorsing body type cards ── */
+.endorseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.endorseCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+.endorseType {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--safe);
+  margin-bottom: 0.4rem;
+}
+.endorseIcon { font-size: 1.4rem; display: block; margin-bottom: 0.5rem; }
+.endorseTitle { font-size: 0.9rem; font-weight: 700; color: var(--white); margin-bottom: 0.4rem; }
+.endorseExamples {
+  font-size: 0.78rem; color: rgba(255,255,255,0.5);
+  font-style: italic; margin-bottom: 0.5rem;
+}
+.endorseBest {
+  font-size: 0.8rem; color: var(--light); line-height: 1.55;
+  margin-bottom: 0.5rem;
+}
+.endorseNote {
+  font-size: 0.75rem; color: var(--muted); line-height: 1.55;
+  border-top: 1px solid var(--border); padding-top: 0.5rem; margin-top: 0.4rem;
+  font-style: italic;
+}
+
+/* ── Progress check cards (12-month, 24-month) ── */
+.checksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.checkCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem;
+  position: relative;
+}
+.checkTiming {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--safe);
+  margin-bottom: 0.5rem;
+}
+.checkFee {
+  font-size: 1.1rem; font-weight: 800; color: var(--warning);
+  margin-bottom: 0.6rem; display: block;
+}
+.checkWhat {
+  font-size: 0.83rem; color: var(--muted); line-height: 1.65;
+  margin-bottom: 0.65rem;
+}
+.checkOutcome {
+  font-size: 0.78rem; font-weight: 600; color: var(--light);
+  background: rgba(255,255,255,0.04);
+  border-radius: 4px; padding: 0.4rem 0.65rem;
+}
+
+/* ── MVP Validator box (Void Studio) ── */
+.mvpBox {
+  background: linear-gradient(135deg, rgba(11,46,86,0.7) 0%, rgba(7,9,15,0.4) 100%);
+  border: 1px solid rgba(42,157,143,0.35);
+  border-radius: 14px;
+  padding: 2rem;
+  margin-top: 0.5rem;
+}
+.mvpTag {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--safe);
+  background: rgba(42,157,143,0.08);
+  border: 1px solid rgba(42,157,143,0.25);
+  border-radius: 2px; padding: 0.25rem 0.7rem;
+  display: inline-block; margin-bottom: 1rem;
+}
+.mvpTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-weight: 800; color: var(--white);
+  margin-bottom: 0.75rem; line-height: 1.3;
+}
+.mvpTitle em { color: var(--safe); font-style: normal; }
+.mvpDesc {
+  font-size: 0.88rem; color: rgba(255,255,255,0.6);
+  line-height: 1.75; margin-bottom: 1.5rem; max-width: 700px;
+}
+.mvpDimensions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.65rem;
+  margin-bottom: 1.5rem;
+}
+.mvpDimension {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 6px;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.78rem; color: var(--light);
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.mvpDimension::before { content: '✓'; color: var(--safe); font-weight: 700; flex-shrink: 0; }
+.mvpStats {
+  display: flex; flex-wrap: wrap; gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.mvpStat { display: flex; flex-direction: column; }
+.mvpStatNum {
+  font-size: 1.4rem; font-weight: 800; color: var(--safe);
+  line-height: 1;
+}
+.mvpStatLabel {
+  font-size: 0.72rem; color: var(--muted); margin-top: 0.2rem;
+}
+.mvpTestimonial {
+  background: rgba(255,255,255,0.03);
+  border-left: 3px solid var(--safe);
+  padding: 0.85rem 1.1rem;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 1.5rem;
+}
+.mvpTestimonialText {
+  font-size: 0.85rem; color: rgba(255,255,255,0.7);
+  line-height: 1.65; font-style: italic; margin-bottom: 0.35rem;
+}
+.mvpTestimonialCredit {
+  font-size: 0.75rem; color: var(--safe); font-weight: 600;
+}
+.mvpCtaRow { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+.mvpCtaBtn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: var(--safe); color: #fff;
+  padding: 0.75rem 1.6rem; border-radius: 4px;
+  font-weight: 700; font-size: 0.88rem;
+  text-decoration: none; transition: opacity 0.2s;
+}
+.mvpCtaBtn:hover { opacity: 0.88; }
+.mvpDisclaimer {
+  font-size: 0.72rem; color: var(--muted); line-height: 1.5; max-width: 600px;
+}
+.mvpCompany {
+  font-size: 0.75rem; color: rgba(255,255,255,0.4);
+  margin-top: 0.25rem;
+}
+
+/* ── Global Talent — sector tabs ── */
+.sectorTabs {
+  display: flex; gap: 0.5rem; flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+.sectorTab {
+  padding: 0.55rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.83rem; font-weight: 600;
+  cursor: pointer; transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.sectorTab:hover { border-color: var(--safe); color: var(--safe); }
+.sectorTabActive {
+  background: rgba(42,157,143,0.12);
+  border-color: rgba(42,157,143,0.5);
+  color: var(--safe);
+}
+.sectorContent { animation: fadeIn 0.2s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ── Endorser cards (Global Talent sector bodies) ── */
+.endorserGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+.endorserCard {
+  background: rgba(42,157,143,0.04);
+  border: 1px solid rgba(42,157,143,0.2);
+  border-radius: 10px;
+  padding: 1.1rem;
+}
+.endorserName { font-size: 0.88rem; font-weight: 700; color: var(--white); margin-bottom: 0.35rem; }
+.endorserScope { font-size: 0.78rem; color: var(--safe); margin-bottom: 0.4rem; font-weight: 600; }
+.endorserDetail { font-size: 0.78rem; color: var(--muted); line-height: 1.6; }
+
+/* ── Talent vs Promise comparison ── */
+.comparisonTable {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.comparisonCol {
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+.comparisonColTalent {
+  background: rgba(42,157,143,0.06);
+  border: 1px solid rgba(42,157,143,0.25);
+}
+.comparisonColPromise {
+  background: rgba(11,46,86,0.4);
+  border: 1px solid rgba(74,158,255,0.2);
+}
+.comparisonColTitle {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.comparisonColTalent .comparisonColTitle { color: var(--safe); }
+.comparisonColPromise .comparisonColTitle { color: #4a9eff; }
+.comparisonColHead {
+  font-size: 1rem; font-weight: 800; color: var(--white);
+  margin-bottom: 0.75rem; line-height: 1.3;
+}
+.comparisonList { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.comparisonItem {
+  font-size: 0.82rem; color: var(--light); line-height: 1.55;
+  display: flex; gap: 0.5rem; align-items: flex-start;
+}
+.comparisonCheck { flex-shrink: 0; margin-top: 0.05rem; }
+.comparisonColTalent .comparisonCheck { color: var(--safe); }
+.comparisonColPromise .comparisonCheck { color: #4a9eff; }
+.comparisonSettlement {
+  margin-top: 0.85rem; padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem; font-weight: 700;
+}
+.comparisonColTalent .comparisonSettlement { color: var(--safe); }
+.comparisonColPromise .comparisonSettlement { color: #4a9eff; }
+
+/* ── Evidence list ── */
+.evidenceList {
+  display: flex; flex-direction: column; gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.evidenceItem {
+  display: flex; gap: 0.65rem; align-items: flex-start;
+  font-size: 0.83rem; color: var(--light); line-height: 1.55;
+  background: rgba(255,255,255,0.025);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.65rem 0.85rem;
+}
+.evidenceNum {
+  font-size: 0.72rem; font-weight: 700;
+  background: rgba(42,157,143,0.15);
+  color: var(--safe);
+  border-radius: 3px;
+  padding: 0.15rem 0.45rem;
+  flex-shrink: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 700px) {
+  .comparisonTable { grid-template-columns: 1fr; }
+  .mvpDimensions { grid-template-columns: 1fr 1fr; }
+  .checksGrid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .mvpDimensions { grid-template-columns: 1fr; }
+  .criteriaGrid { grid-template-columns: 1fr; }
+}

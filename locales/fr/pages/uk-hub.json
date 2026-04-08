@@ -48,6 +48,22 @@
       "desc": "Le Royaume-Uni gère des programmes officiels de réinstallation pour les réfugiés les plus vulnérables — UKRS, ACRS, ARAP. Ces programmes amènent des personnes au Royaume-Uni en toute sécurité, en avion, gratuitement.",
       "href": "/pathways/uk/resettlement",
       "cta": "Guide complet réinstallation →"
+    },
+    {
+      "icon": "🚀",
+      "tag": "ENTREPRISE",
+      "name": "Visa Innovateur Fondateur",
+      "desc": "Créez votre propre entreprise innovante et évolutive au Royaume-Uni. Aucun employeur requis — vous êtes le fondateur. Résidence permanente après 3 ans avec une recommandation d'un organisme agréé.",
+      "href": "/pathways/uk/innovator-founder",
+      "cta": "Guide complet Innovateur Fondateur →"
+    },
+    {
+      "icon": "🌟",
+      "tag": "TALENT",
+      "name": "Visa Global Talent",
+      "desc": "Pour les leaders et futurs leaders en technologie numérique, recherche ou arts et culture. Aucune offre d'emploi requise. Résidence permanente après 3 ou 5 ans.",
+      "href": "/pathways/uk/global-talent",
+      "cta": "Guide complet Global Talent →"
     }
   ]
 }

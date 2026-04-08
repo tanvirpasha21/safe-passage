@@ -48,6 +48,22 @@
       "desc": "The UK runs official resettlement programmes for the most vulnerable refugees — UKRS, ACRS, ARAP, and Homes for Ukraine. These bring people to the UK safely, on a plane, for free.",
       "href": "/pathways/uk/resettlement",
       "cta": "Full Resettlement Guide →"
+    },
+    {
+      "icon": "🚀",
+      "tag": "BUSINESS",
+      "name": "Innovator Founder Visa",
+      "desc": "Start your own innovative, scalable business in the UK. No employer needed — you are the founder. Settle permanently after 3 years with an endorsement from an approved body.",
+      "href": "/pathways/uk/innovator-founder",
+      "cta": "Full Innovator Founder Guide →"
+    },
+    {
+      "icon": "🌟",
+      "tag": "TALENT",
+      "name": "Global Talent Visa",
+      "desc": "For leaders and potential leaders in digital technology, research, or arts and culture. No job offer needed. Settle after 3 years (Exceptional Talent) or 5 years (Exceptional Promise).",
+      "href": "/pathways/uk/global-talent",
+      "cta": "Full Global Talent Guide →"
     }
   ]
 }

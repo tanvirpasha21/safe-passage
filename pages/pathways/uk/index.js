@@ -5,11 +5,13 @@ import styles from '../../../styles/Pathway.module.css';
 import { getPageTranslations } from '../../../lib/i18n';
 
 const CHIPS = {
-  '/pathways/uk/asylum':       [{ label: 'Free to apply', color: 'green' }, { label: '12–18 months', color: '' }, { label: 'Low risk', color: 'green' }],
-  '/pathways/uk/skilled-worker': [{ label: 'Job offer needed', color: '' }, { label: '3–8 weeks', color: 'green' }, { label: 'Very low risk', color: 'green' }],
-  '/pathways/uk/student':      [{ label: 'University offer needed', color: '' }, { label: '3–6 weeks', color: 'green' }, { label: 'Very low risk', color: 'green' }],
-  '/pathways/uk/family':       [{ label: 'Family sponsor needed', color: '' }, { label: '3–12 months', color: '' }, { label: 'Low risk', color: 'green' }],
-  '/pathways/uk/resettlement': [{ label: 'Completely free', color: 'green' }, { label: '6–24 months', color: '' }, { label: 'Very low risk', color: 'green' }],
+  '/pathways/uk/asylum':            [{ label: 'Free to apply', color: 'green' }, { label: '12–18 months', color: '' }, { label: 'Low risk', color: 'green' }],
+  '/pathways/uk/skilled-worker':    [{ label: 'Job offer needed', color: '' }, { label: '3–8 weeks', color: 'green' }, { label: 'Very low risk', color: 'green' }],
+  '/pathways/uk/student':           [{ label: 'University offer needed', color: '' }, { label: '3–6 weeks', color: 'green' }, { label: 'Very low risk', color: 'green' }],
+  '/pathways/uk/family':            [{ label: 'Family sponsor needed', color: '' }, { label: '3–12 months', color: '' }, { label: 'Low risk', color: 'green' }],
+  '/pathways/uk/resettlement':      [{ label: 'Completely free', color: 'green' }, { label: '6–24 months', color: '' }, { label: 'Very low risk', color: 'green' }],
+  '/pathways/uk/innovator-founder': [{ label: 'Your own business', color: 'green' }, { label: '3-yr settlement', color: 'green' }, { label: 'Endorsement needed', color: '' }],
+  '/pathways/uk/global-talent':     [{ label: 'No job offer needed', color: 'green' }, { label: '3–5 yr settlement', color: 'green' }, { label: 'Talent endorsement', color: '' }],
 };
 
 export default function UKPathwaysIndex({ pt }) {
