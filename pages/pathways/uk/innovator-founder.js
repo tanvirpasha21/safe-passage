@@ -3,7 +3,7 @@ import PathwayPage, { SolicitorSection } from '../../../components/PathwayPage';
 import styles from '../../../styles/Pathway.module.css';
 import ev from '../../../styles/EnterpriseVisa.module.css';
 
-// ── 3 Visa Criteria (Innovative, Viable, Scalable — per Home Office / endorsing body guidance) ──
+// ── 3 Visa Criteria ───────────────────────────────────────────────────────────
 const CRITERIA = [
   {
     icon: '💡',
@@ -45,7 +45,7 @@ const CRITERIA = [
   },
 ];
 
-// ── Real Endorsing Bodies (from documents) ──────────────────────────────────
+// ── Real Endorsing Bodies ──────────────────────────────────────────────────────
 const ENDORSE_BODIES = [
   {
     icon: '🏦',
@@ -68,7 +68,7 @@ const ENDORSE_BODIES = [
       'Receive decision: endorsement letter issued within 4–6 weeks',
     ],
     best: 'Businesses with an investment component, fintech, consumer, or property-adjacent startups. Strong ecosystem connections and investor introduction network.',
-    note: 'Envestors is FCA-regulated and one of the UK\'s most established equity crowdfunding and EIS/SEIS investment networks. Their endorsement carries significant credibility with UKVI.',
+    note: "Envestors is FCA-regulated and one of the UK's most established equity crowdfunding and EIS/SEIS investment networks. Their endorsement carries significant credibility with UKVI.",
     contact: 'envestors.co.uk',
   },
   {
@@ -79,21 +79,20 @@ const ENDORSE_BODIES = [
     clients: '30+ years combined sector experience',
     timeline: '28-day assessment period',
     fees: [
-      { stage: 'Initial endorsement', fee: '£1,000' },
-      { stage: '12-month check', fee: '£1,000' },
-      { stage: '24-month check', fee: '£1,000' },
-      { stage: 'ILR endorsement letter', fee: '£1,000' },
+      { stage: 'Initial endorsement', fee: '£1,000 (+VAT if UK resident)' },
+      { stage: '12 & 24-month checks', fee: '£1,000 (+VAT) — covers both' },
+      { stage: 'ILR endorsement letter', fee: '£1,000 (+VAT)' },
     ],
     process: [
-      'Complete online application form and upload all required documents',
-      'Pay assessment fee of £1,000',
-      'Application reviewed against all three Innovator Founder Visa criteria (IVS)',
-      '28-day assessment period with possible clarification requests',
-      'Committee review and endorsement decision',
-      'Endorsement letter issued (valid 3 months) or written reasons for refusal',
+      'Complete online application form and register your interest on their website',
+      'Receive personalised email with instructions to upload documents and pay',
+      'Application reviewed by an assigned experienced assessor (28-day period)',
+      'Due diligence: fund verification, personal screening check, online interview',
+      'Receive endorsement letter (valid 3 months) or written reasons for refusal',
+      'One free review of decision if application is unsuccessful',
     ],
     best: 'Broad range of sectors. Particularly active in tech, healthcare, education, sustainability, and B2B services. Clear 28-day timeline makes planning easier.',
-    note: 'Innovator International specialises exclusively in the Innovator Founder Visa endorsement route. Their guidance documentation is among the most detailed available for applicants.',
+    note: 'Innovator International specialises exclusively in the Innovator Founder Visa endorsement route. Their guidance documentation (Application Pack v3.5) is among the most detailed available. You as the applicant MUST submit — third parties cannot apply on your behalf.',
     contact: 'innovatorinternational.co.uk',
   },
 ];
@@ -101,10 +100,8 @@ const ENDORSE_BODIES = [
 // ── AML/KYC Documents Required ───────────────────────────────────────────────
 const REQUIRED_DOCS = [
   { doc: 'Passport copy', note: 'Valid passport, all pages scanned clearly — required by all endorsing bodies for AML/KYC.' },
-  { doc: 'CV / Résumé', note: 'Highlight experience directly relevant to the proposed business. Include achievements and outcomes, not just job titles.' },
-  { doc: 'Business plan', note: 'Typically 10–30 pages. Must cover all three criteria: Innovative, Viable, Scalable. Include market research, competitive analysis, and scaling strategy.' },
-  { doc: 'Financial projections (Year 1–3)', note: 'Must include a cash flow forecast. Envestors specifically require a detailed Year 1 financial plan. Show your assumptions.' },
-  { doc: 'Bank statement', note: 'Evidence you can fund your business operations and personal living costs while building the business.' },
+  { doc: 'Business plan, financial projections & CV', note: 'Can be combined in one document. Typically 10–30 pages. Must cover all three criteria: Innovative, Viable, Scalable. CV must demonstrate direct relevance to the proposed business.' },
+  { doc: 'Bank statement (proof of funds)', note: 'Evidence you have access to the funds required to deliver the project. Must show sufficient capital for business operations and personal living costs.' },
   { doc: '2 professional reference letters', note: 'Must be from professional email addresses (e.g., company.co.uk) — not Gmail, Hotmail, or personal addresses. Envestors reject personal email references.' },
   { doc: 'Degree certificates / qualifications', note: 'Relevant academic or professional qualifications demonstrating the capability to execute your idea.' },
   { doc: 'Proof of address', note: 'Recent utility bill or bank statement required for AML/KYC compliance by all endorsing bodies.' },
@@ -112,20 +109,20 @@ const REQUIRED_DOCS = [
   { doc: 'Awards, press, or prior venture documents', note: 'Relevant prior achievements significantly strengthen your application — especially evidence of prior innovation or commercial success.' },
 ];
 
-// ── Progress Checks (4 stages — Initial + 12m + 24m + ILR) ──────────────────
+// ── Progress Checks ───────────────────────────────────────────────────────────
 const PROGRESS_CHECKS = [
   {
     icon: '📋',
     timing: 'Initial Endorsement',
     fee: '£1,000',
     when: 'Before visa application',
-    what: 'Your endorsing body evaluates your business plan against all three criteria: Innovative, Viable, Scalable. This involves a written submission and usually an interview or pitch. Your endorsement letter is valid for 3 months — you must apply for the visa within that window.',
+    what: 'Your endorsing body evaluates your business plan against all three criteria: Innovative, Viable, Scalable. This involves a written submission, due diligence checks, and usually an online interview. Your endorsement letter is valid for 3 months — you must apply for the visa within that window.',
     outcome: 'Required before visa application — no endorsement letter = no application',
   },
   {
     icon: '🗓️',
     timing: '12-Month Check',
-    fee: '£500 (Envestors) / £1,000 (Innovator International)',
+    fee: '£500 (Envestors) / £1,000 (II, covers 12m + 24m)',
     when: '~12 months after visa granted',
     what: 'A structured review with your endorsing body showing meaningful progress. Evidence: company registration at Companies House, contracts or early customers, product milestones, grants received, team hires, or revenue. The bar is progress, not perfection.',
     outcome: 'Endorsement withdrawal if no genuine progress — your visa can be curtailed',
@@ -133,7 +130,7 @@ const PROGRESS_CHECKS = [
   {
     icon: '✅',
     timing: '24-Month Check',
-    fee: '£500 (Envestors) / £1,000 (Innovator International)',
+    fee: '£500 (Envestors) / included above (II)',
     when: '~24 months after visa granted',
     what: 'Final structured review before you can apply to settle. Must show continued development and progress toward the viability and scalability targets in your original plan. Endorsing bodies assess against the same IVS criteria as the initial assessment.',
     outcome: 'Positive endorsement required before ILR application at 3 years',
@@ -148,46 +145,18 @@ const PROGRESS_CHECKS = [
   },
 ];
 
-// ── Settlement Criteria (need 2 of 7 at ILR stage) ─────────────────────────
+// ── Settlement Criteria (need 2 of 7 at ILR stage) ──────────────────────────
 const SETTLEMENT_CRITERIA = [
-  {
-    num: 1,
-    title: '£50,000 investment secured',
-    desc: 'At least £50,000 of investment from a third party into your UK-registered business. This was the minimum investment for the old Innovator Visa — for settlement under the Innovator Founder Visa it is one of 7 criteria (you only need 2).',
-  },
-  {
-    num: 2,
-    title: 'Doubled customer base',
-    desc: 'Your active customer count has at least doubled since initial endorsement — demonstrating genuine commercial traction and demand for your product or service.',
-  },
-  {
-    num: 3,
-    title: 'IP rights or R&D investment',
-    desc: 'You have applied for or been granted intellectual property rights (patent, trademark, registered design), or you have invested significantly in research and development for your business.',
-  },
-  {
-    num: 4,
-    title: '£1 million annual revenue',
-    desc: 'Your UK business has achieved at least £1 million in annual revenue. This criterion evidences full commercial viability and scale.',
-  },
-  {
-    num: 5,
-    title: '£500,000 in export revenue',
-    desc: 'At least £500,000 in export revenue with at least £100,000 generated from a single overseas market — demonstrating real international commercial reach.',
-  },
-  {
-    num: 6,
-    title: '10 settled UK workers employed',
-    desc: 'Your business has created and currently employs at least 10 full-time equivalent UK-settled workers — directly evidencing the scalability and job creation criteria.',
-  },
-  {
-    num: 7,
-    title: '5 resident worker jobs at £25,000+',
-    desc: 'Your business employs at least 5 full-time UK resident workers earning at least £25,000 per year each — a quality-of-employment metric ensuring meaningful job creation.',
-  },
+  { num: 1, title: '£50,000 investment secured', desc: 'At least £50,000 of investment from a third party into your UK-registered business. This was the minimum for the old Innovator Visa — now just one of 7 ILR criteria (you only need 2).' },
+  { num: 2, title: 'Doubled customer base', desc: 'Your active customer count has at least doubled since initial endorsement — demonstrating genuine commercial traction and demand for your product or service.' },
+  { num: 3, title: 'IP rights or R&D investment', desc: 'You have applied for or been granted intellectual property rights (patent, trademark, registered design), or you have invested significantly in research and development.' },
+  { num: 4, title: '£1 million annual revenue', desc: 'Your UK business has achieved at least £1 million in annual revenue — evidencing full commercial viability and scale.' },
+  { num: 5, title: '£500,000 in export revenue', desc: 'At least £500,000 in export revenue with at least £100,000 generated from a single overseas market — demonstrating real international commercial reach.' },
+  { num: 6, title: '10 settled UK workers employed', desc: 'Your business has created and currently employs at least 10 full-time equivalent UK-settled workers — directly evidencing the scalability and job creation criteria.' },
+  { num: 7, title: '5 resident worker jobs at £25,000+', desc: 'Your business employs at least 5 full-time UK resident workers earning at least £25,000 per year each — a quality-of-employment metric ensuring meaningful job creation.' },
 ];
 
-// ── Business Plan Self-Check (from Innovator International progression guide) ─
+// ── Business Plan Self-Check ──────────────────────────────────────────────────
 const RAG_SELFCHECK = [
   { area: 'Innovation', question: 'Can you clearly explain what makes your idea different from anything on the market today — in one sentence?' },
   { area: 'Replicability', question: 'If a well-funded competitor tried to copy your idea tomorrow, what stops them from doing so within 12 months?' },
@@ -196,12 +165,212 @@ const RAG_SELFCHECK = [
   { area: 'Founder Fit', question: 'Does your CV and background directly demonstrate why you — and not someone else — are best placed to build this specific business?' },
 ];
 
+// ── Business Plan 19-Section Structure ───────────────────────────────────────
+const BP_SECTIONS = [
+  {
+    num: 1, title: 'Executive Summary', mandatory: true,
+    desc: 'A concise overview of your entire business plan — typically 1–2 pages. Written last, but placed first. Summarises your idea, the market opportunity, your financial highlights, and why you and your team are best placed to deliver it.',
+    tip: 'Endorsing bodies often read this first to form an initial impression. Make your USP and IVS fit crystal clear within the first paragraph. If the assessor cannot understand your value proposition by the end of page 1, that is a red flag.',
+  },
+  {
+    num: 2, title: 'Description of Products and/or Services', mandatory: true,
+    desc: 'Exactly what you are selling — the product or service, how it works, what problem it solves, and for whom. Include pricing model, development stage, and any technical detail relevant to the innovation.',
+    tip: 'Avoid jargon. Describe your product as if explaining it to an intelligent non-expert. If an assessor cannot understand your product in 5 minutes, that raises immediate concerns about innovation clarity.',
+  },
+  {
+    num: 3, title: 'How Your Business Meets the IVS Criteria', mandatory: true,
+    desc: 'A dedicated section explicitly addressing Innovative, Viable, and Scalable — using the Home Office language. Do not assume the assessor will infer these from other sections. State them directly and evidence each criterion.',
+    tip: "This is the most important narrative section for endorsement. Use the exact IVS language. Reference specific elements of your plan that evidence each criterion. Many rejections happen because this section is implicit rather than explicit.",
+  },
+  {
+    num: 4, title: 'Research & Development Activity', mandatory: true,
+    desc: 'Highlight your R&D work in relation to the core innovation proposition. Include what you have already built, tested, or researched. Reference any IP protections, patents pending, or trade secrets. Show that the innovative element is not purely theoretical.',
+    tip: 'Endorsing bodies want to see that you have done real work — not just an idea. Include evidence of prototype testing, user research, technical validation, or market experiments. Link your R&D to your IVS section.',
+  },
+  {
+    num: 5, title: 'Market Analysis', mandatory: true,
+    desc: 'The size of your target market (TAM/SAM/SOM), trends driving demand, and your specific target customer profile. Must include UK market data — not just global figures. Cite credible, dated sources.',
+    tip: "Avoid lazy market sizing (e.g. 'the global market is $500bn so if we get 1% that's $5bn'). Show bottom-up thinking: how many UK customers exist, what they pay, and how you reach them. Primary research beats secondary research.",
+  },
+  {
+    num: 6, title: 'Competitor Analysis', mandatory: true,
+    desc: 'At least 4–5 named competitors with a structured comparison of features, pricing, strengths, and weaknesses versus your offer. A feature comparison table is strongly recommended. Identify what your competitors lack that your product addresses.',
+    tip: "Both Envestors and Innovator International scrutinise this heavily. Claiming 'we have no competitors' is an immediate credibility issue. Name real companies, use specific features, and explain why customers will choose you.",
+  },
+  {
+    num: 7, title: 'Staff Profile and Recruitment Strategy', mandatory: true,
+    desc: 'Current team members — their roles, relevant experience, and specific contribution. Your recruitment plan: what roles you will hire, when, at what salary, and how you will attract talent. Directly linked to your scalability and job creation criteria.',
+    tip: 'For ILR, you may need to have created UK jobs. Plan your recruitment timeline against your financial projections from day one. Include job titles, salary ranges, and hiring timelines by year.',
+  },
+  {
+    num: 8, title: 'Marketing and Sales Strategy', mandatory: true,
+    desc: 'How you will reach customers and convert them to paying users. Include channels (digital, partnerships, direct sales), customer acquisition cost (CAC), conversion assumptions, and a sales pipeline model.',
+    tip: "Vague plans like 'we will use social media and word of mouth' are not credible. Specify platforms, target CPL/CPA, conversion rates, and your sales cycle length. Show you understand the economics of acquiring your specific customer.",
+  },
+  {
+    num: 9, title: 'SWOT Analysis', mandatory: true,
+    desc: 'Structured assessment of Strengths, Weaknesses, Opportunities, and Threats. Should be honest and specific — generic SWOTs undermine credibility. Each quadrant should contain at least 3–4 substantive points with mitigation strategies for threats/weaknesses.',
+    tip: 'Your weaknesses and threats sections are often more important to assessors than strengths. Showing self-awareness about risks — and clear mitigation plans — builds confidence in you as a founder more than a flattering SWOT does.',
+  },
+  {
+    num: 10, title: 'Investment Strategy and Funding Requirement', mandatory: true,
+    desc: 'How much capital you need, what you will use it for (broken down by category), and where it is coming from (personal funds, external investment, grants). Timeline for deployment. Must be backed by documentary evidence.',
+    tip: 'Be specific about your funding source. Personal savings must be evidenced by bank statements. Third-party investment requires documentation. Endorsing bodies verify this during AML/KYC due diligence — vague funding claims will fail.',
+  },
+  {
+    num: 11, title: 'Revenue & Cost of Sales Forecast', mandatory: true,
+    desc: 'Detailed revenue projections for Year 1, 2, and 3, linked directly to customer acquisition numbers. Show your assumptions: how many customers you expect to acquire each month, at what price, with what churn rate. Cost of sales itemised separately.',
+    tip: 'Revenue projections without acquisition assumptions are not credible. Show your unit economics: CAC, LTV, gross margin, and monthly run rate trajectory. If your projections show Year 1 revenue without explaining how you get your first 10 customers, that is a gap.',
+  },
+  {
+    num: 12, title: 'Cash Flow Forecast', mandatory: true,
+    desc: 'Monthly cash flow for Year 1 (at minimum), showing opening balance, receipts, payments, and closing balance each month. This demonstrates that your business will not run out of cash before becoming viable.',
+    tip: 'Explicitly required by both Envestors and Innovator International. A cash flow that goes deeply negative without a clear funding injection plan raises serious viability concerns. Show exactly when you need capital and from where.',
+  },
+  {
+    num: 13, title: 'Annual Profit & Loss Forecast', mandatory: true,
+    desc: 'P&L statement for Year 1, 2, and 3 showing revenue, cost of sales, gross profit, operating expenses, and net profit/loss. Should reconcile with the cash flow and balance sheet.',
+    tip: 'Consistency is key — your P&L, cash flow, and balance sheet must tell a coherent financial story. Inconsistencies between documents are a significant red flag and suggest the founder does not understand their own financials.',
+  },
+  {
+    num: 14, title: 'Balance Sheet Forecast', mandatory: true,
+    desc: 'Projected balance sheet at the end of Year 1, 2, and 3, showing assets, liabilities, and equity. Should reflect any investments received, capital expenditure, and accumulated losses.',
+    tip: "Many applicants overlook the balance sheet. Endorsing bodies use it to assess long-term financial health and your understanding of business finance. If you are unsure how to complete this, use Innovator International's Excel template as a starting point.",
+  },
+  {
+    num: 15, title: 'Forecasted Stock Levels', mandatory: false,
+    desc: 'If your business sells physical products: forecast of stock holdings by period. Shows how you will manage inventory, working capital, and supply chain timing. Linked to your cash flow and cost of sales.',
+    tip: "Only applicable to product businesses. If you are a pure services or SaaS business, clearly state this section is not applicable. Don't leave it blank — explain why.",
+  },
+  {
+    num: 16, title: 'Forecasted Advertising/Marketing Expenditure', mandatory: true,
+    desc: 'A breakdown of planned marketing and advertising spend by channel and period across Year 1–3. Should link to your customer acquisition projections and be consistent with your marketing strategy section.',
+    tip: 'Show that your marketing budget is proportionate to your customer acquisition targets. Spending £500/month to acquire 500 customers requires clear justification. Include cost-per-acquisition assumptions by channel.',
+  },
+  {
+    num: 17, title: 'Forecasted Fixed Asset Schedule', mandatory: true,
+    desc: 'Any significant capital purchases (equipment, IP, vehicles, software licences) planned over the 3-year forecast period, with cost, useful life, and depreciation treatment. Feeds into the balance sheet.',
+    tip: 'For most digital/service businesses this will be minimal. For hardware or manufacturing businesses, this is critical. Show you have planned your capital expenditure and understand how it affects cash flow.',
+  },
+  {
+    num: 18, title: 'Forecasted Staff Costs', mandatory: true,
+    desc: 'Detailed staff cost projections including gross salaries, employer National Insurance contributions (13.8% above the secondary threshold of ~£9,100/yr), and employer pension contributions (3% minimum auto-enrolment). Must align with your recruitment strategy.',
+    tip: 'Many applicants underestimate UK payroll costs. Remember: NI adds ~14% on top of gross salary, plus pension contributions. A £30,000 salary costs approximately £34,500–£35,000+ per year to the business. Include all planned hires year by year.',
+  },
+  {
+    num: 19, title: 'Appendices (including CVs)', mandatory: true,
+    desc: 'Supporting evidence including CVs for all key team members, letters of intent, pilot results, market research data, technical diagrams, patents, contracts, awards, press coverage, and any other documents referenced in the main body.',
+    tip: 'CVs must demonstrate direct relevance to the proposed business. Highlight specific achievements and outcomes — not just job titles. Include anything that evidences demand, capability, or prior success. Quality over quantity.',
+  },
+];
+
+// ── Financial Requirements ────────────────────────────────────────────────────
+const FINANCIAL_REQS = [
+  {
+    icon: '📊',
+    title: 'Cash Flow Forecast (Monthly)',
+    mandatory: true,
+    desc: 'Month-by-month cash flow for Year 1, quarterly for Year 2–3. Shows receipts, payments, and closing cash balance each period.',
+    detail: 'Opening balance → monthly receipts → monthly payments → closing balance. Must show when your business becomes cash-flow positive and how any negative periods are funded.',
+  },
+  {
+    icon: '📈',
+    title: 'Annual Profit & Loss Forecast',
+    mandatory: true,
+    desc: 'Revenue, cost of sales, gross profit, operating expenses, EBITDA, and net profit/loss for Year 1, 2, and 3.',
+    detail: 'Show your gross margin trajectory and the period in which you reach operational breakeven. Must reconcile with your cash flow.',
+  },
+  {
+    icon: '⚖️',
+    title: 'Balance Sheet Forecast',
+    mandatory: true,
+    desc: 'Projected assets, liabilities, and equity at end of Year 1, 2, and 3. Must be consistent with your P&L and cash flow.',
+    detail: 'Reflects capital raised, accumulated losses, tangible and intangible assets, and long-term financial health of the business.',
+  },
+  {
+    icon: '💷',
+    title: 'Revenue Forecast with Acquisition Assumptions',
+    mandatory: true,
+    desc: 'Revenue projections broken down by customers acquired, average contract/order value, and churn/retention rate. Must show how you reach your Year 1 and Year 3 targets.',
+    detail: 'Unit economics: CAC, LTV, gross margin per customer, payback period. Link this to your marketing budget and sales strategy sections.',
+  },
+  {
+    icon: '👥',
+    title: 'Staff Cost Schedule',
+    mandatory: true,
+    desc: 'Gross salaries, employer National Insurance (13.8% on earnings above ~£9,100/yr), employer pension (3%+), and other employee costs per role.',
+    detail: 'A £30,000 salary costs ~£34,500+ to employ. Include each hire by name or role, start date, and salary. Must align with your recruitment strategy.',
+  },
+  {
+    icon: '📣',
+    title: 'Marketing & Advertising Expenditure',
+    mandatory: true,
+    desc: 'Planned spend by channel (paid digital, content, PR, events, partnerships) and period. Must tie directly to your customer acquisition projections.',
+    detail: 'Show your cost-per-acquisition assumptions. How many leads does £1,000 of advertising generate? What is your conversion rate? Make the numbers coherent.',
+  },
+  {
+    icon: '🏗️',
+    title: 'Fixed Asset Schedule',
+    mandatory: true,
+    desc: 'Capital purchases planned over 3 years — equipment, IP, software licences, office fit-out — with cost, useful life, and depreciation method.',
+    detail: 'For SaaS/digital businesses this is often minimal. For hardware or manufacturing it is critical. Must feed into your balance sheet and cash flow.',
+  },
+  {
+    icon: '📦',
+    title: 'Stock Level Forecast',
+    mandatory: false,
+    desc: 'If selling physical products: projected inventory levels by period, linked to sales forecast and supplier lead times.',
+    detail: 'Include working capital requirements for stock holding. Only applicable to product businesses — state clearly if not applicable to your model.',
+  },
+];
+
+// ── ILR Progress Assessment (from Innovator International Progression Guide) ──
+const ILR_PROGRESS_FACTORS = [
+  {
+    question: 'What is the state of development of your Innovation?',
+    critical: false,
+    red: 'Not yet complete — innovation still in development, not commercially launched',
+    amber: 'Recently launched — commercial activity has started but limited traction',
+    green: 'Securing good revenue — innovation is generating meaningful commercial income',
+  },
+  {
+    question: "What is your last year's income vs your original forecast?",
+    critical: false,
+    red: '<20% of your Year 1/2 forecast — significantly below expectations',
+    amber: '20–50% of forecast — below expectations but some traction demonstrated',
+    green: '50%+ of forecast — on or reasonably near your original projections',
+  },
+  {
+    question: 'Does your progress reflect the time you have had on your Visa?',
+    critical: true,
+    red: 'Highly questionable — output does not justify the visa period granted',
+    amber: 'More should have been achieved given the time and resources available',
+    green: 'Achievements genuinely reflect the time and resources committed',
+  },
+  {
+    question: 'Is your project sustainable (with resources available for scaling)?',
+    critical: true,
+    red: 'Insufficient resources available to continue and scale the business',
+    amber: 'Questionable — resources are available but sustainability is at risk',
+    green: 'Wholly sustainable without reliance on external investment or funding',
+  },
+  {
+    question: 'Is your proposition still scalable?',
+    critical: true,
+    red: 'No — business model is no longer scalable or has fundamentally changed without approval',
+    amber: 'Maybe — scalability is possible but requires significant further development',
+    green: 'Yes — well on its way, with clear evidence of national/international growth trajectory',
+  },
+];
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 export default function InnovatorFounder() {
   return (
     <PathwayPage
       meta={{
-        title: 'Innovator Founder Visa 2026 — Start a Business in the UK',
-        description: 'Complete guide to the UK Innovator Founder Visa — real endorsing body details (Envestors, Innovator International), 3 business criteria, settlement criteria, fees, and business plan builder.',
+        title: 'Innovator Founder Visa 2026 — Complete Guide | SafePassage',
+        description: 'Complete guide to the UK Innovator Founder Visa — 19-section business plan structure, financial requirements, endorsing body details, ILR path, and free tools.',
       }}
       breadcrumbs={[
         { href: '/pathways/uk', label: 'UK Pathways' },
@@ -227,10 +396,10 @@ export default function InnovatorFounder() {
               ['Visa fee (outside UK)', '£1,357'],
               ['Initial endorsement', '£1,000'],
               ['12-month check', '£500–£1,000'],
-              ['24-month check', '£500–£1,000'],
+              ['24-month check', '£500 (included above for II)'],
               ['ILR endorsement letter', '£1,000'],
               ['IHS surcharge', '£1,035/yr per person'],
-              ['Minimum savings', '£1,270 (28 days)'],
+              ['Minimum savings required', '£1,270 (28 days)'],
             ].map(([l, v]) => (
               <div key={l} className={styles.factRow}>
                 <span className={styles.factLabel}>{l}</span>
@@ -254,14 +423,28 @@ export default function InnovatorFounder() {
             ))}
           </div>
           <div className={styles.sideCard}>
+            <div className={styles.sideCardTitle}>Quick Navigation</div>
+            {[
+              ['Business Plan Guide', '#business-plan-guide'],
+              ['Financial Requirements', '#financial-requirements'],
+              ['Endorsing Bodies', '#endorsing-bodies'],
+              ['Application Steps', '#application-steps'],
+              ['Path to ILR', '#path-to-ilr'],
+              ['Contact & Support', '#contact'],
+            ].map(([label, href]) => (
+              <div key={label} style={{ padding: '0.4rem 0', borderBottom: '1px solid var(--border)' }}>
+                <a href={href} className={styles.solicitorLink}>{label} ↓</a>
+              </div>
+            ))}
+          </div>
+          <div className={styles.sideCard}>
             <div className={styles.sideCardTitle}>Official Links</div>
             {[
               ['Apply: Innovator Founder Visa', 'https://www.gov.uk/innovator-founder-visa'],
               ['Find an approved endorsing body', 'https://www.gov.uk/government/publications/endorsing-bodies-innovator-founder-and-scale-up-visas'],
               ['Endorsement criteria guidance', 'https://www.gov.uk/innovator-founder-visa/your-business'],
-              ['UK Global Entrepreneurs Programme', 'https://www.gov.uk/guidance/global-entrepreneur-programme'],
             ].map(([label, href]) => (
-              <div key={label} style={{ padding: '0.5rem 0', borderBottom: '1px solid var(--border)' }}>
+              <div key={label} style={{ padding: '0.4rem 0', borderBottom: '1px solid var(--border)' }}>
                 <a href={href} target="_blank" rel="noopener noreferrer" className={styles.solicitorLink}>{label} →</a>
               </div>
             ))}
@@ -269,7 +452,7 @@ export default function InnovatorFounder() {
         </>
       }
     >
-      {/* Alert */}
+      {/* ── Alert ──────────────────────────────────────────────────────────────── */}
       <div className={styles.alertBox}>
         <span className={styles.alertIcon}>🚀</span>
         <p className={styles.alertText}>
@@ -298,13 +481,54 @@ export default function InnovatorFounder() {
               <ul style={{ margin: '0.5rem 0 0.75rem', padding: '0 0 0 0.1rem', listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
                 {c.bullets.map((b, j) => (
                   <li key={j} style={{ fontSize: '0.78rem', color: 'var(--muted)', display: 'flex', gap: '0.4rem', alignItems: 'flex-start', lineHeight: 1.5 }}>
-                    <span style={{ color: 'var(--safe)', fontWeight: 700, flexShrink: 0, marginTop: '0.05rem' }}>·</span>
+                    <span style={{ color: 'var(--safe)', fontWeight: 700, flexShrink: 0 }}>·</span>
                     <span>{b}</span>
                   </li>
                 ))}
               </ul>
               <span className={ev.criteriaReq}>{c.req}</span>
             </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ── Business Plan 19-Section Guide ─────────────────────────────────────── */}
+      <div id="business-plan-guide" className={styles.section}>
+        <span className={styles.sectionLabel}>Business Plan Guide</span>
+        <h2 className={styles.sectionTitle}>The 19-section business plan structure</h2>
+        <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '0.75rem' }}>
+          Your business plan is the most critical document in your Innovator Founder Visa application.
+          All endorsing bodies require a <strong>narrative section</strong> plus <strong>minimum 3-year financial projections</strong>.
+          The structure below follows the official endorsing body guidance (Innovator International Application Pack v3.5 &amp; Business Plan Tips).
+          Click any section to expand the assessor tip.
+        </p>
+        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', fontSize: '0.75rem', marginBottom: '1rem', alignItems: 'center' }}>
+          <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+            <span style={{ background: 'rgba(42,157,143,0.1)', border: '1px solid rgba(42,157,143,0.25)', color: 'var(--safe)', borderRadius: '3px', padding: '0.1rem 0.4rem', fontSize: '0.65rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase' }}>Required</span>
+            Mandatory section
+          </span>
+          <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+            <span style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid var(--border)', color: 'var(--muted)', borderRadius: '3px', padding: '0.1rem 0.4rem', fontSize: '0.65rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase' }}>If applicable</span>
+            Include if relevant to your business model
+          </span>
+        </div>
+        <div className={ev.bpGrid}>
+          {BP_SECTIONS.map((s) => (
+            <details key={s.num} className={ev.bpItem}>
+              <summary className={ev.bpSummary}>
+                <span className={ev.bpNum}>{String(s.num).padStart(2, '0')}</span>
+                <span className={ev.bpTitle}>{s.title}</span>
+                <span className={s.mandatory ? ev.bpRequired : ev.bpOptional}>
+                  {s.mandatory ? 'Required' : 'If applicable'}
+                </span>
+              </summary>
+              <div className={ev.bpBody}>
+                <div className={ev.bpDesc}>{s.desc}</div>
+                <div className={ev.bpTip}>
+                  <span className={ev.bpTipLabel}>Assessor tip:</span> {s.tip}
+                </div>
+              </div>
+            </details>
           ))}
         </div>
       </div>
@@ -319,12 +543,7 @@ export default function InnovatorFounder() {
           a live RAG readiness score showing exactly where your plan needs more work before you pay
           the £1,000 endorsement fee.
         </p>
-        <div style={{
-          background: 'linear-gradient(135deg, rgba(11,46,86,0.7) 0%, rgba(7,9,15,0.4) 100%)',
-          border: '1px solid rgba(42,157,143,0.35)',
-          borderRadius: '14px',
-          padding: '2rem',
-        }}>
+        <div style={{ background: 'linear-gradient(135deg, rgba(11,46,86,0.7) 0%, rgba(7,9,15,0.4) 100%)', border: '1px solid rgba(42,157,143,0.35)', borderRadius: '14px', padding: '2rem', marginBottom: '1.25rem' }}>
           <div style={{ fontSize: '0.68rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--safe)', background: 'rgba(42,157,143,0.08)', border: '1px solid rgba(42,157,143,0.25)', borderRadius: '2px', padding: '0.25rem 0.7rem', display: 'inline-block', marginBottom: '1rem' }}>
             Free Tool — No Registration Required
           </div>
@@ -364,10 +583,91 @@ export default function InnovatorFounder() {
             constitute a formal endorsement assessment or legal advice.
           </div>
         </div>
+
+        {/* ── MVP Validator (near business plan) ────────────────────────────────── */}
+        <div className={ev.mvpBox}>
+          <div className={ev.mvpTag}>Validate Your Idea First — Free Tool</div>
+          <div className={ev.mvpTitle}>
+            MVP Validator by <em>Void Studio</em>
+          </div>
+          <p className={ev.mvpDesc}>
+            Before building a full business plan, validate whether your idea is genuinely endorsement-ready.
+            This AI-powered assessment evaluates your startup idea across six dimensions: problem–market fit,
+            market size, traction evidence, technical viability, team capability, and scalability potential.
+            Receive a personalised scorecard and strategic report in around 10 minutes. Free, confidential,
+            no registration required.
+          </p>
+          <div className={ev.mvpDimensions}>
+            {['Problem–market fit', 'Market size & readiness', 'Traction evidence', 'Technical viability', 'Team capability', 'Scalability potential'].map((d, i) => (
+              <div key={i} className={ev.mvpDimension}>{d}</div>
+            ))}
+          </div>
+          <div className={ev.mvpCtaRow}>
+            <a href="https://www.voidstudiotech.co.uk/mvp-validator" target="_blank" rel="noopener noreferrer" className={ev.mvpCtaBtn}>
+              🧪 Validate your MVP free →
+            </a>
+            <span style={{ fontSize: '0.78rem', color: 'var(--muted)' }}>Takes ~10 minutes · No registration</span>
+          </div>
+          <div style={{ marginTop: '1rem' }}>
+            <div className={ev.mvpDisclaimer}>
+              Void Studio is an independent company based at Caerphilly Business Park, Wales, UK
+              (Company Reg. 10730211, England &amp; Wales). Using the MVP Validator does not constitute
+              or replace a formal endorsement assessment. SafePassage has no commercial relationship
+              with Void Studio — this is listed as a freely available founder resource only.
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* ── Endorsed Bodies: Envestors & Innovator International ─────────────── */}
-      <div className={styles.section}>
+      {/* ── Financial Requirements ─────────────────────────────────────────────── */}
+      <div id="financial-requirements" className={styles.section}>
+        <span className={styles.sectionLabel}>Financial Requirements</span>
+        <h2 className={styles.sectionTitle}>Financial projections: what you must submit</h2>
+        <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
+          Every Innovator Founder Visa application requires a minimum <strong>3-year financial projection package</strong>.
+          These are not optional extras — missing or inconsistent financials are one of the most common
+          reasons for endorsement refusal. Below is a breakdown of each required financial document,
+          what it must contain, and specific assessor tips.
+        </p>
+        <div className={styles.alertBox} style={{ marginBottom: '1.25rem' }}>
+          <span className={styles.alertIcon}>📊</span>
+          <p className={styles.alertText}>
+            <strong>Excel templates available.</strong> Innovator International provide Excel templates
+            for both goods and service businesses as part of their Application Pack. Use these as a
+            structural starting point — but populate them with your own realistic, assumption-backed
+            projections. Generic or placeholder numbers will be identified and challenged during assessment.
+          </p>
+        </div>
+        <div className={ev.finGrid}>
+          {FINANCIAL_REQS.map((r, i) => (
+            <div key={i} className={ev.finCard}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '0.4rem' }}>
+                <span style={{ fontSize: '1.4rem' }}>{r.icon}</span>
+                <div>
+                  <div className={ev.finTitle}>{r.title}</div>
+                  <span className={r.mandatory ? ev.finRequired : ev.finOptional}>
+                    {r.mandatory ? 'Required' : 'If applicable'}
+                  </span>
+                </div>
+              </div>
+              <div className={ev.finDesc}>{r.desc}</div>
+              <div className={ev.finDetail}>{r.detail}</div>
+            </div>
+          ))}
+        </div>
+        <div className={styles.alertBox} style={{ marginTop: '1.25rem' }}>
+          <span className={styles.alertIcon}>💡</span>
+          <p className={styles.alertText}>
+            <strong>Consistency is everything.</strong> Your P&L, cash flow, and balance sheet must tell a
+            coherent, reconciled financial story. Assessors look specifically for internal inconsistencies —
+            revenue in the P&L that does not match the cash flow, or staff costs that do not match your
+            recruitment plan. Always cross-check all three documents before submitting.
+          </p>
+        </div>
+      </div>
+
+      {/* ── Endorsing Bodies ─────────────────────────────────────────────────────── */}
+      <div id="endorsing-bodies" className={styles.section}>
         <span className={styles.sectionLabel}>Endorsing Bodies</span>
         <h2 className={styles.sectionTitle}>Real endorsing body profiles</h2>
         <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
@@ -439,8 +739,7 @@ export default function InnovatorFounder() {
         <h2 className={styles.sectionTitle}>Documents required to apply to an endorsing body</h2>
         <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
           All endorsing bodies are required to conduct Anti-Money Laundering (AML) and Know Your
-          Customer (KYC) checks before accepting an application. The following documents are required
-          by both Envestors and Innovator International.
+          Customer (KYC) checks before accepting an application. You, as the applicant, <strong>must submit your own application</strong> — third parties cannot do this on your behalf.
         </p>
         <div className={ev.evidenceList}>
           {REQUIRED_DOCS.map((d, i) => (
@@ -455,39 +754,43 @@ export default function InnovatorFounder() {
         </div>
       </div>
 
-      {/* ── Application Steps ──────────────────────────────────────────────── */}
-      <div className={styles.section}>
+      {/* ── Application Steps ──────────────────────────────────────────────────── */}
+      <div id="application-steps" className={styles.section}>
         <span className={styles.sectionLabel}>Step by Step</span>
         <h2 className={styles.sectionTitle}>How to apply</h2>
         <div className={styles.steps}>
           {[
             {
-              title: 'Build and stress-test your business plan',
-              desc: 'Write a business plan that clearly evidences all three IVS criteria: Innovative, Viable, Scalable. Include market research, competitor analysis, financial projections (Year 1–3 with cash flow), job creation timeline, and scaling strategy. Use the SafePassage Business Plan Builder to check your readiness score before submitting to any endorsing body.',
+              title: 'Validate your idea and build your business plan',
+              desc: 'Use the MVP Validator to check your idea is genuinely endorsement-ready. Then write a business plan using the 19-section structure above, clearly evidencing all three IVS criteria. Use the SafePassage Business Plan Builder to check your RAG readiness score before submitting to any endorsing body.',
+            },
+            {
+              title: 'Complete your financial projections',
+              desc: 'Build all required financial documents: 3-year cash flow (monthly Year 1), P&L, balance sheet, staff costs, marketing expenditure, and revenue forecast with acquisition assumptions. Use the Financial Requirements section above as your checklist. Cross-check all three documents for consistency.',
             },
             {
               title: 'Gather all supporting documents',
-              desc: 'Collect your passport, CV, proof of address, bank statements, professional reference letters (from professional email addresses — not Gmail/Hotmail), degree certificates, and any evidence of market demand (LOIs, pilot results, contracts). All endorsing bodies are required to complete AML/KYC checks.',
+              desc: 'Collect your passport, CV, proof of address, bank statements, professional reference letters (from professional email addresses — not Gmail/Hotmail), degree certificates, and any evidence of market demand (LOIs, pilot results, contracts, MVP demo). All endorsing bodies run AML/KYC checks.',
             },
             {
               title: 'Choose and approach an endorsing body',
-              desc: 'Research the GOV.UK approved list and select a body that matches your sector. Envestors is strong for investment-linked and consumer businesses (4–6 weeks, £1,000 initial fee). Innovator International offers a 28-day assessment period (£1,000 initial fee). Both assess against the same Home Office criteria.',
+              desc: 'Research the GOV.UK approved list and select a body that matches your sector. Envestors is strong for investment-linked and consumer businesses (4–6 weeks, £1,000). Innovator International has a 28-day assessment period (£1,000). Both assess against the same Home Office IVS criteria.',
             },
             {
               title: 'Complete the endorsement assessment',
-              desc: 'Submit your application and documents. Both Envestors and Innovator International require a business plan submission followed by an interview or written Q&A. If endorsed, you receive a letter valid for 3 months — this letter is your visa application trigger.',
+              desc: 'Submit your application and documents. Your endorsing body will review, conduct due diligence (fund verification, personal screening, online interview), and issue a decision. If endorsed, you receive a letter valid for 3 months — your visa application window.',
             },
             {
               title: 'Apply for your visa on GOV.UK',
-              desc: 'Apply within 3 months of receiving your endorsement letter. Pay the visa fee (£1,357 from outside UK or £1,693 to switch/extend inside UK) plus the Immigration Health Surcharge (£1,035/year per person). You must show £1,270 in savings held for 28 days.',
+              desc: 'Apply within 3 months of receiving your endorsement letter. Pay the visa fee (£1,357 from outside UK) plus the Immigration Health Surcharge (£1,035/year per person). You must show £1,270 in savings held for 28 consecutive days.',
             },
             {
               title: 'Build your business and complete progress checks',
-              desc: 'Register at Companies House, open a UK business bank account, and build. Your endorsing body will check your progress at 12 months and 24 months. Evidence meaningful progress at each check — the bar is real activity, not a specific revenue threshold.',
+              desc: 'Register at Companies House as a director, open a UK business bank account, and build. Your endorsing body will check your progress at 12 months and 24 months. Evidence meaningful, IVS-aligned progress at each check — endorsement can be withdrawn if you are not genuinely building.',
             },
             {
-              title: 'Apply to settle after 3 years',
-              desc: 'After 3 years, get a final endorsement letter from your endorsing body (£1,000) confirming you have met at least 2 of the 7 settlement criteria (see below). Then apply for Indefinite Leave to Remain (ILR). After 1 year of ILR you can apply for British citizenship.',
+              title: 'Apply to settle after 3 years (ILR)',
+              desc: 'After 3 years, get a final endorsement letter from your endorsing body (£1,000) confirming you have met at least 2 of the 7 settlement criteria. Then apply for Indefinite Leave to Remain (ILR) on GOV.UK. After 1 year of ILR you can apply for British citizenship.',
             },
           ].map((step, i) => (
             <div key={i} className={styles.step}>
@@ -529,9 +832,9 @@ export default function InnovatorFounder() {
         <h2 className={styles.sectionTitle}>Settlement criteria — meet any 2 of these 7</h2>
         <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1.25rem' }}>
           At the 3-year ILR stage, your endorsing body confirms you have met at least 2 of the 7
-          settlement criteria below. You do not need to meet all 7 — but you must meet at least 2,
-          and your endorsing body must be satisfied that your business has been genuinely active.
-          Plan which 2–3 criteria are most realistic for your business type from day one.
+          settlement criteria below. You do not need all 7 — but you must meet at least 2, and your
+          endorsing body must be satisfied your business has been genuinely active.
+          <strong> Plan which 2–3 criteria are most realistic for your business type from day one.</strong>
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
           {SETTLEMENT_CRITERIA.map((sc, i) => (
@@ -549,9 +852,104 @@ export default function InnovatorFounder() {
           <p className={styles.alertText}>
             <strong>Plan your ILR criteria from day one.</strong> Most bootstrapped founders target criteria
             2 (doubled customers), 3 (IP rights), or 7 (5 jobs at £25k+). Investment-backed founders
-            often target criteria 1 (£50k investment) or 4 (£1M revenue). Choose your criteria early
-            and document your progress against them throughout.
+            often target criteria 1 (£50k investment) or 4 (£1M revenue). Choose early and document
+            your progress against them throughout the 3 years.
           </p>
+        </div>
+      </div>
+
+      {/* ── Path to ILR: Progress Assessment ──────────────────────────────────── */}
+      <div id="path-to-ilr" className={styles.section}>
+        <span className={styles.sectionLabel}>Path to ILR</span>
+        <h2 className={styles.sectionTitle}>What your endorsing body checks before endorsing your ILR</h2>
+        <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
+          Before you can apply for Indefinite Leave to Remain at the 3-year mark, your endorsing body
+          must confirm you have made significant progress. Innovator International uses a structured
+          <strong> 5-factor RED / AMBER / GREEN assessment</strong>. If either of the first two factors are RED,
+          strong extenuating circumstances are required to proceed. If any of the last three are RED,
+          the endorsement is refused — immediately.
+        </p>
+        <div className={styles.alertBox} style={{ marginBottom: '1.25rem', borderColor: 'rgba(239,68,68,0.25)' }}>
+          <span className={styles.alertIcon}>⚠️</span>
+          <p className={styles.alertText}>
+            <strong>Your business must be SUSTAINABLE at ILR stage</strong> — income plus investment must
+            exceed your costs, with no dependence on external funding for salaries. The innovative aspect
+            of your proposition must be responsible for a significant portion of your income.
+            The business must still be registered, trading, and showing clear progress beyond your last endorsement.
+          </p>
+        </div>
+        <div className={ev.ilrTable}>
+          {ILR_PROGRESS_FACTORS.map((f, i) => (
+            <div key={i} className={`${ev.ilrRow} ${f.critical ? ev.ilrRowCritical : ''}`}>
+              <div className={ev.ilrQuestion}>
+                {f.critical && <span className={ev.ilrCriticalBadge}>Auto-refuse if RED</span>}
+                <div style={{ fontWeight: 700, color: 'var(--white)', fontSize: '0.88rem', lineHeight: 1.5 }}>{f.question}</div>
+              </div>
+              <div className={ev.ilrRed}><span className={ev.ilrDot} style={{ background: '#ef4444' }} />{f.red}</div>
+              <div className={ev.ilrAmber}><span className={ev.ilrDot} style={{ background: '#f59e0b' }} />{f.amber}</div>
+              <div className={ev.ilrGreen}><span className={ev.ilrDot} style={{ background: '#22c55e' }} />{f.green}</div>
+            </div>
+          ))}
+        </div>
+
+        <h3 style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--white)', margin: '2rem 0 0.75rem' }}>
+          Evidence your endorsing body expects at ILR stage
+        </h3>
+        <div className={ev.ilrSteps}>
+          {[
+            {
+              label: 'Companies House registration',
+              desc: 'You must be listed as a director or member of your UK-registered business. Your endorsing body checks Companies House directly.',
+            },
+            {
+              label: 'Active trading evidence',
+              desc: 'Summary of sales and purchases over the last 12 months, sample invoices, and annual accounts — demonstrating the business is alive and trading.',
+            },
+            {
+              label: 'Income from innovation',
+              desc: "A significant portion of your revenue must come from your innovative product or service — not from unrelated consulting or other side income. The majority of your activity must come from the innovative element that was endorsed.",
+            },
+            {
+              label: 'Progress report vs original plan',
+              desc: 'A structured comparison between your originally endorsed business plan milestones and what you have actually achieved. Progress must reflect the time granted on your visa.',
+            },
+            {
+              label: 'Day-to-day management involvement',
+              desc: 'Evidence that you are personally involved in running and developing the business — not a passive investor or absent founder. This can include team communications, product decisions, client contracts, and operational records.',
+            },
+            {
+              label: 'Settlement criteria evidence (2 of 7)',
+              desc: 'Documentary evidence for whichever 2 settlement criteria you are claiming — investor reports, customer growth data, IP filings, export invoices, payroll records, or revenue accounts.',
+            },
+          ].map((item, i) => (
+            <div key={i} className={ev.ilrStep}>
+              <div className={ev.ilrStepNum}>{i + 1}</div>
+              <div>
+                <div style={{ fontWeight: 700, color: 'var(--white)', fontSize: '0.88rem', marginBottom: '0.2rem' }}>{item.label}</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--muted)', lineHeight: 1.6 }}>{item.desc}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <h3 style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--white)', margin: '2rem 0 0.75rem' }}>
+          After endorsement: the ILR application process
+        </h3>
+        <div className={ev.ilrSteps}>
+          {[
+            { label: 'Receive final endorsement letter (£1,000)', desc: 'Your endorsing body issues a letter confirming 3 years of genuine business activity and that you meet at least 2 of the 7 settlement criteria. Valid for 3 months.' },
+            { label: 'Apply for ILR on GOV.UK', desc: 'Submit ILR application under the Innovator Founder route. Pay the ILR fee (£2,885 as of 2026 — check GOV.UK for current rates). The application is processed by UKVI, not your endorsing body.' },
+            { label: 'Biometric enrollment', desc: 'Attend a UK Visa and Immigration service point to provide biometrics. Or use the UK Visas: ID Check app if eligible.' },
+            { label: 'ILR granted — 1 year to naturalisation', desc: 'Once ILR is granted, you have Indefinite Leave to Remain — no time limit on your stay. After 1 further year of residence, you may apply for British citizenship (naturalisation), subject to meeting residency and language requirements.' },
+          ].map((item, i) => (
+            <div key={i} className={ev.ilrStep}>
+              <div className={ev.ilrStepNum}>{i + 1}</div>
+              <div>
+                <div style={{ fontWeight: 700, color: 'var(--white)', fontSize: '0.88rem', marginBottom: '0.2rem' }}>{item.label}</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--muted)', lineHeight: 1.6 }}>{item.desc}</div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -562,7 +960,7 @@ export default function InnovatorFounder() {
         <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
           These five questions are adapted from the Innovator International progression guide and
           reflect the real assessment criteria used by endorsing bodies. If you cannot answer any of
-          these confidently, work on that area before submitting a £1,000 endorsement application.
+          these confidently, work on that area before submitting a £1,000 non-refundable application.
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
           {RAG_SELFCHECK.map((q, i) => (
@@ -571,42 +969,6 @@ export default function InnovatorFounder() {
               <div style={{ fontSize: '0.85rem', color: 'var(--light)', lineHeight: 1.6 }}>{q.question}</div>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* ── MVP Validator */}
-      <div className={styles.section}>
-        <span className={styles.sectionLabel}>Third-Party Tool</span>
-        <h2 className={styles.sectionTitle}>Validate your idea before approaching an endorsing body</h2>
-        <div className={ev.mvpBox}>
-          <div className={ev.mvpTag}>Free Tool — Third-Party Service</div>
-          <div className={ev.mvpTitle}>
-            MVP Validator by <em>Void Studio</em>
-          </div>
-          <p className={ev.mvpDesc}>
-            An AI-powered assessment that evaluates your startup idea across six dimensions: problem–market fit,
-            market size, traction evidence, technical viability, team capability, and scalability potential.
-            Receive a personalised scorecard and strategic report in around 10 minutes. Free, confidential,
-            no registration required.
-          </p>
-          <div className={ev.mvpDimensions}>
-            {['Problem–market fit', 'Market size & readiness', 'Traction evidence', 'Technical viability', 'Team capability', 'Scalability potential'].map((d, i) => (
-              <div key={i} className={ev.mvpDimension}>{d}</div>
-            ))}
-          </div>
-          <div className={ev.mvpCtaRow}>
-            <a href="https://www.voidstudiotech.co.uk/mvp-validator" target="_blank" rel="noopener noreferrer" className={ev.mvpCtaBtn}>
-              🧪 Validate your MVP free →
-            </a>
-          </div>
-          <div style={{ marginTop: '1rem' }}>
-            <div className={ev.mvpDisclaimer}>
-              Void Studio is an independent company based at Caerphilly Business Park, Wales, UK
-              (Company Reg. 10730211, England &amp; Wales). Using the MVP Validator does not constitute
-              or replace a formal endorsement assessment. SafePassage has no commercial relationship
-              with Void Studio — this is listed as a freely available founder resource only.
-            </div>
-          </div>
         </div>
       </div>
 
@@ -622,6 +984,7 @@ export default function InnovatorFounder() {
             'You cannot apply if currently in the UK on a Visitor visa, Short-term Student visa, or Seasonal Worker visa.',
             'Your visa can be curtailed if your endorsing body withdraws endorsement at any progress check.',
             'You cannot receive an endorsement from a body not on the official GOV.UK approved list — such an endorsement is worthless.',
+            'Third parties cannot submit your application to an endorsing body on your behalf — you must apply personally.',
           ].map((r, i) => (
             <li key={i} className={styles.reqItem}>
               <span style={{ color: 'var(--danger)', fontWeight: 700 }}>✕</span>
@@ -648,9 +1011,9 @@ export default function InnovatorFounder() {
               desc: 'The old Innovator Visa assessed ideas as New, Innovative, Viable, and Scalable. The Innovator Founder Visa removes "New" as a separate criterion — the three criteria are now Innovative, Viable, and Scalable. The "New" element is folded into the innovation assessment.',
             },
             {
-              date: '2024 — Settlement route confirmed',
-              title: '3-year settlement pathway maintained',
-              desc: 'Settlement after 3 years was confirmed for the Innovator Founder route — one of the fastest routes to UK permanent residence. Applicants need endorsement confirmation of at least 2 of 7 settlement criteria, not completion of a full 5-year Skilled Worker pathway.',
+              date: '2024–2026 — Application Pack updated',
+              title: 'Innovator International Application Pack v3.5 published',
+              desc: 'Updated guidance for the assessment process, due diligence requirements, and team founder applications. Key addition: third parties confirmed unable to submit on applicant\'s behalf. VAT now applicable to endorsement fees for UK residents.',
             },
           ].map((c, i) => (
             <div key={i} className={styles.changeCard}>
@@ -670,6 +1033,35 @@ export default function InnovatorFounder() {
           Anyone offering to &quot;secure&quot; your endorsement for a fee is running a scam — a fraudulent
           endorsement letter will result in visa refusal and may result in a ban. Always use the
           official GOV.UK endorsing bodies list and verify your body appears on it before paying anything.
+        </div>
+      </div>
+
+      {/* ── Contact & Support ─────────────────────────────────────────────────── */}
+      <div id="contact" className={styles.section}>
+        <span className={styles.sectionLabel}>Expert Support</span>
+        <h2 className={styles.sectionTitle}>Need help with your Innovator Founder Visa?</h2>
+        <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1.25rem' }}>
+          Have questions about your business plan, choosing the right endorsing body, your financial projections,
+          or the ILR progression requirements? Get in touch for guidance on your Innovator Founder Visa journey.
+        </p>
+        <div className={ev.contactBox}>
+          <div className={ev.contactIcon}>✉️</div>
+          <div>
+            <div className={ev.contactTitle}>Free visa guidance &amp; support</div>
+            <div className={ev.contactDesc}>
+              Whether you are just starting to think about the Innovator Founder Visa or are midway through
+              your endorsement application, reach out for practical, no-jargon guidance. We can help you
+              understand the requirements, review your approach, or point you to the right resources.
+            </div>
+            <a href="mailto:tanvir@voidstudiotech.co.uk" className={ev.contactEmail}>
+              tanvir@voidstudiotech.co.uk
+            </a>
+            <div className={ev.contactNote}>
+              Response within 1–2 business days. This is not a formal immigration advice service —
+              for regulated legal advice on your specific visa circumstances, please consult a
+              regulated immigration solicitor (see below).
+            </div>
+          </div>
         </div>
       </div>
 
