@@ -1047,7 +1047,7 @@ export default function InnovatorFounder() {
         <div className={ev.contactBox}>
           <div className={ev.contactIcon}>✉️</div>
           <div>
-            <div className={ev.contactTitle}>Free visa guidance &amp; support</div>
+            <div className={ev.contactTitle}>Free Business guidance &amp; support</div>
             <div className={ev.contactDesc}>
               Whether you are just starting to think about the Innovator Founder Visa or are midway through
               your endorsement application, reach out for practical, no-jargon guidance. We can help you
