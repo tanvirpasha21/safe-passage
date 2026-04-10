@@ -1,45 +1,50 @@
+import { createClient } from '@supabase/supabase-js';
+
 /**
  * GET /api/test-webhook
- * Hit this in your browser to verify email sending is working.
- * Sends a test email to tanvir@voidstudiotech.co.uk.
- * Remove or restrict this once confirmed working.
+ * Inserts a test row into the `leads` table and returns the result.
+ * Open in your browser to verify the Supabase connection is working.
+ * Remove this endpoint once confirmed.
  */
-import { Resend } from 'resend';
-
 export default async function handler(req, res) {
-  const apiKey = process.env.RESEND_API_KEY;
+  const url    = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const svcKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-  if (!apiKey) {
+  if (!url || !svcKey) {
     return res.status(200).json({
       ok: false,
-      problem: 'RESEND_API_KEY env var is not set',
-      fix: 'Add RESEND_API_KEY to Vercel → Project Settings → Environment Variables, then redeploy.',
+      problem: 'NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY env var is missing',
+      fix: 'Add both vars to Vercel → Project Settings → Environment Variables, then redeploy.',
     });
   }
 
-  const resend = new Resend(apiKey);
+  const supabase = createClient(url, svcKey);
 
-  try {
-    const { data, error } = await resend.emails.send({
-      from: 'SafePassage Leads <onboarding@resend.dev>',
-      to: 'tanvir@voidstudiotech.co.uk',
-      subject: 'SafePassage — Test Email ✅',
-      html: '<p>This is a test email from your SafePassage lead capture. If you see this, email sending is working correctly.</p>',
-    });
+  const { data, error } = await supabase
+    .from('leads')
+    .insert({
+      name: 'TEST — SafePassage Connection Check',
+      email: 'test@safepassage.check',
+      phone: '+00000000000',
+      business_name: '— automated test —',
+      source: 'test-webhook endpoint',
+    })
+    .select();
 
-    if (error) throw error;
-
-    return res.status(200).json({
-      ok: true,
-      message: '✅ Test email sent — check tanvir@voidstudiotech.co.uk inbox.',
-      resendId: data?.id,
-    });
-  } catch (err) {
+  if (error) {
     return res.status(200).json({
       ok: false,
-      problem: 'Resend API call failed',
-      error: err.message,
-      fix: 'Check that your RESEND_API_KEY is correct and active at resend.com/api-keys',
+      problem: error.message,
+      hint: error.hint || null,
+      fix: error.message.includes('does not exist')
+        ? 'The `leads` table does not exist yet. Run the SQL in the Supabase dashboard (see README or chat instructions).'
+        : 'Check your Supabase project is active and the service role key is correct.',
     });
   }
+
+  return res.status(200).json({
+    ok: true,
+    message: '✅ Supabase connection working — test row inserted into `leads` table.',
+    inserted: data,
+  });
 }
