@@ -1,9 +1,13 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import PathwayPage, { SolicitorSection } from '../../../components/PathwayPage';
 import LeadCaptureModal from '../../../components/LeadCaptureModal';
 import styles from '../../../styles/Pathway.module.css';
 import ev from '../../../styles/EnterpriseVisa.module.css';
+
+// Loaded client-side only (Stripe requires browser APIs)
+const IdeaGenerator = dynamic(() => import('../../../components/IdeaGenerator'), { ssr: false });
 
 const MVP_URL = 'https://www.voidstudiotech.co.uk/mvp-validator';
 
@@ -549,6 +553,35 @@ export default function InnovatorFounder() {
             </details>
           ))}
         </div>
+      </div>
+
+      {/* ── Idea Generator ────────────────────────────────────────────────────── */}
+      <div id="idea-generator" className={styles.section}>
+        <span className={styles.sectionLabel}>AI-Powered Tool · £10</span>
+        <h2 className={styles.sectionTitle}>Don&apos;t have a business idea yet? Let AI find one for you</h2>
+        <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '0.75rem' }}>
+          Tell us your professional background, academic qualifications, and future motivation.
+          Our AI scans live UKRI and Innovate UK funding priorities to generate <strong>3 personalised,
+          commercially viable business ideas</strong> tailored to your profile — plus <strong>2 adjacent field
+          opportunities</strong> where the UK government is actively investing. Each idea comes with a
+          full report covering revenue model, market opportunity, IVS scores, Year 1 milestones, and
+          funding routes. Download the full report before you leave.
+        </p>
+        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '1.25rem' }}>
+          {[
+            '3 IVS-aligned business ideas',
+            '2 adjacent field opportunities',
+            'Live UKRI investment context',
+            'Full downloadable report',
+            'Revenue model & milestones',
+            'One-time £10 per session',
+          ].map((f, i) => (
+            <span key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', background: 'rgba(255,255,255,0.03)', border: '1px solid var(--border)', borderRadius: '4px', padding: '0.3rem 0.75rem', fontSize: '0.76rem', color: 'var(--light)' }}>
+              <span style={{ color: 'var(--safe)', fontWeight: 700 }}>✓</span> {f}
+            </span>
+          ))}
+        </div>
+        <IdeaGenerator />
       </div>
 
       {/* ── Business Plan Builder CTA ─────────────────────────────────────────── */}
