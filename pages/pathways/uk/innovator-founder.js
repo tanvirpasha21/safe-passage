@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import Link from 'next/link';
+import PathwayPage, { SolicitorSection } from '../../../components/PathwayPage';
 import LeadCaptureModal from '../../../components/LeadCaptureModal';
 
 const MVP_URL = 'https://www.voidstudiotech.co.uk/mvp-validator';
