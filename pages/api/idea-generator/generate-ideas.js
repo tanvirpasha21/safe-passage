@@ -158,21 +158,29 @@ Requirements:
   // ── Call Claude API ───────────────────────────────────────────────────────
   try {
     const message = await anthropic.messages.create({
-      model: 'claude-opus-4-6',
-      max_tokens: 4096,
+      model: 'claude-sonnet-4-6',
+      max_tokens: 8000,
       system: systemPrompt,
       messages: [{ role: 'user', content: userPrompt }],
     });
 
     const rawText = message.content[0]?.text || '';
+    console.log('[generate-ideas] Raw response (first 300 chars):', rawText.slice(0, 300));
 
-    // Parse JSON — strip any accidental markdown fences
-    const jsonText = rawText.replace(/^```json?\s*/i, '').replace(/```\s*$/i, '').trim();
+    // Extract JSON — find the outermost { ... } block robustly,
+    // handling any preamble text or markdown fences Claude may add
     let ideas;
     try {
+      const firstBrace = rawText.indexOf('{');
+      const lastBrace = rawText.lastIndexOf('}');
+      if (firstBrace === -1 || lastBrace === -1) {
+        throw new Error('No JSON object found in response');
+      }
+      const jsonText = rawText.slice(firstBrace, lastBrace + 1);
       ideas = JSON.parse(jsonText);
-    } catch {
-      console.error('[generate-ideas] JSON parse failed. Raw:', rawText.slice(0, 500));
+    } catch (parseErr) {
+      console.error('[generate-ideas] JSON parse failed:', parseErr.message);
+      console.error('[generate-ideas] Full raw response:', rawText);
       return res.status(500).json({ error: 'AI returned invalid format — please try again' });
     }
 

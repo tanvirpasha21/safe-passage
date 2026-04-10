@@ -569,7 +569,7 @@ function ResultsScreen({ ideas, profile, generatedAt, onDownload }) {
 }
 
 // ── Download helper — generates printable HTML report ─────────────────────
-function generateReportHTML(ideas, profile, generatedAt) {
+function generateReportBodyHTML(ideas, profile, generatedAt) {
   const now = new Date(generatedAt).toLocaleString('en-GB');
 
   const ideaHTML = (ideas.mainIdeas || [])
@@ -647,63 +647,45 @@ function generateReportHTML(ideas, profile, generatedAt) {
     )
     .join('');
 
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>SafePassage Idea Generator Report — ${now}</title>
-<style>
-  @media print { body { margin: 0; } .no-print { display: none; } }
-  body { font-family: Arial, Helvetica, sans-serif; color: #222; max-width: 900px; margin: 0 auto; padding: 32px 24px; }
-</style>
-</head>
-<body>
-  <div style="border-bottom:3px solid #2a9d8f;padding-bottom:20px;margin-bottom:28px;">
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;">
-      <div>
-        <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#2a9d8f;margin-bottom:6px;">SafePassage · Innovator Founder Visa</div>
-        <h1 style="margin:0 0 4px;font-size:26px;color:#111;">Personalised Business Idea Report</h1>
-        <p style="margin:0;color:#666;font-size:13px;">Generated: ${now}</p>
-      </div>
-      <div style="text-align:right;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:12px 16px;">
-        <div style="font-size:11px;color:#166534;font-weight:600;text-transform:uppercase;margin-bottom:4px;">Confidential</div>
-        <div style="font-size:12px;color:#333;">For personal use only</div>
-      </div>
+  return `
+  <div style="font-family:Arial,Helvetica,sans-serif;color:#222;max-width:794px;padding:24px;">
+
+    <div style="border-bottom:3px solid #2a9d8f;padding-bottom:20px;margin-bottom:28px;">
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#2a9d8f;margin-bottom:6px;">SafePassage · Innovator Founder Visa</div>
+      <h1 style="margin:0 0 4px;font-size:26px;color:#111;">Personalised Business Idea Report</h1>
+      <p style="margin:0;color:#666;font-size:13px;">Generated: ${now} &nbsp;·&nbsp; Confidential — for personal use only</p>
     </div>
-  </div>
 
-  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:20px;margin-bottom:28px;">
-    <div style="font-size:11px;font-weight:700;text-transform:uppercase;color:#0369a1;margin-bottom:8px;">Applicant Profile</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px;">
-      <div><span style="font-size:12px;color:#64748b;">Sector:</span> <strong style="font-size:13px;">${profile.sector}</strong></div>
-      <div><span style="font-size:12px;color:#64748b;">Degree:</span> <strong style="font-size:13px;">${profile.degree}</strong></div>
+    <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:20px;margin-bottom:28px;">
+      <div style="font-size:11px;font-weight:700;text-transform:uppercase;color:#0369a1;margin-bottom:8px;">Applicant Profile</div>
+      <div style="margin-bottom:6px;font-size:13px;"><span style="color:#64748b;">Sector:</span> <strong>${profile.sector}</strong></div>
+      <div style="margin-bottom:6px;font-size:13px;"><span style="color:#64748b;">Degree:</span> <strong>${profile.degree}</strong></div>
+      <div style="font-size:13px;"><span style="color:#64748b;">Motivation:</span> <span style="color:#334155;">${profile.motivation}</span></div>
     </div>
-    <div><span style="font-size:12px;color:#64748b;">Motivation:</span> <p style="margin:4px 0 0;font-size:13px;line-height:1.6;color:#334155;">${profile.motivation}</p></div>
-  </div>
 
-  <div style="background:#f8f9fa;border-left:4px solid #2a9d8f;padding:16px 20px;margin-bottom:28px;border-radius:0 6px 6px 0;">
-    <div style="font-size:11px;font-weight:700;text-transform:uppercase;color:#2a9d8f;margin-bottom:6px;">Profile Analysis</div>
-    <p style="margin:0;font-size:13px;color:#444;line-height:1.7;">${ideas.applicantSummary}</p>
-  </div>
+    <div style="background:#f8f9fa;border-left:4px solid #2a9d8f;padding:16px 20px;margin-bottom:28px;border-radius:0 6px 6px 0;">
+      <div style="font-size:11px;font-weight:700;text-transform:uppercase;color:#2a9d8f;margin-bottom:6px;">Profile Analysis</div>
+      <p style="margin:0;font-size:13px;color:#444;line-height:1.7;">${ideas.applicantSummary}</p>
+    </div>
 
-  <h2 style="font-size:20px;border-bottom:1px solid #eee;padding-bottom:10px;margin-bottom:20px;color:#111;">Your 3 Personalised Business Ideas</h2>
-  ${ideaHTML}
+    <h2 style="font-size:20px;border-bottom:1px solid #eee;padding-bottom:10px;margin-bottom:20px;color:#111;">Your 3 Personalised Business Ideas</h2>
+    ${ideaHTML}
 
-  <h2 style="font-size:20px;border-bottom:1px solid #e9d5ff;padding-bottom:10px;margin-bottom:20px;color:#1e1b4b;margin-top:32px;">2 Adjacent Field Opportunities</h2>
-  ${adjHTML}
+    <h2 style="font-size:20px;border-bottom:1px solid #e9d5ff;padding-bottom:10px;margin-bottom:20px;color:#1e1b4b;margin-top:32px;">2 Adjacent Field Opportunities</h2>
+    ${adjHTML}
 
-  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:20px;margin-top:28px;">
-    <div style="font-size:11px;font-weight:700;text-transform:uppercase;color:#166534;margin-bottom:8px;">Report Summary</div>
-    <p style="margin:0;font-size:14px;color:#166534;line-height:1.7;">${ideas.reportSummary}</p>
-  </div>
+    <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:20px;margin-top:28px;">
+      <div style="font-size:11px;font-weight:700;text-transform:uppercase;color:#166534;margin-bottom:8px;">Report Summary</div>
+      <p style="margin:0;font-size:14px;color:#166534;line-height:1.7;">${ideas.reportSummary}</p>
+    </div>
 
-  <div style="margin-top:28px;border-top:1px solid #eee;padding-top:16px;font-size:11px;color:#999;">
-    This report was generated by SafePassage using AI and live UKRI data. It does not constitute legal, immigration, or financial advice.
-    Always consult a regulated immigration solicitor regarding your specific visa circumstances.
-    SafePassage · safepassage.co.uk
-  </div>
-</body>
-</html>`;
+    <div style="margin-top:28px;border-top:1px solid #eee;padding-top:16px;font-size:11px;color:#999;">
+      This report was generated by SafePassage using AI and live UKRI data. It does not constitute legal, immigration, or financial advice.
+      Always consult a regulated immigration solicitor regarding your specific visa circumstances.
+      SafePassage · safepassage.co.uk
+    </div>
+
+  </div>`;
 }
 
 // ── Payment wrapper (provides Stripe Elements context) ─────────────────────
@@ -763,6 +745,7 @@ export default function IdeaGenerator() {
   }
 
   async function handlePaymentSuccess(piId) {
+    const activeProfile = profile;
     setPaymentIntentId(piId);
     setStep('loading');
 
@@ -770,7 +753,7 @@ export default function IdeaGenerator() {
       const res = await fetch('/api/idea-generator/generate-ideas', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ paymentIntentId: piId, profile }),
+        body: JSON.stringify({ paymentIntentId: piId, profile: activeProfile }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Idea generation failed');
@@ -783,18 +766,39 @@ export default function IdeaGenerator() {
     }
   }
 
-  function handleDownload() {
+  async function handleDownload() {
     if (!ideas || !profile) return;
-    const html = generateReportHTML(ideas, profile, generatedAt);
-    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `safepassage-idea-report-${Date.now()}.html`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    const bodyHTML = generateReportBodyHTML(ideas, profile, generatedAt);
+
+    // Dynamically import html2pdf (browser-only, avoids SSR issues)
+    const html2pdf = (await import('html2pdf.js')).default;
+
+    const container = document.createElement('div');
+    container.innerHTML = bodyHTML;
+    Object.assign(container.style, {
+      position: 'fixed',
+      top: '-99999px',
+      left: '-99999px',
+      width: '794px',
+      background: '#fff',
+      fontFamily: 'Arial, Helvetica, sans-serif',
+      color: '#222',
+    });
+    document.body.appendChild(container);
+
+    await html2pdf()
+      .set({
+        margin: [12, 12, 12, 12],
+        filename: `safepassage-idea-report-${Date.now()}.pdf`,
+        image: { type: 'jpeg', quality: 0.97 },
+        html2canvas: { scale: 2, useCORS: true, logging: false },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+        pagebreak: { mode: ['avoid-all', 'css'] },
+      })
+      .from(container)
+      .save();
+
+    document.body.removeChild(container);
   }
 
   return (
