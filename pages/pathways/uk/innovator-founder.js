@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import LeadCaptureModal from '../../../components/LeadCaptureModal';
 
 const MVP_URL = 'https://www.voidstudiotech.co.uk/mvp-validator';
