@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import s from '../../styles/BusinessPlanBuilder.module.css';
+import LeadCaptureModal from '../../components/LeadCaptureModal';
 
 // ── Step definitions ──────────────────────────────────────────────────────────
 const STEPS = [
@@ -126,10 +127,12 @@ function Textarea({ value, onChange, placeholder, tall }) {
 
 // ── Main component ────────────────────────────────────────────────────────────
 export default function BusinessPlanBuilder() {
-  const [step, setStep] = useState(0);
-  const [data, setData] = useState(EMPTY);
+  const [step, setStep]     = useState(0);
+  const [data, setData]     = useState(EMPTY);
   const [review, setReview] = useState(false);
-  const [saved, setSaved] = useState(false);
+  const [saved, setSaved]   = useState(false);
+  // Gate: show lead modal on first visit this session; skip if already captured
+  const [gateOpen, setGateOpen] = useState(false);
 
   const up = (field, val) => setData(d => ({ ...d, [field]: val }));
   const pct = review ? 100 : Math.round(((step) / STEPS.length) * 100);
@@ -139,6 +142,15 @@ export default function BusinessPlanBuilder() {
     try {
       const stored = localStorage.getItem('sp_bizplan');
       if (stored) setData(JSON.parse(stored));
+    } catch {}
+  }, []);
+
+  // Show lead gate once per session (sessionStorage flag cleared on tab/window close)
+  useEffect(() => {
+    try {
+      if (!sessionStorage.getItem('sp_lead_done')) {
+        setGateOpen(true);
+      }
     } catch {}
   }, []);
   useEffect(() => {
@@ -169,8 +181,24 @@ export default function BusinessPlanBuilder() {
     }
   };
 
+  const handleGateDone = () => {
+    try { sessionStorage.setItem('sp_lead_done', '1'); } catch {}
+    setGateOpen(false);
+  };
+
   return (
     <>
+      {gateOpen && (
+        <LeadCaptureModal
+          title="Before you start building your plan"
+          subtitle="Share a few quick details so we can follow up with personalised guidance on your Innovator Founder Visa application."
+          ctaLabel="Start Building My Plan →"
+          successText="Great — your details are saved. Your business plan builder is ready."
+          onSuccess={handleGateDone}
+          onClose={handleGateDone}
+          source="Business Plan Builder"
+        />
+      )}
       <Head>
         <title>Business Plan Builder — Innovator Founder Visa | SafePassage</title>
         <meta name="description" content="Build a business plan structured for the UK Innovator Founder Visa endorsement process. Covers Innovation, Viability and Scalability criteria used by Envestors and Innovator International." />
